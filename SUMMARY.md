@@ -5,6 +5,7 @@
   * [Rate Limits](overview/rate-limits.md)
 * [Using the TEOS API](using-the-teos-api/README.md)
   * [TEOS Events](using-the-teos-api/teos-events.md)
+  * [Warp search](using-the-teos-api/warp-search.md)
   * [Platform Versioning](using-the-teos-api/versioning.md)
   * [Handling Errors](using-the-teos-api/handling-errors.md)
 * [Authentication](authentication.md)
