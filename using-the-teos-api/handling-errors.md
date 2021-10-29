@@ -82,21 +82,21 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 12001
 
-|             |                                                                                                                                               |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | There were OData validation errors                                                                                                            |
-| Description | malformed oData request (missing required fields, redundant fields etc.)                                                                      |
-| Details     | contains the array of sub-errors, specifying the issue                                                                                        |
-| What to do  | - check the correctness of the request body according to oData and the request specs.  - check the `details` field for additional information |
+|             |                                                                                                                                              |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | There were OData validation errors                                                                                                           |
+| Description | malformed oData request (missing required fields, redundant fields etc.)                                                                     |
+| Details     | contains the array of sub-errors, specifying the issue                                                                                       |
+| What to do  | - check the correctness of the request body according to oData and the request specs. - check the `details` field for additional information |
 
 ## 12002
 
-|             |                                                                                                                                     |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | Input binding failed                                                                                                                |
-| Description | malformed request body (issues when parsing etc.)                                                                                   |
-| Details     | contains the array of sub-errors, specifying the issue                                                                              |
-| What to do  | - check the correctness of the request body according to the request specs.  - check the `details` field for additional information |
+|             |                                                                                                                                    |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | Input binding failed                                                                                                               |
+| Description | malformed request body (issues when parsing etc.)                                                                                  |
+| Details     | contains the array of sub-errors, specifying the issue                                                                             |
+| What to do  | - check the correctness of the request body according to the request specs. - check the `details` field for additional information |
 
 ## 21000
 
@@ -118,12 +118,12 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 21000-1002
 
-|             |                                                                                                                                                                           |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | the user '{userId}' does not own asset ('uniqueAssetId') issuer's address '{assetIssuerAddress}'                                                                          |
-| Description | the requested operation requires, that the user, requesting the operation, owns the wallet, that was used to create the asset                                             |
-| What to do  | - check that correct uniqueAssetId is used  - check that correct user in requesting the operation  - check that the 'assetIssuerAddress' wallet is added to user's wallet |
-| Arguments   | `userId`  `uniqueAssetId`  `assetIssuerAddress`                                                                                                                           |
+|             |                                                                                                                                                                         |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | the user '{userId}' does not own asset ('uniqueAssetId') issuer's address '{assetIssuerAddress}'                                                                        |
+| Description | the requested operation requires, that the user, requesting the operation, owns the wallet, that was used to create the asset                                           |
+| What to do  | - check that correct uniqueAssetId is used - check that correct user in requesting the operation - check that the 'assetIssuerAddress' wallet is added to user's wallet |
+| Arguments   | `userId` `uniqueAssetId` `assetIssuerAddress`                                                                                                                           |
 
 ## 21000-1003
 
@@ -150,7 +150,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | the user '{userId}' does not own signer address '{signerAddress}'    |
 | Description | the user does not own the signer address                             |
 | What to do  | check that the 'assetIssuerAddress' wallet is added to user's wallet |
-| Arguments   | `userId`  `signerAddress`                                            |
+| Arguments   | `userId` `signerAddress`                                             |
 
 ## 21000-1006
 
@@ -228,11 +228,11 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 22000-2008
 
-|             |                                                                                                                                                                       |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath                                                                  |
-| What to do  | Either provide the same number of section names in SectionsPathNames as for SectionsPath or leave it empty. In latter case the names will be copied from SectionsPath |
-| Example     | SectionPath="\[main]\[fields]\[name]" has three sections. A correct value for SectionsPathNames would be "\[Main]\[Asset properties]\[Document name]"                 |
+|             |                                                                                                                                                                                                                                              |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath                                                                                                                                         |
+| Description | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath. For example, SectionPath="\[main]\[fields]\[name]" has three sections and SectionsPathNames has only  two "\[Main]\[Asset properties]" |
+| What to do  | Either provide the same number of section names in SectionsPathNames as for SectionsPath or leave it empty. In latter case the names will be copied from SectionsPath                                                                        |
 
 ## 23000
 
