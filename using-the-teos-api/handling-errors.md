@@ -235,11 +235,11 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 22000-2008
 
-|             |                                                                                                                                                                       |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath                                                                  |
-| What to do  | Either provide the same number of section names in SectionsPathNames as for SectionsPath or leave it empty. In latter case the names will be copied from SectionsPath |
-| Example     | SectionPath="\[main]\[fields]\[name]" has three sections. A correct value for SectionsPathNames would be "\[Main]\[Asset properties]\[Document name]"                 |
+|             |                                                                                                                                                                                                                                              |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath                                                                                                                                         |
+| Description | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath. For example, SectionPath="\[main]\[fields]\[name]" has three sections and SectionsPathNames has only  two "\[Main]\[Asset properties]" |
+| What to do  | Either provide the same number of section names in SectionsPathNames as for SectionsPath or leave it empty. In latter case the names will be copied from SectionsPath                                                                        |
 
 ## 22000-2009
 
