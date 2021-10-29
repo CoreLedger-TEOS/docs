@@ -49,28 +49,35 @@ Error codes `1xxxx` indicate non-business logic related issues with input (auth 
 
 Error codes `2xxxx` indicate business logic related issues with input (failed preconditions, validations etc.).
 
-| HTTP status | Code                              | Details.Code                          | Message                                                                                                                      |
-| ----------- | --------------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 401         | [11001](handling-errors.md#11001) |                                       | UserId was not found in provided authentication data                                                                         |
-| 400         | [12001](handling-errors.md#12001) |                                       | There were OData validation errors                                                                                           |
-| 400         | [12002](handling-errors.md#12002) |                                       | Input binding failed                                                                                                         |
-| 400         | [21000](handling-errors.md#21000) |                                       | One or more preconditions failed                                                                                             |
-| 400         | [21000](handling-errors.md#21000) | [1001](handling-errors.md#21000-1001) | Asset with uinque Id '{uniqueAssetId}' does not exist                                                                        |
-| 400         | [21000](handling-errors.md#21000) | [1002](handling-errors.md#21000-1002) | the user '{userId}' does not own asset ('uniqueAssetId') issuer's address '{assetIssuerAddress}'                             |
-| 400         | [21000](handling-errors.md#21000) | [1003](handling-errors.md#21000-1003) | invalid units amount provided (must be positive integer): '{providedAmount}'                                                 |
-| 400         | [21000](handling-errors.md#21000) | [1004](handling-errors.md#21000-1004) | spark factor is not defined for the asset '{uniqueAssetId}'                                                                  |
-| 400         | [21000](handling-errors.md#21000) | [1005](handling-errors.md#21000-1005) | the user '{userId}' does not own signer address '{signerAddress}'                                                            |
-| 400         | [21000](handling-errors.md#21000) | [1006](handling-errors.md#21000-1006) | not enough sparks on the balance. Address: {signerAddress}, required amount: {requiredAmount}, actual amount: {actualAmount} |
-| 400         | [22000](handling-errors.md#22000) |                                       | One or more validations failed                                                                                               |
-| 400         | [22000](handling-errors.md#22000) | [2001](handling-errors.md#22000-2001) | Either asset name or issuer address should be provided in search request                                                     |
-| 400         | [22000](handling-errors.md#22000) | [2002](handling-errors.md#22000-2002) | Issuer address value should be 40 or 42 symbol long                                                                          |
-| 400         | [22000](handling-errors.md#22000) | [2003](handling-errors.md#22000-2003) | Valid language code should be provided for asset                                                                             |
-| 400         | [22000](handling-errors.md#22000) | [2004](handling-errors.md#22000-2004) | Valid jurisdiction should be provided for asset                                                                              |
-| 400         | [22000](handling-errors.md#22000) | [2005](handling-errors.md#22000-2005) | Asset's unit of measure is not valid                                                                                         |
-| 400         | [22000](handling-errors.md#22000) | [2006](handling-errors.md#22000-2006) | Asset's spark factor is not valid                                                                                            |
-| 400         | [22000](handling-errors.md#22000) | [2007](handling-errors.md#22000-2007) | Asset's asset class is not valid                                                                                             |
-| 400         | [22000](handling-errors.md#22000) | [2008](handling-errors.md#22000-2008) | The number of sections in asset custom definition item's SectionsPathNames differs from SectionsPath                         |
-| 400         | [23000](handling-errors.md#23000) |                                       | \<Sdk error code>:\<Sdk error message>                                                                                       |
+| HTTP status | Code                              | Details.Code                          | Message                                                                                                                                                      |
+| ----------- | --------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 401         | [11001](handling-errors.md#11001) |                                       | UserId was not found in provided authentication data                                                                                                         |
+| 400         | [12001](handling-errors.md#12001) |                                       | There were OData validation errors                                                                                                                           |
+| 400         | [12002](handling-errors.md#12002) |                                       | Input binding failed                                                                                                                                         |
+| 400         | [21000](handling-errors.md#21000) |                                       | One or more preconditions failed                                                                                                                             |
+| 400         | [21000](handling-errors.md#21000) | [1001](handling-errors.md#21000-1001) | Asset with uinque Id '{uniqueAssetId}' does not exist                                                                                                        |
+| 400         | [21000](handling-errors.md#21000) | [1002](handling-errors.md#21000-1002) | the user '{userId}' does not own asset ('uniqueAssetId') issuer's address '{assetIssuerAddress}'                                                             |
+| 400         | [21000](handling-errors.md#21000) | [1003](handling-errors.md#21000-1003) | invalid units amount provided (must be positive integer): '{providedAmount}'                                                                                 |
+| 400         | [21000](handling-errors.md#21000) | [1004](handling-errors.md#21000-1004) | spark factor is not defined for the asset '{uniqueAssetId}'                                                                                                  |
+| 400         | [21000](handling-errors.md#21000) | [1005](handling-errors.md#21000-1005) | the user '{userId}' does not own signer address '{signerAddress}'                                                                                            |
+| 400         | [21000](handling-errors.md#21000) | [1006](handling-errors.md#21000-1006) | not enough sparks on the balance. Address: {signerAddress}, uniqueAssetId: {uniqueAssetId}, required amount: {requiredAmount}, actual amount: {actualAmount} |
+| 400         | [22000](handling-errors.md#22000) |                                       | One or more validations failed                                                                                                                               |
+| 400         | [22000](handling-errors.md#22000) | [2001](handling-errors.md#22000-2001) | Either asset name or issuer address should be provided in search request                                                                                     |
+| 400         | [22000](handling-errors.md#22000) | [2002](handling-errors.md#22000-2002) | Issuer address value should be 40 or 42 symbol long                                                                                                          |
+| 400         | [22000](handling-errors.md#22000) | [2003](handling-errors.md#22000-2003) | Valid language code should be provided for asset                                                                                                             |
+| 400         | [22000](handling-errors.md#22000) | [2004](handling-errors.md#22000-2004) | Valid jurisdiction should be provided for asset                                                                                                              |
+| 400         | [22000](handling-errors.md#22000) | [2005](handling-errors.md#22000-2005) | Asset's unit of measure is not valid                                                                                                                         |
+| 400         | [22000](handling-errors.md#22000) | [2006](handling-errors.md#22000-2006) | Asset's spark factor is not valid                                                                                                                            |
+| 400         | [22000](handling-errors.md#22000) | [2007](handling-errors.md#22000-2007) | Asset's asset class is not valid                                                                                                                             |
+| 400         | [22000](handling-errors.md#22000) | [2008](handling-errors.md#22000-2008) | The number of sections in asset custom definition item's SectionsPathNames differs from SectionsPath                                                         |
+| 400         | [22000](handling-errors.md#22000) | [2009](handling-errors.md#22000-2009) | Offered asset unqueId must be specified in request                                                                                                           |
+| 400         | [22000](handling-errors.md#22000) | [2010](handling-errors.md#22000-2010) | Desired asset unqueId must be specified in request                                                                                                           |
+| 400         | [22000](handling-errors.md#22000) | [2011](handling-errors.md#22000-2011) | Desired and offered assets unqueIds must differ                                                                                                              |
+| 400         | [22000](handling-errors.md#22000) | [2012](handling-errors.md#22000-2012) | Either offered or desired amount of sparks must be specified in request but not both                                                                         |
+| 400         | [22000](handling-errors.md#22000) | [2013](handling-errors.md#22000-2013) | Signer address must be specified                                                                                                                             |
+| 400         | [22000](handling-errors.md#22000) | [2014](handling-errors.md#22000-2014) | Input amount must be a positive integer                                                                                                                      |
+| 400         | [22000](handling-errors.md#22000) | [2015](handling-errors.md#22000-2015) | Array of supply ids must contain at least one supply id                                                                                                      |
+| 400         | [23000](handling-errors.md#23000) |                                       | \<Sdk error code>:\<Sdk error message>                                                                                                                       |
 
 ## 11001
 
@@ -82,21 +89,21 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 12001
 
-|             |                                                                                                                                               |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | There were OData validation errors                                                                                                            |
-| Description | malformed oData request (missing required fields, redundant fields etc.)                                                                      |
-| Details     | contains the array of sub-errors, specifying the issue                                                                                        |
-| What to do  | - check the correctness of the request body according to oData and the request specs.  - check the `details` field for additional information |
+|             |                                                                                                                                                           |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | There were OData validation errors                                                                                                                        |
+| Description | malformed oData request (missing required fields, redundant fields etc.)                                                                                  |
+| Details     | contains the array of sub-errors, specifying the issue                                                                                                    |
+| What to do  | <p>- check the correctness of the request body according to oData and the request specs.</p><p>- check the `details` field for additional information</p> |
 
 ## 12002
 
-|             |                                                                                                                                     |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | Input binding failed                                                                                                                |
-| Description | malformed request body (issues when parsing etc.)                                                                                   |
-| Details     | contains the array of sub-errors, specifying the issue                                                                              |
-| What to do  | - check the correctness of the request body according to the request specs.  - check the `details` field for additional information |
+|             |                                                                                                                                                 |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | Input binding failed                                                                                                                            |
+| Description | malformed request body (issues when parsing etc.)                                                                                               |
+| Details     | contains the array of sub-errors, specifying the issue                                                                                          |
+| What to do  | <p>- check the correctness of the request body according to the request specs.</p><p>- check the `details` field for additional information</p> |
 
 ## 21000
 
@@ -114,16 +121,16 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | asset with uinque Id '{uniqueAssetId}' does not exist                                                                 |
 | Description | the requested operation requires, that the asset with the 'uniqueAssetId' exists prior to execution of this operation |
 | What to do  | check that correct uniqueAssetId is used                                                                              |
-| Arguments   | `uniqueAssetId`                                                                                                       |
+| Arguments   | <p>`uniqueAssetId`</p>                                                                                                |
 
 ## 21000-1002
 
-|             |                                                                                                                                                                           |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | the user '{userId}' does not own asset ('uniqueAssetId') issuer's address '{assetIssuerAddress}'                                                                          |
-| Description | the requested operation requires, that the user, requesting the operation, owns the wallet, that was used to create the asset                                             |
-| What to do  | - check that correct uniqueAssetId is used  - check that correct user in requesting the operation  - check that the 'assetIssuerAddress' wallet is added to user's wallet |
-| Arguments   | `userId`  `uniqueAssetId`  `assetIssuerAddress`                                                                                                                           |
+|             |                                                                                                                                                                                            |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Message     | the user '{userId}' does not own asset ('uniqueAssetId') issuer's address '{assetIssuerAddress}'                                                                                           |
+| Description | the requested operation requires, that the user, requesting the operation, owns the wallet, that was used to create the asset                                                              |
+| What to do  | <p>- check that correct uniqueAssetId is used</p><p>- check that correct user in requesting the operation</p><p>- check that the 'assetIssuerAddress' wallet is added to user's wallet</p> |
+| Arguments   | <p>`userId`</p><p>`uniqueAssetId`</p><p>`assetIssuerAddress`</p>                                                                                                                           |
 
 ## 21000-1003
 
@@ -132,7 +139,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | invalid units amount provided (must be positive integer): '{providedAmount}' |
 | Description | the amount of sparks is less than or equal to zero                           |
 | What to do  | check the value of the sparks                                                |
-| Arguments   | `providedAmount`                                                             |
+| Arguments   | <p>`providedAmount`</p>                                                      |
 
 ## 21000-1004
 
@@ -141,7 +148,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | spark factor is not defined for the asset '{uniqueAssetId}'                                                 |
 | Description | the requested operation requires, that the spark factor is defined for the asset, but it's actually missing |
 | What to do  | add spark factor to the asset description                                                                   |
-| Arguments   | `uniqueAssetId`                                                                                             |
+| Arguments   | <p>`uniqueAssetId`</p>                                                                                      |
 
 ## 21000-1005
 
@@ -150,16 +157,16 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | the user '{userId}' does not own signer address '{signerAddress}'    |
 | Description | the user does not own the signer address                             |
 | What to do  | check that the 'assetIssuerAddress' wallet is added to user's wallet |
-| Arguments   | `userId`  `signerAddress`                                            |
+| Arguments   | <p>`userId`</p><p>`signerAddress`</p>                                |
 
 ## 21000-1006
 
-|             |                                                                                                                              |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Message     | not enough sparks on the balance. Address: {signerAddress}, required amount: {requiredAmount}, actual amount: {actualAmount} |
-| Description | the requested operation requires, that there's at least 'actualAmount' of sparks on the 'signerAddress' asset balance        |
-| What to do  | add enough sparks of the asset to the 'signerAddress'                                                                        |
-| Arguments   | `signerAddress` `requiredAmount` `actualAmount`                                                                              |
+|             |                                                                                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Message     | not enough sparks on the balance. Address: {signerAddress}, uniqueAssetId: {uniqueAssetId}, required amount: {requiredAmount}, actual amount: {actualAmount} |
+| Description | the requested operation requires, that there's at least 'actualAmount' of sparks on the 'signerAddress' asset balance                                        |
+| What to do  | add enough sparks of the asset to the 'signerAddress'                                                                                                        |
+| Arguments   | <p>`signerAddress`</p><p>`uniqueAssetId`</p><p>`requiredAmount`</p><p>`actualAmount`</p>                                                                     |
 
 ## 22000
 
@@ -233,6 +240,62 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath                                                                  |
 | What to do  | Either provide the same number of section names in SectionsPathNames as for SectionsPath or leave it empty. In latter case the names will be copied from SectionsPath |
 | Example     | SectionPath="\[main]\[fields]\[name]" has three sections. A correct value for SectionsPathNames would be "\[Main]\[Asset properties]\[Document name]"                 |
+
+## 22000-2009
+
+|             |                                                                                 |
+| ----------- | ------------------------------------------------------------------------------- |
+| Message     | Offered asset unqueId must be specified in request                              |
+| Description | The request does not contain a value for the required property `OfferedAssetId` |
+| What to do  | Provide a value for the property `OfferedAssetId`                               |
+
+## 22000-2010
+
+|             |                                                                                 |
+| ----------- | ------------------------------------------------------------------------------- |
+| Message     | Desired asset unqueId must be specified in request                              |
+| Description | The request does not contain a value for the required property `DesiredAssetId` |
+| What to do  | Provide a value for the property `DesiredAssetId`                               |
+
+## 22000-2011
+
+|             |                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------- |
+| Message     | Desired and offered assets unqueIds must differ                                                   |
+| Description | Same values are provided for both `OfferedAssetId` and `DesiredAssetId` properties in the request |
+| What to do  | Provide different values for the properties `OfferedAssetId` and `DesiredAssetId`                 |
+
+## 22000-2012
+
+|             |                                                                                                             |
+| ----------- | ----------------------------------------------------------------------------------------------------------- |
+| Message     | Either offered or desired amount of sparks must be specified in request but not both                        |
+| Description | It is required, that either `OfferedAmount` or `DesiredAmount` value is specified in the request (not both) |
+| What to do  | Check that one and only one property (either `OfferedAmount` or `DesiredAmount`) is assigned a value        |
+
+## 22000-2013
+
+|             |                                                                                                 |
+| ----------- | ----------------------------------------------------------------------------------------------- |
+| Message     | Signer address must be specified                                                                |
+| Description | An authenticated user can have different owned address, so the signer address must be specified |
+| What to do  | Provide a value for the property `SignerAddress`                                                |
+
+## 22000-2014
+
+|             |                                                                 |
+| ----------- | --------------------------------------------------------------- |
+| Message     | Input amount must be a positive integer                         |
+| Description | Incorrect value is specified for the property `InputAmount`     |
+| What to do  | Provide a positive integer value for the property `InputAmount` |
+
+## 22000-2015
+
+|             |                                                                        |
+| ----------- | ---------------------------------------------------------------------- |
+| Message     | Array of supply ids must contain at least one supply id                |
+| Description | The `SupplyIds` property must be a non-empty array                     |
+| What to do  | Provide a correct value (non-empty array) for the `SupplyIds` property |
 
 ## 23000
 
