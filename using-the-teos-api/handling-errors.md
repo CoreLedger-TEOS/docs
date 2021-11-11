@@ -61,6 +61,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | 400         | [21000](handling-errors.md#21000) | [1004](handling-errors.md#21000-1004) | spark factor is not defined for the asset '{uniqueAssetId}'                                                                                                  |
 | 400         | [21000](handling-errors.md#21000) | [1005](handling-errors.md#21000-1005) | the user '{userId}' does not own signer address '{signerAddress}'                                                                                            |
 | 400         | [21000](handling-errors.md#21000) | [1006](handling-errors.md#21000-1006) | not enough sparks on the balance. Address: {signerAddress}, uniqueAssetId: {uniqueAssetId}, required amount: {requiredAmount}, actual amount: {actualAmount} |
+| 400         | [21000](handling-errors.md#21000) | [1007](handling-errors.md#21000-1007) | the instance is configured to operate on assets from ledger {configuredLedgerId}, but the requested asset '{uniqueAssetId}' is from ledger {assetLedgerId}   |
 | 400         | [22000](handling-errors.md#22000) |                                       | One or more validations failed                                                                                                                               |
 | 400         | [22000](handling-errors.md#22000) | [2001](handling-errors.md#22000-2001) | Either asset name or issuer address should be provided in search request                                                                                     |
 | 400         | [22000](handling-errors.md#22000) | [2002](handling-errors.md#22000-2002) | Issuer address value should be 40 or 42 symbol long                                                                                                          |
@@ -167,6 +168,16 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Description | the requested operation requires, that there's at least 'actualAmount' of sparks on the 'signerAddress' asset balance                                        |
 | What to do  | add enough sparks of the asset to the 'signerAddress'                                                                                                        |
 | Arguments   | <p>`signerAddress`</p><p>`uniqueAssetId`</p><p>`requiredAmount`</p><p>`actualAmount`</p>                                                                     |
+
+## 21000-1007
+
+|             |                                                                                                                                                            |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | the instance is configured to operate on assets from ledger {configuredLedgerId}, but the requested asset '{uniqueAssetId}' is from ledger {assetLedgerId} |
+| Description | the requested operation requires, that the asset with the 'uniqueAssetId' was created in the ledger, that is configured for the current istance            |
+| What to do  | check that correct uniqueAssetId is used                                                                                                                   |
+| Arguments   | <p>`configuredLedgerId`</p><p>`uniqueAssetId`</p><p>`assetLedgerId`</p>                                                                                    |
+
 
 ## 22000
 
