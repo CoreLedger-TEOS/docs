@@ -52,13 +52,13 @@ Contains the details of the warp. Example of the message:
 }
 ```
 
-### WarpSearchFinished
+### WarpSearchSummary
 
 Contains the summary of warp search. Please be aware that due to async nature of the warp search, this message does not necessarily arrive after all the result have arrived. The `FoundWarpCount` property shows, how many `WarpFound` messages must arrive within this search.
 
 ```json
 {
-  "Type": "WarpSearchFinished",
+  "Type": "WarpSearchSummary",
   "SearchId": "2fa2b214-93d4-4391-8071-c629e16cc5a4",
   "FoundWarpCount": 1
 }
