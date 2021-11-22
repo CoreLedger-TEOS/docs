@@ -62,8 +62,8 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | 400         | [21000](handling-errors.md#21000) | [1005](handling-errors.md#21000-1005) | the user '{userId}' does not own signer address '{signerAddress}'                                                                                            |
 | 400         | [21000](handling-errors.md#21000) | [1006](handling-errors.md#21000-1006) | not enough sparks on the balance. Address: {signerAddress}, uniqueAssetId: {uniqueAssetId}, required amount: {requiredAmount}, actual amount: {actualAmount} |
 | 400         | [21000](handling-errors.md#21000) | [1007](handling-errors.md#21000-1007) | the instance is configured to operate on assets from ledger {configuredLedgerId}, but the requested asset '{uniqueAssetId}' is from ledger {assetLedgerId}   |
-| 400         | 21000                             | 1008                                  | The source asset with Id '{sourceUniqueAssetId}' is already linked to asset with id '{targetUniqueAssetId}'                                                  |
-| 400         | 21000                             | 1009                                  | The source asset with Id '{sourceUniqueAssetId}' is not linked to asset with id '{targetUniqueAssetId}'                                                      |
+| 400         | [21000](handling-errors.md#21000) | [1008](handling-errors.md#21000-1008) | The source asset with Id '{sourceUniqueAssetId}' is already linked to asset with id '{targetUniqueAssetId}'                                                  |
+| 400         | [21000](handling-errors.md#21000) | [1009](handling-errors.md#21000-1009) | The source asset with Id '{sourceUniqueAssetId}' is not linked to asset with id '{targetUniqueAssetId}'                                                      |
 | 400         | [22000](handling-errors.md#22000) |                                       | One or more validations failed                                                                                                                               |
 | 400         | [22000](handling-errors.md#22000) | [2001](handling-errors.md#22000-2001) | Either asset name or issuer address should be provided in search request                                                                                     |
 | 400         | [22000](handling-errors.md#22000) | [2002](handling-errors.md#22000-2002) | Issuer address value should be 40 or 42 symbol long                                                                                                          |
@@ -80,7 +80,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | 400         | [22000](handling-errors.md#22000) | [2013](handling-errors.md#22000-2013) | Signer address must be specified                                                                                                                             |
 | 400         | [22000](handling-errors.md#22000) | [2014](handling-errors.md#22000-2014) | Input amount must be a positive integer                                                                                                                      |
 | 400         | [22000](handling-errors.md#22000) | [2015](handling-errors.md#22000-2015) | Array of supply ids must contain at least one supply id                                                                                                      |
-| 400         | 22000                             | 2016                                  | Array of target unique asset ids must not be empty                                                                                                           |
+| 400         | [22000](handling-errors.md#22000) | [2016](handling-errors.md#22000-2016) | Array of target unique asset ids must not be empty                                                                                                           |
 | 400         | [23000](handling-errors.md#23000) |                                       | \<Sdk error code>:\<Sdk error message>                                                                                                                       |
 
 ## 11001
@@ -180,6 +180,24 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Description | the requested operation requires, that the asset with the 'uniqueAssetId' was created in the ledger, that is configured for the current istance            |
 | What to do  | check that correct uniqueAssetId is used                                                                                                                   |
 | Arguments   | <p><code>configuredLedgerId</code></p><p><code>uniqueAssetId</code></p><p><code>assetLedgerId</code></p>                                                   |
+
+## 21000-1008
+
+|             |                                                                                                                  |
+| ----------- | ---------------------------------------------------------------------------------------------------------------- |
+| Message     | the source asset with id  '{sourceUniqueAssetId}' is already linked to the asset with id '{targetUniqueAssetId}' |
+| Description | it is not possible to link an already liked asset                                                                |
+| What to do  | check that the targetUniqueAssetId belongs to an asset that is not yet linked                                    |
+| Arguments   | <p><code>sourceUniqueAssetId</code></p><p><code>targetUniqueAssetId</code></p>                                   |
+
+## 21000-1009
+
+|             |                                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------------ |
+| Message     | the source asset with id  '{sourceUniqueAssetId}' is not linked to the asset with id '{targetUniqueAssetId}' |
+| Description | it is not possible to unlink assets which are not linked                                                     |
+| What to do  | check that the targetUniqueAssetId of a linked asset is used                                                 |
+| Arguments   | <p><code>sourceUniqueAssetId</code></p><p><code>targetUniqueAssetId</code></p>                               |
 
 ## 22000
 
@@ -309,6 +327,14 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | Array of supply ids must contain at least one supply id                |
 | Description | The `SupplyIds` property must be a non-empty array                     |
 | What to do  | Provide a correct value (non-empty array) for the `SupplyIds` property |
+
+## 22000-2016
+
+|             |                                                                        |
+| ----------- | ---------------------------------------------------------------------- |
+| Message     | Array of target unique asset ids must not be empty                |
+| Description | The `TargetAssetIds` property must be a non-empty array                     |
+| What to do  | Provide a correct value (non-empty array) for the `TargetAssetIds` property |
 
 ## 23000
 
