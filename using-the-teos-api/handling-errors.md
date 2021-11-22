@@ -62,6 +62,8 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | 400         | [21000](handling-errors.md#21000) | [1005](handling-errors.md#21000-1005) | the user '{userId}' does not own signer address '{signerAddress}'                                                                                            |
 | 400         | [21000](handling-errors.md#21000) | [1006](handling-errors.md#21000-1006) | not enough sparks on the balance. Address: {signerAddress}, uniqueAssetId: {uniqueAssetId}, required amount: {requiredAmount}, actual amount: {actualAmount} |
 | 400         | [21000](handling-errors.md#21000) | [1007](handling-errors.md#21000-1007) | the instance is configured to operate on assets from ledger {configuredLedgerId}, but the requested asset '{uniqueAssetId}' is from ledger {assetLedgerId}   |
+| 400         | 21000                             | 1008                                  | The source asset with Id '{sourceUniqueAssetId}' is already linked to asset with id '{targetUniqueAssetId}'                                                  |
+| 400         | 21000                             | 1009                                  | The source asset with Id '{sourceUniqueAssetId}' is not linked to asset with id '{targetUniqueAssetId}'                                                      |
 | 400         | [22000](handling-errors.md#22000) |                                       | One or more validations failed                                                                                                                               |
 | 400         | [22000](handling-errors.md#22000) | [2001](handling-errors.md#22000-2001) | Either asset name or issuer address should be provided in search request                                                                                     |
 | 400         | [22000](handling-errors.md#22000) | [2002](handling-errors.md#22000-2002) | Issuer address value should be 40 or 42 symbol long                                                                                                          |
@@ -78,6 +80,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | 400         | [22000](handling-errors.md#22000) | [2013](handling-errors.md#22000-2013) | Signer address must be specified                                                                                                                             |
 | 400         | [22000](handling-errors.md#22000) | [2014](handling-errors.md#22000-2014) | Input amount must be a positive integer                                                                                                                      |
 | 400         | [22000](handling-errors.md#22000) | [2015](handling-errors.md#22000-2015) | Array of supply ids must contain at least one supply id                                                                                                      |
+| 400         | 22000                             | 2016                                  | Array of target unique asset ids must not be empty                                                                                                           |
 | 400         | [23000](handling-errors.md#23000) |                                       | \<Sdk error code>:\<Sdk error message>                                                                                                                       |
 
 ## 11001
@@ -90,21 +93,21 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 12001
 
-|             |                                                                                                                                                           |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | There were OData validation errors                                                                                                                        |
-| Description | malformed oData request (missing required fields, redundant fields etc.)                                                                                  |
-| Details     | contains the array of sub-errors, specifying the issue                                                                                                    |
-| What to do  | <p>- check the correctness of the request body according to oData and the request specs.</p><p>- check the `details` field for additional information</p> |
+|             |                                                                                                                                                                      |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | There were OData validation errors                                                                                                                                   |
+| Description | malformed oData request (missing required fields, redundant fields etc.)                                                                                             |
+| Details     | contains the array of sub-errors, specifying the issue                                                                                                               |
+| What to do  | <p>- check the correctness of the request body according to oData and the request specs.</p><p>- check the <code>details</code> field for additional information</p> |
 
 ## 12002
 
-|             |                                                                                                                                                 |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | Input binding failed                                                                                                                            |
-| Description | malformed request body (issues when parsing etc.)                                                                                               |
-| Details     | contains the array of sub-errors, specifying the issue                                                                                          |
-| What to do  | <p>- check the correctness of the request body according to the request specs.</p><p>- check the `details` field for additional information</p> |
+|             |                                                                                                                                                            |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | Input binding failed                                                                                                                                       |
+| Description | malformed request body (issues when parsing etc.)                                                                                                          |
+| Details     | contains the array of sub-errors, specifying the issue                                                                                                     |
+| What to do  | <p>- check the correctness of the request body according to the request specs.</p><p>- check the <code>details</code> field for additional information</p> |
 
 ## 21000
 
@@ -122,7 +125,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | asset with uinque Id '{uniqueAssetId}' does not exist                                                                 |
 | Description | the requested operation requires, that the asset with the 'uniqueAssetId' exists prior to execution of this operation |
 | What to do  | check that correct uniqueAssetId is used                                                                              |
-| Arguments   | <p>`uniqueAssetId`</p>                                                                                                |
+| Arguments   | `uniqueAssetId`                                                                                                       |
 
 ## 21000-1002
 
@@ -131,7 +134,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | the user '{userId}' does not own asset ('uniqueAssetId') issuer's address '{assetIssuerAddress}'                                                                                           |
 | Description | the requested operation requires, that the user, requesting the operation, owns the wallet, that was used to create the asset                                                              |
 | What to do  | <p>- check that correct uniqueAssetId is used</p><p>- check that correct user in requesting the operation</p><p>- check that the 'assetIssuerAddress' wallet is added to user's wallet</p> |
-| Arguments   | <p>`userId`</p><p>`uniqueAssetId`</p><p>`assetIssuerAddress`</p>                                                                                                                           |
+| Arguments   | <p><code>userId</code></p><p><code>uniqueAssetId</code></p><p><code>assetIssuerAddress</code></p>                                                                                          |
 
 ## 21000-1003
 
@@ -140,7 +143,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | invalid units amount provided (must be positive integer): '{providedAmount}' |
 | Description | the amount of sparks is less than or equal to zero                           |
 | What to do  | check the value of the sparks                                                |
-| Arguments   | <p>`providedAmount`</p>                                                      |
+| Arguments   | `providedAmount`                                                             |
 
 ## 21000-1004
 
@@ -149,7 +152,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | spark factor is not defined for the asset '{uniqueAssetId}'                                                 |
 | Description | the requested operation requires, that the spark factor is defined for the asset, but it's actually missing |
 | What to do  | add spark factor to the asset description                                                                   |
-| Arguments   | <p>`uniqueAssetId`</p>                                                                                      |
+| Arguments   | `uniqueAssetId`                                                                                             |
 
 ## 21000-1005
 
@@ -158,7 +161,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | the user '{userId}' does not own signer address '{signerAddress}'    |
 | Description | the user does not own the signer address                             |
 | What to do  | check that the 'assetIssuerAddress' wallet is added to user's wallet |
-| Arguments   | <p>`userId`</p><p>`signerAddress`</p>                                |
+| Arguments   | <p><code>userId</code></p><p><code>signerAddress</code></p>          |
 
 ## 21000-1006
 
@@ -167,7 +170,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | not enough sparks on the balance. Address: {signerAddress}, uniqueAssetId: {uniqueAssetId}, required amount: {requiredAmount}, actual amount: {actualAmount} |
 | Description | the requested operation requires, that there's at least 'actualAmount' of sparks on the 'signerAddress' asset balance                                        |
 | What to do  | add enough sparks of the asset to the 'signerAddress'                                                                                                        |
-| Arguments   | <p>`signerAddress`</p><p>`uniqueAssetId`</p><p>`requiredAmount`</p><p>`actualAmount`</p>                                                                     |
+| Arguments   | <p><code>signerAddress</code></p><p><code>uniqueAssetId</code></p><p><code>requiredAmount</code></p><p><code>actualAmount</code></p>                         |
 
 ## 21000-1007
 
@@ -176,8 +179,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | the instance is configured to operate on assets from ledger {configuredLedgerId}, but the requested asset '{uniqueAssetId}' is from ledger {assetLedgerId} |
 | Description | the requested operation requires, that the asset with the 'uniqueAssetId' was created in the ledger, that is configured for the current istance            |
 | What to do  | check that correct uniqueAssetId is used                                                                                                                   |
-| Arguments   | <p>`configuredLedgerId`</p><p>`uniqueAssetId`</p><p>`assetLedgerId`</p>                                                                                    |
-
+| Arguments   | <p><code>configuredLedgerId</code></p><p><code>uniqueAssetId</code></p><p><code>assetLedgerId</code></p>                                                   |
 
 ## 22000
 
@@ -246,11 +248,11 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 22000-2008
 
-|             |                                                                                                                                                                                                                                              |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath                                                                                                                                         |
-| Description | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath. For example, SectionPath="\[main]\[fields]\[name]" has three sections and SectionsPathNames has only  two "\[Main]\[Asset properties]" |
-| What to do  | Either provide the same number of section names in SectionsPathNames as for SectionsPath or leave it empty. In latter case the names will be copied from SectionsPath                                                                        |
+|             |                                                                                                                                                                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath                                                                                                                                        |
+| Description | The number of sections in Asset custom definition item's SectionsPathNames differs from SectionsPath. For example, SectionPath="\[main]\[fields]\[name]" has three sections and SectionsPathNames has only two "\[Main]\[Asset properties]" |
+| What to do  | Either provide the same number of section names in SectionsPathNames as for SectionsPath or leave it empty. In latter case the names will be copied from SectionsPath                                                                       |
 
 ## 22000-2009
 
