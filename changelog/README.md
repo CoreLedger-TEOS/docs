@@ -15,7 +15,8 @@ Out-of-cycle changes are changes introduced outside of our normal, versioned rel
 | Version                 | Date Introduced | Available Until |
 | ----------------------- | --------------- | --------------- |
 | [0.1](versions/)        | 05.06.2021      | 02.02.2022      |
-| [0.2](versions/v0.2.md) | 02.09.2021      | TBD             |
+| [0.2](versions/v0.2.md) | 02.09.2021      | 23.05.2022      |
+| [0.3](versions/v0.3.md) | 23.11.2021      | TBD             |
 | 1.0                     | TBD             | TBD             |
 
 ### 2021 Out-Of-Cycle Changes
