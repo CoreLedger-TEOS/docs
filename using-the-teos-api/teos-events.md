@@ -4,11 +4,11 @@ Numerous requests to our API are asynchronous. Results to such calls arrive shor
 
 ## Subscribing to events
 
-TEOS Api distributes events using [RabbitMQ](https://www.rabbitmq.com) message** **platform. This chapter describes how one can subscribe to TEOS Events. Some knowledge of RabbitMQ is required.
+TEOS Api distributes events using [RabbitMQ](https://www.rabbitmq.com) message-queueing platform. This chapter describes how one can subscribe to TEOS Events. Some knowledge of RabbitMQ is required.
 
 ### Connection details and user credentials
 
-To establish a connection to the RabbbitMQ and to create a channel the following data(examples)  is provided by TEOS Api administrator:
+To establish a connection to the RabbbitMQ and to create a channel the following data(examples) is provided by TEOS Api administrator:
 
 Host: teos-events.coreledger.net\
 Port: 30000\
@@ -21,16 +21,16 @@ Only queues with server-generated names are allowed which means the queue names 
 
 ### Exchange
 
-Event messages are sent to an exchange of type "topic" with a specific name, also provided by the administrator.  Each TEOS Event, published to the exchange, has its own specific routing key (see lower)  - a list of words, delimited by dots.
+Event messages are sent to an exchange of type "topic" with a specific name, also provided by the administrator. Each TEOS Event, published to the exchange, has its own specific routing key (see lower) - a list of words, delimited by dots.
 
 ### Bindnings
 
-Queues are bound to the exchange with a routing key. The routing key specifies what types of events will be delivered to the queue. Wildcards are supported:&#x20;
+Queues are bound to the exchange with a routing key. The routing key specifies what types of events will be delivered to the queue. Wildcards are supported:
 
 * \* (star) can substitute for exactly one word.
 * \# (hash) can substitute for zero or more words
 
-Example: the routing key "asset.#"  will bind the queue to all asset events
+Example: the routing key "asset.#" will bind the queue to all asset events
 
 The same queue can be bound multiple times to the exchange with different routing keys.
 
@@ -55,9 +55,9 @@ Routing Key: **account.balance\_changed**
 }
 ```
 
-### AssetChanged&#x20;
+### AssetChanged
 
-Routing Key: **asset.changed**&#x20;
+Routing Key: **asset.changed**
 
 ```
 {
@@ -68,9 +68,9 @@ Routing Key: **asset.changed**&#x20;
 }
 ```
 
-### AmendmentChanged&#x20;
+### AmendmentChanged
 
-Routing Key: **amendment.changed **
+Routing Key: \*\*amendment.changed \*\*
 
 ```
 {
@@ -80,9 +80,9 @@ Routing Key: **amendment.changed **
 }
 ```
 
-### SupplyChanged&#x20;
+### SupplyChanged
 
-Routing Key: **supply.changed**&#x20;
+Routing Key: **supply.changed**
 
 ```
 {
@@ -95,9 +95,9 @@ Routing Key: **supply.changed**&#x20;
 }
 ```
 
-### ControllerCreated&#x20;
+### ControllerCreated
 
-Routing Key: **controller.created **
+Routing Key: \*\*controller.created \*\*
 
 ```
 {
@@ -107,9 +107,9 @@ Routing Key: **controller.created **
 }
 ```
 
-### ControllerLimitChanged&#x20;
+### ControllerLimitChanged
 
-Routing Key: **controller.limit\_changed **
+Routing Key: \*\*controller.limit\_changed \*\*
 
 ```
 {
@@ -121,9 +121,9 @@ Routing Key: **controller.limit\_changed **
 }
 ```
 
-### ControllerAdminChanged&#x20;
+### ControllerAdminChanged
 
-Routing Key: **controller.admin\_changed**&#x20;
+Routing Key: **controller.admin\_changed**
 
 ```
 {
@@ -135,9 +135,9 @@ Routing Key: **controller.admin\_changed**&#x20;
 }
 ```
 
-### ControllerBlacklistChanged&#x20;
+### ControllerBlacklistChanged
 
-Routing Key: **controller.black\_list\_changed**&#x20;
+Routing Key: **controller.black\_list\_changed**
 
 ```
 {
@@ -149,9 +149,9 @@ Routing Key: **controller.black\_list\_changed**&#x20;
 }
 ```
 
-### TokenContractCreated&#x20;
+### TokenContractCreated
 
-Routing Key: **token\_contract.created **
+Routing Key: \*\*token\_contract.created \*\*
 
 ```
 {
@@ -167,9 +167,9 @@ Routing Key: **token\_contract.created **
 }
 ```
 
-### NFTContractCreated&#x20;
+### NFTContractCreated
 
-Routing Key: **nft\_contract.created**&#x20;
+Routing Key: **nft\_contract.created**
 
 ```
 {
@@ -185,9 +185,9 @@ Routing Key: **nft\_contract.created**&#x20;
 }
 ```
 
-### AssetTokenized&#x20;
+### AssetTokenized
 
-Routing Key: **asset.tokenized**&#x20;
+Routing Key: **asset.tokenized**
 
 ```
 {
@@ -201,9 +201,9 @@ Routing Key: **asset.tokenized**&#x20;
 }
 ```
 
-### AddressRegistered&#x20;
+### AddressRegistered
 
-Routing Key: **address.registered**&#x20;
+Routing Key: **address.registered**
 
 ```
 {
@@ -215,7 +215,7 @@ Routing Key: **address.registered**&#x20;
 }
 ```
 
-### TransactionStateChanged&#x20;
+### TransactionStateChanged
 
 Routing Key: **transaction.state\_changed**
 
@@ -230,12 +230,3 @@ Routing Key: **transaction.state\_changed**
     "GasUsed": "56520"
 }
 ```
-
-
-
-
-
-
-
-
-

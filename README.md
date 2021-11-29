@@ -1,5 +1,5 @@
 ---
-description: 'The latest version is: v0.2'
+description: 'The latest version is: v0.3'
 ---
 
 # TEOS API
