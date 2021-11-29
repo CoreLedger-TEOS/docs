@@ -30,7 +30,6 @@ For APIs, once a version is no longer usable, any calls made to it will be defau
 For SDKs, a version will always remain available as it is a downloadable package. However, the SDK may rely upon APIs or methods which no longer work, so you should assume an end-of-life SDK is no longer functional.
 
 You can find specific information about our version timelines, changes, and release dates on our [changelog page](../changelog/).
-You can find specific information about our version timelines, changes, and release dates on our [changelog page](../changelog/).
 
 #### Will everything remain completely unchanged in a version? <a href="stability" id="stability"></a>
 
