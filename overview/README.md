@@ -8,7 +8,7 @@ The TEOS API is named after CoreLedger's product TEOS (Token Economy Operational
 
 * REST Endpoint, built in accordance with [OData 4.01 Standard](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html) (with some limitations)
 * Notification Endpoint is based on Rabbit MQ library
-* Identity Server, implementing OAuth 2.0 protocol
+* Auth Server, implementing OAuth 2.0 protocol
 
 ## HTTP
 
