@@ -7,7 +7,7 @@ From client application perspective, warp search consists of two major steps: in
     Warp search is initiated, using the corresponding endpoint (`/warps/search`). Please refer to [Developer Reference](https://teos-uat.dev.coreledger.net/swagger/index.html?urls.primaryName=TEOS%20Api%20v0.1) for details.
 2.  Subscription to search results.
 
-    Search results are returned as RabbitMQ events (Please refer to [this section](./teos-events/) for details about connection to RabbitMQ of TEOS Api).
+    Search results are returned as RabbitMQ events (Please refer to [this section](teos-events.md) for details about connection to RabbitMQ of TEOS Api).
 
     After receiving the search Id in the step 1, the client needs to subscribe to events from the queue named `"warps-{searchId}"` (`{searchId}` must be replaced by the actual identifier of the search, retrieved in step 1). TEOS Api guarantees, that the queue exists by the time of returning the response in step 1. The queue exists for 5 minutes.
 
