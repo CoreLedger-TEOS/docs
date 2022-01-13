@@ -4,7 +4,7 @@ description: 'The latest version is: v0.3'
 
 # TEOS API
 
-TeosAPI provides reach function set, giving a simple and quick access to blockchain and asset documentation functionality. Real-time events, intuitive functions and simple authentication make it no-brainer to start with the blockchain for any consumer.
+TeosAPI provides reach function set , giving a simple and quick access to blockchain and asset documentation functionality. Real-time events, intuitive functions and simple authentication make it no-brainer to start with the blockchain for any consumer.
 
 If you are unfamiliar with the TEOS API, we recommend that you start with these documents:
 
