@@ -6,10 +6,10 @@ TBD
 
 | Id | Transaction        |
 | -- | ------------------ |
-| 1  | Activate Asset     |
+| 1  | Activate asset     |
 | 2  | Create sparks      |
-| 3  | Destroy Sparks     |
-| 4  | Transfer Sparks    |
+| 3  | Destroy sparks     |
+| 4  | Transfer sparks    |
 | 10 | Run trade          |
 | 38 | Add asset link     |
 | 39 | Delete asset link  |
