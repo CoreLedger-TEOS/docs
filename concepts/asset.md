@@ -1,7 +1,6 @@
 # Asset
 
-Every artifact, specific tangible value, on blockchain within the CoreLedger TEOS solution is referred to a "Digital asset" or simply "Asset". \
-
+Every artifact, specific tangible value, on blockchain within the CoreLedger TEOS solution is referred to a "Digital asset" or simply "Asset".&#x20;
 
 Assets can be countable if there is a need to operate with the units of the asset, for example, steel, man-hours or currencies.&#x20;
 

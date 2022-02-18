@@ -2,6 +2,7 @@
 
 * [TEOS API](README.md)
 * [Overview](overview/README.md)
+  * [Glossary](overview/glossary.md)
   * [Rate Limits](overview/rate-limits.md)
 * [Concepts](concepts/README.md)
   * [Asset](concepts/asset.md)

@@ -6,4 +6,7 @@ TEOS user can define how many sparks he needs for 1 unit of measure with the hel
 
 Asset described [here](asset.md) has liter as a unit of measure and 1000000 as spark factor which means that its indivisible part in a material world is a milliliter. TEOS API user which creates such asset doesn't operate with the units smaller than a 0,000001 of a liter.
 
+For better understanding read [our article on Medium](https://medium.com/coreledger/introducing-spark-80ca62b3ebd3).
+
 TEOS user can create and destroy sparks to manage the available amount of his digital asset.
+
