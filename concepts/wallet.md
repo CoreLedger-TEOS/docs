@@ -1,10 +1,12 @@
 # Wallet
 
-Each user of TEOS solution can have one or more wallets. Wallets are used to keep sparks of assets owned by a user. Each wallet consists of a pair of public address and private key.
+Each user of TEOS solution can have one or more wallets. **Wallets are used to keep sparks of assets owned by a TEOS user**. Each wallet consists of a pair of public address and private key.&#x20;
 
 Public address is used to identify wallet in all [spark operations](spark.md#spark-operations) as a spark sender and spark receiver. Public address is publicly available. TEOS solution has an Ethereum blockchain technology in its backbone that's why Ethereum address is used as public address of the wallet. Public addresses are created from the private key through a complicated mathematical algorithm.&#x20;
 
 A private key is an extremely large number that is used in cryptography, similar to a password. Private keys are used to create digital signatures that can easily be verified, without revealing the private key. Private keys represent final control and ownership of a wallet. Private keys are not transferred or sent in TEOS solution, they are securely kept on your mobile device where you sign the transactions and manage your wallets.
+
+The pairs of public addresses and private keys are generated with the help of mathematical algorithm based on seed words displayed to you when setting up a device for wallet management which you are asked to safely store.
 
 Wallet has the following structure:
 

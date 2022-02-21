@@ -1,13 +1,12 @@
 # Asset
 
-Every artifact, specific tangible value, on blockchain within the CoreLedger TEOS solution is referred to a "Digital asset" or simply "Asset". \
+Every artifact, specific tangible value, on blockchain within the CoreLedger TEOS solution is referred to a "Digital asset" or simply "Asset".&#x20;
 
-
-Assets can be countable if there is a need to operate with the units of the asset, for example, steel, man-hours or currencies.&#x20;
+Assets can be measurable if there is a need to operate with the units of the asset, for example, steel, man-hours or currencies.&#x20;
 
 Some assets are not supposed to have any quantity, for example, an audit report or a document notarized on blockchain does not need quantity, then it needs only a unique digital id - the unique asset id in TEOS solution.
 
-Asset can be described in a very detailed way by filling its properties. These properties are categorized and placed within their categories (or sections) when forming a JSON structure to be saved in a DocumentDB. There are general and custom properties.
+Asset can be described in a very detailed way by filling its properties in TEOS solution with the help of TEOS API. These properties are categorized and placed within their categories (or sections) when forming a JSON structure to be saved in a DocumentDB. There are general and custom properties.
 
 #### General properties
 

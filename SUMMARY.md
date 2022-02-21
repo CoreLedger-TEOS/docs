@@ -8,6 +8,7 @@
   * [Asset](concepts/asset.md)
   * [Spark](concepts/spark.md)
   * [Wallet](concepts/wallet.md)
+  * [Supply](concepts/supply.md)
   * [Warp](concepts/warp.md)
   * [Transaction](concepts/transaction.md)
 * [Using the TEOS API](using-the-teos-api/README.md)
