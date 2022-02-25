@@ -6,13 +6,20 @@ Warp search is referred to a process of identifying possible chains of supplies 
 
 * unique asset id of offered asset
 * unique asset id of desired asset
-* amount of sparks of desired asset to get OR amount of sparks of offered asset to pay
+* amount of sparks of desired asset to get OR amount of sparks of offered asset to pay - you can define **only one** of these parameters
 
-Warp search results in the list of identified warps that meet the following criteria:
+### Warp search results
 
-* not more than _amount of sparks of offered asset to pay_ must be paid
-* not less than _amount of sparks of desired asset to get_ must be received
-* exchange rate of amount of sparks of offered asset to pay against amount of sparks of desired asset to get is optimum
+Warp search results are the identified warps which meet given search criteria.
 
-TEOS user can select the warp matching his goals the most and run warp execution. [Learn how to implement it with TEOS API](../using-the-teos-api/warp-search.md)
+* If the amount of sparks of offered asset to pay is set, search will result in
+  * warps that allow you to get any amount of desired asset for the amount of sparks not more than _amount of sparks of offered asset to pay_&#x20;
+  * warps that allow you to get 1 spark of desired asset if you offered amount of sparks less than it is needed to get 1 spark of desired asset
+* If the amount of sparks of desired asset to get is set, search will result in
+* warps that allow you to get the amount of sparks of desired asset not less than _amount of sparks of desired asset to get_ which was set
+* warps that allow you to get maximum available amount of sparks of desired asset if you desired amount of sparks more than it is available on the market
+
+Found warps can be different by amount of offered and desired assets and exchange rate for trading them.
+
+TEOS user can select the warp matching his goals the most and run warp execution. Before executing the selected warp TEOS will check that user has enough amount of sparks of offered asset to pay. [Learn how to implement it with TEOS API](../using-the-teos-api/warp-search.md)
 
