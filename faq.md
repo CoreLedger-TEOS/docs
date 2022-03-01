@@ -2,9 +2,9 @@
 
 ## How do I get data from blockchain using the TEOS API?
 
-TEOS middleware process the blockchain transactions constantly and caches relevant data in convenient format. You will need an access token, which is obtained via Auth server, in order to make TEOS API calls from your app. TEOS API requests go through a host URL, most usually `teosapi.coreledger.net`, and the ID of the object you are trying to access.&#x20;
+TEOS middleware process the blockchain transactions constantly and caches relevant data in convenient format. You will need an access token, which is obtained via Auth server, in order to make TEOS API calls from your app. TEOS API requests go through a host URL, most usually `teosapi.coreledger.net`, and the ID of the object you are trying to access.
 
-You can read any object by performing a GET operation on the relevant endpoint. You can choose the fields that you want returned with the `$select` query parameter. You can also order certain data sets chronologically or by other fields using  `$orderby`query parameter.
+You can read any object by performing a GET operation on the relevant endpoint. You can choose the fields that you want returned with the `$select` query parameter. You can also order certain data sets chronologically or by other fields using `$orderby`query parameter.
 
 For more information, see the [TEOS API Overview](overview/), which documents the basics of TEOS API terminology and structure, and the [Using the Graph API documentation](using-the-teos-api/), which contains more details about the various operations you can perform with the Graph API.
 
@@ -19,3 +19,13 @@ Because of the blockchain specifics. The data creation or modification transacti
 ## How to report an issue?
 
 If you find an issue, please report it in our [GitHub Repository for TEOS API](https://github.com/CoreLedger-TEOS/API/issues).
+
+## How do end-users delete their accounts and data from TEOS solution?
+
+We are currently developing the automated solution for deleting the user data, so, currently there is no such button. Users can request their data removal by writing an email to support. User will have to provide following data:\
+1\. **application name** from which he wants his data to be removed (it can be some specific mobile application, web application within TEOS solution) OR to request data removal from TEOS solution in general (data will be removed from all applications based on TEOS solution)\
+2\. **email of the account to be removed**. In order to make sure it's not a fake request support can ask additional questions about the data provided during registration process if email from which the request was sent doesn't match the email which was used as account email.
+
+{% hint style="info" %}
+Notice: we will still keep the history of transactions that were  made with user's wallets (managing assets, supplies, controllers) because we use blockchain technology and cannot remove it
+{% endhint %}
