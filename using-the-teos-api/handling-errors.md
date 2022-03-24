@@ -80,7 +80,9 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | 400         | [22000](handling-errors.md#22000) | [2013](handling-errors.md#22000-2013) | Signer address must be specified                                                                                                                             |
 | 400         | [22000](handling-errors.md#22000) | [2014](handling-errors.md#22000-2014) | Input amount must be a positive integer                                                                                                                      |
 | 400         | [22000](handling-errors.md#22000) | [2015](handling-errors.md#22000-2015) | Array of supply ids must contain at least one supply id                                                                                                      |
-| 400         | [22000](handling-errors.md#22000) | [2016](handling-errors.md#22000-2016) | Array of target unique asset ids must not be empty                                                                                                           |
+| 400         | [22000](handling-errors.md#22000) | [2016](handling-errors.md#22000-2016) | Array of target unique asset ids must not be empty                                                                                                           
+|
+| 400         | [22000](handling-errors.md#22000) | [2017](handling-errors.md#22000-2017) | User can delete only his own data                                                                                                                            |
 | 400         | [23000](handling-errors.md#23000) |                                       | \<Sdk error code>:\<Sdk error message>                                                                                                                       |
 
 ## 11001
@@ -335,6 +337,15 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | Array of target unique asset ids must not be empty                |
 | Description | The `TargetAssetIds` property must be a non-empty array                     |
 | What to do  | Provide a correct value (non-empty array) for the `TargetAssetIds` property |
+
+## 22000-2017
+
+|             |                                                                        |
+| ----------- | ---------------------------------------------------------------------- |
+| Message     | User can delete only his own data. Calling user:{callingUser} User to delete:{userToDelete}         |
+| Description | The user id of currently logged-in user is different than the id, provided as paremeter for deletion|
+| What to do  | Provide the userId as parameter same as the current user id                                         |
+| Arguments   | <p><code>callingUser</code></p><p><code>userToDelete</code></p>                                     |
 
 ## 23000
 
