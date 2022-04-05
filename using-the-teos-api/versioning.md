@@ -11,7 +11,7 @@ Not all APIs and SDKs share the same versioning system. For example, the TEOS AP
 
 #### What is the latest TEOS API Version? <a href="#latest" id="latest"></a>
 
-The latest TEOS API version is `v0.3`
+The latest TEOS API version is `v0.4`
 
 #### Why do we have versions? <a href="#whyversion" id="whyversion"></a>
 
