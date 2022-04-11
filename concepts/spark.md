@@ -1,10 +1,10 @@
 # Spark
 
-Each asset, if it's countable, has its own unit of measure which is defined based on the nature of the asset, for example, steel is measure in kilograms or tons and man-hours in days or hours. **Spark is the smallest indivisible item of a digital asset** which can stand for minute, hour, gram, milligram or any other smallest indivisible part of the unit of measure that makes sense for specific asset of TEOS user.&#x20;
+Each asset, if it's countable, has its own unit of measure which is defined based on the nature of the asset, for example, steel is measure in kilograms or tons and man-hours in days or hours. **Spark is the generalized term for the smallest indivisible fraction of a digital asset** (like one Satoshi is for Bitcoin or one Wei is for Ether).
 
-TEOS user can define how many sparks he needs for 1 unit of measure with the help of Spark factor.
+The number of sparks needed to get one unit of measure (kilogram, liter, token) can be defined by the TEOS user with the help of the Spark factor.
 
-Asset described [here](asset.md) has liter as a unit of measure and 1000000 as spark factor which means that its indivisible part in a material world is a milliliter. TEOS API user which creates such asset doesn't operate with the units smaller than a 0,000001 of a liter.
+The asset described [here](asset.md) has liter as defined unit of measure and a Spark factor of 1000. That means, that its smallest indivisible part refers to milliliter in the physical world. In this example, the smallest indivisible fraction for a TEOS API user to operate is 0.001 liter (1 Spark) of this asset.
 
 For better understanding read [our article on Medium](https://medium.com/coreledger/introducing-spark-80ca62b3ebd3).
 

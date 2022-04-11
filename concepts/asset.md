@@ -18,7 +18,7 @@ Asset can be described in a very detailed way by filling its properties in TEOS 
     "Language": "en",
     "Jurisdiction": "CH",
     "UnitOfMeasure": "l",
-    "SparkFactor": "1000000",
+    "SparkFactor": "1000",
     "SparkFactorModifier": "{\"type\":\"FORMULA\",\"start\":\"2020-10-21T12:54:31Z\",\"t\":\"1d\",\"f\":\"1\"}",
     "AssetClass": "A016"
 }
