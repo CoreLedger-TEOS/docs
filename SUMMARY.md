@@ -26,6 +26,7 @@
     * [v0.2](changelog/versions/v0.2.md)
     * [v0.3](changelog/versions/v0.3.md)
     * [v0.4](changelog/versions/v0.4.md)
+    * [v0.5](changelog/versions/v0.5.md)
   * [Out-Of-Cycle Changes](changelog/out-of-cycle-changes/README.md)
     * [2021](changelog/out-of-cycle-changes/2021/README.md)
       * [TBD (E.g. July 5, 2021)](changelog/out-of-cycle-changes/2021/june-15-2021.md)
