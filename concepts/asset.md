@@ -69,7 +69,9 @@ Possible types of properties: \[ STRING, DECIMAL, BOOLEAN, NUMBER, VALUERANGE, D
 | A016 | Other assets             |
 | A017 | Document                 |
 
-
+#### Asset identificators
+* AssetId and LedgerId
+* UniqueAssetId
 
 
 
