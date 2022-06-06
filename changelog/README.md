@@ -12,9 +12,15 @@ Out-of-cycle changes are changes introduced outside of our normal, versioned rel
 
 ### Available TEOS API Versions <a href="#available-graph-api-versions" id="available-graph-api-versions"></a>
 
+{% hint style="danger" %}
+### Plan the upgrade to TEOS API v0.4 or later until July, 23 2022
+
+TEOS API v0.3 will not be supported after July, 23 2022. Any problems and bugs identified while using this version won't be considered by CoreLedger after July, 23 2022.
+{% endhint %}
+
 | Version                 | Date Introduced | Available until |
 | ----------------------- | --------------- | --------------- |
-| 0.5 (coming soon)       | 01.04.2022      |                 |
+| 0.5 (coming soon)       | 07.06.2022      |                 |
 | [0.4](versions/v0.4.md) | 01.03.2022      | 01.11.2022      |
 | [0.3](versions/v0.3.md) | 23.11.2021      | 23.07.2022      |
 | [0.2](versions/v0.2.md) | 02.09.2021      | 23.05.2022      |
