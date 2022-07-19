@@ -1,8 +1,8 @@
 # Asset
 
-Every artifact, specific tangible value, on blockchain within the CoreLedger TEOS solution is referred to a "Digital asset" or simply "Asset".&#x20;
+Every artifact, specific tangible value, on blockchain within the CoreLedger TEOS solution is referred to a "Digital asset" or simply "Asset".
 
-Assets can be measurable if there is a need to operate with the units of the asset, for example, steel, man-hours or currencies.&#x20;
+Assets can be measurable if there is a need to operate with the units of the asset, for example, steel, man-hours or currencies.
 
 Some assets are not supposed to have any quantity, for example, an audit report or a document notarized on blockchain does not need quantity, then it needs only a unique digital id - the unique asset id in TEOS solution.
 
@@ -52,7 +52,7 @@ Default values for optional properties(the rest are mandatory):
 * SectionsPath: "\[General]"
 * SectionsPathNames: "\[GENERAL]"
 
-_SectionsPath_ define the path through the sections where the property(in API it is called "Custom definition item")  is placed within the JSON document. For the example mentioned above, the property "apitutorial" is placed in a section "manuals", which in turn is placed in the section "documentation". _SectionsPathNames_ define labels for the sections.
+_SectionsPath_ define the path through the sections where the property(in API it is called "Custom definition item") is placed within the JSON document. For the example mentioned above, the property "apitutorial" is placed in a section "manuals", which in turn is placed in the section "documentation". _SectionsPathNames_ define labels for the sections.
 
 Possible types of properties: \[ STRING, DECIMAL, BOOLEAN, NUMBER, VALUERANGE, DATE, DATETIME, ASSETCLASS, COUNTRY, CURRENCY, LANGUAGE, UNITOFMEASURE, TIME, TEXT, ADDRESS ]
 
@@ -70,8 +70,6 @@ Possible types of properties: \[ STRING, DECIMAL, BOOLEAN, NUMBER, VALUERANGE, D
 | A017 | Document                 |
 
 #### Asset identificators
-* AssetId and LedgerId
-* UniqueAssetId
 
-
-
+* AssetId and LedgerId - assetId is unique within Blockchain network, combination of assetId and ledgerId is unique through all environments and Blockchain networks
+* UniqueAssetId - unique asset id through all environments and Blockchain networks, we strongly recommend to use this id
