@@ -22,10 +22,12 @@ If you find an issue, please report it in our [GitHub Repository for TEOS API](h
 
 ## How do end-users delete their accounts and data from TEOS solution?
 
-We are currently developing the automated solution for deleting the user data, so, currently there is no such button. Users can request their data removal by writing an email to support. User will have to provide following data:\
-1\. **application name** from which he wants his data to be removed (it can be some specific mobile application, web application within TEOS solution) OR to request data removal from TEOS solution in general (data will be removed from all applications based on TEOS solution)\
-2\. **email of the account to be removed**. In order to make sure it's not a fake request support can ask additional questions about the data provided during registration process if email from which the request was sent doesn't match the email which was used as account email.
+User can decide whether they want to delete their profile from specific application or to delete CoreLedger account from TEOS at all.
+
+For deleting profile from specific application you can use TEOS API Delete user method.
+
+For deleting CoreLedger account users should be redirected to Auth Server UI which is used for login process. There they will find the button "Delete account".
 
 {% hint style="info" %}
-Notice: we will still keep the history of transactions that were  made with user's wallets (managing assets, supplies, controllers) because we use blockchain technology and cannot remove it
+Note: in any case we will still keep the history of transactions that were made with user's wallets (managing assets, supplies, controllers) and objects written to blockchain because we use blockchain technology and cannot remove it
 {% endhint %}
