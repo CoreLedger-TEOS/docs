@@ -230,3 +230,14 @@ Routing Key: **transaction.state\_changed**
     "GasUsed": "56520"
 }
 ```
+
+### InvoiceStateChanged
+
+Routing Key: **invoice.state\_changed**
+
+```
+{
+    "InvoiceId": "1a431bf3-0905-4423-10e3-08d986feb196",
+    "State": "Open"
+}
+```
