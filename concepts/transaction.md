@@ -2,7 +2,7 @@
 
 Each record to a blockchain (whether it is an [asset creation](asset.md), one of the [spark operations](spark.md#spark-operations), [supply creation and update](supply.md) or [warp execution](warp.md)) is a blockchain transaction. The data is entered into the blockchain in intervals known as blocks. Each block is time stamped and its order and transactions are verified.
 
-### Transaction types available in TEOS solution:
+### Transaction types available in TEOS platform:
 
 | Id | Transaction        |
 | -- | ------------------ |

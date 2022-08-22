@@ -5,7 +5,9 @@ description: 'The latest version is: v0.5'
 # TEOS API
 
 {% hint style="danger" %}
-TEOS API v0.3 is not be supported after July, 23 2022. Any problems and bugs identified while using this version won't be considered by CoreLedger after July, 23 2022.
+### Plan the upgrade to TEOS API v0.4 or later until July, 23 2022
+
+TEOS API v0.3 will not be supported after July, 23 2022. Any problems and bugs identified while using this version won't be considered by CoreLedger after July, 23 2022.
 
 Check [available versions](changelog/versions/).
 {% endhint %}
