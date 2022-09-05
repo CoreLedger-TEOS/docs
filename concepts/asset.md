@@ -12,26 +12,37 @@ Asset can be described in a very detailed way by filling its properties in TEOS 
 
 ```json
 {
-    "Author": "0xff40b681b6dc9c8917883e6cf441f649de7cfcda",
-    "Name": "Freshwater",
-    "Description": "Freshwater, good to drink",
-    "Language": "en",
-    "Jurisdiction": "CH",
-    "UnitOfMeasure": "l",
-    "SparkFactor": "1000",
-    "SparkFactorModifier": "{\"type\":\"FORMULA\",\"start\":\"2020-10-21T12:54:31Z\",\"t\":\"1d\",\"f\":\"1\"}",
-    "AssetClass": "A016"
+  "Author": "0xabe9e6c2b231ae427cd089b2b68be0a1dab565a1",
+  "Name": "Gold",
+  "Description": "1oz Gold bars",
+  "LanguageCode": "en",
+  "JurisdictionCode": "CH",
+  "UnitOfMeasureCode": "kg",
+  "CurrencyCode": "str",
+  "SparkFactor": "1000000",
+  "SparkFactorModifier": "{\"type\":\"FORMULA\",\"start\":\"2021-08-12T14:01:52Z\",\"t\":\"1d\",\"f\":\"1\"}",
+  "AssetClassCode": "A017",
 }
+
+
 ```
 
-All of these properties must have a value. Some of them(Author, Name, Description, Language, Jurisdiction) are mandatory and has to be filled in, others are optional and filled in with a default values when left empty. General properties are placed in the section called "General"
+All of these properties must have a value. Some of them(Author, Name, Description, LanguageCode, JurisdictionCode) are mandatory and has to be filled in, others are optional and filled in with a default values when left empty. General properties are placed in the section called "General"
 
-Default values for properties:
+Default values for properties if not provided:
 
-* UnitOfMeasure: "token"
+* UnitOfMeasureCode: "token"
 * SparkFactor: "1"
 * SparkFactorModifier: {"type":"FORMULA","start":"{current-datetime}","t":"1d","f":"1"}
-* AssetClass: "A017"
+* AssetClassCode: "A017"
+
+{% hint style="info" %}
+#### CurrencyCode definition rules
+
+In case asset is created with AssetClassCode = "A013", CurrencyCode is mandatory and UnitOfMeasureCode must be left blank
+
+In case asset is created with any other AssetClassCode = "A013", CurrencyCode can't be set
+{% endhint %}
 
 #### Custom Properties
 

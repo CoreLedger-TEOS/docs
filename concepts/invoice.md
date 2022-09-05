@@ -1,6 +1,6 @@
 # Invoice
 
-TEOS API consumers can create invoice to get digital record for agreed obligation of payment and pay invoice to fulfill this obligation. Invoice is a time-stamped digital record for a payment agreement made between two parties. Invoice has following data:
+TEOS API consumers can create invoice to get digital record for agreed obligation of payment and pay invoice to fulfill this obligation. Invoice is a time-stamped digital record for a payment agreement made between two parties.
 
 Invoice object has following structure:
 
