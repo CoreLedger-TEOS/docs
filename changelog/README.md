@@ -18,14 +18,14 @@ Out-of-cycle changes are changes introduced outside of our normal, versioned rel
 TEOS API v0.3 will not be supported after July, 23 2022. Any problems and bugs identified while using this version won't be considered by CoreLedger after July, 23 2022.
 {% endhint %}
 
-| Version                                 | Date Introduced | Available until |
-| --------------------------------------- | --------------- | --------------- |
-| 0.6 (coming soon)                       |                 |                 |
-| [0.5](versions/v0.5.md)                 | 07.06.2022      | 07.01.2023      |
-| [0.4](versions/v0.4.md)                 | 01.03.2022      | 01.11.2022      |
-| [0.3](versions/v0.3.md) (not supported) | 23.11.2021      | 23.07.2022      |
-| [0.2](versions/v0.2.md) (not supported) | 02.09.2021      | 23.05.2022      |
-| [0.1](versions/) (not supported)        | 05.06.2021      | 02.02.2022      |
+| Version                                      | Date Introduced | Available until |
+| -------------------------------------------- | --------------- | --------------- |
+| 0.6 (coming soon)                            |                 |                 |
+| [0.5](versions/v0.5.md)                      | 07.06.2022      | 07.01.2023      |
+| [0.4](versions/v0.4.md)                      | 01.03.2022      | 01.11.2022      |
+| [0.3](versions/v0.3.md) (not supported)      | 23.11.2021      | 23.07.2022      |
+| [0.2 ](versions/v0.3.md)(not supported)      | 02.09.2021      | 23.05.2022      |
+| [0.1](versions/v0.3.md#v0.1) (not supported) | 05.06.2021      | 02.02.2022      |
 
 ### 2021 Out-Of-Cycle Changes
 
