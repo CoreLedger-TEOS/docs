@@ -1,7 +1,7 @@
 # TEOS API
 
 {% hint style="info" %}
-Next update - TEOS API v0.6 on September, 06. Check [what's new](changelog/versions/v0.6.md)
+We've released new version - TEOS API v0.6! Check [what's new](changelog/versions/v0.6.md)
 {% endhint %}
 
 {% hint style="warning" %}
