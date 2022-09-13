@@ -1,22 +1,24 @@
 ---
-description: WLA version 0.10 (released on July, 06 2022)
+description: Version Casper (available from September, 09)
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
 
-# Overview
+# Welcome!
 
-White Label Mobile App (WLA) is a customized mobile app which acts as blockchain wallet within TEOS and can be used for signing transactions, checking balances, creating and paying invoices, creating supplies and running trades.
+These pages introduce configuration options of the White Label Management Tool (WLM) and its core functionality. WLM is a customizable webapp for managing blockchain data like digital assets, supplies, controllers and configuring the tenant for your business case needs. Also this documentation describes how to use TX.Mobile to work with WLM.
 
-Please be aware, that the following figures, assets and names might be different from your customized app.
+Most of the business cases which we encountered so far assume that tenant admins use WLM so both [admin-user-guide](admin-user-guide/ "mention") and [user-guide](user-guide/ "mention") are valid for tenant admins.
 
-While working with WLA, since it is the part of TEOS platform, you may also need to check the docs of other TEOS products:
+{% hint style="info" %}
+Please be aware, that figures, assets and names used in the documentation might be different from your customized WLM
+{% endhint %}
 
-* [White Label Management Tool](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/tUL13xBnNCyueYnmUZV7/)
+While working with TEOS you may also need to check the docs of other TEOS products:
+
 * [TEOS API](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)
 * [White Label Portal](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/iTYqY7GQFlQO0s8Vbk2r/)
-
-
+* [White Label Mobile App](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/7Xg7iannH70Bvo1bfqMb/)
 
 ### Support
 

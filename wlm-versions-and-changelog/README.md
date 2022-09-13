@@ -6,6 +6,6 @@ You can check the changelog of each version on a corresponding page. We announce
 
 | Version | Release date |
 | ------- | ------------ |
-| Casper  | Coming soon  |
+| Casper  | 06.09.2022   |
 | Batman  | 28.06.2022   |
 | Abba    | 07.06.2022   |
