@@ -7,7 +7,7 @@ coverY: 0
 # Overview
 
 {% hint style="info" %}
-New version 0.13 is coming. Check [what's new](wlp-versions-and-changelog/version-0.12.md)!
+New version 0.13 is coming. Check [what's new](wlp-versions-and-changelog/version-0.13.md)!
 {% endhint %}
 
 White Label Portal (WLP) is a customizable web application, which represents the bridge between fiat money or physical goods and digital assets within TEOS.
