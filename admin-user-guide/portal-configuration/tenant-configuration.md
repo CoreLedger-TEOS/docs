@@ -1,5 +1,7 @@
 ---
-description: General settings, admin users management, mobile app name setting
+description: >-
+  General settings, admin users management, mobile app name setting, reference
+  code template
 ---
 
 # Tenant configuration
@@ -43,22 +45,3 @@ Default language is used for the situations when custom texts don't have transla
     "es",
     "de"]
 ```
-
-### Bank reference code
-
-Go to **Advanced** **Configuration Management** page to setup Purchase reference code to make sure your end user has some reference ID to name you when he talks to your support.
-
-The code can be configured using the following attributes and recommendations which will let you have around 11 millions unique reference codes:
-
-* \+ is interpreted as a random number 0-9, **at least 1 symbol**
-* ! is interpreted as a random character a-Z, **at least 2 symbols**
-* \* is interpreted as a random number or character 0-9 and a-Z, , at **least 2 symbols**
-* everything else is kept as it is
-* we strongly recommend to use up to 10 symbols for your reference code template to keep it readable and user friendly
-
-`"refCodeTemplate": “+**!!_2021”`
-
-\
-The above refCodeTemplate will automatically generate codes like “57Rad\_2021” or “22doh\_2021”.
-
-The reference code will be used/shown for each order made in portal, as well as on the invoice details PDF sent via e-mail.

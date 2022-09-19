@@ -147,4 +147,4 @@ All configurations are reflected in the page representing description of KYC pro
 
 ![Page with description of KYC process](<../../../.gitbook/assets/image (6).png>)
 
-Step 4. Don't forget to [switch on KYC checks](./) for your portal after configuration is finished
+#### Step 4. Don't forget to [switch on KYC checks](./) for your portal after configuration is finished

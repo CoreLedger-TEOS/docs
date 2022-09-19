@@ -8,7 +8,9 @@ description: >-
 
 In this section you can define a description which is shown on the first screen of the redeem process
 
-Four redemption methods are currently available: “Bank Transfer”, “Bitcoin”, “ERC20”, “Physical” and “ETH”.
+Following redemption methods are currently available: “Bank Transfer”, “Bitcoin”, “ERC20”, “Physical” and “ETH”.
+
+Also, don't forget to configure[ reference code template ](./#reference-code-template)which is used both for purchase reference codes and redemption reference codes.
 
 :tada: Starting from v0.11 you can define KYC tier which users must have for each redemption method to be able to use it (check below parameter "kycTier"). [Read more about KYC configurations](kyc-checks.md)
 

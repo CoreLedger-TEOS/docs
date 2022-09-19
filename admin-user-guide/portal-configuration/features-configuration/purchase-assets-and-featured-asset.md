@@ -9,11 +9,11 @@ description: >-
 
 ## Asset configurations
 
-The WLP can be used for selling a range of assets, just like a web shop for tokens. Additionally, the WLP can be configured for a custom purchase, where one token is highlighted and shown in a custom html page.
+The WLP can be used for selling a range of assets, just like a web shop for tokens. Additionally, the WLP can be configured for a custom purchase, where one token is highlighted and shown in a custom html page. Also, don't forget to configure[ reference code template ](./#reference-code-template)which is used both for purchase reference codes and redemption reference codes.
 
-### Purchase assets
+### Assets available in the shop
 
-Assets shown in the WLP must first be created using WLM and afterwards be configured for WLP in the **“Advanced Config Management”** editor.
+Assets sold in the WLP must first be created using WLM and afterwards be configured for WLP in the **“Advanced Config Management”** editor.
 
 Each asset must be configured with the following parameters in order to be presented under "Purchase assets".
 
