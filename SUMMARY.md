@@ -1,10 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
-* [WLP versions and changelog](wlp-versions-and-changelog/README.md)
-  * [Version 0.13](wlp-versions-and-changelog/version-0.13.md)
-  * [Version 0.12](wlp-versions-and-changelog/version-0.12.md)
-  * [Earlier versions](wlp-versions-and-changelog/earlier-versions.md)
+* [👋 Welcome!](README.md)
 * [Admin user guide](admin-user-guide/README.md)
   * [Portal configuration](admin-user-guide/portal-configuration/README.md)
     * [Admin users management](admin-user-guide/portal-configuration/admin-users-management.md)
@@ -18,5 +14,9 @@
     * [How to prepare custom HTML](admin-user-guide/portal-configuration/how-to-prepare-custom-html.md)
   * [Admin functionality](admin-user-guide/admin-functionality.md)
 * [How your users interact with the portal](how-your-users-interact-with-the-portal.md)
-* [Troubleshooting](troubleshooting.md)
+* [WLP versions and changelog](wlp-versions-and-changelog/README.md)
+  * [Version 0.13](wlp-versions-and-changelog/version-0.13.md)
+  * [Version 0.12](wlp-versions-and-changelog/version-0.12.md)
+  * [Earlier versions](wlp-versions-and-changelog/earlier-versions.md)
+* [⁉ Troubleshooting](troubleshooting.md)
 * [Glossary](glossary.md)
