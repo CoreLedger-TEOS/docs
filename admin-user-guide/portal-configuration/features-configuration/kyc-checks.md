@@ -112,8 +112,8 @@ You can use our example parameters for tests or even pilot projects with Active 
 * [Document Two Service](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#document-two-service)
 * [Address Service](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#address-service)
 * [Consent Service](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#consent-service)
-* [Phone Service](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#phone-service)
-* [Background Checks Service](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#background-checks-service)
+* [Phone Service](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#phone-service) - not supported in WLP
+* [Background Checks Service](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#background-checks-service) - not supported in WLP
 
 #### Step 3. Define which functionality should be available for each tier
 
@@ -139,9 +139,9 @@ Following functionality can be made unavailable for specific tiers:
 
 In our example Shop and Redemption menu items are always displayed, but all assets and redemption methods will be closed by "Get tier 1" button for users with current tier = 0.
 
-* specific assets for purchasing - set minimum KYC tier from which this asset can be purchased, you can find parameter "kycTier" in config file in "asset" object (check [how assets are configured for purchasing](purchase-assets-and-featured-asset.md#purchase-assets))
-* specific payment methods - set minimum KYC tier from which this payment method can be used, you can find parameter "kycTier" in config file in "payment method" object (check [how payment methods are configured for purchasing](purchase-assets-and-featured-asset.md#payment-methods-configuration))
-* specific redemption methods - set minimum KYC tier from which this payment method can be used, you can find parameter "kycTier" in config file in "redemption method" object (check [how redemption methods are configured](redemption-functionality.md))
+* specific assets for purchasing - set minimum KYC tier from which this asset can be purchased, you can find parameter "kycTier" in config file in "asset" object (check [how assets are configured for purchasing](purchase-assets-and-featured-asset/#purchase-assets))
+* specific payment methods - set minimum KYC tier from which this payment method can be used, you can find parameter "kycTier" in config file in "payment method" object (check [how payment methods are configured for purchasing](purchase-assets-and-featured-asset/#payment-methods-configuration))
+* specific redemption methods - set minimum KYC tier from which this payment method can be used, you can find parameter "kycTier" in config file in "redemption method" object (check [how redemption methods are configured](redemption-functionality/))
 
 All configurations are reflected in the page representing description of KYC process for your end-users
 

@@ -38,7 +38,7 @@ By clicking on the shopping cart on top, the cart opens and shows all items. Use
 
 Click on “Checkout” brings user to the collection method selection screen.&#x20;
 
-As next step user can select how he wants to receive the purchased items. The list of collection methods [can be configured](admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset.md#collection-methods-configuration) in the “Advanced Configuration Management” editor by admin.
+As next step user can select how he wants to receive the purchased items. The list of collection methods [can be configured](admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/#collection-methods-configuration) in the “Advanced Configuration Management” editor by admin.
 
 When selecting method “Your own wallet (signable)”, a QR code dialog opens. User can scan the QR code with his WLA to check if the correct wallet is used. This step is optional and can be skipped.
 
@@ -50,7 +50,7 @@ After selecting the collection method, further requested details must be provide
 
 The details of the order are shown for confirmation after clicking the “Continue” button.
 
-If everything is fine, user goes to selecting the payment method he wants to use. Currently the methods “Bank Transfer”, “Credit Card” and “Bitcoin” are available as shown in the picture. Admin manages them [in cofig file](admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset.md#payment-methods-configuration).
+If everything is fine, user goes to selecting the payment method he wants to use. Currently the methods “Bank Transfer”, “Credit Card” and “Bitcoin” are available as shown in the picture. Admin manages them [in cofig file](admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/#payment-methods-configuration).
 
 ![Purchase payment methods](<.gitbook/assets/image (19).png>)
 
@@ -60,7 +60,7 @@ After providing payment method order details will be displayed again and sent to
 
 “Redemption” should be used to convert assets into e.g. Swiss Francs, Bitcoins, Ether, ERC20 Tokens or trigger a physical delivery.
 
-First user needs to select the redeem method as shown below. For each method, a method fee [can be configured](admin-user-guide/portal-configuration/features-configuration/redemption-functionality.md). Additionally, each method can be enabled or disabled by admin.
+First user needs to select the redeem method as shown below. For each method, a method fee [can be configured](admin-user-guide/portal-configuration/features-configuration/redemption-functionality/). Additionally, each method can be enabled or disabled by admin.
 
 ![Redemption methods](.gitbook/assets/18)
 

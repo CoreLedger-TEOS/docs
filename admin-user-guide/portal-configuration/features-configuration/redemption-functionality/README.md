@@ -6,15 +6,19 @@ description: >-
 
 # Redemption functionality
 
+Full configuration of Redemption functionality includes following steps:
+
+1. Configure redemption methods (one method is configured for redeeming one specific asset for receiving fiat money/cryptocurrency/physical asset as a payout) as described below
+2. Prepare template for sending redemption details to users via the email   [template-for-redemption-details.md](template-for-redemption-details.md "mention")
+3. Also, don't forget to configure[ reference code template ](../#reference-code-template)which is used both for purchase reference codes and redemption reference codes
+
 In this section you can define a description which is shown on the first screen of the redeem process
 
 Following redemption methods are currently available: “Bank Transfer”, “Bitcoin”, “ERC20”, “Physical” and “ETH”.
 
-Also, don't forget to configure[ reference code template ](./#reference-code-template)which is used both for purchase reference codes and redemption reference codes.
+:tada: Starting from v0.11 you can define KYC tier which users must have for each redemption method to be able to use it (check below parameter "kycTier"). [Read more about KYC configurations](../kyc-checks.md)
 
-:tada: Starting from v0.11 you can define KYC tier which users must have for each redemption method to be able to use it (check below parameter "kycTier"). [Read more about KYC configurations](kyc-checks.md)
-
-![Selection of payout method](../../../.gitbook/assets/8)
+![Selection of payout method](../../../../.gitbook/assets/8)
 
 Depending on the selected redemption method, the user can provide the bank account details, bitcoin address, ETH address, or delivery address to receive the selected value when doing the redemption.
 
@@ -84,6 +88,6 @@ Depending on the “feesOnTop” parameter the price gets calculated. When set t
 
 When set to false, the user gets the desired amount minus the fees, because fees get subtracted from the desired amount, see Figure 2.
 
-![Figure 1 - Example of redeem process where "feesOnTop" is set to true](../../../.gitbook/assets/9)
+![Figure 1 - Example of redeem process where "feesOnTop" is set to true](../../../../.gitbook/assets/9)
 
-![Figure 2 - Example of redeem process where "feesOnTop" is set to false](../../../.gitbook/assets/10)
+![Figure 2 - Example of redeem process where "feesOnTop" is set to false](../../../../.gitbook/assets/10)

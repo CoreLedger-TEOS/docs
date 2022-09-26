@@ -10,7 +10,7 @@ description: >-
 
 Go to **Configuration management** page to setup WLA name. Scroll down to **Mobile application config** section and provide the name to display
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 The App name is part of the instructions shown during the redeem process when the QR code is presented as shown in the picture below.
 
