@@ -1,7 +1,8 @@
 # TEOS API
 
-{% hint style="info" %}
-We've released a new version - TEOS API v0.7! Check [what's new](changelog/versions/v0.7.md)
+{% hint style="danger" %}
+We've released a new version - TEOS API v0.7! Check [what's new](changelog/v0.7.md).\
+Please, note that support of TEOS API v0.4 will be over on November, 01. Plan the upgrade to v0.5+ to keep your solution working and up to date
 {% endhint %}
 
 {% hint style="warning" %}
