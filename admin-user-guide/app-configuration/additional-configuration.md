@@ -12,7 +12,7 @@ If set to true, users must re-enter two random seed words to prove they wrote do
 
 ## My activity list settings
 
-You have the possibility to initiate transactions in WLA and WLM with the same wallet (check [login-and-wallet-creation.md](login-and-wallet-creation.md "mention")). You have the option not to display in My activity transactions initiated in WLM with the same wallet used in WLA.&#x20;
+You have the possibility to initiate transactions in WLA and WLM with the same wallet (check [login-and-wallet-creation.md](../login-and-wallet-creation.md "mention")). You have the option not to display in My activity transactions initiated in WLM with the same wallet used in WLA.&#x20;
 
 When following parameter is set to false, transactions triggered by WLM will not be listed under “My Activity”.
 
@@ -23,16 +23,4 @@ When following parameter is set to false, transactions triggered by WLM will not
 ```
 
 When all transactions should be shown under “My Activity”, this parameter needs to be set to true
-
-## Supply expiry date
-
-The expiry date of supplies created in the app can be set with the following option:
-
-```
-"supply": {
-"days_before_expired": 10
-},
-```
-
-The set expiry date in this example will be today + 10 days.
 
