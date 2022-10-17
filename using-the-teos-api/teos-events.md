@@ -40,7 +40,7 @@ This chapter provides the list of published events, with their routing keys and 
 
 ### AccountBalanceChanged
 
-Routing Key: **account.balance\_changed**
+Routing Key: **{tenant-id}.account.balance\_changed**
 
 ```
 {
@@ -57,7 +57,7 @@ Routing Key: **account.balance\_changed**
 
 ### AssetChanged
 
-Routing Key: **asset.changed**
+Routing Key: **{tenant-id}.asset.changed**
 
 ```
 {
@@ -70,7 +70,7 @@ Routing Key: **asset.changed**
 
 ### AmendmentChanged
 
-Routing Key: \*\*amendment.changed \*\*
+Routing Key: **{tenant-id}.amendment.changed**
 
 ```
 {
@@ -82,7 +82,7 @@ Routing Key: \*\*amendment.changed \*\*
 
 ### SupplyChanged
 
-Routing Key: **supply.changed**
+Routing Key: **{tenant-id}.supply.changed**
 
 ```
 {
@@ -97,7 +97,7 @@ Routing Key: **supply.changed**
 
 ### ControllerCreated
 
-Routing Key: \*\*controller.created \*\*
+Routing Key: **{tenant-id}**.**controller.created**
 
 ```
 {
@@ -109,7 +109,7 @@ Routing Key: \*\*controller.created \*\*
 
 ### ControllerLimitChanged
 
-Routing Key: \*\*controller.limit\_changed \*\*
+Routing Key: **{tenant-id}.controller.limit\_changed**
 
 ```
 {
@@ -123,7 +123,7 @@ Routing Key: \*\*controller.limit\_changed \*\*
 
 ### ControllerAdminChanged
 
-Routing Key: **controller.admin\_changed**
+Routing Key: **{tenant-id}.controller.admin\_changed**
 
 ```
 {
@@ -137,7 +137,7 @@ Routing Key: **controller.admin\_changed**
 
 ### ControllerBlacklistChanged
 
-Routing Key: **controller.black\_list\_changed**
+Routing Key: **{tenant-id}.controller.black\_list\_changed**
 
 ```
 {
@@ -151,7 +151,7 @@ Routing Key: **controller.black\_list\_changed**
 
 ### TokenContractCreated
 
-Routing Key: \*\*token\_contract.created \*\*
+Routing Key: **{tenant-id}.token\_contract.created**
 
 ```
 {
@@ -169,7 +169,7 @@ Routing Key: \*\*token\_contract.created \*\*
 
 ### NFTContractCreated
 
-Routing Key: **nft\_contract.created**
+Routing Key: **{tenant-id}.nft\_contract.created**
 
 ```
 {
@@ -187,7 +187,7 @@ Routing Key: **nft\_contract.created**
 
 ### AssetTokenized
 
-Routing Key: **asset.tokenized**
+Routing Key: **{tenant-id}.asset.tokenized**
 
 ```
 {
@@ -203,7 +203,7 @@ Routing Key: **asset.tokenized**
 
 ### AddressRegistered
 
-Routing Key: **address.registered**
+Routing Key: **{tenant-id}.address.registered**
 
 ```
 {
@@ -217,7 +217,7 @@ Routing Key: **address.registered**
 
 ### TransactionStateChanged
 
-Routing Key: **transaction.state\_changed**
+Routing Key: **{tenant-id}.transaction.state\_changed**
 
 ```
 {
@@ -233,7 +233,7 @@ Routing Key: **transaction.state\_changed**
 
 ### InvoiceStateChanged
 
-Routing Key: **invoice.state\_changed**
+Routing Key: **{tenant-id}.invoice.state\_changed**
 
 ```
 {
