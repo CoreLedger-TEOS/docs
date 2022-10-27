@@ -1,14 +1,18 @@
+---
+description: Subscribing to events, types of events, receiving events
+---
+
 # TEOS Events
 
-Numerous requests to our API are asynchronous. Results to such calls arrive shortly in forms of events. In this document we define what types of events are produced and how to subscribe to them.
+Numerous requests to our API are asynchronous. Results to such calls arrive shortly in forms of events. Here you can find what types of events are produced and how to subscribe to them.
 
 ## Subscribing to events
 
-TEOS Api distributes events using [RabbitMQ](https://www.rabbitmq.com) message-queueing platform. This chapter describes how one can subscribe to TEOS Events. Some knowledge of RabbitMQ is required.
+TEOS API distributes events using [RabbitMQ](https://www.rabbitmq.com) message-queueing platform. This chapter describes how one can subscribe to TEOS Events. Some knowledge of RabbitMQ is required.
 
 ### Connection details and user credentials
 
-To establish a connection to the RabbbitMQ and to create a channel the following data(examples) is provided by TEOS Api administrator:
+To establish a connection to the RabbbitMQ and to create a channel the following data(examples) is provided by TEOS API administrator:
 
 Host: teos-events.coreledger.net\
 Port: 30000\
@@ -23,7 +27,7 @@ Only queues with server-generated names are allowed which means the queue names 
 
 Event messages are sent to an exchange of type "topic" with a specific name, also provided by the administrator. Each TEOS Event, published to the exchange, has its own specific routing key (see lower) - a list of words, delimited by dots.
 
-### Bindnings
+### Bindings
 
 Queues are bound to the exchange with a routing key. The routing key specifies what types of events will be delivered to the queue. Wildcards are supported:
 

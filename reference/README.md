@@ -14,8 +14,12 @@ Most of the TEOS API calls require authentication header: Bearer token.
 
 To call a specific api version, the version should be provided using `api-version` parameter in query string or `api-version` request header.
 
+{% hint style="danger" %}
+Please, note that TEOS API is case sensitive. Pay attention to the upper/lower-case usage within request data
+{% endhint %}
+
 {% hint style="warning" %}
-Please note that starting from v0.5 the api object referencing using "resource/key" style is **deprecated**
+Please, note that starting from v0.5 the api object referencing using "resource/key" style is **deprecated**
 {% endhint %}
 
 ## End2End Tests

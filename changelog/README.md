@@ -2,7 +2,7 @@
 description: Versioned changes and out-of-cycle changes
 ---
 
-# Changelog
+# 📒 Changelog
 
 {% hint style="danger" %}
 Please, note that support of TEOS API v0.4 will be over on November, 01. Plan the upgrade to v0.5+ to keep your solution working and up to date
@@ -23,7 +23,7 @@ Out-of-cycle changes are changes introduced outside of our normal, versioned rel
 | [0.7](v0.7.md)                      | 29.09.2022      | 01.04.2023      |
 | [0.6](v0.6.md)                      | 06.09.2022      | 06.03.2023      |
 | [0.5](v0.5.md)                      | 07.06.2022      | 07.01.2023      |
-| [0.4](v0.4.md)                      | 01.03.2022      | 01.11.2022      |
+| [0.4](v0.3.md)                      | 01.03.2022      | 01.11.2022      |
 | [0.3](v0.3.md) (not supported)      | 23.11.2021      | 23.07.2022      |
 | [0.2 ](v0.3.md)(not supported)      | 02.09.2021      | 23.05.2022      |
 | [0.1](v0.3.md#v0.1) (not supported) | 05.06.2021      | 02.02.2022      |
