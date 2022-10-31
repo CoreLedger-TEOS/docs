@@ -37,16 +37,19 @@ Using these variables, you will operate with the order specific data.
 
 #### Bank details&#x20;
 
-Available only for redemption by bank transfer.&#x20;
+Available only for redemption by bank transfer. If some of the optional properties values will be empty, nothing will be added to PDF
 
-| \<bank.name>         | Beneficiary's bank name         |
-| -------------------- | ------------------------------- |
-| \<bank.country>      | Beneficiary’s bank country      |
-| \<bank.city>         | Beneficiary’s bank city         |
-| \<bank.addressline>  | Beneficiary’s bank address      |
-| \<bank.zipcode>      | Beneficiary’s bank zip code     |
-| \<bank.iban>         | Beneficiary 's account          |
-| \<bank.swift>        | Beneficiary 's bank Swift code  |
+| \<bank.name>                                                                                                                                                                                                                                                                               | Beneficiary's bank name                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| \<bank.country>                                                                                                                                                                                                                                                                            | Beneficiary’s bank country                                    |
+| \<bank.stateOrRegion> (available from v0.14)                                                                                                                                                                                                                                               | Beneficiary’s bank state or region                            |
+| \<bank.city>                                                                                                                                                                                                                                                                               | Beneficiary’s bank city                                       |
+| \<bank.addressline>                                                                                                                                                                                                                                                                        | Beneficiary’s bank address                                    |
+| \<bank.zipcode>                                                                                                                                                                                                                                                                            | Beneficiary’s bank zip code                                   |
+| \<bank.iban>                                                                                                                                                                                                                                                                               | Beneficiary 's account                                        |
+| \<bank.swift> (available from v0.14)                                                                                                                                                                                                                                                       | Beneficiary 's bank Swift code                                |
+| \<bank.bic>                                                                                                                                                                                                                                                                                | Beneficiary 's bank BIC code (local bank identification code) |
+| <p>Available from v0.14:<br>&#x3C;intermediaryBank.name>&#x3C;intermediaryBank.country>&#x3C;intermediaryBank.city>&#x3C;intermediaryBank.stateOrRegion> &#x3C;intermediaryBank.addressline> &#x3C;intermediaryBank.zipcode> &#x3C;intermediaryBank.iban>&#x3C;intermediaryBank.swift></p> | Intermediary (correspondent) bank details                     |
 
 #### Beneficiary details&#x20;
 
