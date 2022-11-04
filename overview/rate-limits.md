@@ -8,7 +8,7 @@ Real-time rate limit usage statistics are described in headers that are included
 
 ### Platform Rate Limits <a href="#platform-rate-limits" id="platform-rate-limits"></a>
 
-TEOS API requests made with an [API key](../authentication.md#api-key) or [user access token](../authentication.md#user-access-token) are counted against that tenant’s rate limit. A tenant’s call count is the number of calls it can make during a rolling twenty-four-hour window and is defined as follows:
+TEOS API requests made with an [API key](../using-the-teos-api/authentication.md#api-key) or [user access token](../using-the-teos-api/authentication.md#user-access-token) are counted against that tenant’s rate limit. A tenant’s call count is the number of calls it can make during a rolling twenty-four-hour window and is defined as follows:
 
 `Calls within twenty-four hours = 10000`
 

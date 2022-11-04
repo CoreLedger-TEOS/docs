@@ -6,7 +6,7 @@ description: >-
 
 # Transaction creation and submission
 
-Starting from [v0.8](../changelog/v0.8.md) TEOS consumers can submit signed transactions using TEOS API. Each transaction mentioned in [#transaction-types-available-in-teos-platform](../concepts/transaction.md#transaction-types-available-in-teos-platform "mention")requires the same set of actions described in the diagrams below with the example of an asset creation process.
+Starting from [v0.8](../changelog/v0.8.md) TEOS consumers can submit signed transactions using TEOS API. Each transaction mentioned in [#transaction-types-available-in-teos-platform](../using-the-teos-api/concepts/transaction.md#transaction-types-available-in-teos-platform "mention")requires the same set of actions described in the diagrams below with the example of an asset creation process.
 
 ### Flow with API key
 

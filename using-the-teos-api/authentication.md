@@ -6,7 +6,7 @@ TEOS API uses two types of access tokens: api key for most of cases and user acc
 
 is a long-lived access token, provided by CoreLedger technical team. Such token is valid for a year and can be acquired by tenant administrators only. These tokens can be invalidated, if necessary, under certain conditions. Most of the TEOS API functionality can be used with api key only. If some endpoint needs user token for authorization, swagger documentation will clearly state it (like in the example below).
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Example of the functionality not supported with api key</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Example of the functionality not supported with api key</p></figcaption></figure>
 
 ### User access token
 

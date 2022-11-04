@@ -1,4 +1,8 @@
-# Reference
+# API Reference
+
+{% hint style="info" %}
+Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept and [authentication.md](../using-the-teos-api/authentication.md "mention") to start trying out TEOS API
+{% endhint %}
 
 ## TEOS API Root Nodes
 
@@ -6,7 +10,7 @@
 | ------------ | ------------------------------------------------ |
 | Assets       | CRUD and bound functions and actions on Assets.  |
 | Wallets      | CRUD and bound functions and actions on Wallets. |
-| Transactions | Transaction information (read only)              |
+| Transactions | Transaction information                          |
 
 ## Common request parameters
 
@@ -24,7 +28,7 @@ Please, note that starting from v0.5 the api object referencing using "resource/
 
 ## End2End Tests
 
-Test scripts, made for [postman](https://www.postman.com) can be found in [TEOS API Github Repository](https://github.com/CoreLedger-TEOS/API).
+Test scripts, made for [postman](https://www.postman.com) can be found in [TEOS API Github Repository](https://github.com/CoreLedger-TEOS/API). Contact CoreLedger support if you don't have access to it.
 
 ## Asynchronous processing of OData Actions and writing verbs
 

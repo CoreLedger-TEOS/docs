@@ -21,5 +21,5 @@ Warp search results are the identified warps which meet given search criteria.
 
 Found warps can be different by amount of offered and desired assets and exchange rate for trading them.
 
-TEOS user can select the warp matching his goals the most and run warp execution. Before executing the selected warp TEOS will check that user has enough amount of sparks of offered asset to pay. [Learn how to implement it with TEOS API](../using-the-teos-api/warp-search.md)
+TEOS user can select the warp matching his goals the most and run warp execution. Before executing the selected warp TEOS will check that user has enough amount of sparks of offered asset to pay. [Learn how to implement it with TEOS API](../../overview/warp-search.md)
 

@@ -2,7 +2,7 @@
 
 Requests made to our APIs can result in several different error responses. The following document describes the recovery tactics and provides a list of error values with a map to the most common recovery tactic to use.
 
-## Error Responses <a href="receiving-errorcodes" id="receiving-errorcodes"></a>
+## Error Responses <a href="#receiving-errorcodes" id="receiving-errorcodes"></a>
 
 TEOS API is using HTTP return codes as a highest level of response codes.
 
@@ -80,8 +80,8 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | 400         | [22000](handling-errors.md#22000) | [2013](handling-errors.md#22000-2013) | Signer address must be specified                                                                                                                             |
 | 400         | [22000](handling-errors.md#22000) | [2014](handling-errors.md#22000-2014) | Input amount must be a positive integer                                                                                                                      |
 | 400         | [22000](handling-errors.md#22000) | [2015](handling-errors.md#22000-2015) | Array of supply ids must contain at least one supply id                                                                                                      |
-| 400         | [22000](handling-errors.md#22000) | [2016](handling-errors.md#22000-2016) | Array of target unique asset ids must not be empty                                                                                                           
-|
+| 400         | [22000](handling-errors.md#22000) | [2016](handling-errors.md#22000-2016) | Array of target unique asset ids must not be empty                                                                                                           |
+|             |                                   |                                       |                                                                                                                                                              |
 | 400         | [22000](handling-errors.md#22000) | [2017](handling-errors.md#22000-2017) | User can delete only his own data                                                                                                                            |
 | 400         | [23000](handling-errors.md#23000) |                                       | \<Sdk error code>:\<Sdk error message>                                                                                                                       |
 
@@ -185,21 +185,21 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 21000-1008
 
-|             |                                                                                                                  |
-| ----------- | ---------------------------------------------------------------------------------------------------------------- |
-| Message     | the source asset with id  '{sourceUniqueAssetId}' is already linked to the asset with id '{targetUniqueAssetId}' |
-| Description | it is not possible to link an already liked asset                                                                |
-| What to do  | check that the targetUniqueAssetId belongs to an asset that is not yet linked                                    |
-| Arguments   | <p><code>sourceUniqueAssetId</code></p><p><code>targetUniqueAssetId</code></p>                                   |
+|             |                                                                                                                 |
+| ----------- | --------------------------------------------------------------------------------------------------------------- |
+| Message     | the source asset with id '{sourceUniqueAssetId}' is already linked to the asset with id '{targetUniqueAssetId}' |
+| Description | it is not possible to link an already liked asset                                                               |
+| What to do  | check that the targetUniqueAssetId belongs to an asset that is not yet linked                                   |
+| Arguments   | <p><code>sourceUniqueAssetId</code></p><p><code>targetUniqueAssetId</code></p>                                  |
 
 ## 21000-1009
 
-|             |                                                                                                              |
-| ----------- | ------------------------------------------------------------------------------------------------------------ |
-| Message     | the source asset with id  '{sourceUniqueAssetId}' is not linked to the asset with id '{targetUniqueAssetId}' |
-| Description | it is not possible to unlink assets which are not linked                                                     |
-| What to do  | check that the targetUniqueAssetId of a linked asset is used                                                 |
-| Arguments   | <p><code>sourceUniqueAssetId</code></p><p><code>targetUniqueAssetId</code></p>                               |
+|             |                                                                                                             |
+| ----------- | ----------------------------------------------------------------------------------------------------------- |
+| Message     | the source asset with id '{sourceUniqueAssetId}' is not linked to the asset with id '{targetUniqueAssetId}' |
+| Description | it is not possible to unlink assets which are not linked                                                    |
+| What to do  | check that the targetUniqueAssetId of a linked asset is used                                                |
+| Arguments   | <p><code>sourceUniqueAssetId</code></p><p><code>targetUniqueAssetId</code></p>                              |
 
 ## 22000
 
@@ -332,20 +332,20 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ## 22000-2016
 
-|             |                                                                        |
-| ----------- | ---------------------------------------------------------------------- |
-| Message     | Array of target unique asset ids must not be empty                |
+|             |                                                                             |
+| ----------- | --------------------------------------------------------------------------- |
+| Message     | Array of target unique asset ids must not be empty                          |
 | Description | The `TargetAssetIds` property must be a non-empty array                     |
 | What to do  | Provide a correct value (non-empty array) for the `TargetAssetIds` property |
 
 ## 22000-2017
 
-|             |                                                                        |
-| ----------- | ---------------------------------------------------------------------- |
-| Message     | User can delete only his own data. Calling user:{callingUser} User to delete:{userToDelete}         |
-| Description | The user id of currently logged-in user is different than the id, provided as paremeter for deletion|
-| What to do  | Provide the userId as parameter same as the current user id                                         |
-| Arguments   | <p><code>callingUser</code></p><p><code>userToDelete</code></p>                                     |
+|             |                                                                                                      |
+| ----------- | ---------------------------------------------------------------------------------------------------- |
+| Message     | User can delete only his own data. Calling user:{callingUser} User to delete:{userToDelete}          |
+| Description | The user id of currently logged-in user is different than the id, provided as paremeter for deletion |
+| What to do  | Provide the userId as parameter same as the current user id                                          |
+| Arguments   | <p><code>callingUser</code></p><p><code>userToDelete</code></p>                                      |
 
 ## 23000
 
@@ -358,13 +358,13 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 ### Error Codes
 
-| Code or Type   | Name                 | What To Do                                                                                                                                                                                                                       |
-| -------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OAuthException |                      | <p>If no subcode is present, the login status or access token has expired, been revoked, or is otherwise invalid. <a href="../authentication.md">Get a new access token</a>.</p><p>If a subcode is present, see the subcode.</p> |
-| 100500?        | Invalid Access Token | Access token has expired, been revoked, or is otherwise invalid. [Handle expired access tokens](../authentication.md).                                                                                                           |
-|                |                      |                                                                                                                                                                                                                                  |
+| Code or Type   | Name                 | What To Do                                                                                                                                                                                                                                          |
+| -------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OAuthException |                      | <p>If no subcode is present, the login status or access token has expired, been revoked, or is otherwise invalid. <a href="../using-the-teos-api/authentication.md">Get a new access token</a>.</p><p>If a subcode is present, see the subcode.</p> |
+| 100500?        | Invalid Access Token | Access token has expired, been revoked, or is otherwise invalid. [Handle expired access tokens](../using-the-teos-api/authentication.md).                                                                                                           |
+|                |                      |                                                                                                                                                                                                                                                     |
 
-### Validation Error Subcodes <a href="errorsubcodes" id="errorsubcodes"></a>
+### Validation Error Subcodes <a href="#errorsubcodes" id="errorsubcodes"></a>
 
 | Code    | Name                                     | What To Do                                                                                                                                   |
 | ------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -374,12 +374,12 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 |         |                                          |                                                                                                                                              |
 | 100500? | Name is missing in the new asset request | Add new asset name to the request and try again                                                                                              |
 
-### Authentication Error Subcodes <a href="errorsubcodes" id="errorsubcodes"></a>
+### Authentication Error Subcodes <a href="#errorsubcodes" id="errorsubcodes"></a>
 
-| Code | Name                     | What To Do                                          |
-| ---- | ------------------------ | --------------------------------------------------- |
-|      | Access token has expired | [Get a new access token](../authentication.md).     |
-|      | Unconfirmed User         | Administrator of the tenant should confirm the user |
+| Code | Name                     | What To Do                                                         |
+| ---- | ------------------------ | ------------------------------------------------------------------ |
+|      | Access token has expired | [Get a new access token](../using-the-teos-api/authentication.md). |
+|      | Unconfirmed User         | Administrator of the tenant should confirm the user                |
 
 ### Rate Limiting Error Codes
 

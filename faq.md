@@ -2,7 +2,7 @@
 
 ## How do I get data from blockchain using the TEOS API?
 
-TEOS middleware process the blockchain transactions constantly and caches relevant data in convenient format. You will need an access token, which is obtained via Auth server, in order to make TEOS API calls from your app. TEOS API requests go through a host URL, most usually `teosapi.coreledger.net`, and the ID of the object you are trying to access.
+TEOS blockchain infrastructure processes the blockchain transactions constantly and caches relevant data in convenient format. You will need an access token, which is obtained via Auth server, in order to make TEOS API calls from your app. TEOS API requests go through a host URL, most usually `teosapi.coreledger.net`, and the ID of the object you are trying to access.
 
 You can read any object by performing a GET operation on the relevant endpoint. You can choose the fields that you want returned with the `$select` query parameter. You can also order certain data sets chronologically or by other fields using `$orderby`query parameter.
 

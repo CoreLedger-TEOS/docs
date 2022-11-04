@@ -1,33 +1,22 @@
 ---
-description: WLP version 0.13 (available from September, 22)
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
 
-# 👋 Welcome!
+# 👋 Welcome to TEOS API
 
-{% hint style="info" %}
-New version 0.13 is already available. Check [what's new](wlp-versions-and-changelog/version-0.13.md)!
+{% hint style="danger" %}
+Please, note that support TEOS API v0.4 is not supported anymore. Plan the upgrade to v0.5+ to keep your solution working and up to date
 {% endhint %}
 
-**White Label Portal (WLP)** is a customizable web application, which represents the bridge between fiat money or physical goods and digital assets within TEOS platform.&#x20;
+TEOS API is our core platform component designed for enterprises. It provides rich function set, giving a simple and quick access to all of the TEOS platform’s functionality, enabling customers to build custom applications on top of CoreLedger's blockchain infrastructure. Real-time events, intuitive functions and optional CoreLedger authentication make the start with the blockchain much easier and faster.
 
-{% hint style="info" %}
-**TEOS platform** is CoreLedger's main product, it allows companies to integrate blockchain technology into their business processes. [Learn more](https://coreledger.net/teos/) about it and [contact us](https://coreledger.net/contact/)
-{% endhint %}
+If you are only starting your way with the TEOS API, we recommend that you dive into these topics first:
 
-While working with WLP, since it is the part of TEOS platform, you may also need to check the docs of other TEOS platform components:
+| [**Overview**](using-the-teos-api/)                                                 | ****[**Authentication**](using-the-teos-api/authentication.md)****                       |
+| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Learn how the TEOS API is structured, what access tokens are, and how versions work | Learn how to get access to the API                                                       |
+| [**Using the TEOS API**](using-the-teos-api/)                                       | ****[**API Reference**](reference/)****                                                  |
+| Learn which common rules you should care about                                      | Learn how to read our reference documents so you can easily find what you're looking for |
 
-* [White Label Management Tool](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/tUL13xBnNCyueYnmUZV7/) (WLM) - due to strong dependencies of the WLP to WLM, its highly recommended to check WLM docs upfront and start by using WLM and TX.Mobile
-* [White Label Mobile App (WLA)](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/7Xg7iannH70Bvo1bfqMb/)
-* [TEOS API](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)
-
-Please be aware, that figures, assets and names used in the docs might be different from your customized application.&#x20;
-
-### Support
-
-If you need support, please, contact us: support@coreledger.net
-
-#### How to report an issue?
-
-If you find an issue, please, report it in our github repository by clicking github icon in the top right corner
+Don't forget to check our website if you want to know more about [**CoreLedger**](https://coreledger.net/) and what we offer!
