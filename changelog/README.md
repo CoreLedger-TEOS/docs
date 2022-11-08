@@ -5,7 +5,7 @@ description: Versioned changes and out-of-cycle changes, list of TEOS API versio
 # 📒 Changelog
 
 {% hint style="danger" %}
-Please, note that support of TEOS API v0.4 will be over on November, 01. Plan the upgrade to v0.5+ to keep your solution working and up to date
+Please, note that support of TEOS API v0.4 is not supported anymore. Plan the upgrade to v0.5+ to keep your solution working and up to date
 {% endhint %}
 
 {% hint style="info" %}
