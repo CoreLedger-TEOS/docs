@@ -16,6 +16,7 @@ Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept to 
 
 | Version                        | Date Introduced | Supported until |
 | ------------------------------ | --------------- | --------------- |
+| [0.8](v0.8.md)                 | coming soon     |                 |
 | [0.7](v0.7.md)                 | 29.09.2022      | 01.04.2023      |
 | [0.6](v0.6.md)                 | 06.09.2022      | 06.03.2023      |
 | [0.5](v0.5.md)                 | 07.06.2022      | 07.01.2023      |
