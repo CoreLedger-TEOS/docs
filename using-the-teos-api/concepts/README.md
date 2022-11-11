@@ -22,6 +22,8 @@ You can check the glossary below and extended description of main TEOS concepts 
 
 **CL user account /CL account/** – account in CoreLedger Identity Services representing set of user’s properties required for TEOS platform, all tenant admins and end users who login in TEOS platform components must have CL account
 
+TEOS Authentication service
+
 **Device** – artificial logical entity for presenting authorized holder of wallets’ private keys, device can keep private keys of more than 1 wallet
 
 **Provider** – artificial logical entity for presenting source oftransactions, authorized to push transactions to connected devices

@@ -26,7 +26,7 @@ Most of the TEOS API functionality can be used with API key. If some endpoint ne
 
 ### User token generation
 
-**User token** is short-lived and is valid for 48 hours (subject of changes, new validity period can be set on customer request). It is issued, when a user signs into an application, integrated with the TEOS identity server. To integrate an app with TEOS identity server, please, contact your CoreLedger manager or send a service request to [support@coreledger.net](mailto:support@coreledger.net).
+**User token** is short-lived and is valid for 48 hours (subject of changes, new validity period can be set on customer request). It is issued, when a user signs into an application, integrated with the TEOS Authentication service. To integrate an app with TEOS Authentication service, please, contact your CoreLedger manager or send a service request to [support@coreledger.net](mailto:support@coreledger.net).
 
 ## Token scopes and claims
 

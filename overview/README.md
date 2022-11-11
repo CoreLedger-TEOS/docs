@@ -18,7 +18,7 @@ curl -X 'GET' \
 
 The TEOS API has multiple versions. You can read more about versioning in [versioning.md](../using-the-teos-api/versioning.md "mention"), but here we'll explain how you make a call to a specific version.
 
-It's really simple — just use build your query with the endpoint containing necessary version. For example, here's a call to version 0.8:
+It's really simple — just build your query with the endpoint containing necessary version. For example, here's a call to version 0.8:
 
 ```
 curl -X 'GET' \
