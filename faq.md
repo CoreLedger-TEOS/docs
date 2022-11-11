@@ -6,7 +6,7 @@ TEOS blockchain infrastructure processes the blockchain transactions constantly 
 
 You can read any object by performing a GET operation on the relevant endpoint. You can choose the fields that you want returned with the `$select` query parameter. You can also order certain data sets chronologically or by other fields using `$orderby`query parameter.
 
-For more information, see the [TEOS API Overview](overview/), which documents the basics of TEOS API terminology and structure, and the [Using the Graph API documentation](using-the-teos-api/), which contains more details about the various operations you can perform with the Graph API.
+For more information, see the [TEOS API Overview](overview/), which documents the basics of TEOS API terminology and structure, and the [Using the TEOS API documentation](using-the-teos-api/), which contains more details about the various operations you can perform with the TEOS API.
 
 ## Have to write to blockchain using the TEOS API?
 
