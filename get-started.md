@@ -4,7 +4,7 @@ description: Steps to get started, info to check while expecting the tenant
 
 # Get started
 
-We're working on introducing fully automated flow for setting up a new tenant, which will need a lot of configuration questions to be answered right at the start. Until it's not in place yet, we're happy that we can offer you the care and support of one of our CL managers who help customers to find right answers.
+We're working on introducing fully automated flow for setting up a new tenant, which will need a lot of configuration questions to be answered right at the start. Until it's in place, we're happy to offer you the care and support of one of our CoreLedger managers who help customers to find right answers.
 
 In order to start building your apps with TEOS API you need a few steps to be taken:
 

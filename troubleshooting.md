@@ -6,11 +6,11 @@ description: How to report an issue, how to request urgent help
 
 ### I get 503 Service unavailable error on production
 
-Hope you're subscribed to our [Telegram channel ](https://t.me/notifyteos)where we notify about planned and unplanned outages on production environment.
+All planned and unplanned outages on production environment are communicated via our [Telegram channel](https://t.me/notifyteos). We recommend you subscribe to be notified about all status updates.
 
 ### I get 503 Service unavailable error on development environment
 
-Hope you're subscribed to our [Teams channel ](https://teams.microsoft.com/l/team/19%3a7c74fdd4eda14673832c20b8f43e28f9%40thread.tacv2/conversations?groupId=77776e97-6a15-4726-b116-0331e989db66\&tenantId=aca70c4c-6fac-413e-9e55-3ae922e34bf8)where we notify about planned and unplanned outages on development environment.
+All planned and unplanned outages on production environment are communicated via our [Teams channel](https://teams.microsoft.com/l/team/19%3a7c74fdd4eda14673832c20b8f43e28f9%40thread.tacv2/conversations?groupId=77776e97-6a15-4726-b116-0331e989db66\&tenantId=aca70c4c-6fac-413e-9e55-3ae922e34bf8). We recommend you subscribe to be notified about all status updates.
 
 ### I get an authorization error when calling any method of TEOS API with API key
 
