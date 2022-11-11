@@ -20,9 +20,9 @@ You can check the glossary below and extended description of main TEOS concepts 
 
 **TEOS user** – TEOS API consumer, tenant admin or end user interacting with TEOS platform via platform components provided by CoreLedger
 
-**CL user account /CL account/** – account in CoreLedger Identity Services representing set of user’s properties required for TEOS platform, all tenant admins and end users who login in TEOS platform components must have CL account
+**TEOS Authentication service** - one of the components of the TEOS platform, providing functionality for authentication and authorization of TEOS users. It's an optional service for customer's end users (depending on the customer solution architecture)
 
-TEOS Authentication service
+**TEOS user account /TEOS account/** – account in TEOS Authentication service representing set of user’s properties required for TEOS platform, all tenant admins and end users who login in TEOS platform components must have TEOS user account
 
 **Device** – artificial logical entity for presenting authorized holder of wallets’ private keys, device can keep private keys of more than 1 wallet
 
