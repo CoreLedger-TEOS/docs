@@ -85,7 +85,7 @@ Examples of breaking changes:&#x20;
 
 * Adding a required field to a request body
 * Removing existing endpoint
-* Changing the case in the request because TEOS API is case-sensitive
+* Changing the case in the request or response because TEOS API is case-sensitive
 * Removing fields from response body, request body or headers
 * Renaming a field in a request or response
 * Changing a field from optional to required in a request body
