@@ -22,6 +22,6 @@ Thus, the following rules need to be applied when setting up a custom HTML for W
 * avoid inline styles - to keep things clear and organized
 * take a look at [https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) if you're struggling with styling some elements
 * avoid importing 3rd party libraries and packages (or try keeping it to a minimum)
-* 3rd party content doesn't follow any rules and might interfer with e.g. WLPs own styles
+* 3rd party content doesn't follow any rules and might interfere with e.g. WLPs own styles
 * don't use a body tag, it will get removed automatically
-* consider web fundamentals [https://developers.google.com/web/fundamentals](https://developers.google.com/web/fundamentals\))
+* consider [web fundamentals](https://developers.google.com/web/fundamentals)
