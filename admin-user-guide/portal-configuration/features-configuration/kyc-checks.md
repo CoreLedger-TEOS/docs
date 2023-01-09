@@ -145,6 +145,6 @@ In our example Shop and Redemption menu items are always displayed, but all asse
 
 All configurations are reflected in the page representing description of KYC process for your end-users
 
-![Page with description of KYC process](<../../../.gitbook/assets/image (6).png>)
+![Page with description of KYC process](<../../../.gitbook/assets/image (6) (1).png>)
 
 #### Step 4. Don't forget to [switch on KYC checks](./) for your portal after configuration is finished

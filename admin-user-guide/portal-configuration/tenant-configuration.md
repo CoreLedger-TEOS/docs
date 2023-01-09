@@ -10,7 +10,7 @@ description: >-
 
 Go to **Configuration management** page to setup WLA name. Scroll down to **Mobile application config** section and provide the name to display
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 The App name is part of the instructions shown during the redeem process when the QR code is presented as shown in the picture below.
 
@@ -18,30 +18,26 @@ The App name is part of the instructions shown during the redeem process when th
 
 ### Currency
 
-Go to **Advanced** **Configuration Management** page to setup currency
+Go to **Configuration Management** page and scroll down to **Languages and currencies** section to setup portal currency.
 
-The default currency can be set in the “Advanced Configuration Management” editor and is shown in various places in the WLP.&#x20;
+Pick desired currency from the list. This currency will be used for displaying the prices to users, for invoice generation and as payment provider integration parameter.
 
-"currency": "EUR",
+All changes are saved automatically.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>USD is defined as portal currency</p></figcaption></figure>
 
 ### Portal languages
 
-Go to **Advanced** **Configuration Management** page to setup languages
+Go to **Configuration Management** page to setup languages. Scroll down to **Languages and currencies** section to setup portal languages.
 
-List of **available languages** for the portal can be set in the "Configuration management". You can define which languages will be available for your users from this list:&#x20;
+You can define which languages will be available for your users from this list:&#x20;
 
 * English
 * German
 * Spanish
 
-Available languages are set with the help of section "availableLanguages".&#x20;
+Default language is used for the situations when custom texts don't have translations into user language. If only one language is selected as available language, default language is defined automatically.
 
-Default language is used for the situations when custom texts don't have translations for the language selected by user. It can be set with the help of section "defaultLanguage"
+All changes are saved automatically.
 
-```
- "defaultLanguage": "en",
-  "availableLanguages": [
-    "en",
-    "es",
-    "de"]
-```
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>English is defined as the only available language for the portal</p></figcaption></figure>

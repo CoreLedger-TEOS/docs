@@ -16,7 +16,7 @@ In this section you can define a description which is shown on the first screen 
 
 Following redemption methods are currently available: “Bank Transfer”, “Bitcoin”, “ERC20”, “Physical” and “ETH”.
 
-:tada: Starting from v0.11 you can define KYC tier which users must have for each redemption method to be able to use it (check below parameter "kycTier"). [Read more about KYC configurations](../kyc-checks.md)
+You can define KYC tier which users must have for each redemption method to be able to use it (check below parameter "kycTier"). [Read more about KYC configurations](../kyc-checks.md)
 
 ![Selection of payout method](../../../../.gitbook/assets/8)
 
@@ -76,8 +76,7 @@ Finally, the admin needs to define the redemption asset, which the user needs to
 },
 "userPays": {
 "targetAddress": "0x46f4f3fa75df1b2112e3a7303895bf9dacd4bba9",
-"assetId": "908481019865183022595504",
-"ledgerId": "1",
+"assetId": "0x46f4f3fa75df1b2112e3a7303895bf9dacd4bba9",
 "name": "Carbon",
 "uom": "kg"
 }

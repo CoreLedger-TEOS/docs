@@ -18,7 +18,7 @@ Users can't have several KYC cases opened
 
 ![Notification to pass KYC checks](<.gitbook/assets/image (12).png>)
 
-![Page with description of KYC process](<.gitbook/assets/image (6).png>)
+![Page with description of KYC process](<.gitbook/assets/image (6) (1).png>)
 
 After clicking "Get tier N" user is redirected to KYC provider's page, verification process takes place on the provider's page.
 
@@ -30,7 +30,7 @@ Under the section “Shop” all assets configured in the “Config Management�
 
 Clicking on “More details” opens the URL set in the config file. Clicking on “Add to cart” allows to add some quantities of this asset to user's shopping cart as shown below.
 
-![Shop section](<.gitbook/assets/image (7).png>)
+![Shop section](<.gitbook/assets/image (7) (1).png>)
 
 By clicking on the shopping cart on top, the cart opens and shows all items. User can change the quantity of the selected items or remove them.
 
@@ -40,19 +40,19 @@ Click on “Checkout” brings user to the collection method selection screen.&#
 
 As next step user can select how he wants to receive the purchased items. The list of collection methods [can be configured](admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/#collection-methods-configuration) in the “Advanced Configuration Management” editor by admin.
 
-When selecting method “Your own wallet (signable)”, a QR code dialog opens. User can scan the QR code with his WLA to check if the correct wallet is used. This step is optional and can be skipped.
+When selecting methods of type “Account wallet” or "Your existing wallet (signable)", a QR code dialog opens. User can scan the QR code with his WLA to check if the correct wallet is used. This step is optional and can be skipped.
 
-![Collection method selection screen](<.gitbook/assets/image (14).png>)
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Collection method selection</p></figcaption></figure>
 
 After selecting the collection method, further requested details must be provided as shown in the picture below.
 
-![Order details](<.gitbook/assets/image (15).png>)
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>Define invoice details</p></figcaption></figure>
 
 The details of the order are shown for confirmation after clicking the “Continue” button.
 
 If everything is fine, user goes to selecting the payment method he wants to use. Currently the methods “Bank Transfer”, “Credit Card” and “Bitcoin” are available as shown in the picture. Admin manages them [in cofig file](admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/#payment-methods-configuration).
 
-![Purchase payment methods](<.gitbook/assets/image (19).png>)
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Payment method selections</p></figcaption></figure>
 
 After providing payment method order details will be displayed again and sent to users email.
 
@@ -62,21 +62,31 @@ After providing payment method order details will be displayed again and sent to
 
 First user needs to select the redeem method as shown below. For each method, a method fee [can be configured](admin-user-guide/portal-configuration/features-configuration/redemption-functionality/). Additionally, each method can be enabled or disabled by admin.
 
-![Redemption methods](.gitbook/assets/18)
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>Select redemption method</p></figcaption></figure>
 
-Enter the requested redeem method details and submit the payot.
+Enter the requested redemption method details and submit the payout request.
 
-![Redemption details](.gitbook/assets/19)
+<div>
 
-A summary of the payout details is presented and can be confirmed after accepting the terms and conditions as shown in the picture.
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Define the redeemed amount</p></figcaption></figure>
 
-![Figure 19 - Redeem method Summary](.gitbook/assets/20)
+ 
+
+<figure><img src=".gitbook/assets/Screenshot 2023-01-09 132437.png" alt=""><figcaption><p>Define the payout details (depends on the redemption method)</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Screenshot 2023-01-09 132719.png" alt=""><figcaption><p>Define the beneficiary details</p></figcaption></figure>
+
+</div>
+
+A summary of the payout details is presented and can be confirmed after accepting the terms and conditions.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Redemption details confirmation</p></figcaption></figure>
 
 QR code should be scanned with WLA and the transaction must be confirmed. The sparks will be transferred from the account to the configured address and the respective amount.
 
 ![QR code for scanning by WLA and triggering transaction for transferring asset user wants to redeem](<.gitbook/assets/image (11).png>)
-
-
 
 ## Account
 

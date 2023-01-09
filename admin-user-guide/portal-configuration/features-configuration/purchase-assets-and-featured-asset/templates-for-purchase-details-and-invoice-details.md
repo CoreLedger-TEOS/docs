@@ -39,7 +39,7 @@ Using these variables, you will operate with the order specific data.
 *   You can use the table for listing the purchased items. The template document may have multiple tables. To find the appropriate one to list the purchased items, please set the description of the table to “Purchased Items”:\
 
 
-    <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>How to create the table for listing the purchased items</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>How to create the table for listing the purchased items</p></figcaption></figure>
 
 
 
@@ -56,7 +56,7 @@ Using these variables, you will operate with the order specific data.
 | \<unit.price>         | The price for a single unit of the asset               |
 | \<units.total.price>  | <p>The total price for all units of the asset <br></p> |
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Example of the table</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Example of the table</p></figcaption></figure>
 
 ### Bank Transfer details&#x20;
 

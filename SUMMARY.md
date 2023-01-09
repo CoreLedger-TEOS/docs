@@ -19,6 +19,7 @@
   * [Admin functionality](admin-user-guide/admin-functionality.md)
 * [How your users interact with the portal](how-your-users-interact-with-the-portal.md)
 * [WLP versions and changelog](wlp-versions-and-changelog/README.md)
+  * [Version 0.14](wlp-versions-and-changelog/version-0.14.md)
   * [Version 0.13](wlp-versions-and-changelog/version-0.13.md)
   * [Version 0.12](wlp-versions-and-changelog/version-0.12.md)
   * [Earlier versions](wlp-versions-and-changelog/earlier-versions.md)

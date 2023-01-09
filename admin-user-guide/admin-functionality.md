@@ -26,6 +26,10 @@ Step 3. If tier upgrade was approved for user, user can start using functionalit
 
 As the administrator you have access to the “Order Management” section of WLP. This section shows you a list of orders made by users. By clicking onto a row, the details of the selected purchase open. You also have the possibility to manually update the status of the purchase transaction.
 
+By clicking "Export" you can download all purchases with all data stored in the portal in XLSX format. You can use it for further automation of your business processes.
+
 ## Redemption management
 
 As the administrator you have access to the “Redemption Management” section of WLP. This section shows you a list of redemptions made by the users. By clicking onto a row, the details of the selected redemption request open. You also have the possibility to manually update the status of the redemption transaction.
+
+By clicking "Export" you can download all redemptions with all data stored in the portal in XLSX format. You can use it for further automation of your business processes.

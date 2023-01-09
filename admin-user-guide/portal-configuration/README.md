@@ -15,4 +15,4 @@ Step 5. Switch features on for your end-users. Let the portal running by TEOS on
 In subpages you can find the description of how your portal can be configured. WLP configurations can be adjusted by several means (depending on the setting you want to configure):\
 1\. "Configuration management" section where you can find nice UI for managing admin users, WLA name and switching on/off portal features\
 2\. "Advanced config management" section with json editor. Most of the settings are configured there. Every change in the editor is reflected in the WLP immediately after refreshing the page. In some cases, the browser cache must be cleared before the changes are present. We're working on moving all configurations to "Configuration management" section\
-3\. CSS file saved in the special storage created specifically for your tenant. It is used for colors management
+3\. Blob storage created specifically for your tenant and containing files with asset pictures, logo, etc and colors file which is used for colors management
