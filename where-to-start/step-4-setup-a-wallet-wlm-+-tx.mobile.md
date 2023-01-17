@@ -28,4 +28,4 @@ After you scan QR code with TX.Mobile, WLM will be connected to your wallet as t
 
 ![Figure 13: List of wallets in WLM](<../.gitbook/assets/image (15).png>)
 
-Also you can [Restore your account data from another device](../user-guide/wallet-management-in-wlm-+-tx.mobile/restore-data-from-your-another-device-tx.mobile.md) or [Add wallets from another user's account](../user-guide/wallet-management-in-wlm-+-tx.mobile/add-external-wallets-tx.mobile.md)
+Also you can [Restore your account data from another device](../user-guide/wallet-management-in-wlm-+-tx.mobile/restore-data-from-your-another-device-tx.mobile.md) or [Add external wallets](../user-guide/wallet-management-in-wlm-+-tx.mobile/add-external-wallets-tx.mobile.md)
