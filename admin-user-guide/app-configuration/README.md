@@ -2,7 +2,7 @@
 
 ## Number of seed words
 
-At the very beginning of WLA setup (when you order it from CoreLedger) you can define how many words seed of the wallet should have. By default we use 24 seed words which is secure enough, but you can set any amount which can be divided by 3 (3, 6, 12, etc)
+At the very beginning of WLA setup (when you order it from CoreLedger) you can define how many words seed of the wallet should have. By default we use 12 seed words which is secure enough, but you can set any amount which can be divided by 3 (3, 6, 12, etc)
 
 ## Other configuration
 
