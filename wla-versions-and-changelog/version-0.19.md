@@ -1,4 +1,8 @@
-# version 0.19
+---
+description: Available from October, 2022
+---
+
+# Version 0.19
 
 We added new functionality for creating invoices instead of payment requests, paying them and tracking their statuses. Check how it works in [payment-request-and-invoices.md](../how-your-users-interact-with-wla/payment-request-and-invoices.md "mention")&#x20;
 
