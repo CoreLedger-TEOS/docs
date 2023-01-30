@@ -8,7 +8,7 @@
     * [Branding management](admin-user-guide/app-configuration/branding-management.md)
     * [User management](admin-user-guide/app-configuration/user-management.md)
     * [Asset configuration](admin-user-guide/app-configuration/asset-configuration.md)
-    * [Decentralized market and payment request configuration](admin-user-guide/app-configuration/decentralized-market-and-payment-request-configuration.md)
+    * [Decentralized market and payment request configuration](admin-user-guide/app-configuration/market-and-payment-request-configuration.md)
     * [Additional configuration](admin-user-guide/app-configuration/additional-configuration.md)
 * [How your users interact with WLA](how-your-users-interact-with-wla/README.md)
   * [Assets and transactions](how-your-users-interact-with-wla/assets-and-transactions.md)
