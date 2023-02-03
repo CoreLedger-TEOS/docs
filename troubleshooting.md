@@ -18,7 +18,7 @@ If it has never worked for you before, please, contact your CoreLedger manager.
 
 ### I get some errors that are not clear to me
 
-Please check our [handling-errors.md](overview/handling-errors.md "mention") page. Most likely you will find the answer there. If not, you're welcome to report an issue in our [GitHub Repository for TEOS API](https://github.com/CoreLedger-TEOS/API/issues).
+Please check our [handling-errors](overview/handling-errors/ "mention") page. Most likely you will find the answer there. If not, you're welcome to report an issue in our [GitHub Repository for TEOS API](https://github.com/CoreLedger-TEOS/API/issues).
 
 ### I have a blocker that is critical for my project and blocks my solution from functioning
 
