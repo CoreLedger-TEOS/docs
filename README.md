@@ -5,6 +5,10 @@ coverY: 0
 
 # 👋 Welcome to TEOS API
 
+{% hint style="info" %}
+TEOS API v0.5 is not supported starting from the 7th of February, please, plan the upgrade to TEOS API v0.6+&#x20;
+{% endhint %}
+
 The TEOS API is our core platform component, giving users simple and quick access to all of the TEOS platform’s rich functionality and enabling customers to build custom applications on top of CoreLedger's blockchain infrastructure. Real-time events, intuitive functions, and optional CoreLedger authentication services make getting started with blockchain technology faster and easier than ever.
 
 If you are just starting with the TEOS API, we recommend that you dive into the topics listed below. If you're already familiar with TEOS API, use the Search function or just surf the navigation on the left to find what you're interested in.

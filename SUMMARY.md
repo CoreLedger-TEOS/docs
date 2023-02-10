@@ -29,6 +29,5 @@
   * [v0.8](changelog/v0.8.md)
   * [v0.7](changelog/v0.7.md)
   * [v0.6](changelog/v0.6.md)
-  * [v0.5](changelog/v0.5.md)
   * [Previous versions (not supported)](changelog/v0.3.md)
 * [Troubleshooting](troubleshooting.md)
