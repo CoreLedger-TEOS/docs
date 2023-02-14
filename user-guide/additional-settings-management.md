@@ -55,4 +55,4 @@ You can check the clauses of existing filters, duplicate, remove existing filter
 
 If you have corresponding admin permissions, you will be able to check and manage tenant filters along with your private filters. Also you can make your private filter tenant filter and vice versa.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (3).png>)

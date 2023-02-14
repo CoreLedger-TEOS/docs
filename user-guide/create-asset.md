@@ -1,3 +1,7 @@
+---
+description: Main properties, additional properties, controllers, translations
+---
+
 # Create asset
 
 Go to "Assets" in the sidebar menu. Click button “New Asset” at the top right.
@@ -28,11 +32,38 @@ For better understanding read [our article on Medium](https://medium.com/coreled
 
 ### Step 2 - Additional properties (optional)
 
-In order to describe your asset in more details, you can now add additional properties to the main properties. Dependent on the tenant, there might be specific collections to choose from various additional properties.&#x20;
+In order to describe your asset in more details, you can now add additional properties to the main properties. Dependent on the tenant, there might be specific collections to choose from various additional properties. Or you might have created a catalog in advance (see [#definition-items-management](additional-settings-management.md#definition-items-management "mention")).&#x20;
 
-Or you might have created a catalog in advance (see [#definition-items-management](additional-settings-management.md#definition-items-management "mention")). As soon as you added all properties needed to describe your asset in depth, click “Save and Next” or "Activate".
+If you're setting up an [Active Sandbox](https://coreledger.net/active-sandbox/) or productive solution based on TEOS Platform with [WLP ](https://teos-docs.coreledger.net/v/white-label-portal/)or [WLA](https://teos-docs.coreledger.net/v/white-label-mobile-app/), you are supposed to add necessary properties for WLP and WLA using collection "WLA\&WLP configuration". You can click "Add all" in the line of this collection, all available definition items will be added.&#x20;
 
-![](<../.gitbook/assets/image (22).png>)
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+This collection contains following properties:
+
+* **Mandatory properties**
+  * Make available in: WLA, WLP\
+    With this property you're defining whether this asset will be available in corresponding platform component. Just pick necessary options
+  * WLA and WLP\_ticker\
+    Every asset should have a ticker which is used both in WLA and WLP for showing to user. Define it here
+* If asset is going to be used in WLA:
+  * Show if balance is 0\
+    You can check this checkbox if you want WLA users to see this asset in the list of assets even if they have 0 balance
+* **Optional properties**
+  * Round to\
+    You can decide how many decimal numbers should be shown to users when they check asset balance in WLA and WLP. By default we're going to show 2 decimal numbers for currencies (asset type "cash and cash equivalent") and 4 for all other asset types
+  * If asset is going to be used in WLA: WLA Name\
+    You can define asset name specifically for WLA. If it's not set, Asset name defined in [#step-1-main-properties-mandatory](create-asset.md#step-1-main-properties-mandatory "mention")will be used
+  * If asset is going to be used in WLP: WLP Name\
+    You can define asset name specifically for WLP. If it's not set, Asset name defined in [#step-1-main-properties-mandatory](create-asset.md#step-1-main-properties-mandatory "mention")will be used
+
+{% hint style="info" %}
+You should remove all optional properties if you're not going to use them.\
+If you want to change some properties afterwards, you can create an [amendment](manage-asset-asset-details-asset-operations/amend-asset-edit-translations.md), changes will be applied in WLA and WLP automatically&#x20;
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+As soon as you added all properties needed to describe your asset in depth, click “Save and Next” or "Activate". After asset is activated, asset will be available in WLA and WLP automatically, you will be able to continue configuration of WLP specific and WLA specific properties directly in the corresponding component.
 
 ### Step 3 - Add controllers (optional)
 

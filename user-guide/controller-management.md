@@ -12,7 +12,7 @@ You can always check available controllers in "Settings" -> "Controllers". Pleas
 * Updating - controllers which are in the process of writing to blockchain
 * Draft - controllers which were created in WLM but not written to blockchain (most likely you didn't sign the transaction)
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 First make sure that all the public addresses of the wallets you want to give access to your assets or restrict access are either in My wallets or in Other wallets [wallet-management-in-wlm-+-tx.mobile](wallet-management-in-wlm-+-tx.mobile/ "mention")
 

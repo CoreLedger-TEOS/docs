@@ -14,4 +14,4 @@ By clicking on “Destroy” the transaction is being pushed to the TX.Mobile ap
 
 After its successful processing the number of available units on your current address will decrease by the amount you put in the “Destroy” field.
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
