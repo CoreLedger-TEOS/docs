@@ -9,7 +9,7 @@ Please, note that support of TEOS API v0.5 is over. Plan the upgrade to v0.6+ to
 {% endhint %}
 
 {% hint style="info" %}
-Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept to make sure you organize your works in alignment with TEOS API updates and you understand which influence different types of changes can have on your solution
+Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept to make sure you organize your work in sync with TEOS API updates and you understand which influence different types of changes can have on your solution
 {% endhint %}
 
 ### Available TEOS API Versions <a href="#available-graph-api-versions" id="available-graph-api-versions"></a>
