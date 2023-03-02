@@ -12,7 +12,7 @@ Starting from [v0.8](../changelog/v0.8.md), TEOS API consumers can submit signed
 
 <figure><img src="../.gitbook/assets/MicrosoftTeams-image (13).png" alt=""><figcaption><p>Flow for submitting signed transaction with api key</p></figcaption></figure>
 
-This is the flow for when the TEOS API consumer uses an API key to interact with the TEOS API (the TEOS consumer has their own user authentication services).
+This is the flow for when the TEOS API consumer uses an API key to interact with the TEOS API. [Read more](../using-the-teos-api/architecture-note/tenant-setup-options.md#using-teos-api-with-api-key)
 
 **Prerequisite**: The TEOS API user has access (direct or indirect) to the private keys of the public address for transaction signing.
 
@@ -26,7 +26,7 @@ The TEOS API consumer signs the transaction with the private keys of the wallet 
 
 <figure><img src="../.gitbook/assets/MicrosoftTeams-image (15).png" alt=""><figcaption><p>Flow for submitting signed transaction with user token</p></figcaption></figure>
 
-This is the flow for when the TEOS Authentication service is used for the user authentication and thus the TEOS API is called with a user token.
+This is the flow for when the TEOS authentication service is used for the user authentication and thus the TEOS API is called with a user token. [Read more](../using-the-teos-api/architecture-note/tenant-setup-options.md#using-teos-api-with-the-user-access-token)
 
 **Step 1. TEOS authentication**\
 The TEOS API consumer interacts with AuthServer (TEOS Platform component representing TEOS Authentication service) to get a user token.

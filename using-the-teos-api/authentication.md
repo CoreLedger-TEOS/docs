@@ -1,18 +1,20 @@
 ---
-description: Types of access tokens, how to get them, and how to use them.
+description: Types of access tokens, how to get them and how to use
 ---
 
 # Authentication
 
 TEOS API uses two types of access tokens:&#x20;
 
-* **API key** for most cases&#x20;
-* **User token** only in the case that the TEOS API consumer uses CoreLedger Authentication services
+* **API key** for most of the cases&#x20;
+* **User token** only in case TEOS API consumer uses TEOS Authentication service
 
 Both are Bearer-type tokens and have the following characteristics:
 
 * Scoped to a single user, in the case of the API key the user acts on behalf of the TEOS platform consumer.
 * Can be used for most of the functionality of the TEOS API. Some specific methods can work either with API key only or with user token only, swagger documentation clearly provides this info.
+
+Check [tenant-setup-options.md](architecture-note/tenant-setup-options.md "mention") for more info about why you may need specific authentication type.
 
 ### API key generation
 
