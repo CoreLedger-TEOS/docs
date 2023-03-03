@@ -38,9 +38,9 @@ TEOS platform has a multi-tenancy concept which means that several tenants are s
 
 TEOS platform has a list of environments that have different purposes. We distinguish Production, Pilot and Development environments which have different sets of TEOS platform components with different SLAs and transaction costs.&#x20;
 
-* Production - environment for production-ready solutions, high SLAs, both private and public blockchains can be used
-* Pilot - environment for solutions in the MVP stage (stable and ready for investments raising but not production-ready), high SLAs, only private blockchain is available
-* Development - environment for ongoing development, only private blockchain is available
+* Production - the environment for production-ready solutions, high SLAs, both private and public blockchains can be used
+* Pilot - the environment is used normally for solutions at the MVP stage (stable and ready for investments raising but not production-ready), high SLAs, only private blockchain is available. [Active Sandbox](https://coreledger.net/active-sandbox/) solutions always run on Pilot
+* Development - the environment for ongoing development, only private blockchain is available
 
 Normally TEOS API consumers first create a tenant in the Development environment with test data to have a chance to develop their solution against it. As soon as the customer solution is ready enough, the tenant in the Production or Pilot environment is set up.
 
