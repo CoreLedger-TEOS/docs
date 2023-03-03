@@ -16,7 +16,7 @@ Tenant is a logical, uniquely identifiable grouping of information and settings 
 
 There are several layers of logical data isolation for tenants which are represented in the picture.
 
-<figure><img src="../../.gitbook/assets/Data layers.drawio (2).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CL_TEOS API_Arch note-Data layers.drawio.svg" alt=""><figcaption></figcaption></figure>
 
 ### Blockchain level <a href="#network-layer" id="network-layer"></a>
 
@@ -36,17 +36,21 @@ TEOS platform has a multi-tenancy concept which means that several tenants are s
 
 ### Environments <a href="#environments-and-nodes" id="environments-and-nodes"></a>
 
-TEOS platform has a list of environments that have different purposes. For example, we distinguish productive and development environments which have different sets of TEOS platform components with different SLAs and transaction costs.&#x20;
+TEOS platform has a list of environments that have different purposes. We distinguish Production, Pilot and Development environments which have different sets of TEOS platform components with different SLAs and transaction costs.&#x20;
 
-All technical resources are strictly related to the environment in which they are used.  For example, application credentials in the Development environment are unusable in the Production environment.
+* Production - environment for production-ready solutions, high SLAs, both private and public blockchains can be used
+* Pilot - environment for solutions in the MVP stage (stable and ready for investments raising but not production-ready), high SLAs, only private blockchain is available
+* Development - environment for ongoing development, only private blockchain is available
 
-Normally TEOS API consumers first create a tenant in the Development environment with test data. As soon as the customer solution is ready enough, the tenant in the Productive environment is set up.
+Normally TEOS API consumers first create a tenant in the Development environment with test data to have a chance to develop their solution against it. As soon as the customer solution is ready enough, the tenant in the Production or Pilot environment is set up.
+
+Please, note that all technical resources are strictly related to the environment in which they are used. For example, application credentials in the Development environment are unusable in the Production environment.
 
 ## High availability
 
 TEOS Platform is designed in a way to make sure that all components are scalable and can meet overall SLAs.
 
-All components of the application level in the Production environment run on the cloud infrastructure. This allows using all essential features provided by cloud providers to make sure that the TEOS Platform runs according to customer expectations:
+All components of the application level in the Production and Pilot environments run on the cloud infrastructure. This allows using all essential features provided by cloud providers to make sure that the TEOS Platform runs according to customer expectations:
 
 * available up to 99,9% of the time (dependent on the cloud platform SLAs and customer agreement)
 * scales with the load
@@ -65,14 +69,14 @@ All network communications are secured with SSL.&#x20;
 
 To integrate with TeosAPI the following interfaces should be utilized:
 
-### OData
+#### OData
 
 OData (Open Data Protocol) is an [ISO/IEC-approved](https://www.oasis-open.org/news/pr/iso-iec-jtc-1-approves-oasis-odata-standard-for-open-data-exchange), [OASIS standard](https://www.oasis-open.org/committees/tc\_home.php?wg\_abbrev=odata) that defines a set of best practices for building and consuming RESTful APIs. More details can be found [here](../../reference/).
 
-### RabbitMQ
+#### RabbitMQ
 
 RabbitMQ is the widely deployed open-source message broker. It is used to deliver TEOS events. More details about its usage with the TEOS can be found [here](../../overview/teos-events.md#subscribing-to-events).
 
-### OpenApi
+#### OpenApi
 
 The OpenAPI Specification, previously known as the Swagger Specification, is a specification for a machine-readable interface definition language for describing, producing, consuming, and visualizing RESTful web services. The TEOS Api produces the OpenApi output to describe itself. The link to it can be found under [API Reference](../../reference/)

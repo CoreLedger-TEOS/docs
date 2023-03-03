@@ -1,5 +1,7 @@
 # 2xxxx codes
 
+Error codes `2xxxx` indicate business logic related issues with input (failed preconditions, validations etc.).
+
 ## 21000
 
 |             |                                                                                                            |
