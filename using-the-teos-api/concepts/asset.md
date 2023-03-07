@@ -1,12 +1,14 @@
 # Asset
 
-**Every artifact, specific tangible value, on blockchain** within the CoreLedger TEOS platform is referred to a **"Digital asset" or simply "Asset"**.
+**Every artifact, specific tangible value, on blockchain** within the CoreLedger TEOS platform is referred to a **"Digital asset" or** simply **"Asset"**.
 
 Assets can be measurable if there is a need to operate with the units of the asset, for example, steel, man-hours or currencies.
 
 Some assets are not supposed to have any quantity, for example, an audit report or a document notarized on blockchain does not need quantity, then it needs only a unique digital id - the unique asset id in TEOS platform.
 
-Asset can be described in a very detailed way by filling its properties in TEOS platform with the help of TEOS API. These properties are categorized and placed within their categories (or sections) when forming a JSON structure to be saved in TEOS. There are general and custom properties.
+Asset can be described in a very detailed way by filling its properties in TEOS platform with the help of TEOS API. These properties are categorized and placed within their categories (or sections) when forming a JSON structure to be saved in TEOS API. There are general and custom properties.
+
+TEOS user can link assets and unlink them, change asset with the help of amendments written to blockchain, exchange them with the help of supplies. All of these operations are possible after asset is created and written to blockchain.
 
 ### Creating asset
 
@@ -20,14 +22,14 @@ Asset can be described in a very detailed way by filling its properties in TEOS 
   "LanguageCode": "en",
   "JurisdictionCode": "CH",
   "UnitOfMeasureCode": "kg",
-  "CurrencyCode": "str",
+  "CurrencyCode": "",
   "SparkFactor": "1000000",
   "SparkFactorModifier": "{\"type\":\"FORMULA\",\"start\":\"2021-08-12T14:01:52Z\",\"t\":\"1d\",\"f\":\"1\"}",
   "AssetClassCode": "A017",
 }
 ```
 
-All of these properties must have a value. Some of them(Author, Name, Description, LanguageCode, JurisdictionCode) are mandatory and has to be filled in, others are optional and filled in with a default values when left empty. General properties are placed in the section called "General"
+All of these properties must have a value. Some of them (Author, Name, Description, LanguageCode, JurisdictionCode) are mandatory and has to be filled in, others are optional and filled in with a default values when left empty. General properties are placed in the section called "General"
 
 Default values for properties if not provided:
 
@@ -41,7 +43,7 @@ Default values for properties if not provided:
 
 In case asset is created with AssetClassCode = "A013", CurrencyCode is mandatory and UnitOfMeasureCode must be left blank
 
-In case asset is created with any other AssetClassCode = "A013", CurrencyCode can't be set
+In case asset is created with any other AssetClassCode, CurrencyCode can't be set
 {% endhint %}
 
 #### Custom properties
@@ -57,17 +59,17 @@ In case asset is created with any other AssetClassCode = "A013", CurrencyCode ca
 }
 ```
 
+#### Asset Classes
+
 Default values for optional properties (the rest are mandatory):
 
 * Type: "STRING"
 * SectionsPath: "\[General]"
 * SectionsPathNames: "\[GENERAL]"
 
-_SectionsPath_ define the path through the sections where the property(in API it is called "Custom definition item") is placed within the JSON document. For the example mentioned above, the property "apitutorial" is placed in a section "manuals", which in turn is placed in the section "documentation". _SectionsPathNames_ define labels for the sections.
+_SectionsPath_ define the path through the sections where the property (in TEOS API it is called "Custom definition item") is placed within the JSON document. For the example mentioned above, the property "apitutorial" is placed in a section "manuals", which in turn is placed in the section "documentation". _SectionsPathNames_ define labels for the sections.
 
 Possible types of properties: \[ STRING, DECIMAL, BOOLEAN, NUMBER, VALUERANGE, DATE, DATETIME, ASSETCLASS, COUNTRY, CURRENCY, LANGUAGE, UNITOFMEASURE, TIME, TEXT, ADDRESS ]
-
-#### Asset Classes
 
 | ID   | (en)                     |
 | ---- | ------------------------ |
@@ -82,7 +84,7 @@ Possible types of properties: \[ STRING, DECIMAL, BOOLEAN, NUMBER, VALUERANGE, D
 
 ### After asset is created
 
-After asset is created in TEOS and finally in blockchain, it gets the list of additional properties which help to deal with this asset.&#x20;
+After asset is created in the TEOS Platform and finally in the blockchain, it gets the list of additional technical properties which help to deal with this asset.&#x20;
 
 | Id                    | <p>string<br>example: 0x5db616f7e9aaa6fce9b0001</p><p>The UniqueAssetId of the asset</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -102,10 +104,8 @@ After asset is created in TEOS and finally in blockchain, it gets the list of ad
 | AmendedInBlockchainOn | <p>string($date-time)<br>nullable: true<br>example: 2021-05-18T15:23:12.5246259+02:00</p><p>The timestamp of the block of the last amendment of the asset. null, if the asset was never amended</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | BlockchainHash        | <p>string<br>nullable: true<br>example: 0x263865a752660b9dd6b9377df57466d1348661aa9a49d5dde8e9d16dddddf69b</p><p>Hash of the asset documentation, stored in blockchain</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | DocumentDbHash        | <p>string<br>nullable: true<br>example: 263865a752660b9dd6b9377df57466d1348661aa9a49d5dde8e9d16dddddf69b</p><p>Hash of the asset documentation, stored in TEOS</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| TransactionId         | <p>string($uuid)<br>example: C0D34D73-6FD3-40F2-A7E1-08D9412448F7</p><p>The id of the transaction where the asset was activated</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| TransactionId         | <p>string($uuid)<br>example: C0D34D73-6FD3-40F2-A7E1-08D9412448F7</p><p>The id of the transaction where the asset was written to blockchain</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Translations          | <p>[<br>nullable: true</p><p>Translations navigation property</p><p>{</p><table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>LanguageCode*</td><td><p>string<br>maxLength: 2<br>minLength: 1<br>example: en</p><p>language code of the asset translation (ISO 2).</p></td></tr><tr><td>Name</td><td><p>string<br>nullable: true<br>example: Gold</p><p>Name of the asset.</p></td></tr><tr><td>Description</td><td><p>string<br>nullable: true<br>example: 1oz Gold bars</p><p>Translated asset description</p></td></tr><tr><td>CustomDefinitionItems</td><td>list of definition items in the specific language</td></tr></tbody></table><p>}]</p> |
-
-}
 
 #### Asset ids
 

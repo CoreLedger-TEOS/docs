@@ -22,7 +22,7 @@ Wallet has the following structure:
 
 where&#x20;
 
-* Id - wallet's unique identifier within TEOS Api&#x20;
+* Id - wallet's unique identifier within TEOS Platform&#x20;
 * Name and Description are self explanatory properties
 * EthereumAddress - is an [Ethereum address](https://info.etherscan.com/what-is-an-ethereum-address/)
 * UserId - the unique identifier of the user that owns the wallet
@@ -31,7 +31,7 @@ where&#x20;
 
 ## Balance
 
-Balance indicates the amount of sparks of specific asset available on the specified address:
+Balance indicates the amount of sparks of the specific asset available on the specified address:
 
 ```json
 {

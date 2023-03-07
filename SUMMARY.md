@@ -3,7 +3,7 @@
 * [👋 Welcome to TEOS API](README.md)
 * [Get started](get-started.md)
 * [TEOS API overview](using-the-teos-api/README.md)
-  * [Concepts](using-the-teos-api/concepts/README.md)
+  * [Terms and concepts](using-the-teos-api/concepts/README.md)
     * [Asset](using-the-teos-api/concepts/asset.md)
     * [Spark](using-the-teos-api/concepts/spark.md)
     * [Wallet](using-the-teos-api/concepts/wallet.md)

@@ -1,6 +1,6 @@
 # Invoice
 
-TEOS API consumers can create invoice to get digital record for agreed obligation of payment and pay invoice to fulfill this obligation. Invoice is a time-stamped digital record for a payment agreement made between two parties.
+TEOS API consumers can create invoice to get digital record for agreed obligation of payment and pay invoice to fulfil this obligation. Invoice is a time-stamped digital record for a payment agreement made between two parties.
 
 Invoice object has following structure:
 
@@ -23,7 +23,7 @@ Invoice object has following structure:
 
 Main properties description:
 
-* UniqueAssetId – asset that is used for payment within the invoice
+* UniqueAssetId – unique asset id of the asset that is used for payment within the invoice
 * DesiredAmount – amount of the asset in sparks
 * TargetAddress – wallet address defined during invoice creation, this address will receive the paid DesiredAmount of UniqueAssetId sparks
 * SenderAddress - wallet address which pays the invoice
@@ -42,10 +42,10 @@ Main properties description:
 
 ### Invoice operations
 
-TEOS API consumer can **create invoice** (invoice data such as uniqueAssetId, desiredAmount, targetAddress and dueDate has to be provided as an input)
+TEOS user can **create invoice** (invoice data such as uniqueAssetId, desiredAmount, targetAddress and dueDate has to be provided as an input)
 
-TEOS API consumer can **retrieve invoice details** by an array of invoiceIds. Set of required details and filters can be defined within request based on OData query concept.
+TEOS user can **retrieve invoice details** by an array of invoiceIds. Set of required details and filters can be defined within request based on OData query concept.
 
-TEOS API consumer can **cancel invoice** by invoiceId – status of Invoice is set to “Cancelled”
+TEOS user can **cancel invoice** by invoiceId – status of Invoice is set to “Cancelled”
 
-TEOS API consumer can **pay invoice** – transfer transaction for invoice payment is automatically triggered
+TEOS user can **pay invoice** – transfer transaction for invoice payment is automatically triggered
