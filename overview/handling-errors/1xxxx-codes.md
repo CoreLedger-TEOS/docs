@@ -1,6 +1,6 @@
 # 1xxxx codes
 
-Error codes `1xxxx` indicate non-business logic related issues with input (auth issues, issues with parsing input data, rate limiting etc.). These errors are mostly 'technical' (non-user), related to the problems in the client app's code.
+Error codes `1xxxx` indicate non-business logic related issues with input (auth issues, issues with parsing input data, rate limiting etc.). These errors are mostly 'technical', related to the problems in the TEOS API consumer's code.
 
 ## 11001
 

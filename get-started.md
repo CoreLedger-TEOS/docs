@@ -16,7 +16,7 @@ In order to start building your apps with the TEOS API a few steps need to be ta
    \- The set of TEOS platform components you will need besides the TEOS API (check what the TEOS platform offers on the [CoreLedger website](https://coreledger.net/))\
    \- Name of the tenant
 2. After you've provided all the necessary info to set up your first tenant, we will create it for you. We will also deliver your API key via a trustworthy communication channel if requested for your setup.&#x20;
-3. As soon as you have your tenant ready, you can start developing your application by trying out TEOS API functionality using [Postman examples.](https://github.com/CoreLedger-TEOS/API) We recommend starting by creating your first transaction. You can check the flow in [transaction-creation-and-submission.md](overview/transaction-creation-and-submission.md "mention")
+3. As soon as you have your tenant ready, you can start developing your application by trying out TEOS API functionality using [Postman examples.](https://github.com/CoreLedger-TEOS/API) We recommend starting by creating your first transaction. You can check the flow in [transaction-creation-and-submission](overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/ "mention")
 
 While you're waiting for your tenant to be prepared, we invite you to start exploring the TEOS API with the following topics:
 

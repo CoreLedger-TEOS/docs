@@ -8,6 +8,12 @@ description: These changes are relevant for all versions with corresponding func
 Check [non-versioned-changes.md](non-versioned-changes.md "mention") to learn more about this type of changes
 {% endhint %}
 
+## Coming soon
+
+#### Changes
+
+* Ether distribution mechanism in TEOS Platform for private blockchains now works for the addresses added to TEOS API with API key. [Read more  ](../overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions.md)
+
 ## 14.02.2023
 
 #### Fixed bugs

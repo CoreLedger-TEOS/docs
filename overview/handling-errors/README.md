@@ -2,7 +2,7 @@
 description: Error response structure, errors overview
 ---
 
-# Handling Errors
+# Handling errors
 
 Requests made to our APIs can result in several different error responses. The following document describes a list of error values with a map to the most common recovery tactic to use.
 
@@ -49,7 +49,7 @@ Where
   * `arguments`: if a message contains any data (strings, decimals etc), that need to be used for i18n of the error message, this field contains the names and the values of the data
 * `clTraceId`: Internal support identifier. When reporting a bug related to a TEOS API call, include the `clTraceId` to help us find log data for debugging.
 
-Error codes `1xxxx` indicate non-business logic related issues with input (auth issues, issues with parsing input data, rate limiting etc.). These errors are mostly 'technical' (non-user), related to the problems in the client app's code.
+Error codes `1xxxx` indicate non-business logic related issues with input (auth issues, issues with parsing input data, rate limiting etc.). These errors are mostly 'technical', related to the problems in the TEOS API consumer's code.
 
 Error codes `2xxxx` indicate business logic related issues with input (failed preconditions, validations etc.).
 
