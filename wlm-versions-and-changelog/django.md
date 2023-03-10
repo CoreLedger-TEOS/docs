@@ -15,4 +15,14 @@ We fixed some bugs to make our solution more user-friendly and stable:
 * account deletion pages in TEOS authentication service were not tenant-branded, now they use tenant logo
 * asset description pdf showed wrong date of asset creation
 
-\
+
+
+## Django service pack 1&#x20;
+
+### Changes:
+
+* Ether distribution mechanism in TEOS Platform for private blockchains now works for the addresses added to TEOS API with API key and also used up Ether is refilled automatically. [Read more  ](broken-reference)
+* Following emails are not sent from WLM anymore:
+  * when user creates a new account and confirms email, he is not notified about this registration
+  * when admin approves or declines user request, user is not notified about his account approval
+  * when admin changes the status of the user (disables or enables), user is not notified about the status change
