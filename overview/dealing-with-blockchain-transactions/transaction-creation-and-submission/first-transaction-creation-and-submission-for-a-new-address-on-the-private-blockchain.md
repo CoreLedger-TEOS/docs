@@ -11,7 +11,7 @@ Ether is distributed via transfer transactions, so it takes some time. Sending E
 #### Flow for creating and singing transactions first time for a new address
 
 1. Post a Transaction (For example "Asset Creation")\
-   The TEOS API consumer needs to wait until Ether sending transaction is confirmed. Usually, it takes maximum one minute on SparkNet/DevilNet. If after one minute the address is not topped-up with the Ether, please, contact support@coreledger.net. To check the Eth balance of an address the ["GET /Balances/GetEthBalances"](../../../reference/) function can be used.
+   The TEOS API consumer needs to wait until Ether sending transaction is confirmed. Usually, it takes up to one minute on SparkNet/DevilNet (with a maximum of 3 minutes). If after one minute the address is not topped-up with the Ether, please, contact support@coreledger.net. To check the Eth balance of an address the ["GET /Balances/GetEthBalances"](../../../reference/) function can be used.
 2. Sign the Transaction
 3. Submit the Transaction\
    If the user tries to submit a transaction without having an Eth on the signing address, the validation error will be shown with an error Code=23000 and Subcode=20003 and a Message: "Insufficient funds for transaction." In the case of such an error submission should be retried after the period, described in point 1, or after making sure that the address has enough Ether for signing.
