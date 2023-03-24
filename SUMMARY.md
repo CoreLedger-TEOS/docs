@@ -29,8 +29,6 @@
   * [Warp search](overview/warp-search.md)
 * [TEOS API reference](reference/README.md)
   * [TEOS API Swagger (OpenAPI)](https://teos-dev2.dev.coreledger.net/swagger/index.html)
-* [Using additional APIs of TEOS Platform](using-additional-apis-of-teos-platform/README.md)
-  * [TEOS Authentication service and TMS](using-additional-apis-of-teos-platform/teos-authentication-service-and-tms.md)
 * [FAQ](faq.md)
 * [Changelog](changelog/README.md)
   * [v0.8](changelog/v0.8.md)
