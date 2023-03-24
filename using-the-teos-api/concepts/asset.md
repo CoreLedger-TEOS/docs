@@ -10,9 +10,9 @@ Asset can be described in a very detailed way by filling its properties in TEOS 
 
 TEOS user can link assets and unlink them, change asset with the help of amendments written to blockchain, exchange them with the help of supplies. All of these operations are possible after asset is created and written to blockchain.
 
-### Creating asset
+## Creating asset
 
-#### General properties
+### General properties
 
 ```json
 {
@@ -46,30 +46,7 @@ In case asset is created with AssetClassCode = "A013", CurrencyCode is mandatory
 In case asset is created with any other AssetClassCode, CurrencyCode can't be set
 {% endhint %}
 
-#### Custom properties
-
-```json
-{
-    "Key": "apitutorial",
-    "Name": "API Tutorial",
-    "Type": "TEXT",
-    "Value": "My Private documentation: lorem ipsum",
-    "SectionsPath": "[documentation][manuals]",
-    "SectionsPathNames": "[Documentation][Manuals]"
-}
-```
-
 #### Asset Classes
-
-Default values for optional properties (the rest are mandatory):
-
-* Type: "STRING"
-* SectionsPath: "\[General]"
-* SectionsPathNames: "\[GENERAL]"
-
-_SectionsPath_ define the path through the sections where the property (in TEOS API it is called "Custom definition item") is placed within the JSON document. For the example mentioned above, the property "apitutorial" is placed in a section "manuals", which in turn is placed in the section "documentation". _SectionsPathNames_ define labels for the sections.
-
-Possible types of properties: \[ STRING, DECIMAL, BOOLEAN, NUMBER, VALUERANGE, DATE, DATETIME, ASSETCLASS, COUNTRY, CURRENCY, LANGUAGE, UNITOFMEASURE, TIME, TEXT, ADDRESS ]
 
 | ID   | (en)                     |
 | ---- | ------------------------ |
@@ -82,7 +59,32 @@ Possible types of properties: \[ STRING, DECIMAL, BOOLEAN, NUMBER, VALUERANGE, D
 | A016 | Other assets             |
 | A017 | Document                 |
 
-### After asset is created
+
+
+### Custom properties
+
+```json
+{
+    "Key": "apitutorial",
+    "Name": "API Tutorial",
+    "Type": "TEXT",
+    "Value": "My Private documentation: lorem ipsum",
+    "SectionsPath": "[documentation][manuals]",
+    "SectionsPathNames": "[Documentation][Manuals]"
+}
+```
+
+Default values for optional properties (the rest are mandatory):
+
+* Type: "STRING"
+* SectionsPath: "\[General]"
+* SectionsPathNames: "\[GENERAL]"
+
+_SectionsPath_ define the path through the sections where the property (in TEOS API it is called "Custom definition item") is placed within the JSON document. For the example mentioned above, the property "apitutorial" is placed in a section "manuals", which in turn is placed in the section "documentation". _SectionsPathNames_ define labels for the sections.
+
+Possible types of properties: \[ STRING, DECIMAL, BOOLEAN, NUMBER, VALUERANGE, DATE, DATETIME, ASSETCLASS, COUNTRY, CURRENCY, LANGUAGE, UNITOFMEASURE, TIME, TEXT, ADDRESS ]
+
+## After asset is created
 
 After asset is created in the TEOS Platform and finally in the blockchain, it gets the list of additional technical properties which help to deal with this asset.&#x20;
 
@@ -107,12 +109,12 @@ After asset is created in the TEOS Platform and finally in the blockchain, it ge
 | TransactionId         | <p>string($uuid)<br>example: C0D34D73-6FD3-40F2-A7E1-08D9412448F7</p><p>The id of the transaction where the asset was written to blockchain</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Translations          | <p>[<br>nullable: true</p><p>Translations navigation property</p><p>{</p><table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>LanguageCode*</td><td><p>string<br>maxLength: 2<br>minLength: 1<br>example: en</p><p>language code of the asset translation (ISO 2).</p></td></tr><tr><td>Name</td><td><p>string<br>nullable: true<br>example: Gold</p><p>Name of the asset.</p></td></tr><tr><td>Description</td><td><p>string<br>nullable: true<br>example: 1oz Gold bars</p><p>Translated asset description</p></td></tr><tr><td>CustomDefinitionItems</td><td>list of definition items in the specific language</td></tr></tbody></table><p>}]</p> |
 
-#### Asset ids
+## Asset ids
 
 * AssetId and LedgerId - assetId is unique within Blockchain network, combination of assetId and ledgerId is unique through all environments and Blockchain networks
 * UniqueAssetId - unique asset id through all environments and Blockchain networks, we strongly recommend to use this id
 
-#### Asset translation
+## Asset translation
 
 When asset is retrieved, it comes with asset default language in the root of the asset object. Default language is defined by TEOS user when the asset is created. In order to get the list of all available translations to all available languages which were added for the asset, section "Translations" must be retrieved. Check its description in the asset model [above](asset.md#after-asset-is-created). Following asset data can be translated to other languages:
 
