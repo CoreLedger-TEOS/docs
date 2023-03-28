@@ -24,4 +24,4 @@ Also we optimized assets parameters selection in Search for supplies screen by a
 
 We fixed some bugs to make the app more user friendly and stable and added new features: now you can set the pin code for the application and enter referral code if you have one when creating a new account.
 
-For customers using WLA code base: we switched transaction data retrieval to target [TEOS API component](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)
+For customers using WLA code base: we switched transaction data retrieval to target [TEOS API component](http://localhost:5000/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)

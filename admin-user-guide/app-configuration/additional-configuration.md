@@ -10,17 +10,18 @@ You have the possibility to enable additional check of seed words which are disp
 
 If set to true, users must re-enter two random seed words to prove they wrote down the seed words. If set to false, this proof is not necessary.
 
-## My activity list settings
 
-You have the possibility to initiate transactions in WLA and WLM with the same wallet (check [login-and-wallet-creation.md](../login-and-wallet-creation.md "mention")). You have the option not to display in My activity transactions initiated in WLM with the same wallet used in WLA.&#x20;
 
-When following parameter is set to false, transactions triggered by WLM will not be listed under “My Activity”.
+## Data policy
+
+Data policy files for corresponding language must be placed in the root folder  **trading-app-configs** and path to them must be defined in the ui config as described below**.**
+
+We understand that you can have users with different locales. You can provide \[en], \[de] and \[es] translations for the data policy. Depending on the language settings of the mobile phone, the WLA will either take the information from \[en], \[de] or \[es]. With "\*\***- \*\***" you define the fallback file. For example, in the example below English files are defined as fallback option which means that if user with French locale comes, he will see English version of data.&#x20;
 
 ```
-"transactions": {
-"show_all_transactions_in_my_activity": false
-},
+"localization": {
+		"datapolicy-**-**": "[en]datapolicy.md",
+		"datapolicy-en-**": "[en]datapolicy.md",
+		"datapolicy-de-**": "[de]datapolicy.md"
+	},
 ```
-
-When all transactions should be shown under “My Activity”, this parameter needs to be set to true
-

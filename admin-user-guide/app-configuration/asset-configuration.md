@@ -1,65 +1,67 @@
 # Asset configuration
 
-## Assets availability configuration
+## Asset configuration for WLA
 
-For the assets shown in the WLA, there are various configuration possibilities.
+{% hint style="info" %}
+Starting from v0.21 most of the configuration can be done with WLM (described below), existing configuration of the existing assets in Assets.json still will be used in couple of versions more. But **all new assets must be configured with the help of WLM**
+{% endhint %}
 
-We understand that you can have users with different locales. You can provide \[en] and \[de] translations for the assets descriptions, for data policy. Depending on the language settings of the mobile phone, the WLA will either take the information from \[en] or \[de]. With "\*\***- \*\***" you define the fallback file. For example, in the example below English files are defined as fallback option which means that if user with French locale comes, he will see English version of data.&#x20;
+#### **Step 1. Define general asset properties in WLM**
 
-```
-"localization": {
-		"**-**": "localization/en-US.json",
-		"en-**": "localization/en-US.json",
-		"de-**": "localization/de-DE.json",
-		"assets-**-**": "[en]Assets.v1.json",
-		"assets-en-**": "[en]Assets.v1.json",
-		"assets-de-**": "[de]Assets.v1.json",
-		"datapolicy-**-**": "[en]datapolicy.md",
-		"datapolicy-en-**": "[en]datapolicy.md",
-		"datapolicy-de-**": "[de]datapolicy.md"
-	},
-```
+Asset configuration starts in WLM. Some of the general asset properties are used in WLA. You can [read more](https://teos-docs.coreledger.net/v/white-label-management-tool/user-guide/create-asset) about asset creation in WLM.
 
-Data policy files and asset files for corresponding language must be placed in the root folder  **trading-app-configs** and path to them must be defined in the ui config as described above**.**
+* **Asset name** is used in WLA if WLA specific name is not defined (check Step 2)
+* **Description** of the asset is going to be checked by WLA and in case it contains url (string starting from "http..."), it will be used as information link for info icon of the asset
+* **Unit of measure or Currency** (Currency must be filled in case asset type is Cash or Cash equivalent) of the asset are used as asset units in WLA
 
-Each asset must be configured in the \[\*\*]Assets.json with the following parameters
+#### **Step 2. Define WLA specific properties in WLM**
+
+When asset is created by the admin, additional properties necessary for WLA, can be added using collection "WLA\&WLP configuration". You can click "Add all" in the line of this collection, all available definition items will be added, you should only fill values for WLA relevant properties.
+
+* **Make available in** - add "WLA" as a value here to make sure that this asset is used in WLA
+* **WLA and WLP\_Asset ticker** - Asset ticker used both in WLA and WLP must be defined
+* **WLA\_Name (optional)** - WLA specific asset name can be defined in case you want asset to be used in WLA with some alternative naming&#x20;
+* If you want asset to be displayed in “My Asset” screen, even when the wallet has no Sparks of it, then the parameter **WLA\_Show if balance is 0** __ must be set to true
+* **WLA and WLP\_Round to (optional)** - For each asset to be shown in WLA, you can define the number of decimal places to which asset units will be rounded in WLA screens in case precise number is too long. This parameter is optional, in case you don't define it, WLA will round the amounts to 2 decimal places in case of Asset type is Cash or Cash Equivalent and to 4 decimal places for all other Asset types
+
+{% hint style="info" %}
+Don't forget to remove optional properties values of which you don't want to define (Round to and Name)
+{% endhint %}
+
+<div>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-03-28 at 12.08.55.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-03-28 at 12.50.46.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* You can add translations for the name, description and ticker to German and Spanish languages in case you expect WLA users in these languages
+
+Finally, you will have Asset defined in WLM which is going to be used in WLA
+
+#### Step 3. Asset icon configuration
+
+You must use Assets.json configuration file to define the icon of the asset. Asset icon is mandatory.
+
+**Icon preparation:**
+
+* Asset icon should be the square picture of file type PNG; recommended size: 400\*400 px
+* Put the icon to the blob storage associated with your tenant to the folder "trading-app-configs/icons"
+* Copy the path to the file
+
+Open Assets.json configuration and list all the asset unique ids which are going to be used in WLA and their icons. Unique asset id can be found and copied from Asset details in WLM.
 
 ```
 {
-"name": "Test Asset en",
 "uniqueAssetId": "0x0dd5ec6b49e94d8ac762f0001"
-"ticker": "TEST",
 "icon": "icons/swiss_francs.png",
-"url": "https://en.wikipedia.org/wiki/Old_Master",
-"uom": "CHF"
 },
 ```
 
-* Any name can be put to an asset
-* For each asset to be shown in WLA, the correct unique asset ID is needed \
-  The asset ID can be copied from the WLM, when the corresponding asset is selected in WLM (see Figure 4)
-* Any ticker can be put to an asset (optional field)
-* Any Icon can be put to an asset (optional field)\
-  We recommend to place all icons in the folder with the path **trading-app-configs/icons**
-* Any URL can be put to an asset, to show more information when the user clicks on it (optional field)
-* Finally, the correct unit of measure should be entered
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figure 4: Unique Asset Id can be found in Asset details and copied right from there</p></figcaption></figure>
-
-## Zero balance assets displaying
-
-If you want assets to be displayed in “My Asset” screen, even when the wallet has no Sparks, then the parameter _"show\_absent\_assets\_in\_my\_asset\_list"_ must be set to true, and all corresponding uniqueAssetIdss need to be typed in here
-
-```
-"assets": {
-"show_absent_assets_in_my_asset_list": true,
-"limit_absent_list": [
-"628250158773558491489789",
-"1196885423266613894240897",
-]
-```
-
-If only Assets should be listed which have Sparks, then set the parameter _"show\_absent\_assets\_in\_my\_asset\_list"_ to false.
+<figure><img src="../../.gitbook/assets/Screenshot 2023-03-28 at 12.54.25.png" alt=""><figcaption></figcaption></figure>
 
 ## ​Asset order
 
