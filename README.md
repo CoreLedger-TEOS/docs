@@ -1,5 +1,5 @@
 ---
-description: WLA version 0.20 (released in January, 2023)
+description: WLA version 0.21 (released in April, 2023)
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
