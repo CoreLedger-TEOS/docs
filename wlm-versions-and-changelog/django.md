@@ -17,7 +17,7 @@ We fixed some bugs to make our solution more user-friendly and stable:
 
 
 
-## Django service pack 1&#x20;
+## Django service pack 1  (delivered on April, 13)
 
 ### Changes:
 
