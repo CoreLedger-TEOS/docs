@@ -8,11 +8,13 @@ description: These changes are relevant for all versions with corresponding func
 Check [non-versioned-changes.md](non-versioned-changes.md "mention") to learn more about this type of changes
 {% endhint %}
 
-## Coming soon
+## 13.03.2023
 
 #### Changes
 
 * Ether distribution mechanism in TEOS Platform for private blockchains now works for the addresses added to TEOS API with API key. [Read more  ](../overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions.md)
+* New Sign up flow is introduced using TMS for the case when TEOS API is used with TEOS Authentication service (user token is used to call TEOS API). [Read more](../using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms.md)
+* TEOS Authentication service accepts only email during login process (usernames are not accepted)
 
 ## 14.02.2023
 
