@@ -61,7 +61,7 @@ The `TCAccepted` field must be set to true, otherwise TMS will respond with HTTP
 
 1.10. TMS responds with the created tenant-user's data in response body (see next step).
 
-1.11. Based on the application logic, application may process the user data, retrieved on steps 1.4 or 1.10 (exact implementation of user-data processing is application-specific and is out of scope of this document):&#x20;
+1.11. Based on the application logic, application may process the user data, retrieved on steps 1.4 or 1.10 (exact implementation of user-data processing is application-specific):&#x20;
 
 ```
 {

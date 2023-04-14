@@ -38,4 +38,6 @@ The TEOS API consumer interacts with TxServer to add the device to the list of a
 The TEOS API consumer interacts with the TEOS API to create an asset with the device token and the provided asset data by the user. The TEOS API prepares a blockchain transaction and returns the transaction object with signing parameters. Signing parameters can be retrieved again using received transaction id _GET /odata/v0.8/Transactions({key})/GetSigningParameters_
 
 **Step 4. Sign the transaction and submit** it to TEOS API _POST /odata/v0.8/Transactions/{key}/Submit_\
-The TEOS API consumer lets the user sign the transaction with the private keys of the wallet address used for creating the transaction. The signed transaction must be submitted to the TEOS API with the device token.
+The TEOS API consumer lets the user sign the transaction with the private keys of the wallet address used for creating the transaction. [Signing Ethereum transaction](https://ethereum.org/en/developers/docs/transactions/) is a process of creating signature using data and private keys of the signing address. There are libraries and utilities which are available for widely used code language, you can check the code of [auto signing utility in C# provided by CL](https://github.com/CoreLedger-TEOS/teos-autosigner) as an example (ask your CL manager for the access if you don't have one).
+
+The signed transaction must be submitted to the TEOS API with the device token.
