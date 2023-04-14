@@ -1,6 +1,6 @@
 # TEOS API overview
 
-The TEOS API is the primary way for apps to read and write to the blockchain. All of our platform components and SDKs interact with the TEOS API in some way.
+The TEOS API is the primary way for apps to read and write to the blockchain. All our platform components interact with the TEOS API in some way.
 
 ## The Basics
 
@@ -13,8 +13,8 @@ Check [overview](../overview/ "mention") and [reference](../reference/ "mention"
 
 If you're going to use TEOS Authentication services, you will need to use following additional APIs of TEOS Platform:
 
-* TEOS Authentication service and Tenant Management Service, implementing OAuth 2.0 protocol. TEOS Authentication service should be used only if TEOS API id going to be used with the user access token. Read more in [tenant-setup-options.md](architecture-note/tenant-setup-options.md "mention") and [authentication.md](authentication.md "mention")
-* TxServer, responsible for blockchain transactions processing and authorizing devices of end users. TxServer should be called directly only if TEOS API id going to be used with the user access token. Read more in [tenant-setup-options.md](architecture-note/tenant-setup-options.md "mention") and [authentication.md](authentication.md "mention")
+* **TEOS Authentication service**, implementing OAuth 2.0 protocol, and **Tenant Management Service** for retrieving user data and singing up new users. TEOS Authentication service should be used only if TEOS API is used with the user access token. Read more in [tenant-setup-options.md](architecture-note/tenant-setup-options.md "mention"), [authentication.md](authentication.md "mention") and [using-additional-apis-of-teos-platform](../using-additional-apis-of-teos-platform/ "mention")
+* **TxServer**, responsible for blockchain transactions processing and authorizing devices of end users. TxServer should be called directly only if TEOS API is used with the user access token. Read more in [tenant-setup-options.md](architecture-note/tenant-setup-options.md "mention")
 
 {% hint style="info" %}
 For the case when TEOS API is called with the API key, integration with TEOS API REST endpoint itself and Notification Endpoint is necessary

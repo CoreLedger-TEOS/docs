@@ -37,7 +37,7 @@ description: >-
 
 **Warp** – sequence of supplies that is returned as the search result by a WARP search engine based on a mathematical optimization algorithm where the supplies, available in TEOS at the moment, play the role of chain links
 
-****
+
 
 ## TEOS Platform development terms
 
