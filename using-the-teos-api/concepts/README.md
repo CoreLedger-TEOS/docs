@@ -9,13 +9,13 @@ description: >-
 
 ## TEOS Platform terms
 
-**TEOS as PaaS /TEOS platform/** – Token Economy Operating System which represents platform as a service (TEOS as PaaS), CoreLedger’s core product, includes all platform components
+**TEOS as PaaS /TEOS Platform/** – Token Economy Operating System which represents platform as a service (TEOS as PaaS), CoreLedger’s core product, includes all platform components
 
-**Tenant** – a logical, uniquely identifiable grouping of information and settings in TEOS Platform. Set of platform components is configured for every tenant specifically. Normally one customer has one tenant
+**Tenant** – set of the TEOS platform components configured for specific customer and use case, connected to the specific [environment](../architecture-note/#environments-and-nodes). Normally one customer has one development tenant and one or more productive tenants
 
 **Tenant admin** – administrative user of the tenant who can manage tenant configuration, all tenant admins must have CL user account
 
-**End users** – end users of customer, based on customer’s business case and tenant configuration end users may use TEOS platform components OR/AND customer applications
+**End users** – end users of the customer, based on customer’s business case and tenant configuration end users may use TEOS platform components OR/AND customer applications
 
 **TEOS API consumer** – any customer application interacting with TEOS platform via TEOS API. One tenant can have several TEOS API consumers (TEOS platform components and customer applications)
 
@@ -37,21 +37,17 @@ description: >-
 
 **Warp** – sequence of supplies that is returned as the search result by a WARP search engine based on a mathematical optimization algorithm where the supplies, available in TEOS at the moment, play the role of chain links
 
-
-
 ## TEOS Platform development terms
 
 **TEOS Authentication service** - one of the components of the TEOS platform, providing functionality for authentication and authorization of TEOS users. It's an optional service for customer's end users (depending on the customer solution architecture)
 
 **TEOS user account /TEOS account/** – account in TEOS Authentication service representing set of user’s properties required for TEOS platform, all tenant admins and end users who login in TEOS platform components must have TEOS user account
 
-**Device** – artificial entity for presenting authorized holder of wallets’ private keys, device can keep private keys of more than 1 wallet
+**Device** – TEOS Platform creates virtual devices for each physical device which represents the holder of wallets’ private keys in the TEOS Platform. Device can operate the private keys of more than 1 wallet. Different instances of the software which is used for wallet management (for example, TxMobile or WLA) can share the same device assigned to the same user account. Different user accounts can't share the same device.&#x20;
 
-**Provider** – artificial logical entity for presenting source of transactions, authorized to push transactions to connected devices
+**Provider** –  logical entity for presenting source of transactions, authorized to push transactions to connected devices, normally provider is a specific tenant
 
-**Environment** - the set of TEOS platform components serving tenants which are setup within this environment, each environment has its own SLAs, can be on-premise or cloud based
-
-
+**Environment** - the set of TEOS platform components serving tenants which are setup within this environment, each environment has its own SLAs, can be on-premise or cloud based. [Read more](../architecture-note/#environments-and-nodes)
 
 ## Blockchain terms
 
@@ -61,4 +57,4 @@ description: >-
 
 **Private key** - a secret key of a wallet, tightly related to the public address. Owning private key = owning the wallet, only with the help of it you can proof your ownership of the wallet and transfer sparks of asset from it
 
-**Transaction** - each record written to a blockchain (whether it is an [asset creation](asset.md), one of the [spark operations](spark.md#spark-operations), [supply creation and update](supply.md) or [warp execution](warp.md))
+**Transaction** - each record written to a blockchain, there is a list of transaction types depending on the type of data to be written to the blockchain (units transfer, new asset creation, supply exchange rate update, etc). [Read more](transaction.md)
