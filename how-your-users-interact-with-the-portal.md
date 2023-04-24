@@ -64,11 +64,12 @@ First user needs to select the redeem method as shown below. For each method, a 
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>Select redemption method</p></figcaption></figure>
 
-Enter the requested redemption method details and submit the payout request.
+Enter the requested redemption method details and submit the payout request. \
+Amount can be defined both as amount to pay and amount to receive. All fees are calculated automatically and included in the amounts. The pricing details are presented below.
 
 <div>
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Define the redeemed amount</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2023-04-21 at 18.35.39.png" alt=""><figcaption><p>Define the redeemed amount</p></figcaption></figure>
 
  
 
@@ -82,7 +83,7 @@ Enter the requested redemption method details and submit the payout request.
 
 A summary of the payout details is presented and can be confirmed after accepting the terms and conditions.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Redemption details confirmation</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2023-04-24 at 16.50.42 (1).png" alt=""><figcaption><p>Redemption details confirmation</p></figcaption></figure>
 
 QR code should be scanned with WLA and the transaction must be confirmed. The sparks will be transferred from the account to the configured address and the respective amount.
 
@@ -90,4 +91,4 @@ QR code should be scanned with WLA and the transaction must be confirmed. The sp
 
 ## Account
 
-Here the user can define some information about his account, manage his saved crypto wallets and bank accounts, upgrade his KYC tier.
+Here the user can define the information about his account, manage his saved crypto wallets and bank accounts, upgrade his KYC tier.

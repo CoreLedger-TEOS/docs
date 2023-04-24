@@ -1,5 +1,15 @@
 # Earlier versions
 
+### Version 0.12 introduced in August, 2022
+
+In this version we refurbished the order creation process to improve UX and introduced shopping cart edge cases processing to make sure you don't face any issues. Additionally we made purchase reference code available for all orders (it was available only for bank transfers till this version) and updated our recommendations how to define its template to make sure you will have around 11 mln unique codes. Now you can use it to support communication between you and your end users.
+
+Also now admins can provide additional data necessary for your business cases for each order and redemption in order details and redemption details correspondingly.
+
+Please, note: we renamed menu entries! Now navigation should be easier for you and your end users.
+
+Also we fixed some bugs and introduced some design and architecture changes to improve user experience.
+
 ### Version 0.11 introduced on July, 19 2022
 
 In this version we introduced integration with KYC provider [Shufti Pro](https://shuftipro.com/) to let admins define necessary KYC tiers and functionality available for them. Check how to [configure KYC functionality](../admin-user-guide/portal-configuration/features-configuration/kyc-checks.md). Your end-users will have to go through KYC checks to get access to the functionality according to defined tiers as described in [#kyc-checks](../how-your-users-interact-with-the-portal.md#kyc-checks "mention") and your admins will have to take care of approval of KYC tier upgrade requests as described in [#kyc-management](../admin-user-guide/admin-functionality.md#kyc-management "mention").

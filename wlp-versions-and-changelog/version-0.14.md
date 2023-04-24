@@ -1,5 +1,5 @@
 ---
-description: coming soon
+description: available from January, 2023
 ---
 
 # Version 0.14

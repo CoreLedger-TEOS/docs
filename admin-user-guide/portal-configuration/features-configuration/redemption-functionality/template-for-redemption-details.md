@@ -24,32 +24,32 @@ Using these variables, you will operate with the order specific data.
 
 #### Available for all redemption methods
 
-| \<referencecode>        | Redemption reference code                                                 |
-| ----------------------- | ------------------------------------------------------------------------- |
-| \<netamount>            | How much the user receives, taking into account all commissions           |
-| \<grossamount>          | <p>Net amount - how much the user receives </p><p>excluding all fees </p> |
-| \<currency>             | transfer currency                                                         |
-| \<redeemedassetsparks>  | How much user pays in asset sparks                                        |
-| \<redeemedassetunits>   | How much user pays in asset units                                         |
-| \<asset.name>           | Name of the asset                                                         |
-| \<asset.unitofmeasure>  | Unit of measurement of the asset (kg, m3, and so on)                      |
-| \<redemptionmethod>     | Name of the selected redemption method                                    |
+| \<referencecode>                   | Redemption reference code                                               |
+| ---------------------------------- | ----------------------------------------------------------------------- |
+| \<netamountpayoutunits>            | How much the user really receives, taking into account all commissions  |
+| \<grossamountpayoutunits>          | Gross amount = net amount + fees                                        |
+| \<currency>                        | transfer currency                                                       |
+| \<grossamountinredeemassetsparks>  | How much user pays in asset sparks in total                             |
+| \<grossamountinredeemassetunits>   | How much user pays in asset units in total                              |
+| \<asset.name>                      | Name of the asset                                                       |
+| \<asset.unitofmeasure>             | Unit of measurement of the asset (kg, m3, and so on)                    |
+| \<redemptionmethod>                | Name of the selected redemption method                                  |
 
 #### Bank details&#x20;
 
 Available only for redemption by bank transfer. If some of the optional properties values will be empty, nothing will be added to PDF
 
-| \<bank.name>                                                                                                                                                                                                                                                                               | Beneficiary's bank name                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
-| \<bank.country>                                                                                                                                                                                                                                                                            | Beneficiary’s bank country                                    |
-| \<bank.stateOrRegion> (available from v0.14)                                                                                                                                                                                                                                               | Beneficiary’s bank state or region                            |
-| \<bank.city>                                                                                                                                                                                                                                                                               | Beneficiary’s bank city                                       |
-| \<bank.addressline>                                                                                                                                                                                                                                                                        | Beneficiary’s bank address                                    |
-| \<bank.zipcode>                                                                                                                                                                                                                                                                            | Beneficiary’s bank zip code                                   |
-| \<bank.iban>                                                                                                                                                                                                                                                                               | Beneficiary 's account                                        |
-| \<bank.swift> (available from v0.14)                                                                                                                                                                                                                                                       | Beneficiary 's bank Swift code                                |
-| \<bank.bic>                                                                                                                                                                                                                                                                                | Beneficiary 's bank BIC code (local bank identification code) |
-| <p>Available from v0.14:<br>&#x3C;intermediaryBank.name>&#x3C;intermediaryBank.country>&#x3C;intermediaryBank.city>&#x3C;intermediaryBank.stateOrRegion> &#x3C;intermediaryBank.addressline> &#x3C;intermediaryBank.zipcode> &#x3C;intermediaryBank.iban>&#x3C;intermediaryBank.swift></p> | Intermediary (correspondent) bank details                     |
+| \<bank.name>                                                                                                                                                                                                               | Beneficiary's bank name                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| \<bank.country>                                                                                                                                                                                                            | Beneficiary’s bank country                                    |
+| \<bank.stateOrRegion>                                                                                                                                                                                                      | Beneficiary’s bank state or region                            |
+| \<bank.city>                                                                                                                                                                                                               | Beneficiary’s bank city                                       |
+| \<bank.addressline>                                                                                                                                                                                                        | Beneficiary’s bank address                                    |
+| \<bank.zipcode>                                                                                                                                                                                                            | Beneficiary’s bank zip code                                   |
+| \<bank.iban>                                                                                                                                                                                                               | Beneficiary 's account                                        |
+| \<bank.swift>                                                                                                                                                                                                              | Beneficiary 's bank Swift code                                |
+| \<bank.bic>                                                                                                                                                                                                                | Beneficiary 's bank BIC code (local bank identification code) |
+| \<intermediaryBank.name>\<intermediaryBank.country>\<intermediaryBank.city>\<intermediaryBank.stateOrRegion> \<intermediaryBank.addressline> \<intermediaryBank.zipcode> \<intermediaryBank.iban>\<intermediaryBank.swift> | Intermediary (correspondent) bank details                     |
 
 #### Beneficiary details&#x20;
 

@@ -83,4 +83,3 @@ Additionally, the imprint section can be fully customized with an individual htm
 We highly recommend to provide email by which your end-users can contact you. If you don't provide it, all texts, where it should be shown, will be empty&#x20;
 {% endhint %}
 
-``

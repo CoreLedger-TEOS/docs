@@ -4,9 +4,9 @@ Normally we release one version each month. You can check the changelog of each 
 
 ### Released versions <a href="#available-graph-api-versions" id="available-graph-api-versions"></a>
 
-| Version | Date Introduced |
+| Version | When introduced |
 | ------- | --------------- |
-| 0.14    | Coming soon     |
+| 0.15    | coming soon     |
+| 0.14    | January, 2023   |
 | 0.13    | 22.09.2022      |
-| 0.12    | 09.08.2022      |
 
