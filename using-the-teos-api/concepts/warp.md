@@ -16,8 +16,8 @@ Warp search results are the identified warps which meet given search criteria.
   * warps that allow you to get any amount of desired asset for the amount of sparks not more than _amount of sparks of offered asset to pay_&#x20;
   * warps that allow you to get 1 spark of desired asset if you offered amount of sparks less than it is needed to get 1 spark of desired asset
 * If the amount of sparks of desired asset to get is set, search will result in
-* warps that allow you to get the amount of sparks of desired asset not less than _amount of sparks of desired asset to get_ which was set
-* warps that allow you to get maximum available amount of sparks of desired asset if you desired amount of sparks more than it is available on the market
+  * warps that allow you to get the amount of sparks of desired asset not less than _amount of sparks of desired asset to get_ which was set
+  * warps that allow you to get maximum available amount of sparks of desired asset if you desired amount of sparks more than it is available on the market
 
 Found warps can be different by amount of offered and desired assets and exchange rate for trading them.
 
