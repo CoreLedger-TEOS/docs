@@ -51,10 +51,5 @@ TEOS user can **cancel invoice** by invoiceId – status of Invoice is set to �
 TEOS user can **pay invoice.** This initiates a Transfer or WARP transaction for invoice payment:
 
 * Transfer - a desired amount of sparks are transferred from sender to the target address
-* [WARP ](../../overview/warp-search.md)execution - user searches for possible WARPs, chooses the preferred one (if any found), takes its data needed for the invoice payment (InputAmount and SupplyIds) and pays the invoice
+* [WARP ](warp.md)execution - user [searches ](../../overview/warp-search.md)for possible WARPs, chooses the preferred one (if any are found), takes its data needed for the invoice payment (InputAmount and SupplyIds) and pays the invoice
 
-
-
-
-
-– transfer or WARP transaction for invoice payment is automatically triggered
