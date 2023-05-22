@@ -10,17 +10,35 @@ You can enable / disable the access to the functionalities “Purchase”, “Re
 
 ![](<../../../.gitbook/assets/Screenshot 2023-04-24 at 16.54.47.png>)
 
-#### Use WLP direct links for redemption and purchase
+## Use WLP direct links for redemption and purchase
 
 Starting from v0.15 we introduced additional feature for secondary markets. If the portal is going to be used for purchasing and redeeming assets provided by different customers, there is a chance that you're going to hide all other assets if end user goes to the portal using promotion link of the specific asset.
 
 With the feature "Use WLP direct link for redemption and purchase" enabled, end users will find themselves directly at the featured asset page or at the first step of the specified redemption in the promoted url. End users won't be able to see other redemption methods and assets unless they are admins.
 
-It's important to note that more than one asset can be defined as featured one
+It's important to note that more than one asset can be defined as featured one.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-04-24 at 17.05.53 (1).png" alt=""><figcaption><p>User view when user uses direct link to the redemption method when "Use WLP direct links for redemption and purchase" is enabled </p></figcaption></figure>
 
-### Reference code template
+#### How to build direct links
+
+Links to the specific **redemption methods** are built in the following way:\
+`{portal url}/redemption/details/{redemptionId},`\
+where redemptionId is the redemption ID from the Advanced config management\
+\
+Example:\
+_https://wlp-sandbox-pilot.onteos.net/redemption/details/1111-222-34242-123132_
+
+Links to the specific **featured assets** are built in the following way:\
+`{portal url}/featured/{uniqueAssetId},`\
+where uniqueAssetId is the unique Asset ID assigned to the asset automatically when asset is created, it can be found in Advanced config management\
+\
+Example:\
+_https://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_&#x20;
+
+Please, don't forget to provide all necessary configuration for all featured assets. If some required configuration is missing, direct link won't work as expected
+
+## Reference code template
 
 Go to **Advanced** **Configuration Management** page to setup Reference code template for all your purchases and redemptions to make sure your end user has some reference ID to tell you when he talks to your support.
 
