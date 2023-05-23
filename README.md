@@ -1,33 +1,22 @@
 ---
-description: Version Django (available from February, 14)
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
 
-# Welcome!
+# 👋 Welcome to TEOS API
 
 {% hint style="info" %}
-We released a new version [Django](wlm-versions-and-changelog/django.md). Check out what's new!
+We've released a new version - [TEOS API v0.9](changelog/v0.9.md), check what's new, we will notify when it is available on production
 {% endhint %}
-
-These pages introduce configuration options of the White Label Management Tool (WLM) and its core functionality. WLM is a customizable webapp for managing blockchain data like digital assets, supplies, controllers and configuring the tenant for your business case needs. Also this documentation describes how to use TX.Mobile to work with WLM.
-
-Most of the business cases which we encountered so far assume that tenant admins use WLM so both [admin-user-guide](admin-user-guide/ "mention") and [user-guide](user-guide/ "mention") are valid for tenant admins.
 
 {% hint style="info" %}
-Please be aware, that figures, assets and names used in the documentation might be different from your customized WLM
+TEOS API v0.6 is not supported anymore but still available, please, plan the upgrade to v0.7 and higher
 {% endhint %}
 
-While working with TEOS you may also need to check the docs of other TEOS products:
+The TEOS API is our core platform component, giving users simple and quick access to all of the TEOS platform’s rich functionality and enabling customers to build custom applications on top of CoreLedger's blockchain infrastructure. Real-time events, intuitive functions, and optional TEOS authentication services make getting started with blockchain technology faster and easier than ever.
 
-* [TEOS API](http://localhost:5000/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)
-* [White Label Portal](http://localhost:5000/o/ZaeNizhnU47lCcTSk7wB/s/iTYqY7GQFlQO0s8Vbk2r/)
-* [White Label Mobile App](http://localhost:5000/o/ZaeNizhnU47lCcTSk7wB/s/7Xg7iannH70Bvo1bfqMb/)
+If you are just starting with the TEOS API, we recommend that you dive into the topics listed below. If you're already familiar with TEOS API, use the Search function or just surf the navigation on the left to find what you're interested in.
 
-### Support
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><mark style="color:blue;"><strong>Overview</strong></mark></td><td>Learn how the TEOS API fits into the TEOS platform, how versions work, and how authentication works.</td><td><a href="using-the-teos-api/">using-the-teos-api</a></td></tr><tr><td><mark style="color:blue;"><strong>Get started</strong></mark></td><td>Learn how to get started with the TEOS API.</td><td><a href="get-started.md">get-started.md</a></td></tr><tr><td><mark style="color:blue;"><strong>Using TEOS API</strong></mark></td><td>Learn which common rules are important for users.</td><td><a href="overview/">overview</a></td></tr><tr><td><mark style="color:blue;"><strong>API Reference</strong></mark></td><td>Learn how to read our reference documents so you can easily find what you are looking for.</td><td><a href="reference/">reference</a></td></tr></tbody></table>
 
-If you need support, please, contact us: support@coreledger.net
-
-#### How to report an issue?
-
-If you find an issue, please, report it in our github repository by clicking github icon in the top right corner
+Don't forget to check out our website if you want to know more about [**CoreLedger**](https://coreledger.net/) and what we offer!

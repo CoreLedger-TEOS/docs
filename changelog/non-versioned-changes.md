@@ -8,6 +8,14 @@ description: These changes are relevant for all versions with corresponding func
 Check [non-versioned-changes.md](non-versioned-changes.md "mention") to learn more about this type of changes
 {% endhint %}
 
+## June, coming soon
+
+* Now customized tenant-specific Terms and Conditions and Data Policy can be accepted by the user already when registering to the system if [tenant setup with TEOS Authentication service is used](../using-the-teos-api/architecture-note/tenant-setup-options.md#using-teos-api-with-the-user-access-token). To use this feature, tenant admin must provide either link to the page with project's T\&C and Data Policy published somewhere else or provide HTML files with T\&C and Data Policy to the CoreLedger manager.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-23 at 14.27.55.png" alt=""><figcaption></figcaption></figure>
+
+* We've made some changes in our monitoring system. Now we'll get the info in case of some problems in the system components faster.
+
 ## 13.03.2023
 
 #### Changes
