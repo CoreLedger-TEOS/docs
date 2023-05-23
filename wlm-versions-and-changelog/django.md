@@ -26,3 +26,18 @@ We fixed some bugs to make our solution more user-friendly and stable:
   * when user creates a new account and confirms email, he is not notified about this registration
   * when admin approves or declines user request, user is not notified about his account approval
   * when admin changes the status of the user (disables or enables), user is not notified about the status change
+
+## Django service pack 2 (coming soon)
+
+### Changes:
+
+*   Now customized tenant-specific Terms and Conditions and Data Policy can be accepted by the user already when registering to the system. To use them, tenant admin must provide either link to the page with project's T\&C and Data Policy published somewhere else or provide HTML files with T\&C and Data Policy to your CoreLedger manager. \
+    WLM still has its own representation of T\&C and Data Policy when signing user to WLM, but soon it will be removed.\
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-05-23 at 14.27.55.png" alt=""><figcaption></figcaption></figure>
+* We've made some changes in our monitoring system. Now we'll get the info in case of some problems in the system components faster.
+
+### Fixes:
+
+* The problem with real-time data delivery component is eliminated, you are not supposed to see errors about this problem so often anymore.

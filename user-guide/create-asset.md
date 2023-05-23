@@ -20,7 +20,7 @@ If you finished filling out the main properties of your asset, click on “Save 
 
 There are two types of units which can be used in TEOS (and in WLM particularly) for displaying asset amount: natural units of measure and sparks.
 
-Every asset has its own representation in real world and thus has its own natural units of measure which are defined for the digital asset when it is created.  For example, steel is measure in kilograms or tons and man-hours in days or hours. ****&#x20;
+Every asset has its own representation in real world and thus has its own natural units of measure which are defined for the digital asset when it is created.  For example, steel is measure in kilograms or tons and man-hours in days or hours.&#x20;
 
 Every digital asset written to the blockchain has unified indivisible unit of measure. In TEOS we call it Spark. **Spark is the generalized term for the smallest indivisible fraction of a digital asset** (like one Satoshi is for Bitcoin or one Wei is for Ether).
 
