@@ -48,16 +48,7 @@ In case asset is created with any other AssetClassCode, CurrencyCode can't be se
 
 #### Asset Classes
 
-| ID   | (en)                     |
-| ---- | ------------------------ |
-| A013 | Cash and Cash equivalent |
-| A103 | Commodity                |
-| A104 | Intangible assets        |
-| A022 | Financial products       |
-| A031 | Services                 |
-| A041 | Real estate              |
-| A016 | Other assets             |
-| A017 | Document                 |
+<table><thead><tr><th width="164.5">ID</th><th>(en)</th></tr></thead><tbody><tr><td>A013</td><td>Cash and Cash equivalent</td></tr><tr><td>A103</td><td>Commodity</td></tr><tr><td>A104</td><td>Intangible assets</td></tr><tr><td>A022</td><td>Financial products</td></tr><tr><td>A031</td><td>Services</td></tr><tr><td>A041</td><td>Real estate</td></tr><tr><td>A016</td><td>Other assets</td></tr><tr><td>A017</td><td>Document</td></tr></tbody></table>
 
 
 

@@ -30,6 +30,8 @@ Most of the TEOS API functionality can be used with the API key. If some endpoin
 
 The **user token** is short-lived and is valid for 48 hours (subject to changes, a new validity period can be set on request). It is issued when a user signs into an application integrated with the TEOS Authentication service. To integrate an app with the TEOS Authentication service, please contact your CoreLedger manager or send a service request to [support@coreledger.net](mailto:support@coreledger.net).
 
+During signing up or signing in to a new tenant, or after T\&C are updated the user can receive a form, requiring to accept the current versions of terms and conditions and data protection policy. Without accepting them, the user won't be able to sign-up or login.
+
 ## Token scopes and claims
 
 TEOS API requires `prod.teosapi` scope to be included in the token. The claim `tid` with the TenantId (GUID) should also be included within the Token. Both the necessary scope and claim are added during token creation.
