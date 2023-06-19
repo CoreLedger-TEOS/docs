@@ -56,7 +56,7 @@ Using these variables, you will operate with the order specific data.
 | \<unit.price>         | The price for a single unit of the asset               |
 | \<units.total.price>  | <p>The total price for all units of the asset <br></p> |
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Example of the table</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Example of the table</p></figcaption></figure>
 
 ### Bank Transfer details&#x20;
 

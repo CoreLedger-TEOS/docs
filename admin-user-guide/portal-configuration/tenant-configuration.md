@@ -24,7 +24,7 @@ Pick desired currency from the list. This currency will be used for displaying t
 
 All changes are saved automatically.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>USD is defined as portal currency</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>USD is defined as portal currency</p></figcaption></figure>
 
 ### Portal languages
 

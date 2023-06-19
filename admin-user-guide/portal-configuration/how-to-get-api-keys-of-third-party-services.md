@@ -4,9 +4,16 @@
 
 Login to your Payrexx account at [payrexx.com](https://www.payrexx.com/en/home/) and find following parameters:
 
-1. Copy **Payrexx account name** from the URL bar after you login to your account \
-   ![](<../../.gitbook/assets/Screenshot 2023-05-17 at 18.27.33.png>)
-2. You can find **Default API key** in Webhooks & API section. Please, note that every time you regenerate API key in your Payrexx account, it has to be updated in the settings portal settings to keep the integration working
+1. Copy **Instance Name** from the URL bar after you login to your account \
+   ![](<../../.gitbook/assets/Screenshot 2023-05-17 at 18.27.33.png>)\
+   Remember, if your payment page URL is [https://example.payrexx.com](https://example.payrexx.com/) then **example** is your Instance Name.
+2.  You can find **API key** in Webhooks & API section. It's better to create new integration and use it for portal integration to make sure you don't make any mistakes with other integrations.\
+
+
+    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Put an integration name and click on the Add button. Now you can get your **API Key** here.\
+Please, note that if you deactivate API key which you've provided, it has to be changed in the portal settings to keep the integration working.
 
 Copy parameters above and send them to CoreLedger project manager to start using this integration in your WLP&#x20;
 
