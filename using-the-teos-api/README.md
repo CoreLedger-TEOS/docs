@@ -1,6 +1,6 @@
 # TEOS API overview
 
-The TEOS API is the primary way for apps to read and write to the blockchain. All our platform components interact with the TEOS API in some way.
+The TEOS API is the primary way for apps to read and write to the blockchain. All our platform components interact with the TEOS API in some way, and our other APIs are extensions of the TEOS API, so understanding how the TEOS API works is crucial.
 
 ## The Basics
 
