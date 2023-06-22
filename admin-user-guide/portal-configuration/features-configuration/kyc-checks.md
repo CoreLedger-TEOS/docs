@@ -10,7 +10,7 @@ Go to **"Advanced config management"** in order to configure settings for KYC ch
 
 ## KYC tiers configuration
 
-#### Step 1. Decide how many tiers are necessary for your business case and describe them
+### Step 1. Decide how many tiers are necessary for your business case and describe them
 
 You are welcome to set as many tiers as you need.&#x20;
 
@@ -23,7 +23,24 @@ Each tier must have following parameters:
 * number - will be used for processing and also will be displayed to user and admin
 * name - will be displayed to user under KYC description page
 * description - optional, but we highly recommend to provide it, you can briefly explain your end-users the purpose of this tier and documents which they will need to submit to get it
-* KYC providers configuration (starting from tier 1) - for now only Shufti Pro is available as a provider, so parameter "name" mustn't be changed. Its config settings are described below.&#x20;
+* KYC providers configuration (starting from tier 1)\
+  You can set one of the following options for name: "Manual" or "ShuftiPro" (note that register is important here). "config" value depends on the way you're going to handle the KYC checks.\
+  :bangbang:Note that all tiers must have the same provider name.
+
+#### Manual KYC checks (no integration with 3rd party services)
+
+If you are NOT interested in the [Shufti Pro integration](https://shuftipro.com/identity-verification/) for KYC process, you can use "Manual" as a provider's "name" and leave "config" parameter empty ("") which means that you're taking the responsibility for:
+
+* instructing users of how they can go through KYC checks (you can send emails for this purpose),&#x20;
+* collecting all necessary data from users (by email or via phone calls or any other method which you prefer),
+* verifying the validity of the provided data.
+
+You can use portal for receiving the tier requests in the form of KYC cases and managing the results of the verification by approving or declining the requested KYC tier.
+
+#### ShuftiPro KYC provider integration &#x20;
+
+If you are interested in setting up the [Shufti Pro integration](https://shuftipro.com/identity-verification/), you are supposed to use "ShuftiPro" as a provider's "name" and define the "config" parameter for each tier.\
+ShuftiPro config settings are described below.&#x20;
 
 ```
  "kycTiersDescription": [
@@ -57,9 +74,15 @@ Each tier must have following parameters:
   ],
 ```
 
-#### Step 2. Define KYC provider settings for each tier > 0
+### Step 2. Define KYC provider settings for each tier > 0
 
-If you use Active Sandbox product and run pilot project you're welcome to use CoreLedger test account for KYC provider. In order to use KYC functionality productively you will need to create your own productive account with [Shufti Pro](https://shuftipro.com/) and send keys to our project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services.md).&#x20;
+#### Manual KYC checks (no integration with 3rd party services)
+
+"config" parameter can be empty (set as ""), it will be ignored anyway
+
+#### ShuftiPro KYC provider integration &#x20;
+
+If you use Active Sandbox product and run pilot project you're welcome to use CoreLedger test account for KYC provider. In order to use KYC functionality with Shufti Pro integration productively you will need to create your own productive account with [Shufti Pro](https://shuftipro.com/) and send keys to our project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services.md).&#x20;
 
 We use Onsite verification with OCR for integration with Shufti Pro. All parameters which can be set are described in [Shufti Pro's documentation](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#on-site-verification-with-ocr) in Verification Request section.&#x20;
 

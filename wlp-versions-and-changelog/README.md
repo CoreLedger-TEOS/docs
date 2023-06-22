@@ -6,7 +6,7 @@ Normally we release one version each month. You can check the changelog of each 
 
 | Version | When introduced |
 | ------- | --------------- |
-| 0.15    | coming soon     |
+| 0.15    | April, 2023     |
 | 0.14    | January, 2023   |
 | 0.13    | 22.09.2022      |
 

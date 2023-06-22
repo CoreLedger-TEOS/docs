@@ -2,7 +2,7 @@
 
 ## KYC management
 
-As administrator you have access to the KYC Management section of WLP. Here you can access the data, which users have provided during KYC process.
+As administrator you have access to the KYC Management section of WLP. Here you can access the data of the KYC cases and make a decision about declining or approving KYC tier request.
 
 #### Process of KYC checks
 
@@ -12,11 +12,15 @@ All users automatically get tier 0 when they register
 Users can't have several KYC cases opened
 {% endhint %}
 
-Step 1. User goes through KYC checks if he wants to upgrade his tier. Process is described here [#kyc-checks](../how-your-users-interact-with-the-portal.md#kyc-checks "mention")and provides to KYC provider (Shufti Pro) all necessary data as configured for the requested tier.&#x20;
+**Step 1.** User goes through KYC checks if he wants to upgrade his tier. Process is described here [#kyc-checks](../how-your-users-interact-with-the-portal.md#kyc-checks "mention").\
+In case you've configured the integration of the portal with KYC provider (ShuftiPro), user  provides all necessary data to KYC provider as configured for the requested tier.\
+:bangbang: In case you've decided to manage the KYC process fully by yourself (provider "manual" is set for all tiers), you're taking the responsibility of collecting all necessary data from users. Here in the portal you can only approve or decline the requested KYC tier within the KYC case.
 
-Step 2. Admin makes a decision whether to approve requested tier. Results of verification by KYC provider are available for admins in the KYC case. If KYC provider's verification result is "Declined", "Cancelled" or "Error", KYC case is automatically closed and gets status "Declined". If KYC provider's verification result is "Accepted" then admin can decide either to **approve** requested tier for the user or to **decline** it. User will have to start another case after his current case is declined.
+**Step 2.** Admin makes a decision whether to approve requested tier.&#x20;
 
-Step 3. If tier upgrade was approved for user, user can start using functionality available for this tier. User will get a corresponding notification via email.
+Results of verification by KYC provider are available for admins in the KYC case if the portal is configured to have the integration with KYC provider.. If KYC provider's verification result is "Declined", "Cancelled" or "Error", KYC case is automatically closed and gets status "Declined". If KYC provider's verification result is "Accepted" then admin can decide either to **approve** requested tier for the user or to **decline** it. User will have to start another case after his current case is declined.
+
+**Step 3.** If tier upgrade was approved for user, user can start using functionality available for this tier. User will get a corresponding notification via email.
 
 ![All cases are filtered by status = "Open" by default, remove filter to check all cases](<../.gitbook/assets/image (17).png>)
 

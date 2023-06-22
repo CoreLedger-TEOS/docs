@@ -1,5 +1,11 @@
 # Version 0.15
 
+## June, 2023
+
+We introduced the possibility to handle KYC processes without the integration with 3rd party service Shufti Pro and without the necessity to collect any info in the portal. Now admins can set "manual" KYC provider and handle KYC checks by any mean they prefer out of the portal. Read more how to set and handle manual KYC checks in [kyc-checks.md](../admin-user-guide/portal-configuration/features-configuration/kyc-checks.md "mention") and [#kyc-management](../admin-user-guide/admin-functionality.md#kyc-management "mention")
+
+## April, 2023
+
 As usual, with this version we've brought some UI improvements and couple of bug fixes. Apart from that, we introduced one feature for end users and made some significant changes in the configuration flow and WLP management.
 
 **End users** can benefit from the possibility to define amount to pay or amount to receive as a payout within Redemption flow. WLP calculates all the fees and includes them automatically based on the [redemption method parameters](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/).
