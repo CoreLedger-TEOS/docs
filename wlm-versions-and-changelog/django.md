@@ -27,7 +27,7 @@ We fixed some bugs to make our solution more user-friendly and stable:
   * when admin approves or declines user request, user is not notified about his account approval
   * when admin changes the status of the user (disables or enables), user is not notified about the status change
 
-## Django service pack 2 (coming soon)
+## Django service pack 2 (delivered on July, 06)
 
 ### Changes:
 
