@@ -1,5 +1,5 @@
 ---
-description: Versioned changes and out-of-cycle changes, list of TEOS API versions
+description: Versioned changes and non-versioned changes, list of TEOS API versions
 ---
 
 # Changelog
@@ -16,7 +16,6 @@ Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept to 
 
 | Version        | Date Introduced | Supported until |
 | -------------- | --------------- | --------------- |
-| [0.9](v0.9.md) | coming soon     | 01.03.2024      |
-| [0.8](v0.8.md) | 17.11.2022      | 01.09.2023      |
-| [0.7](v0.7.md) | 29.09.2022      | 01.07.2023      |
-| [0.6](v0.6.md) | 06.09.2022      | 06.05.2023      |
+| [0.9](v0.9.md) | 06.07.2023      | 01.04.2024      |
+| [0.8](v0.8.md) | 17.11.2022      | 01.11.2023      |
+| [0.7](v0.7.md) | 29.09.2022      | 01.08.2023      |

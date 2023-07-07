@@ -1,7 +1,5 @@
 # 3xxxx codes
 
-Addresses parameter of the GetAddressBalances request is empty.
-
 ## 31000
 
 |             |                                                                                                                                                                               |
