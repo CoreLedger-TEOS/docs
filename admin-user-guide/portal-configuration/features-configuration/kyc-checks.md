@@ -82,7 +82,7 @@ ShuftiPro config settings are described below.&#x20;
 
 #### ShuftiPro KYC provider integration &#x20;
 
-If you use Active Sandbox product and run pilot project you're welcome to use CoreLedger test account for KYC provider. In order to use KYC functionality with Shufti Pro integration productively you will need to create your own productive account with [Shufti Pro](https://shuftipro.com/) and send keys to our project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services.md).&#x20;
+If you use Active Sandbox product and run pilot project you're welcome to use CoreLedger test account for KYC provider. In order to use KYC functionality with Shufti Pro integration productively you will need to create your own productive account with [Shufti Pro](https://shuftipro.com/) and send keys to our project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services-and-configure-them-for-portal-integration.md).&#x20;
 
 We use Onsite verification with OCR for integration with Shufti Pro. All parameters which can be set are described in [Shufti Pro's documentation](https://api.shuftipro.com/api/docs/onsite\_with\_ocr/#on-site-verification-with-ocr) in Verification Request section.&#x20;
 
