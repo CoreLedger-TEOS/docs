@@ -6,7 +6,7 @@ description: User authentication flow description
 
 The following diagram describes the typical request flow from an authentication/authorization point of view. You can find a detailed description of each step below.
 
-You can find a detailed description of the endpoints, used in the steps, [here](https://tms-dev3.dev.coreledger.net/swagger/index.html).
+You can find a detailed description of the endpoints, used in the steps, [here](https://tms.coreledger.net/swagger/index.html).
 
 <figure><img src="../.gitbook/assets/TMS Auth Flow.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,10 +22,10 @@ If the access token is not valid, the application should authenticate a user and
 
 
 
-**Step 1.2.** Application sends a request to the 'user' endpoint in TMS to retrieve information about the authenticated user:&#x20;
+**Step 1.2.** Application sends a request to the `/users` endpoint in TMS to retrieve information about the authenticated user:&#x20;
 
 ```
-GET /user
+GET /users
 Auth: Bearer <access-token>
 ```
 
