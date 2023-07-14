@@ -7,7 +7,7 @@ coverY: 0
 # 👋 Welcome!
 
 {% hint style="info" %}
-New version v0.22 is available! Check [what's new](wla-versions-and-changelog/version-0.21.md)
+New version v0.22 is available! Check [what's new](wla-versions-and-changelog/version-0.22.md)
 {% endhint %}
 
 **White Label Mobile App (WLA)** is a customized mobile app which acts as blockchain wallet within TEOS and can be used for signing transactions, checking balances, creating and paying invoices, creating supplies and running trades.
