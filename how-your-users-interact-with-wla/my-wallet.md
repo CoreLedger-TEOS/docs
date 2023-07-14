@@ -2,13 +2,13 @@
 
 The last step of the user registration process is creating the wallet. User can find his wallet's details by clicking Menu.&#x20;
 
-<div>
+<div align="center" data-full-width="true">
 
-<figure><img src="../.gitbook/assets/MicrosoftTeams-image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MicrosoftTeams-image (5).png" alt="" width="148"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/MicrosoftTeams-image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MicrosoftTeams-image (6).png" alt="" width="118"><figcaption></figcaption></figure>
 
 </div>
 
@@ -21,4 +21,4 @@ Following details are available:
 
 User can click the wallet and open wallet details where Sign data is available. User can sign any text and send this signature in hex or base64 format to prove the ownership of his wallet. This functionality is added as a separate [optional module for WLA-based apps](../admin-user-guide/wla-modules.md).
 
-<figure><img src="../.gitbook/assets/MicrosoftTeams-image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MicrosoftTeams-image (1).png" alt="" width="148"><figcaption></figcaption></figure>

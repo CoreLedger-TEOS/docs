@@ -43,4 +43,3 @@ The following refers to the logo loading screen and the logo in the settings:
 },
 ```
 
-__

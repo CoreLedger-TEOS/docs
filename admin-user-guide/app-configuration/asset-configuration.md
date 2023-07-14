@@ -21,7 +21,7 @@ When asset is created by the admin, additional properties necessary for WLA, can
 * **Make available in** - add "WLA" as a value here to make sure that this asset is used in WLA
 * **WLA and WLP\_Asset ticker** - Asset ticker used both in WLA and WLP must be defined
 * **WLA\_Name (optional)** - WLA specific asset name can be defined in case you want asset to be used in WLA with some alternative naming&#x20;
-* If you want asset to be displayed in “My Asset” screen, even when the wallet has no Sparks of it, then the parameter **WLA\_Show if balance is 0** __ must be set to true
+* If you want asset to be displayed in “My Asset” screen, even when the wallet has no Sparks of it, then the parameter **WLA\_Show if balance is 0** must be set to true
 * **WLA and WLP\_Round to (optional)** - For each asset to be shown in WLA, you can define the number of decimal places to which asset units will be rounded in WLA screens in case precise number is too long. This parameter is optional, in case you don't define it, WLA will round the amounts to 2 decimal places in case of Asset type is Cash or Cash Equivalent and to 4 decimal places for all other Asset types
 
 {% hint style="info" %}
@@ -38,11 +38,13 @@ Don't forget to remove optional properties values of which you don't want to def
 
 </div>
 
-* You can add translations for the name, description and ticker to German and Spanish languages in case you expect WLA users in these languages
+#### Step 3. Translations to different languages
+
+You can add translations for the name, description and ticker to German and Spanish languages in case you expect WLA users in these languages
 
 Finally, you will have Asset defined in WLM which is going to be used in WLA
 
-#### Step 3. Asset icon configuration
+#### Step 4. Asset icon configuration
 
 You must use Assets.json configuration file to define the icon of the asset. Asset icon is mandatory.
 
