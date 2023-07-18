@@ -32,7 +32,7 @@ Some modules have optional functionality which is listed below. If our default s
 #### Payment requests and invoices module
 
 * Let user pay payment request and invoice with other assets (make warp transfer)\
-  Enable the possibility to let users pay with other assets than the requested one in the payment request or in the invoice (warp transfer functionality of the TEOS Platform is used for this feature). From invoice owner perspective it will be still paid by desired asset, but in case there are supplies on the market which let exchange desired asset against user's assets then invoice can be paid with warp transfer.\
+  Enable the possibility to let users pay with other assets than the requested one in the payment request or in the invoice (warp transfer functionality of the TEOS Platform is used for this feature). From invoice owner perspective it will be still paid by desired asset, but in case there are supplies on the market which let exchange desired asset against user's assets, then invoice can be paid with warp transfer.\
   By default this feature is enabled
 
 <div>
