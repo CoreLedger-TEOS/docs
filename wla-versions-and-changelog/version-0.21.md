@@ -23,3 +23,7 @@ We've removed "show\_all\_transactions\_in\_my\_activity" from the app config, y
 
 Starting from this version most of the asset configuration necessary for WLA can be defined with the help of WLM UI when asset is being setup by the admin. Admins should add these properties as additional ones from the collection "WLA\&WLP configuration". We've already prepared everything, just add this folder, fill the values of WLA properties and remove unnecessary ones. Check how to do it in [asset-configuration.md](../admin-user-guide/app-configuration/asset-configuration.md "mention"). Though, please, keep in mind that the asset list itself and asset icons must be still configured in "assets" json config file.\
 Also, we are not asking you to replace the existing configuration of the existing asset used in WLA. You can keep and it will be still used. But for all new assets added to WLA, please, use new approach for asset definition described in [asset-configuration.md](../admin-user-guide/app-configuration/asset-configuration.md "mention")
+
+{% hint style="info" %}
+Please, note that \[languageCode]Assets.v2.json file must be used to list the assets and their properties starting from v0.21. All previous version used \[languageCode]Assets.v1.json file
+{% endhint %}

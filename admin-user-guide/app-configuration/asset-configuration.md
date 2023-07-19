@@ -25,7 +25,7 @@ When asset is created by the admin, additional properties necessary for WLA, can
 * **WLA and WLP\_Round to (optional)** - For each asset to be shown in WLA, you can define the number of decimal places to which asset units will be rounded in WLA screens in case precise number is too long. This parameter is optional, in case you don't define it, WLA will round the amounts to 2 decimal places in case of Asset type is Cash or Cash Equivalent and to 4 decimal places for all other Asset types
 
 {% hint style="info" %}
-Don't forget to remove optional properties values of which you don't want to define (Round to and Name)
+Don't forget to remove optional properties values which you don't want to define ("Round to" and "Name")
 {% endhint %}
 
 <div>
@@ -54,12 +54,16 @@ You must use Assets.json configuration file to define the icon of the asset. Ass
 * Put the icon to the blob storage associated with your tenant to the folder "trading-app-configs/icons"
 * Copy the path to the file
 
-Open Assets.json configuration and list all the asset unique ids which are going to be used in WLA and their icons. Unique asset id can be found and copied from Asset details in WLM.
+Open Assets.v2.json configuration and list all the asset unique ids which are going to be used in WLA and their icons. Unique asset id can be found and copied from Asset details in WLM.
+
+{% hint style="info" %}
+Please, note that \[languageCode]Assets.v2.json file must be used to list the assets and their properties starting from v0.21. All previous version used \[languageCode]Assets.v1.json file
+{% endhint %}
 
 ```
 {
-"uniqueAssetId": "0x0dd5ec6b49e94d8ac762f0001"
-"icon": "icons/swiss_francs.png",
+"uniqueAssetId": "0x0dd5ec6b49e94d8ac762f0001",
+"icon": "icons/swiss_francs.png"
 },
 ```
 

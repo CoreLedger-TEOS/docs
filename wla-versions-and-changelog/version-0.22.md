@@ -36,6 +36,10 @@ Also, as usual, we fixed some bugs to make user experience better.
 
 ### Configuration changes
 
+{% hint style="info" %}
+To support all the changes below we had to introduce versions in the config file. Please, note that ui\_config.v2.json file must be used to define WLA properties starting from v0.22 (you can find it in the blob storage). All previous versions used ui\_config.v1.json file
+{% endhint %}
+
 #### Localization
 
 Starting from this version localization of UI strings is not available for customers by default. So, we removed links to localization files from the config file. \

@@ -50,3 +50,7 @@ Some modules have optional functionality which is listed below. If our default s
 Most of the other configuration is done via the file called _ui\_config.v2.json_ in the root of the folder **trading-app-configs** in Azure blob storage container created specifically for your project by CoreLedger. The access to it is restricted to the list of your project members which you provide and also to your CoreLedger manager.
 
 All configurations which can be done when app already exists are listed in subsections of this chapter.
+
+{% hint style="info" %}
+Please, note that ui\_config.v2.json file must be used to define WLA properties starting from v0.22 (you can find it in the blob storage). All previous versions used ui\_config.v1.json file
+{% endhint %}
