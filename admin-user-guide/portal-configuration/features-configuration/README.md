@@ -16,7 +16,7 @@ Starting from v0.15 we introduced additional feature for secondary markets. If t
 
 With the feature "Use WLP direct link for redemption and purchase" enabled, end users will find themselves directly at the featured asset page or at the first step of the specified redemption in the promoted url. End users won't be able to see other redemption methods and assets unless they are admins.
 
-It's important to note that more than one asset can be defined as featured one.
+It's important to note that more than one asset can be defined as featured one in such configuration.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-04-24 at 17.05.53 (1).png" alt=""><figcaption><p>User view when user uses direct link to the redemption method when "Use WLP direct links for redemption and purchase" is enabled </p></figcaption></figure>
 
@@ -36,7 +36,15 @@ where uniqueAssetId is the unique Asset ID assigned to the asset automatically w
 Example:\
 _https://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_&#x20;
 
-Please, don't forget to provide all necessary configuration for all featured assets. If some required configuration is missing, direct link won't work as expected
+Please, don't forget to provide all necessary configuration for all featured assets in advance. If some required configuration is missing, direct link won't work as expected.
+
+#### How to test direct links
+
+To test the links you will need an account without admin permissions.
+
+1. Use the link in another browser (not the one you used for configuring problem) or open new window in incognito mode of the same browser
+2. Login to WLP with user account **without admin permissions** or register a new one
+3. Check how your users will see the portal when they follow the direct link
 
 ## Reference code template
 
