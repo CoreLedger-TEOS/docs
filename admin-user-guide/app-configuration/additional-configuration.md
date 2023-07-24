@@ -47,7 +47,12 @@ We understand that you can have users with different locales. You can provide \[
 
 ## Intro
 
-Intro is a set of slides shown to user when he first enters the app.\
+Intro is a set of slides shown to user when he first enters the app.&#x20;
+
+{% hint style="info" %}
+If you don't need the intro for your app, just remove "intro" object from your config file (there shouldn't be the word "intro" in your config file at all)
+{% endhint %}
+
 Each slide can have image, title and description. Title and description can be provided in different languages according to the following rules:
 
 * en.title.1 - use language code before first dot to define title in the specific language and use number after second dot to set title for the specific picture (\<language\_code>.title.\<intro\_slide\_number>)

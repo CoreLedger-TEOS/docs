@@ -2,7 +2,7 @@
 
 At the very beginning of WLA setup (when you order it from CoreLedger) you can define several characteristics of your future app which can't be changed without additional fee. They are listed in [#configuration-to-setup-the-app](./#configuration-to-setup-the-app "mention"). All other configuration can be easily changed when your app already exists [#configuration-to-be-changed-when-the-app-already-exists](./#configuration-to-be-changed-when-the-app-already-exists "mention")
 
-## Configuration to setup the app
+## Configuration to setup the app (before the app is delivered)
 
 ### Modules
 
@@ -45,7 +45,7 @@ Some modules have optional functionality which is listed below. If our default s
 
 </div>
 
-## Configuration to be changed when the app already exists
+## Configuration when the app is already delivered
 
 Most of the other configuration is done via the file called _ui\_config.v2.json_ in the root of the folder **trading-app-configs** in Azure blob storage container created specifically for your project by CoreLedger. The access to it is restricted to the list of your project members which you provide and also to your CoreLedger manager.
 

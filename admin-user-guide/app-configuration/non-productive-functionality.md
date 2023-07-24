@@ -10,6 +10,10 @@ No configuration available for this module. You can request to create your app w
 
 Voting module can be used for showcasing how voting can be done based on blockchain. Configuration must be defined in the configuration file.
 
+{% hint style="info" %}
+If you don't need the voting functionality for your app, just remove "voting" object from your config file (there shouldn't be the word "voting" in your config file at all)
+{% endhint %}
+
 1. Define voting questions by setting\
    \- "id" for each question, we recommend to use "q-1", "q-2", etc\
    \- "asset" asset unique id for this question (with sparks of which asset this question can be answered)\
