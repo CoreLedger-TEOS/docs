@@ -146,15 +146,19 @@ Please, don't set "reference" and "callback\_url" parameters described in Shufti
 
 #### How to configure redirect URL after user completes the KYC checks
 
-After user submits all necessary data for KYC checks or after he cancels this procedure, user should be redirected back to the portal. Go to "Settings" -> "Callback\&Redirects URLs" and click "Add Domain", select type "Redirect" and enter your portal url into the field domain.
+After user submits all necessary data for KYC checks or after he cancels this procedure, user should be redirected back to the portal.&#x20;
+
+1. Go to your Shufti Pro backoffice, login to your account and [go to "Settings" -> "Callback\&Redirects URLs".](https://backoffice.shuftipro.com/settings/callback-urls)
+2. Click "Add Domain", select type "Redirect" and enter the URL of the portal page into the field domain. It can be any page of the WLP but we recommend to use home page.\
+   [https://wlp-sandbox-pilot.onteos.net/](https://wlp-sandbox-pilot.onteos.net/) - this is an example for CoreLedger's Sandbox portal home page
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-07-10 at 16.52.41.png" alt=""><figcaption><p>Add redirect</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-07-10 at 16.52.41.png" alt=""><figcaption><p>Add redirect URL</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-07-10 at 17.01.12.png" alt=""><figcaption><p>Add redirect</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-07-10 at 17.01.12.png" alt=""><figcaption><p>Add redirect URL</p></figcaption></figure>
 
 </div>
 
@@ -165,7 +169,7 @@ In order to define all configuration settings correctly and check how the user f
 1.  Go to your Shufti Pro backoffice, login to your account and [go to Integration tab](https://backoffice.shuftipro.com/integration), select "KYC journey builder" to start configuration process
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2023-08-01 at 14.51.02.png" alt=""><figcaption><p>Select "KYC Journey Builder" in Integration tab</p></figcaption></figure>
-2.  Enter the name for this KYC journey. For example, "KYC tier 1 journey", "KYC tier 2 journey", etc.\
+2.  Click "Create new" and enter the name for this KYC journey. For example, "KYC tier 1 journey", "KYC tier 2 journey", etc.\
     Select the necessary KYC services from the list of available services by dragging them and dropping to the right area. Click "Start" and follow the configuration wizard. \
     Make a screenshot of each step after you've filled the desired parameters (before clicking "Next" or "Save").&#x20;
 
