@@ -1,4 +1,4 @@
-# How to get API keys of third party services and configure them for portal integration
+# How to get API keys of third party services
 
 ## Bank card payment provider - Payrexx
 
@@ -30,17 +30,3 @@ Login to your Coinify account at [https://merchant.coinify.com/signup/now](https
 Login to your account at [https://backoffice.shuftipro.com](https://backoffice.shuftipro.com/) and go to "Settings -> "API keys". Generate new key or use existing one by copying **Client ID and Secret Key**, send them to CoreLedger project manager to start using this integration in your WLP.
 
 ![Shufti Pro portal](<../../.gitbook/assets/Shufti APi keys.png>)
-
-#### Configure redirect after user completes the KYC checks
-
-After user submits all necessary data for KYC checks or after he cancels this procedure, user should be redirected back to the portal. Go to "Settings" -> "Callback\&Redirects URLs" and click "Add Domain", select type "Redirect" and enter your portal url into the field domain.
-
-<div>
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-07-10 at 16.52.41.png" alt=""><figcaption><p>Add redirect</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-07-10 at 17.01.12.png" alt=""><figcaption><p>Add redirect</p></figcaption></figure>
-
-</div>

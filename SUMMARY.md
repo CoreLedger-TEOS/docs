@@ -15,7 +15,7 @@
       * [Redemption functionality](admin-user-guide/portal-configuration/features-configuration/redemption-functionality/README.md)
         * [Template for redemption details](admin-user-guide/portal-configuration/features-configuration/redemption-functionality/template-for-redemption-details.md)
       * [KYC checks](admin-user-guide/portal-configuration/features-configuration/kyc-checks.md)
-    * [How to get API keys of third party services and configure them for portal integration](admin-user-guide/portal-configuration/how-to-get-api-keys-of-third-party-services-and-configure-them-for-portal-integration.md)
+    * [How to get API keys of third party services](admin-user-guide/portal-configuration/how-to-get-api-keys-of-third-party-services.md)
     * [How to prepare custom HTML](admin-user-guide/portal-configuration/how-to-prepare-custom-html.md)
   * [Admin functionality](admin-user-guide/admin-functionality.md)
 * [How your users interact with the portal](how-your-users-interact-with-the-portal.md)

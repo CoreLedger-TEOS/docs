@@ -84,7 +84,7 @@ If you use Active Sandbox product and run pilot project you are welcome to use C
 
 In order to use KYC functionality with Shufti Pro integration productively you will need to create your own productive account with [Shufti Pro](https://shuftipro.com/) and take following steps:
 
-* Generate **API keys** for integration and send them to your CoreLedger project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services-and-configure-them-for-portal-integration.md).&#x20;
+* Generate **API keys** for integration and send them to your CoreLedger project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services.md).&#x20;
 * Configure **redirect URL** which will be used in integration parameters. This is the page to which user should be redirected after he or she completes the KYC checks in Shufti. Make a screenshot of the configured URL in Shufti Pro's account and send it to your CoreLedger project manager. [#how-to-configure-redirect-url-after-user-completes-the-kyc-checks](kyc-checks.md#how-to-configure-redirect-url-after-user-completes-the-kyc-checks "mention")
 * Configure **integration parameters.** We use Onsite verification with OCR for integration with Shufti Pro. All parameters which can be set are described in [Shufti Pro's documentation in Verification Request section](https://developers.shuftipro.com/docs/kyc/kyc\_onsite\_verification/with\_ocr\_verification). You will need to configure it by yourself or send screenshots described in [#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro](kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro "mention") and send them to your CoreLedger project manager together with all previous parameters.
 
