@@ -50,7 +50,7 @@ ShuftiPro config settings are described in the next step.&#x20;
     {
       "number": 1,
       "name": "advanced",
-      "description": "You will have to provide your selfie, scan of passport or driving license to get this tier.",
+      "description": "You will have to provide the scan of the passport, id or driving license to get this tier.",
       "providers": [
         {
           "name": "ShuftiPro",
@@ -141,7 +141,7 @@ You can use our example parameters for tests or even pilot projects with Active 
 * [Background Checks Service](https://developers.shuftipro.com/docs/kyc/kyc\_onsite\_verification/with\_ocr\_verification#background-checks-service)
 
 {% hint style="danger" %}
-Please, don't set "reference" and "callback\_url" parameters described in Shufti Pro's documentation. They will be set automatically
+Please, don't set "reference" and "callback\_url" parameters and don't specify the values of "email" or any other end user's data described in Shufti Pro's documentation. They will be set automatically
 {% endhint %}
 
 #### How to configure redirect URL after user completes the KYC checks
