@@ -4,7 +4,7 @@ description: Layout, order properties, purchased items table, bank transfer deta
 
 # Templates for purchase details and invoice details
 
-Please, prepare a word document which will follow the rules described below. You should send this template to CL manager to apply it. Based on this template PDF with order details of each order will be generated and attached to the email sent to user.
+Please, prepare a word document which will follow the rules described below. You should send this template to CoreLedger manager to apply it. Based on this template PDF with order details of each order will be generated and attached to the email sent to user.
 
 ### How to prepare layout
 

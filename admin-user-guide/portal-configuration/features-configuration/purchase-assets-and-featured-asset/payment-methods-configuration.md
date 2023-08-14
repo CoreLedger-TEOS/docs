@@ -8,6 +8,8 @@ You can define KYC tier which users must have for each asset to be able to use i
 
 ### Bank transfer
 
+Step 1. Configure bank transfer details
+
 For the payment method “Bank Transfer” the bank details of the receiving account must be configured, descriptions for each field of bank details are optional, in case you provide them, users will see them in info tooltip.
 
 ```
@@ -70,7 +72,13 @@ You can also add up to 3 additional bank ids (apart from SWIFT or BIC) in case y
 }
 ```
 
+Step 2. Prepare the template for invoice details
+
+Refer to [templates-for-purchase-details-and-invoice-details.md](templates-for-purchase-details-and-invoice-details.md "mention") to check how the template for invoice details must be configured. Send it to your CoreLedger manager to apply it in your portal
+
 ### Credit card
+
+Step 1. Configure credit card payment parameters
 
 For using credit card payment via [Payrexx](https://www.payrexx.com/en/home/) productively you will have to provide your Payrexx account details to our project manager, enable this method and customize its look and feel. For pilot project with Active Sandbox you can start without your own account, we let you use CoreLedger test account.
 
@@ -82,7 +90,14 @@ For using credit card payment via [Payrexx](https://www.payrexx.com/en/home/) pr
 },
 ```
 
+Step 2. Prepare the template for credit card purchase details
+
+Purchase details based on this template are sent to the user when credit card is selected as a payment method. \
+Refer to [templates-for-purchase-details-and-invoice-details.md](templates-for-purchase-details-and-invoice-details.md "mention") to check how the template must be configured. Send it to your CoreLedger manager to apply it in your portal.
+
 ### Cryptopayment
+
+Step 1. Configure crypto payment parameters
 
 For using cryptocurrencies payment via [Coinify ](https://www.coinify.com/)productively you will have to provide your Coinify account details to our project manager, enable this method and customize its look and feel. For pilot project with Active Sandbox you can start without your own account, we let you use CoreLedger test account.
 
@@ -93,3 +108,8 @@ For using cryptocurrencies payment via [Coinify ](https://www.coinify.com/)produ
 “description”: “Use Coinify to pay with Bitcoin.”
 }
 ```
+
+Step 2. Prepare the template for cryptopayment purchase details
+
+Purchase details based on this template are sent to the user when cryptopayment is selected as a payment method. \
+Refer to [templates-for-purchase-details-and-invoice-details.md](templates-for-purchase-details-and-invoice-details.md "mention") to check how the template must be configured. Send it to your CoreLedger manager to apply it in your portal.
