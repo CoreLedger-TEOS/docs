@@ -29,4 +29,8 @@ Login to your Coinify account at [https://merchant.coinify.com/signup/now](https
 
 Login to your account at [https://backoffice.shuftipro.com](https://backoffice.shuftipro.com/) and go to "Settings -> "API keys". Generate new key or use existing one by copying **Client ID and Secret Key**, send them to CoreLedger project manager to start using this integration in your WLP.
 
+{% hint style="info" %}
+Please make sure that you use the account (test account or production account) which is expected to be applied to the portal integration with Shufti Pro. Use the toggl on the top to switch between test account and production account
+{% endhint %}
+
 ![Shufti Pro portal](<../../.gitbook/assets/Shufti APi keys.png>)
