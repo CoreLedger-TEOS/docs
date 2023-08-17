@@ -25,7 +25,7 @@ Only queues with server-generated names are allowed which means the queue names 
 
 ### Exchange
 
-Event messages are sent to an exchange of type "topic" with a specific name, also provided by the administrator. Each TEOS Event, published to the exchange, has its own specific routing key (see lower) - a list of words, delimited by dots.
+Event messages are sent to exchange with the name 'teos\_events' and of type "topic". Each TEOS Event, published to the exchange, has its own specific routing key (see lower) - a list of words, delimited by dots.
 
 ### Bindings
 
