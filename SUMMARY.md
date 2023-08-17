@@ -39,7 +39,6 @@
 * [Changelog](changelog/README.md)
   * [v0.9](changelog/v0.9.md)
   * [v0.8](changelog/v0.8.md)
-  * [v0.7](changelog/v0.7.md)
   * [Non-versioned changes](changelog/non-versioned-changes.md)
   * [Previous versions (not supported)](changelog/v0.3.md)
 * [Troubleshooting](troubleshooting.md)
