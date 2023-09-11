@@ -1,5 +1,5 @@
 ---
-description: Version Django (available from February, 14)
+description: 'Latest version: Django Service Pack 3 (available from September, 12)'
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
@@ -7,7 +7,7 @@ coverY: 0
 # Welcome!
 
 {% hint style="info" %}
-We released a new version [Django](wlm-versions-and-changelog/django.md) and delivered a new Service Pack for it on the 12th of September. Check out what's new!
+We've delivered a new [Service Pack 3](wlm-versions-and-changelog/django.md) to the Django release on the 12th of September. Check out what's new!
 {% endhint %}
 
 These pages introduce configuration options of the White Label Management Tool (WLM) and its core functionality. WLM is a customizable webapp for managing blockchain data like digital assets, supplies, controllers and configuring the tenant for your business case needs. Also this documentation describes how to use TX.Mobile to work with WLM.
