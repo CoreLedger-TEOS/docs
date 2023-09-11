@@ -5,7 +5,7 @@ description: These changes are relevant for all versions with corresponding func
 # Non-versioned changes
 
 {% hint style="info" %}
-Check [non-versioned-changes.md](non-versioned-changes.md "mention") to learn more about this type of changes
+Check [versioning.md](../using-the-teos-api/versioning.md "mention") to learn more about this type of changes
 {% endhint %}
 
 ## September, 2023

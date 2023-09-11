@@ -21,10 +21,13 @@ Each version is supported for at least half a year from the release date, giving
 
 #### Normal version schedule
 
-Normally, **we only support a version for not more than 12 months after its release date. Old versions will no longer be available six months after the subsequent version is released**.\
-For example, if API version v2.3 is released on March 25th, 2020, and API version v2.4 is released on August 7th, 2020, then v2.3 would be available until February 7th, 2020, 6 months after the release of v2.4 but it won't be supported after September, 25th.
+Normally, **we only support a version for not more than 12 months after its release date.**&#x20;
 
-Once a version is no longer available, any calls made to it will not work. Here is a timeline example:
+We notify our customers 1 month in advance about the version running out of the support and we notify when the version is not supported anymore. Normally, after explicit notification about not supporting the version, it is still available on production for some time for those who are running late (from 1 to 6 months).&#x20;
+
+Once a version is no longer available on production, any calls made to it will not work. \
+\
+Here is a timeline example:
 
 | <p><strong>01.01.2030</strong><br>Version 2.3 is released</p> | <p><strong>01.07.2030</strong><br>half a year after v2.3 release date: v2.3 is not supported</p> |                                                                                                                         |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
