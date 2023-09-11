@@ -6,7 +6,7 @@ coverY: 0
 # 👋 Welcome to TEOS API
 
 {% hint style="info" %}
-We've released a new version - [TEOS API v0.9](changelog/v0.9.md), check what's new and try it out
+We've delivered some [non-versioned updates ](changelog/non-versioned-changes.md)to currently available versions, check what's new and try it out
 {% endhint %}
 
 {% hint style="info" %}

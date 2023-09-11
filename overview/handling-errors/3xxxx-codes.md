@@ -232,7 +232,7 @@
 | Description | The provider which is used in the request data is not active anymore and relation between the wallet and this provider can't be established                                                                                                                                                                                                  |
 | What to do  | <p>If you use TxServer directly, make sure that the request contains correct <code>provider</code> and try again, if error persists, contact CoreLedger and provide <code>clTraceId.</code><br><br>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10013</mark>
+#### 32000-10013
 
 |             |                                                                                                       |
 | ----------- | ----------------------------------------------------------------------------------------------------- |
@@ -240,7 +240,7 @@
 | Description | Some unexpected error happened when processing your request, most likely you've managed to find a bug |
 | What to do  | Try again, if error persists, contact CoreLedger and provide `clTraceId`                              |
 
-#### <mark style="color:yellow;">32000-10021</mark>
+#### 32000-10021
 
 |             |                                                                                                                                                                                                                                                                                                                                                              |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -248,7 +248,7 @@
 | Description | No configured contract address with requested technology found for provider                                                                                                                                                                                                                                                                                  |
 | What to do  | <p>If you use TxServer directly, make sure that the request contains correct contract address and technology and try again. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10022</mark>
+#### 32000-10022
 
 |             |                                                                                                       |
 | ----------- | ----------------------------------------------------------------------------------------------------- |
@@ -256,7 +256,7 @@
 | Description | Some unexpected error happened when processing your request, most likely you've managed to find a bug |
 | What to do  | Try again, if error persists, contact CoreLedger and provide `clTraceId`                              |
 
-#### <mark style="color:yellow;">32000-10023</mark>
+#### 32000-10023
 
 |             |                                                                                                       |
 | ----------- | ----------------------------------------------------------------------------------------------------- |
@@ -264,7 +264,7 @@
 | Description | Some unexpected error happened when processing your request, most likely you've managed to find a bug |
 | What to do  | Try again, if error persists, contact CoreLedger and provide `clTraceId`                              |
 
-#### <mark style="color:yellow;">32000-10024</mark>
+#### 32000-10024
 
 |             |                                                                                                                                                                                                                                                                                                                                    |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -272,7 +272,7 @@
 | Description | Error occurred during validating nonce of the transaction being posted                                                                                                                                                                                                                                                             |
 | What to do  | <p>If you use TxServer directly, make sure that the request contains correct nonce and try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10031</mark>
+#### 32000-10031
 
 |             |                                                                                                                                                                                                                                                                                                                                                                                            |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -280,7 +280,7 @@
 | Description | No address address with technology technology associated with device was found during validation of a signed transaction.                                                                                                                                                                                                                                                                  |
 | What to do  | <p>If you use TxServer directly, check that you are using correct device and correct signer address (wallet), and that the address is added to the device. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code></p> |
 
-#### <mark style="color:yellow;">32000-10032</mark>
+#### 32000-10032
 
 |             |                                                                                                                                                                                                                                                                                                                                                                                             |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -288,7 +288,7 @@
 | Description | No active address with technology associated with device was found during validation of a signed transaction.                                                                                                                                                                                                                                                                               |
 | What to do  | <p>If you use TxServer directly, check that you are using correct device and correct signer address (wallet), and that the address is added to the device. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10033</mark>
+#### 32000-10033
 
 |             |                                                                                                                                                                                                                                                                                                                                                                                             |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -312,7 +312,7 @@
 | Description | Posted transaction has invalid parameter "Signature".                                                                                                                                                                                                                                                                                                         |
 | What to do  | <p>If you use TxServer directly, check that you sign the posted transaction with correct provider certificate and try again. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10111</mark>
+#### 32000-10111
 
 |             |                                                                                                                                                                                                                                                                                                                                                                     |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -320,7 +320,7 @@
 | Description | Device which is used in the request is not found in TEOS Platform                                                                                                                                                                                                                                                                                                   |
 | What to do  | <p>If you use TxServer directly, make sure that you're using the device id which was registered and connected to TxServer and try again, if error persists, contact CoreLedger and provide <code>clTraceId.</code><br><br>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10112</mark>
+#### 32000-10112
 
 |             |                                                                                                                                                                                                                                                                                                                                                                     |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -328,7 +328,7 @@
 | Description | Device which is used in the request is not active anymore in TEOS Platform                                                                                                                                                                                                                                                                                          |
 | What to do  | <p>If you use TxServer directly, make sure that you're using the device id which was registered and connected to TxServer and try again, if error persists, contact CoreLedger and provide <code>clTraceId.</code><br><br>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:red;">32000-10121</mark>
+#### 32000-10121
 
 |             |                                                                                                                                                                                                                                                                                                                                                                                             |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -344,7 +344,7 @@
 | Description | Access token used in the request data is not related to the device id in the request data                                                                                                                                                                                                                                                                                                                                                |
 | What to do  | <p>If you use TxServer directly, make sure that you're using correct access token of the authenticated user and that you're using the device id which was registered and connected to TxServer and try again, if error persists, contact CoreLedger and provide <code>clTraceId.</code><br><br>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10124</mark>
+#### 32000-10124
 
 |             |                                                                                                       |
 | ----------- | ----------------------------------------------------------------------------------------------------- |
@@ -376,7 +376,7 @@
 | Description | Contract definition for contract and technology not found.                                                                                                                                                                                                                                                                                     |
 | What to do  | <p>If you use TxServer directly, check that you are using correct contract address and blockchain technology. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10301</mark>
+#### 32000-10301
 
 |             |                                                                                                                                                                                                                                                                                                                    |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -384,7 +384,7 @@
 | Description | This error may happen when configuring association between provider and device addresses.                                                                                                                                                                                                                          |
 | What to do  | <p>If you use TxServer directly, generate new address registration grant and try again, if error persists, contact CoreLedger and provide <code>clTraceId.</code><br><br>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10302</mark>
+#### 32000-10302
 
 |             |                                                                                                                                                                                                                                                                                                                    |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -392,7 +392,7 @@
 | Description | This error may happen when configuring association between provider and device addresses.                                                                                                                                                                                                                          |
 | What to do  | <p>If you use TxServer directly, generate new address registration grant and try again, if error persists, contact CoreLedger and provide <code>clTraceId.</code><br><br>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10303</mark>
+#### 32000-10303
 
 |             |                                                                                                                                                                                                                                                                                                                    |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -400,7 +400,7 @@
 | Description | This error may happen when configuring association between provider and device addresses.                                                                                                                                                                                                                          |
 | What to do  | <p>If you use TxServer directly, generate new address registration grant and try again, if error persists, contact CoreLedger and provide <code>clTraceId.</code><br><br>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10304</mark>
+#### 32000-10304
 
 |             |                                                                                                                                                                                                                                                                                                                                     |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -424,7 +424,7 @@
 | Description | Transaction with specified id has invalid state                                                                                                          |
 | What to do  | Revoke this transaction and create a new transaction. If you observe this problem with several transactions, contact CoreLedger and provide `clTraceId`. |
 
-#### <mark style="color:yellow;">32000-10403</mark>
+#### 32000-10403
 
 |             |                                                                                                                                                                                                                                                                                                                         |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -432,7 +432,7 @@
 | Description | This error may happen, when you try to get a transaction from a device, that does not have an associated address, used as transaction signer address.                                                                                                                                                                   |
 | What to do  | <p>If you use TxServer directly, check that the signer address is added to the device. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10421</mark>
+#### 32000-10421
 
 |             |                                                                                                                                                                                                                                                                                                                         |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -440,7 +440,7 @@
 | Description | This error may happen, when you try to submit a signed transaction from a device, that does not have an associated address, used as transaction signer address.                                                                                                                                                         |
 | What to do  | <p>If you use TxServer directly, check that the signer address is added to the device. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-10422</mark>
+#### 32000-10422
 
 |             |                                                                                                                                                                                                                                                                                                        |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -464,7 +464,7 @@
 | Description | This error may happen when adding an address to a device.                                                                                                                                                                                                                                                                              |
 | What to do  | <p>If you use TxServer directly, check that the address provided in the request has a correct format. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-20002</mark>
+#### 32000-20002
 
 |             |                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -480,7 +480,7 @@
 | Description | Address does not have enough ether to complete transaction processing                                                                                  |
 | What to do  | Top up the address balance or change gas parameters: decrease gas price and gas limit (it may help to decrease the price of this specific transaction) |
 
-#### <mark style="color:yellow;">32000-20004</mark>
+#### 32000-20004
 
 |             |                                                                                                                                                                                                                                                                                                                                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -496,7 +496,7 @@
 | Description | This warning may occur when testing transaction against the current state of blockchain without actually submitting it.                                                                                       |
 | What to do  | Check the parameters of the transaction and correct if necessary before submission. After the transaction is submitted, make sure that it reaches the state "Confirmed". If not - create another transaction. |
 
-#### <mark style="color:yellow;">32000-20101</mark>
+#### 32000-20101
 
 |             |                                                                                                                                                                                                                                                                                                                     |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -504,7 +504,7 @@
 | Description | `Addresses` parameter of the `GetAddressBalances` request is empty.                                                                                                                                                                                                                                                 |
 | What to do  | <p>If you use TxServer directly, provide at least one address in the request data. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-21000</mark>
+#### 32000-21000
 
 |             |                                                                            |
 | ----------- | -------------------------------------------------------------------------- |
@@ -512,11 +512,11 @@
 | Description | Error occurred during validating signed Ethereum transaction               |
 | What to do  | Contact CoreLedger and provide `clTraceId`.                                |
 
-#### <mark style="color:yellow;">32000-21001</mark>
+#### 32000-21001
 
 <table><thead><tr><th width="339.5"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>Transaction data invalid. RLP data must contain 9 values.</td></tr><tr><td>Description</td><td>Error occurred during validating signed Ethereum transaction</td></tr><tr><td>What to do</td><td><p>If you use TxServer directly, check that parameters of the transaction signed and submitted by device correspond to the parameters of the transaction posted by provider. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p></td></tr></tbody></table>
 
-#### <mark style="color:yellow;">32000-21002</mark>
+#### 32000-21002
 
 |             |                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -524,7 +524,7 @@
 | Description | Error occurred during validating signed Ethereum transaction.                                                                                                                                                                                                                                                                                                                                                 |
 | What to do  | <p>If you use TxServer directly, check that parameters of the transaction signed and submitted by device correspond to the parameters of the transaction posted by provider. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-21003</mark>
+#### 32000-21003
 
 |             |                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -532,7 +532,7 @@
 | Description | Error occurred during validating signed Ethereum transaction.                                                                                                                                                                                                                                                                                                                                                 |
 | What to do  | <p>If you use TxServer directly, check that parameters of the transaction signed and submitted by device correspond to the parameters of the transaction posted by provider. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
 
-#### <mark style="color:yellow;">32000-21004</mark>
+#### 32000-21004
 
 |             |                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -546,6 +546,16 @@
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Description | <p>This error code indicates, that a problem has occurred while processing the request in the backbone components of TEOS Platform<br>Such errors always come with the subcode, error-specific details are provided within the subcodes</p> |
 | What to do  | check the subcode and its details                                                                                                                                                                                                           |
+
+#### 33000-30001
+
+
+
+|             |                                                                                                    |
+| ----------- | -------------------------------------------------------------------------------------------------- |
+| Message     | The length of array (`actualLength`) exceeds the max allowed value (`allowedLength`)               |
+| Description | The length of an array, provided as a blockchain transaction parameter, exceeds the allowed length |
+| What to do  | Split the array into the parts, that fit the limitation, and send several transactions             |
 
 #### 33000-31000
 
@@ -712,6 +722,16 @@
 | Message     | BlacklistReason not in the right format. The BlacklistReason value should be between 1 and 255 |
 | Description | Incorrect format of the blacklistReason                                                        |
 | What to do  | Provide blacklistReason in the correct format and try again                                    |
+
+#### 33000-34003
+
+
+
+|             |                                                                                                                                                     |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | The provided contract address does not implement the required controller interface                                                                  |
+| Description | When adding an external controller, it must implement the required interface. The contract at the provided address does not implement the interface |
+| What to do  | Contact CoreLedger team to find the decision to the problem                                                                                         |
 
 #### 33000-35001
 
