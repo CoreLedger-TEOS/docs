@@ -21,6 +21,7 @@ If you decide to use example custom HTMLs provided with the default setup of the
 
 * make use of CSS classes and ids, ideally wrapping all your content in a div with a custom class
 * use this custom class as a prefix to all your css rules to scope the css correctly and avoid influencing other elements which are not part of the custom html
+* CSS must be embedded into your custom HTML
 * beware to not overwrite WLPs own styles when using generic CSS
 * avoid using “!important” - you likely don't need it
 * avoid inline styles - to keep things clear and organized
