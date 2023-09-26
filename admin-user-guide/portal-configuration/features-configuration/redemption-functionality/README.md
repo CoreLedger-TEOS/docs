@@ -8,19 +8,42 @@ description: >-
 
 Full configuration of Redemption functionality includes following steps:
 
-1. Configure redemption methods (one method is configured for redeeming one specific asset for receiving fiat money ("bank" type) /cryptocurrency ("ETH", "bitcoin" or "ERC20" types) /physical asset ("physical" type) as a payout) as described below
-2. Prepare template for sending redemption details to users via the email   [template-for-redemption-details.md](template-for-redemption-details.md "mention")
-3. Also, don't forget to configure[ reference code template ](../#reference-code-template)which is used both for purchase reference codes and redemption reference codes
+#### Step 1. Configure general redemption settings
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-04-24 at 17.42.46.png" alt=""><figcaption><p>Redemption method selection screen</p></figcaption></figure>
+Use **"redeemSettings"** section of the config file available under the Advanced Config Management.&#x20;
+
+* :new: Define the display name of corresponding menu item which is called "Redemption" by default "redeemSettings" -> "menuItemName"\
+  This value is used for menu item display name which is "Redemption" by default. The name will be the same in all languages. You can use up to 20 symbols.
+*   Define the description of the redemption method selection step for your end users with the help of "methodSelectionDescription" parameter. Text is shown at "Select method" step\
+
+
+    <figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Redemption method selection screen</p></figcaption></figure>
+* :new: You can request additional information from users when they create a redemption request. You should define the label of the input which will be shown to user and its description. This field allows to provide the text up to 350 symbols.\
+  You can disable this field in the config file under the Advanced Config Management any time later.\
+  Please, note that if you enable this field, it will be added to all redemption methods.
+
+```
+  "redeemSettings": {
+     "menuItemName": "Custom Redemption",
+     "methodSelectionDescription": "Here you can request a payout of accumulated revenue. At this point in time tokens can be converted into Swiss Francs, Bitcoin and Ethereum. Restrictions do exist in form of minimum and maximum payout limits. Regardless of the chosen payment option, personal data of the beneficiary is needed.",
+     "additionalInfoRedemptionRequest": {
+      "enabled": false,
+      "name": "Additional info",
+      "description": "This is extra field, our business case needs it for all redemptions"
+    }
+    }
+```
+
+If "additionalInfoRedemptionRequest" is configured and enabled, additional field will be available for used in redemption flow\
+
+
+<figure><img src="../../../../.gitbook/assets/image (44).png" alt=""><figcaption><p>"additionalInfoRedemptionRequest" is configured and enabled</p></figcaption></figure>
+
+#### Step 2. Configure redemption methods&#x20;
+
+One method is configured for redeeming one specific asset for receiving fiat money ("bank" type) /cryptocurrency ("ETH", "bitcoin" or "ERC20" types) /physical asset ("physical" type) as a payout as described below.
 
 Depending on the selected redemption method, the user can provide the bank account details, bitcoin address, ETH address, or delivery address to receive the selected value when doing the redemption. The WLP admin can set up each of those redemption methods under the Advanced Config Management. Also, you can define KYC tier which users must have for each redemption method to be able to use it (check below parameter "kycTier"). [Read more about KYC configurations](../kyc-checks.md)
-
-User **"redeemSettings"** section of the config file available under the Advanced Config Management.&#x20;
-
-Step 1. Define a description which is shown on the first screen of the redemption process. Use "methodSelectionDescription" for this purpose
-
-Step 2. Define the list of redemption methods
 
 Example redemption type “bank” and all properties are described below:
 
@@ -59,8 +82,11 @@ Example redemption type “bank” and all properties are described below:
 "userPays": {
     "uniqueAssetId": "0x46f4f3fa75df1b2112e3a7303895bf9dacd4bba9",
     "targetAddress": "0x46f4f3fa75df1b2112e3a7303895bf9dacd4bba9",
+    "limits": {
     "minNetAmount": 5,
     "maxNetAmount": 600,
+    "incrementNetAmount": 5
+    }
 }
 },
 ```
@@ -84,7 +110,28 @@ Example redemption type “bank” and all properties are described below:
     * “countryFee” can be set and is charged when the respective country is selected. For country specific fees use country code and fee in payout units of measure. A fallback country fee can be configured with “fallbackCountryFees”\
       Country is defined by user's beneficiary details of the redemption
     * a separate issuer fee can be configured with “issuerFee”
-* "userPays" \[mandatory]: you need to specify which asset can be redeemed within this redemption method
-  * "uniqueAssetId" \[mandatory]: use unique id of the asset, all asset info will be used within redemption flow
-  * "targetAddress" \[mandatory]: define the address to which sparks of redeemed asset must be sent
-  * "minNetAmount" and "maxNetAmount" \[mandatory]: define the minimum and maximum amount of units which can be requested by user. Both values must be equal to integer value of sparks of the redeemed asset (depends on the asset spark factor). Don't think about fees here, they will be added on top to get the final amount which user will have to pay.
+  * "limits" consisting of "minNetAmount", "maxNetAmount" and "incrementNetAmount" \[mandatory]: limits can be defined either on "User pays" (in redeemed asset units of measure) or "User gets" side (in payout units) in corresponding units of measure, not on both! **For redemption type = "physical"** limits must be configured only on "User gets" side in the payout units.\
+    Define the minimum and maximum amount of units which can be requested by user and the step with which value can be increased between minimum and maximum amounts. \
+    All three values must be equal to integer value of sparks of the redeemed asset (depends on the asset spark factor). Don't think about fees here, they will be added on top to get the final amount which user will have to pay.\
+    If you keep "incrementNetAmount" = 0, portal will let user to define any value between minimum and maximum amount.\
+    If you define some value for "incrementNetAmount", user pays and user receives amount inputs in redemption flow will be enriched with the "+" and "-" signs to limit the values which can be entered as desired amount.
+*   "userPays" \[mandatory]: you need to specify which asset can be redeemed within this redemption method
+
+    * "uniqueAssetId" \[mandatory]: use unique id of the asset, all asset info will be used within redemption flow
+    * "targetAddress" \[mandatory]: define the address to which sparks of redeemed asset must be sent
+    * "limits" consisting of "minNetAmount", "maxNetAmount" and "incrementNetAmount" \[mandatory]: limits can be defined either on "User pays" (in redeemed asset units of measure) or "User gets" side (in payout units) in corresponding units of measure, not on both! **For redemption type = "physical"** limits must be configured only on "User gets" side in the payout units.\
+      Define the minimum and maximum amount of units which can be requested by user and the step with which value can be increased between minimum and maximum amounts. \
+      All three values must be equal to integer value of sparks of the redeemed asset (depends on the asset spark factor). Don't think about fees here, they will be added on top to get the final amount which user will have to pay.\
+      If you keep "incrementNetAmount" = 0, portal will let user to define any value between minimum and maximum amount.
+
+    <figure><img src="../../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Redemption details definition if step value is 0 (incrementNetAmount = 0)</p></figcaption></figure>
+
+    \
+    If you define some value for "incrementNetAmount", user pays and user receives amount inputs in redemption flow will be enriched with the "+" and "-" signs to limit the values which can be entered as desired amount.\
+
+
+    <figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Step values controls are shown  in case step value is defined by the admin  (incrementNetAmount is not 0)</p></figcaption></figure>
+
+#### Step 3. Prepare template for sending redemption details to users via the email   [template-for-redemption-details.md](template-for-redemption-details.md "mention")
+
+#### Step 4. Also, don't forget to configure[ reference code template ](../#reference-code-template)which is used both for purchase reference codes and redemption reference codes

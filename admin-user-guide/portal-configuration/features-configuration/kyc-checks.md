@@ -237,3 +237,12 @@ All configurations are reflected in the page representing description of KYC pro
 ![Page with description of KYC process](<../../../.gitbook/assets/image (6) (1).png>)
 
 ## Step 4. Don't forget to [switch on KYC checks](./) for your portal after configuration is finished
+
+## Step 5. Let portal close KYC cases automatically if verification is made by third party KYC service
+
+This setting can be changed even when KYC checks functionality is already switched on. This setting is valid only for integration with KYC provider, if "Manual" provider is used, all KYC cases must be closed manually.
+
+Admin can adjust KYC settings and define whether you want KYC cases to be automatically closed (approved/declined) based on the verification status received from KYC provider:
+
+* approved if verification result is "Accepted"
+* declined if verification result is "Declined"

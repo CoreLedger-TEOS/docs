@@ -75,17 +75,19 @@ Amount can be defined both as amount to pay and amount to receive. All fees are 
 
 <div>
 
-<figure><img src=".gitbook/assets/Screenshot 2023-04-21 at 18.35.39.png" alt=""><figcaption><p>Define the redeemed amount</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2023-04-21 at 18.35.39.png" alt=""><figcaption><p>Define the redeemed amount if step value is 0</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Screenshot 2023-01-09 132437.png" alt=""><figcaption><p>Define the payout details (depends on the redemption method)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>Define the redeemed amount if step value is not 0</p></figcaption></figure>
 
- 
+</div>
 
 <figure><img src=".gitbook/assets/Screenshot 2023-01-09 132719.png" alt=""><figcaption><p>Define the beneficiary details</p></figcaption></figure>
 
-</div>
+<figure><img src=".gitbook/assets/Screenshot 2023-01-09 132437.png" alt=""><figcaption><p>Define the payout details (depends on the redemption method)</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption><p>Define additional details requested within redemption flow if </p></figcaption></figure>
 
 A summary of the payout details is presented and can be confirmed after accepting the terms and conditions.
 

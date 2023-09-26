@@ -28,11 +28,11 @@ Each asset must be configured with the following parameters in order to be prese
 
 ```
 {
-“uniqueAssetId”:”897131459254702105916269”,
-“icon”:”icons/coreledger_200x150.jpg”,
-“price”:”40”,
+"uniqueAssetId":"0xab8971ce31459254df702105916269",
+"icon":"icons/coreledger_200x150.jpg",
+"price": 40,
 "maxAmount": 4000000000,
-“issuerAddress”: “0xe509ceded28027b3d0d4c105700008c4f6530fbe”,
+"issuerAddress": “0xe509ceded28027b3d0d4c105700008c4f6530fbe”,
 "kycTier": 1
 },
 ```
@@ -58,9 +58,9 @@ Asset must be configured with the following parameters.
 
 ```
 {
-“uniqueAssetId”:”897131459254702105916269”,
-“icon”:”icons/coreledger_200x150.jpg”,
-“price”:”40”,
+"uniqueAssetId":"0xab8971ce31459254df702105916269",
+"icon":"icons/coreledger_200x150.jpg",
+"price": 40,
 "maxAmount": 4000000000,
 “issuerAddress”: “0xe509ceded28027b3d0d4c105700008c4f6530fbe”
 "isFeaturedAsset": true,
@@ -83,4 +83,4 @@ In difference to the purchase assets there is one additional parameter to be set
 
 * The custom html must be uploaded in the blob storage in the wlp-config folder/custom-html. Then, under “customHtmlSourcePath” the link to the custom html page can be entered. Check [here how to prepare custom HTML](../../how-to-prepare-custom-html.md)
 
-You can use different custom HTML pages for logged in and non-logged in users. In case you don't want to differentiate them, you can provide only one HTML and set source path to it in the entry "customHtmlSourcePath".
+You can use different custom HTML pages for logged in and non-logged in users. In case you don't want to differentiate them, you can provide only one HTML and use it both for  "customHtmlSourcePath" and "customHtmlSourcePathLoggedIn".

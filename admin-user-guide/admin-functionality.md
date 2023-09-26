@@ -18,7 +18,17 @@ In case you've configured the integration of the portal with KYC provider (Shuft
 
 **Step 2.** Admin makes a decision whether to approve requested tier.&#x20;
 
-Results of verification by KYC provider are available for admins in the KYC case if the portal is configured to have the integration with KYC provider.. If KYC provider's verification result is "Declined", "Cancelled" or "Error", KYC case is automatically closed and gets status "Declined". If KYC provider's verification result is "Accepted" then admin can decide either to **approve** requested tier for the user or to **decline** it. User will have to start another case after his current case is declined.
+Results of verification by KYC provider are available for admins in the KYC case if the portal is configured to have the integration with KYC provider. If KYC provider's verification result is "Declined", "Cancelled" or "Error", KYC case is automatically closed and gets status "Declined". If KYC provider's verification result is "Accepted" then admin can decide either to **approve** requested tier for the user or to **decline** it. User will have to start another case after his current case is declined.
+
+Admin can adjust KYC settings and define whether you want KYC cases to be automatically closed (approved/declined) based on the verification status received from KYC provider:
+
+* approved if verification result is "Accepted"
+* declined if verification result is "Declined"
+
+This setting can be changed even when KYC checks functionality is already switched on. This setting is valid only for integration with KYC provider, if "Manual" provider is used, all KYC cases must be closed manually.\
+
+
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>KYC cases status settings: when WLP must close cases automatically based on verification results received from the KYC provider</p></figcaption></figure>
 
 **Step 3.** If tier upgrade was approved for user, user can start using functionality available for this tier. User will get a corresponding notification via email.
 

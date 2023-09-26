@@ -1,5 +1,25 @@
 # Earlier versions
 
+### Version 0.14 in January, 2023
+
+With this version WLP admins can try following improvements:
+
+* now portal available languages and its currency can be adjusted with the help of UI instead of json config file. Check the updates under [tenant-configuration.md](../admin-user-guide/portal-configuration/tenant-configuration.md "mention")
+* colors management became much more easier - now admin should define only 10 colors for different groups of UI elements described in the colors.json file which can be found in the Azure blob storage. Check the updates under [branding-management.md](../admin-user-guide/portal-configuration/branding-management.md "mention")
+* exported data from orders and redemptions lists now contain all available data in the portal
+
+This version brings significant changes for the end users too. We improved UX of the redemption request creation process including the flow for using saved bank accounts and crypto wallets. Check the updates under [#redemption](../how-your-users-interact-with-the-portal.md#redemption "mention")
+
+### Version 0.13 in September, 2022
+
+In this version we focused on redemption process refurbishment. We introduced following changes:
+
+* now end-users will start receiving redemption details to their emails when redemption request is created
+* all redemption requests are created with the redemption reference code. Admins are responsible for managing redemption reference code templates in configuration management, this is the same reference code template which is used for purchases, don't forget to adjust it to your needs as described here [#reference-code-template](../admin-user-guide/portal-configuration/features-configuration/#reference-code-template "mention")
+* some refurbishments in the steps of redemption request creation flow to make it more user-friendly
+
+Also we fixed some bugs and introduced some architectural changes to make our solution more stable and to improve user experience.
+
 ### Version 0.12 introduced in August, 2022
 
 In this version we refurbished the order creation process to improve UX and introduced shopping cart edge cases processing to make sure you don't face any issues. Additionally we made purchase reference code available for all orders (it was available only for bank transfers till this version) and updated our recommendations how to define its template to make sure you will have around 11 mln unique codes. Now you can use it to support communication between you and your end users.
