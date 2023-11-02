@@ -15,9 +15,94 @@ TEOS API distributes events using [RabbitMQ](https://www.rabbitmq.com) message-q
 To establish a connection to the RabbbitMQ and to create a channel the following data(examples) is provided by TEOS API administrator:
 
 Host: teos-events.coreledger.net\
-Port: 30000\
 Username: test-user\
 Password: test-pass
+
+There are multiple endpoints, available on different ports:&#x20;
+
+{% tabs %}
+{% tab title="AMQP 0-9-1" %}
+AMQP 0-9-1 (Advanced Message Queuing Protocol) is a messaging protocol that enables conforming client applications to communicate with conforming messaging middleware brokers. More about it [here](https://www.rabbitmq.com/tutorials/amqp-concepts.html).
+
+The exact endpoint and port are depending on the environment/tenant
+{% endtab %}
+
+{% tab title="AMQPS" %}
+A TLS-secured version of AMQP 0-9-1.
+
+TLS version supported by TEOS RabbitMQ is: **TLS 1.2**
+
+The exact endpoint and port are depending on the environment/tenant
+
+The following cipher suites are available on the Teos RabbitMQ Node (OpenSSL format):
+
+```
+TLS_AES_256_GCM_SHA384
+TLS_AES_128_GCM_SHA256
+TLS_CHACHA20_POLY1305_SHA256
+TLS_AES_128_CCM_SHA256
+TLS_AES_128_CCM_8_SHA256
+ECDHE-ECDSA-AES256-GCM-SHA384
+ECDHE-RSA-AES256-GCM-SHA384
+ECDHE-ECDSA-AES256-CCM
+ECDHE-ECDSA-AES256-CCM8
+ECDHE-ECDSA-AES256-SHA384
+ECDHE-RSA-AES256-SHA384
+ECDHE-ECDSA-CHACHA20-POLY1305
+ECDHE-RSA-CHACHA20-POLY1305
+ECDHE-ECDSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-GCM-SHA256
+ECDHE-ECDSA-AES128-CCM
+ECDHE-ECDSA-AES128-CCM8
+ECDH-ECDSA-AES256-GCM-SHA384
+ECDH-RSA-AES256-GCM-SHA384
+ECDH-ECDSA-AES256-SHA384
+ECDH-RSA-AES256-SHA384
+ECDH-ECDSA-AES128-GCM-SHA256
+ECDH-RSA-AES128-GCM-SHA256
+ECDHE-ECDSA-AES128-SHA256
+ECDHE-RSA-AES128-SHA256
+ECDH-ECDSA-AES128-SHA256
+ECDH-RSA-AES128-SHA256
+DHE-RSA-AES256-GCM-SHA384
+DHE-DSS-AES256-GCM-SHA384
+DHE-RSA-AES256-SHA256
+DHE-DSS-AES256-SHA256
+DHE-RSA-AES128-GCM-SHA256
+DHE-DSS-AES128-GCM-SHA256
+DHE-RSA-CHACHA20-POLY1305
+DHE-RSA-AES128-SHA256
+DHE-DSS-AES128-SHA256
+ECDHE-ECDSA-AES256-SHA
+ECDHE-RSA-AES256-SHA
+ECDH-ECDSA-AES256-SHA
+ECDH-RSA-AES256-SHA
+ECDHE-ECDSA-AES128-SHA
+ECDHE-RSA-AES128-SHA
+ECDH-ECDSA-AES128-SHA
+ECDH-RSA-AES128-SHA
+DHE-RSA-AES256-SHA
+DHE-DSS-AES256-SHA
+DHE-RSA-AES128-SHA
+DHE-DSS-AES128-SHA
+```
+
+The cipher suites listed above are in formats that can be used for inbound and outgoing (e.g. [Shovel](https://www.rabbitmq.com/shovel.html), [Federation](https://www.rabbitmq.com/federation.html)) client TLS connections
+{% endtab %}
+
+{% tab title="MQTT" %}
+[MQTT](http://mqtt.org) protocol is available over a WebSocket connection.&#x20;
+
+The exact endpoint and port are depending on the environment/tenant
+
+Examples of Mqtt clients, connecting to TEOS Api events can be found [here](https://github.com/CoreLedger-TEOS/API-Events)
+{% endtab %}
+{% endtabs %}
+
+{% hint style="warning" %}
+Important! \
+The connection to the RabbitMQ endpoint should be resistant to transient network errors and automatically reconnect to the server, recreate queues, and rebind them to the exchanges in case of network failures.
+{% endhint %}
 
 ### Queues
 
