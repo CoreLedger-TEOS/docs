@@ -8,6 +8,19 @@ description: These changes are relevant for all versions with corresponding func
 Check [versioning.md](../using-the-teos-api/versioning.md "mention") to learn more about this type of changes
 {% endhint %}
 
+## December, 2023
+
+#### Changes:
+
+* The list of errors and their codes has been added to TMS for error handling process. It has been made consistent with the current list of [error codes in TEOS API](https://teos-docs.coreledger.net/overview/handling-errors). &#x20;
+* We've optimized the resource consumption of the application to improve performance and stability.
+* Autosigner code is now available as an auxiliary service, i.e. the transactions for specific addresses can be signed automatically if autosigner is set up. It is available in GitHub repository with all the necessary information. Contact your manager to get access to the repository.
+* TMS API: now TMS API has its own versioning! v1.0 is already available, you're welcome to use it.
+
+#### Fixes:
+
+* TMS API: The issue of incorrect http error code returned when calling "/Templates" with no Registration form active has been fixed (check [user-authentication-flow-with-teos-authentication-service-and-tms.md](../using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms.md "mention")). Now TEOS API consumer gets 404 error code if registration template is turned off in WLM.
+
 ## September, 2023
 
 * We've introduced some performance optimisation in our components to speed up Asset creation process with **POST /Assets**

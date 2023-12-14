@@ -16,8 +16,17 @@ Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept to 
 
 | Changes Introduced                                                                        | Date Introduced | Supported until          |
 | ----------------------------------------------------------------------------------------- | --------------- | ------------------------ |
+| [non-versioned changes (Estrella)](non-versioned-changes.md#december-2023)                | December, 2023  | -                        |
 | [non-versioned change (Django - Service Pack 3)](non-versioned-changes.md#september-2023) | September, 2023 | -                        |
 | [0.9](v0.9.md) is available                                                               | 06.07.2023      | approximately 01.07.2024 |
 | [non-versioned change (Django - Service Pack 2)](non-versioned-changes.md#june-2023)      | June, 2023      | -                        |
 
 You can check the outdated versions' changelog [here](v0.3.md)
+
+### Latest versions of additional APIs of TEOS Platform
+
+| Additional API                                                      | Version       |
+| ------------------------------------------------------------------- | ------------- |
+| [TMS API](../using-additional-apis-of-teos-platform/using-tms-api/) | v1            |
+| TxServer                                                            | non-versioned |
+| AuthServer                                                          | non-versioned |
