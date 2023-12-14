@@ -15,7 +15,7 @@ Check [versioning.md](../using-the-teos-api/versioning.md "mention") to learn mo
 * The list of errors and their codes has been added to TMS for error handling process. It has been made consistent with the current list of [error codes in TEOS API](https://teos-docs.coreledger.net/overview/handling-errors). &#x20;
 * We've optimized the resource consumption of the application to improve performance and stability.
 * Autosigner code is now available as an auxiliary service, i.e. the transactions for specific addresses can be signed automatically if autosigner is set up. It is available in GitHub repository with all the necessary information. Contact your manager to get access to the repository.
-* TMS API: now TMS API has its own versioning! v1.0 is already available, you're welcome to use it.
+* TMS API: now TMS API has its own versioning! v1.0 is already available, you're welcome to use it. [Check how it works](../using-additional-apis-of-teos-platform/using-tms-api/#versions)
 
 #### Fixes:
 
