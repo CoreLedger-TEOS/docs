@@ -30,10 +30,9 @@ curl -X 'GET' \
   -H 'accept: application/json'
 ```
 
-We don't expect a lot of changes coming, but you can always find the latest versions in the [changelog](../../changelog/ "mention")
+We don't expect a lot of changes coming, but you can always find the latest versions in the [changelog.md](changelog.md "mention").
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+Currently there are two available versions:
+
+* v1 which we strongly recommend to use
+* v0.1 which is deprecated
