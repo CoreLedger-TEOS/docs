@@ -8,7 +8,7 @@ description: These changes are relevant for all versions with corresponding func
 Check [versioning.md](../using-the-teos-api/versioning.md "mention") to learn more about this type of changes
 {% endhint %}
 
-## December, 2023
+## January, 2024
 
 #### Changes:
 
