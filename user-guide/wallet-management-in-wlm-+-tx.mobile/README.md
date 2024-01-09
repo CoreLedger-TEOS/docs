@@ -32,7 +32,7 @@ Every time you create asset, create supply or do any other transaction signing r
 
 Click "Add wallet", select "Existing wallet" and fill in the proposed form. You need to know only public address of the wallet you're adding. Names and description are used for your convenience, define the name in the way to make this wallet easily recognizable by yourself.
 
-After you add the wallet to Other wallets list you can add it to controllers [controller-management.md](../controller-management.md "mention") or as a target address for units transfer in WLM or even as a collection method in WLP [White Label Portal](http://127.0.0.1:5000/o/ZaeNizhnU47lCcTSk7wB/s/iTYqY7GQFlQO0s8Vbk2r/ "mention")
+After you add the wallet to Other wallets list you can add it to controllers [controller-management.md](../controller-management.md "mention") or as a target address for units transfer in WLM or even as a collection method in WLP [White Label Portal](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/iTYqY7GQFlQO0s8Vbk2r/ "mention")
 
 ![](<../../.gitbook/assets/image (71).png>)
 
