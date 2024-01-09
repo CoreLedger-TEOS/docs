@@ -6,7 +6,7 @@ description: Integration with TEOS Authentication service, TMS, TxServer
 
 Additional APIs are required to be used along with TEOS API in case TEOS API Consumer doesn't have its own authentication service and needs TEOS Authentication service. [Read more](../using-the-teos-api/architecture-note/tenant-setup-options.md#using-teos-api-with-the-user-access-token)
 
-**TEOS Authentication service** is used to authenticate users for TEOS Platform components including TEOS API.
+[**TEOS Authentication service**](using-teos-authentication-service/) is used to authenticate users for TEOS Platform components including TEOS API.
 
 [**Tenant Management Service /TMS/**](using-tms-api/) is used to get user data and sign up new user in TEOS Platform.
 
