@@ -44,7 +44,6 @@
     * [TMS API Swagger (OpenAPI)](https://tms.coreledger.net/swagger/index.html)
     * [Changelog](using-additional-apis-of-teos-platform/using-tms-api/changelog.md)
   * [Using Discovery Service](using-additional-apis-of-teos-platform/using-discovery-service.md)
-  * [Using Discovery service](using-additional-apis-of-teos-platform/using-discovery-service-1.md)
 * [FAQ](faq.md)
 * [Changelog](changelog/README.md)
   * [v0.9](changelog/v0.9.md)
