@@ -19,19 +19,25 @@ Copy parameters above and configure integration to start using it in your WLP [#
 
 ## Crypto payment provider - Coinify
 
-Login to your Coinify account at [https://merchant.coinify.com/signup/now](https://merchant.coinify.com/signup/now) and go to Integration tools section. You need API keys tab where you can generate the API key. Please, copy both **API key and API secret** and send to CoreLedger project manage. Note that API secret is shown only during key generation process. Also, please, keep in mind that if you delete this API key, you will have to generate another one and provide its details one more time to keep the integration working
+Login to your Coinify account at [https://merchant.coinify.com/signup/now](https://merchant.coinify.com/signup/now) and go to Integration tools section. You need API keys tab where you can request API keys to be generated. You are the new client most likely, so go to the New API documentation. You'll need to contact Coinify API Support to request the key.&#x20;
 
-<div>
+{% hint style="info" %}
+The API key has the following format: `<environment>_<uuid>`, where the environment is `sandbox` for testing environment and `production` for production usage.
+{% endhint %}
+
+Please, provide the received API key and the environment, for which the API key is used in Payment method - Cryptocurrency payment provider (for more details see [Cryptocurrency payment method configuration](features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md#cryptocurrency-payment-method)).
+
+<div align="left">
 
 <figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
- 
-
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
-
 </div>
 
-Copy parameters above and configure integration to start using it in your WLP [#cryptocurrency-payment](features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md#cryptocurrency-payment "mention")
+<div align="right">
+
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## KYC provider - Shufti Pro
 

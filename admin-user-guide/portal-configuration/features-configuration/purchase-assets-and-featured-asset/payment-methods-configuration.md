@@ -33,8 +33,19 @@ Please note that
     <figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Description is shown in the payment method's tile in user checkout flow</p></figcaption></figure>
 
     </div>
-* You can define KYC tier which users must have for each asset to be able to use it during checkout process. By default Tier 0 is applied [Read more about KYC configurations](../kyc-checks.md)\
+* You can define KYC tier which users must have for each payment method to be able to use it during checkout process. By default Tier 0 is applied [Read more about KYC configurations](../kyc-checks.md)\
   ![](<../../../../.gitbook/assets/image (28).png>)
+* You can define purchase amount limit, which the user must not exceed to use the corresponding payment method, when creating order. The limit is set in the portal currency, and has a number value. If the user exceeds the payment method limit, the payment method will not be available.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (59).png" alt="" width="375"><figcaption><p>Purchase amount limit in Configuration management</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/image (60).png" alt="" width="375"><figcaption><p>Purchase amount limits, displayed to the user</p></figcaption></figure>
+
+</div>
 
 ### Additional characteristics of specific collection methods
 
@@ -96,11 +107,11 @@ Currently integration with [Coinify ](https://www.coinify.com/)is used for crypt
 To use it productively you will have to provide your Coinify account details:
 
 * API key
-* API secret&#x20;
+* The environment, for which the API key is used (Sandbox or Production)
 
 Check [#crypto-payment-provider-coinify](../../how-to-get-api-keys-of-third-party-services.md#crypto-payment-provider-coinify "mention") to find integration parameters in your Coinify account. Coinify account configuration must be done separately according to Coinify guidelines.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 For pilot project within Active Sandbox you can start without your own account, you are allowed to use CoreLedger test account. Discuss it with your CoreLedger manager.
 

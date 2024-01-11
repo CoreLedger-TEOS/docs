@@ -42,14 +42,18 @@ For each collection method you can define following characteristics:
     <figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Description is shown under "More details" in user checkout flow</p></figcaption></figure>
 
     </div>
-* Collection method fee which will be added on top to the order amount which end users will have to pay\
-  Fee is a decimal number, with max 2 decimal places. Fee is defined in the portal currency
-*   Country fee which will be applied based on the selected country by the user and which will be added on top to the order amount which end users will have to pay. \
-    You are supposed to specify the Fallback country fee for the cases when user selects the country out of the list for which you've defined the fees\
-    Fee is a decimal number, with max 2 decimal places. Fee is defined in the portal currency\
+* Collection method fee which will be added on top to the order amount which end users will have to pay. Collection method fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency). \
+  Fee is a decimal number, with max 2 decimal places. Total collection method fee will be calculated as a sum of variable fee part and fixed fee part.&#x20;
+
+<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+
+* Country fee which will be applied based on the selected country by the user and which will be added on top to the order amount which end users will have to pay. \
+  Country fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency).\
+  You are supposed to specify the Fallback country fee for the cases when user selects the country out of the list for which you've defined the fees\
+  Fee is a decimal number, with max 2 decimal places. Total country fee will be calculated as a sum of variable fee part and fixed fee part. \
 
 
-    <figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 ### Additional characteristics of specific collection methods
 
