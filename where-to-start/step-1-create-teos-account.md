@@ -4,7 +4,7 @@ You can access the WLM web app via a tenant specific link. This link will be pro
 
 If you choose to sign up without using Google/Microsoft/Facebook, fill out the form, accept the data policy and terms and conditions and click on “Next” (see Figure 1).
 
-![Figure 1: Creating TEOS account](<../.gitbook/assets/image (39).png>)
+<figure><img src="../.gitbook/assets/Снимок экрана 2024-01-15 в 14.24.58.png" alt="" width="563"><figcaption><p>Figure 1: Creating TEOS account</p></figcaption></figure>
 
 If the sign up was successful, you will receive an email from CoreLedger. Check your mailbox for a confirmation email. In some cases, the email might be found in the spam folder. To finish the sign-up process for the web app, click on “verify e-mail” in the confirmation email. The browser opens the following page:
 

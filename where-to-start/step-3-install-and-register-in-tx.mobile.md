@@ -14,9 +14,7 @@ Open the TX.Mobile app on your smartphone. Select the environment your tenant is
 
 Allow TX.Mobile to use CoreLedger.net to sign up. Now you can login with your already created account or if you did not sign up yet, you can follow the instructions described [here](step-3-install-and-register-in-tx.mobile.md#creating-teos-account). Insert your credentials and confirm with “Next” (see Figure 7).
 
-![Figure 7: Sign up for TX.Mobile](../.gitbook/assets/photo\_2022-06-14\_19-00-18.jpg)
-
-
+<figure><img src="../.gitbook/assets/Мультимедиа.jpeg" alt="" width="375"><figcaption><p>Figure 7: Sign up for TX.Mobile</p></figcaption></figure>
 
 You will be asked to create a new wallet or restore an existing one. Create a new one if you're going through the registration steps. Then you will be asked to write down the seed words which provide the access to the device data. Keep them always in a secure place and never share online.
 
