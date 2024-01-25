@@ -1,5 +1,5 @@
 ---
-description: 'Latest version: Estrella (available from January, 9)'
+description: 'Latest version: Estrella Service Pack 1 (available from January, 25)'
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
@@ -7,7 +7,7 @@ coverY: 0
 # Welcome!
 
 {% hint style="info" %}
-We've delivered a new [Estrella](wlm-versions-and-changelog/estrella.md) release on the 9th of January. Check out what's new!
+We've delivered a new [Estrella Service Pack 1](wlm-versions-and-changelog/estrella-service-packs.md) on the 25th of January. Check out what's new!
 {% endhint %}
 
 These pages introduce configuration options of the White Label Management Tool (WLM) and its core functionality. WLM is a customizable webapp for managing blockchain data like digital assets, supplies, controllers and configuring the tenant for your business case needs. Also this documentation describes how to use TX.Mobile to work with WLM.
