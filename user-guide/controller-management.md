@@ -22,7 +22,7 @@ To add a controller, click on “Settings” and choose “Controllers”. After
 
 ![](<../.gitbook/assets/image (20).png>)
 
-Afterwards, you get a notification and a singing transaction by TX.Mobile   for creating controller is needed [sign-and-check-executed-transactions.md](sign-and-check-executed-transactions.md "mention")
+Afterwards, you get a notification and a transaction in TX.Mobile for creating a controller which needs to be signed [sign-and-check-executed-transactions.md](sign-and-check-executed-transactions.md "mention")
 
 {% hint style="info" %}
 Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
@@ -34,7 +34,7 @@ After you confirmed the transaction with TX.Mobile, a new controller is created.
 
 If you select your created controller and click on “Manage”, you can create a “**Whitelist**” and thus give access to your assets to selected wallets or "**Blacklist**" and thus restrict the access to your assets for selected wallets.&#x20;
 
-Select the wallets you added previously, to put the on desired type of the list. Finish the process by clicking on “Save” and sign the transaction with TX.Mobile [sign-and-check-executed-transactions.md](sign-and-check-executed-transactions.md "mention")
+Select the wallets you added previously, to put them on desired type of the list. Finish the process by clicking on “Save” and sign the transaction with TX.Mobile [sign-and-check-executed-transactions.md](sign-and-check-executed-transactions.md "mention")
 
 ![](<../.gitbook/assets/image (16).png>)
 
