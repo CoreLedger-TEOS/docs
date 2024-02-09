@@ -109,8 +109,8 @@ During this stage, the user's E-Mail address confirmation state can be checked (
 
 User can have one of the following states:
 
-* Unconfirmed = 1 - User has never confirmed the email address (we recommend not to use this status and use the identity claim 'email\_verified' instead)
-* Confirmed = 2 - User has confirmed the email address (we recommend not to use this status and use the identity claim 'email\_verified' instead)
+* Unconfirmed = 1 - User has never confirmed the email address (❗this status is **deprecated** and will be removed soon, the identity claim 'email\_verified' must be used to get info whether email is verified by the user)
+* Confirmed = 2 - User has confirmed the email address (❗this status is **deprecated** and will be removed soon, the identity claim 'email\_verified' must be used to get info whether email is verified by the user)
 * Approved = 3 - User's request is approved by tenant administrator
 * Rejected = 4 - User's request was rejected by tenant administrator
 * Disabled = 5 - User was disabled by tenant administrator
