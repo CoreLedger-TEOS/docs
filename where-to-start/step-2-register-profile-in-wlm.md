@@ -1,8 +1,8 @@
 # Step 2 - Register profile in WLM
 
-![Figure 3: Referral code](<../.gitbook/assets/image (23).png>)
+<figure><img src="../.gitbook/assets/5f955159-3d01-43bd-a373-255f288eea52.png" alt=""><figcaption><p>Figure 3: Referral code</p></figcaption></figure>
 
-If you have a referral code, you can enter it. If the admin didn’t provide you a referral code, you can carefully read the Terms and conditions of service, accept them to submit the registration request and click on “Sign Up”.
+If you have a referral code, you can enter it. If the admin didn’t provide you a referral code, you can submit the registration request and click on “Sign Up”.
 
 As you can see on the site (Figure 4), the administrator of your tenant first needs to approve your request, before you can start using with WLM (web app). As soon as your request was approved by the administrator, you will receive an email notification.
 
