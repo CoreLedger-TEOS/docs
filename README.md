@@ -1,5 +1,5 @@
 ---
-description: 'Latest version: Estrella Service Pack 1 (available from January, 25)'
+description: 'Latest version: Estrella Service Pack 2 (available from March, 14)'
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
