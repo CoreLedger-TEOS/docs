@@ -22,15 +22,15 @@ description: Available from July, 2023
 
 </div>
 
-:point\_right:Now invoice owner can check invoice details again and show its QR code if he or she opens the invoice list
+:point\_right:Now invoice owner can **check invoice details** again and show its QR code if he or she opens the invoice list
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 15.40.29.png" alt="" width="126"><figcaption></figcaption></figure>
 
-:point\_right:French language is now available for app users! Expand your app presence with this update.
+:point\_right:**French language** is now available for app users! Expand your app presence with this update.
 
-:point\_right:We've enriched the list of transaction types which are supported by WLA, now all TEOS Platform transactions are nicely handled by WLA.
+:point\_right:We've enriched the list of **transaction types** which are supported by WLA, now all TEOS Platform transactions are nicely handled by WLA.
 
-:point\_right:Voting module was introduced, though it can't be used in productive apps as is, only for your investors demonstrations
+:point\_right:**Voting module** was introduced, though it can't be used in productive apps as is, only for your investors demonstrations
 
 Also, as usual, we fixed some bugs to make user experience better.
 

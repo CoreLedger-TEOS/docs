@@ -1,5 +1,15 @@
 # Earlier versions
 
+## Version 0.20 introduced in December, 2022
+
+Admins can decide now at the very beginning of the project how many words should be used as a seed for wallet creation. This parameter can't be configured when app is already created.
+
+Now users can find all operations which formed the balance of the asset by tapping the asset right on the Assets screen. Check out the details here [assets-and-transactions.md](../how-your-users-interact-with-wla/assets-and-transactions.md "mention")
+
+We brought back animation when search is in progress on Market screen. Now you can clearly see that app is still searching for the best deal to offer you.
+
+Also we added ETH balance to the wallet information. This is ETH which is necessary for signing and writing transaction to the blockchain. ETH balance should be always enough for users within [Active Sandbox](https://coreledger.net/active-sandbox/) because service asset is distributed automatically but in case a user faces 0 balance, admins can contact CoreLedger manager to solve this problem.
+
 ## Version 0.19 introduced in October, 2022
 
 We added new functionality for creating invoices instead of payment requests, paying them and tracking their statuses. Check how it works in [payment-request-and-invoices.md](../how-your-users-interact-with-wla/payment-request-and-invoices.md "mention")&#x20;
@@ -34,4 +44,4 @@ Also we optimized assets parameters selection in Search for supplies screen by a
 
 We fixed some bugs to make the app more user friendly and stable and added new features: now you can set the pin code for the application and enter referral code if you have one when creating a new account.
 
-For customers using WLA code base: we switched transaction data retrieval to target [TEOS API component](http://127.0.0.1:5000/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)
+For customers using WLA code base: we switched transaction data retrieval to target [TEOS API component](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)

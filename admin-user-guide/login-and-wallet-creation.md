@@ -14,4 +14,4 @@ If you used the same login as you used for your WLM account, the new created WLA
 
 ![](../.gitbook/assets/3)
 
-Having the wallet automatically connected to your WLM account, will help you to easily send Sparks directly to your WLA wallet.
+Having the wallet automatically connected to your WLM account, will help you to easily send sparks directly to your WLA wallet.

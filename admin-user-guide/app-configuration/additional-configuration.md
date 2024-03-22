@@ -33,7 +33,13 @@ Please, note that custom data is translated separately, CoreLedger is not respon
 
 ## Data policy
 
-Data policy files for corresponding language must be placed in the root folder  **trading-app-configs** and path to them must be defined in the ui config as described below**.**
+{% hint style="warning" %}
+Starting from v0.23 this section is not relevant, though config structure is still kept as it is for compatibility with previous versions. Now data policy is configured for your tenant in TEOS Platform in general, you provide necessary Terms and Conditions and Data policy files once when you setup the tenant. These texts are shown during the registration flow for end users and WLA doesn't request the acceptance of the Terms separately anymore.&#x20;
+{% endhint %}
+
+Data policy files for corresponding language must be provided during the tenant setup to your CoreLedger manager, additional customization is not necessary anymore.&#x20;
+
+In the blob storage in the root folder **trading-app-configs** you can find the ui\_config.v2.json, "localization" section where the paths to the files with the terms must be defined**.**
 
 We understand that you can have users with different locales. You can provide \[en], \[de] and \[es] translations for the data policy. Depending on the language settings of the mobile phone, the WLA will either take the information from \[en], \[de] or \[es]. With "\*\***- \*\***" you define the fallback file. For example, in the example below English files are defined as fallback option which means that if user with French locale comes, he will see English version of data.&#x20;
 
