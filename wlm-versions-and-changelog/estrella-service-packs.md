@@ -1,5 +1,16 @@
 # Estrella Service Packs
 
+## Estrella Service Pack 3 (coming soon)
+
+### Changes:
+
+* User can now reject a transaction with a single device, even if user's address has been added to several devices. In order to reject a transaction with a single device, a user must be the owner of the private key for the respective wallet. When transaction is rejected in one device, it's rejected in all devices of the user correspondingly.&#x20;
+* Time zone settings will be taken from user's local device, which will make the use of White Label Management Tool even more convenient. There is no need to set the time zone separately in Profile settings now.
+
+### Fixes:
+
+* Resend confirmation email in WLA is now branded, just like other customer-related emails.
+
 ## Estrella Service Pack 2 (delivered on March, 14)
 
 ### Changes:

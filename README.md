@@ -1,28 +1,28 @@
 ---
-description: WLA version 0.23 (released in March, 2024)
+description: 'Latest version: Estrella Service Pack 2 (available from March, 14)'
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
 
-# 👋 Welcome!
+# Welcome!
 
 {% hint style="info" %}
-New version v0.23 is available! Check [what's new](wla-versions-and-changelog/version-0.22.md)
+We've delivered a new [Estrella Service Pack 2](wlm-versions-and-changelog/estrella-service-packs.md#estrella-service-pack-2-delivered-on-march-14) on the 14th of March. Check out what's new!
 {% endhint %}
 
-**White Label Mobile App (WLA)** is a customized mobile app which acts as blockchain wallet within TEOS and can be used for signing transactions, checking balances, creating and paying invoices, creating supplies and running trades.
+These pages introduce configuration options of the White Label Management Tool (WLM) and its core functionality. WLM is a customizable webapp for managing blockchain data like digital assets, supplies, controllers and configuring the tenant for your business case needs. Also this documentation describes how to use TX.Mobile to work with WLM.
+
+Most of the business cases which we encountered so far assume that tenant admins use WLM so both [admin-user-guide](admin-user-guide/ "mention") and [user-guide](user-guide/ "mention") are valid for tenant admins.
 
 {% hint style="info" %}
-**TEOS platform** is CoreLedger's main product, it allows companies to integrate blockchain technology into their business processes. [Learn more](https://coreledger.net/teos/) about it and [contact us](https://coreledger.net/contact/)
+Please be aware, that figures, assets and names used in the documentation might be different from your customized WLM
 {% endhint %}
 
-While working with WLA, since it is the part of TEOS platform, you may also need to check the docs of other TEOS platform components:
+While working with TEOS you may also need to check the docs of other TEOS products:
 
-* [White Label Management Tool](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/tUL13xBnNCyueYnmUZV7/)
 * [TEOS API](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)
 * [White Label Portal](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/iTYqY7GQFlQO0s8Vbk2r/)
-
-Please be aware, that the following figures, assets and names might be different from your customized app.
+* [White Label Mobile App](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/7Xg7iannH70Bvo1bfqMb/)
 
 ### Support
 
