@@ -1,6 +1,6 @@
 # Estrella Service Packs
 
-## Estrella Service Pack 3 (coming soon)
+## Estrella Service Pack 3 (delivered on April, 30)
 
 ### Changes:
 
