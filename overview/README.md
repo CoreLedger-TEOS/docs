@@ -4,7 +4,7 @@
 
 All data transfers conform to HTTP/1.1, and all endpoints require HTTPS. Because the TEOS API and all additional APIs are HTTP-based, they work with any language that have an HTTP library, such as cURL and urllib. This means you can use the TEOS API and additional APIs directly in your browser. For example, requesting this URL of the TEOS API in your browser...
 
-[https://teosapi.coreledger.net/odata/v0.9/$metadata](https://teosapi.coreledger.net/odata/v0.7/$metadata)
+[https://teosapi.coreledger.net/odata/v0.9/$metadata](https://teosapi.coreledger.net/odata/v0.9/$metadata)
 
 ... is equivalent to performing this cURL request:
 
