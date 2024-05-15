@@ -10,7 +10,7 @@ All data transfers conform to HTTP/1.1, and all endpoints require HTTPS. Because
 
 ```
 curl -X 'GET' \
-  'https://teosapi.coreledger.net/odata/v0.7/$metadata' \
+  'https://teosapi.coreledger.net/odata/v0.9/$metadata' \
   -H 'accept: application/json;odata.metadata=minimal;odata.streaming=true'
 ```
 
