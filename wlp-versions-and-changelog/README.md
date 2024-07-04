@@ -6,6 +6,7 @@ Normally we release one version in 3-6 months. You can check the changelog of ea
 
 | Version | When introduced |
 | ------- | --------------- |
+| 0.18    | June, 2024      |
 | 0.17    | January, 2024   |
 | 0.16    | September, 2023 |
 | 0.15    | April, 2023     |
