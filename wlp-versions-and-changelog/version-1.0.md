@@ -1,7 +1,3 @@
----
-description: 'Coming soon! Deployment date: September 10, 2024'
----
-
 # Version 1.0
 
 With this version **WLP admins and users** can try the following improvements:
