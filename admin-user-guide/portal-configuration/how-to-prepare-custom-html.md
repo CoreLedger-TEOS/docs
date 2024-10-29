@@ -7,6 +7,8 @@ We understand that it can be very important for your project to have specific an
 * [For featured asset ](features-configuration/)(your page will be displayed when your users click custom sidebar menu item if you activated "Featured asset" functionality). If you switched on "Featured asset" uploading custom HTLM for featured asset description is mandatory.&#x20;
 * [For imprint](branding-management.md#imprint-configuration) (your page will be displayed when your users click Imprint). Uploading custom HTML for imprint is optional, you can just provide your company details
 
+The custom HTML pages can be delivered in various languages, allowing for a seamless multilingual user experience based on your audience's preferences. Each language version should be uploaded separately to ensure users see content in their chosen language, providing a better user experience.
+
 ### How to prepare custom HTML
 
 The custom HTML serves as a customizable page. This should be achievable with relatively minimal effort and little to no external dependencies. It is usually not worth it to import external dependencies just for a single page, instead it is more likely to be more of a problem than a solution, therefore we advise against it.
