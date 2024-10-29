@@ -21,6 +21,7 @@ Thus, the following rules need to be applied when setting up a custom HTML for W
 If you decide to use example custom HTMLs provided with the default setup of the tenant, you have to remember that our frontend developers had prepared it according to our design requirements. So, please, make sure that all elements, which are used there, are adjusted to your needs and unnecessary ones are removed. Don't forget to upload it and check.&#x20;
 {% endhint %}
 
+* provide the custom HTML pages in the languages you want your users to see the content
 * make use of CSS classes and ids, ideally wrapping all your content in a div with a custom class
 * use this custom class as a prefix to all your css rules to scope the css correctly and avoid influencing other elements which are not part of the custom html
 * CSS must be embedded into your custom HTML
