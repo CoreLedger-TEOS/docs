@@ -113,11 +113,11 @@
 
 #### 31000-10023
 
-|             |                                                                                                                                                                                                                                                                                                                                                        |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Message     | Schema names array `schemaKey.schemaKey` and display names array `schemaKey.dispalyName` have different length                                                                                                                                                                                                                                         |
-| Description | Asset object misses the display names for the sections path of custom definition items.                                                                                                                                                                                                                                                                |
-| What to do  | Provide value for `SectionsPathNames` structured in the way which will match the `SectionsPath` for custom definition items_._ For example, if `SectionsPath` is defined as \[General]\[Issuer], then `SectionsPathNames` must have structure \[DisplayNameForGeneral]\[DisplayNameForIssuer]. [Read more](../../using-the-teos-api/concepts/asset.md) |
+|             |                                                                                                                                                                                                                                                                                                                                                             |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | Schema names array `schemaKey.schemaKey` and display names array `schemaKey.dispalyName` have different length                                                                                                                                                                                                                                              |
+| Description | Asset object misses the display names for the sections path of custom definition items.                                                                                                                                                                                                                                                                     |
+| What to do  | Provide value for `SectionsPathNames` structured in the way which will match the `SectionsPath` for custom definition item&#x73;_._ For example, if `SectionsPath` is defined as \[General]\[Issuer], then `SectionsPathNames` must have structure \[DisplayNameForGeneral]\[DisplayNameForIssuer]. [Read more](../../using-the-teos-api/concepts/asset.md) |
 
 #### 31000-10024
 
@@ -311,6 +311,10 @@
 | Message     | Signature does not match request data.                                                                                                                                                                                                                                                                                                                        |
 | Description | Posted transaction has invalid parameter "Signature".                                                                                                                                                                                                                                                                                                         |
 | What to do  | <p>If you use TxServer directly, check that you sign the posted transaction with correct provider certificate and try again. If error persists, contact CoreLedger and provide <code>clTraceId</code>.</p><p></p><p>If you receive this error when calling TEOS API, try again, if error persists, contact CoreLedger and provide <code>clTraceId</code>.</p> |
+
+#### 32000-10053
+
+<table><thead><tr><th width="342"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>An error has happened while revoking a transaction.</td></tr><tr><td>Description</td><td>Posted signature does not match the address.</td></tr><tr><td>What to do</td><td>Check the validity of the signature, which is created by signing the ID of the transaction to be revoked, taken in lowercase. Ensure that the public address derived from the private key used for signing matches the signing address of the transaction being revoked (as indicated by the 'SignedBy' property).</td></tr></tbody></table>
 
 #### 32000-10111
 
