@@ -48,7 +48,7 @@ Check the detailed flow of creating and submitting transactions with TEOS API in
 
 ### Transaction types available in TEOS platform
 
-<table><thead><tr><th width="163.14285714285717">TypeId</th><th>Transaction type</th></tr></thead><tbody><tr><td>1</td><td>Activate asset</td></tr><tr><td>2</td><td>Create sparks</td></tr><tr><td>3</td><td>Destroy sparks</td></tr><tr><td>4</td><td>Transfer sparks</td></tr><tr><td>10</td><td>Execute warp</td></tr><tr><td>38</td><td>Add asset link</td></tr><tr><td>39</td><td>Delete asset link</td></tr><tr><td>43</td><td>Add asset links</td></tr><tr><td>44</td><td>Delete asset links</td></tr></tbody></table>
+<table><thead><tr><th width="163.14285714285717">TypeId</th><th>Transaction type</th></tr></thead><tbody><tr><td>1</td><td>Activate asset</td></tr><tr><td>2</td><td>Create sparks</td></tr><tr><td>3</td><td>Destroy sparks</td></tr><tr><td>4</td><td>Transfer sparks</td></tr><tr><td>5</td><td>Create supply</td></tr><tr><td>6</td><td>Delete supply</td></tr><tr><td>7</td><td>Restock supply</td></tr><tr><td>8</td><td>Change exchange rate of a supply</td></tr><tr><td>9</td><td>Extend a supply</td></tr><tr><td>10</td><td>Execute warp</td></tr><tr><td>38</td><td>Add asset link</td></tr><tr><td>39</td><td>Delete asset link</td></tr><tr><td>43</td><td>Add asset links</td></tr><tr><td>44</td><td>Delete asset links</td></tr></tbody></table>
 
 ### Transaction states
 

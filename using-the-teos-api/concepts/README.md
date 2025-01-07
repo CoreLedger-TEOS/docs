@@ -33,7 +33,7 @@ description: >-
 
 **Invoice** - a time-stamped digital record for a payment agreement made between two parties [Learn more](invoice.md)
 
-**Supply** – an offer created by a user to get specific amount of sparks of desired asset in exchange to specific amount of sparks of offered asset
+**Supply** – an offer created by a user to get specific amount of sparks of desired asset in exchange to specific amount of sparks of offered asset [Learn more](supply.md)
 
 **Warp** – sequence of supplies that is returned as the search result by a WARP search engine based on a mathematical optimization algorithm where the supplies, available in TEOS at the moment, play the role of chain links
 

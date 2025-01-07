@@ -8,7 +8,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 #### 21000-1001
 
-<table><thead><tr><th width="323.5"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>asset with uinque Id <code>uniqueAssetId</code> does not exist</td></tr><tr><td>Description</td><td>the requested operation requires, that the asset with the 'uniqueAssetId' exists prior to execution of this operation</td></tr><tr><td>What to do</td><td>check that correct <code>uniqueAssetId</code> is used</td></tr><tr><td>Arguments</td><td><code>uniqueAssetId</code></td></tr></tbody></table>
+<table><thead><tr><th width="323.5"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>asset with unique Id <code>uniqueAssetId</code> does not exist</td></tr><tr><td>Description</td><td>the requested operation requires, that the asset with the 'uniqueAssetId' exists prior to execution of this operation</td></tr><tr><td>What to do</td><td>check that correct <code>uniqueAssetId</code> is used</td></tr><tr><td>Arguments</td><td><code>uniqueAssetId</code></td></tr></tbody></table>
 
 #### 21000-1002
 
@@ -42,7 +42,19 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 <table><thead><tr><th width="317.5"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>the source asset with id '<code>sourceUniqueAssetId</code>' is not linked to the asset with id '<code>targetUniqueAssetId</code>'</td></tr><tr><td>Description</td><td>it is not possible to unlink assets which are not linked</td></tr><tr><td>What to do</td><td>check that the targetUniqueAssetId of a linked asset is used</td></tr><tr><td>Arguments</td><td><p><code>sourceUniqueAssetId</code></p><p><code>targetUniqueAssetId</code></p></td></tr></tbody></table>
 
-## 22000
+#### 21000-1019
+
+<table><thead><tr><th width="329"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>invalid exchange rate provided (must be positive): '<code>providedAmount</code>'</td></tr><tr><td>Description</td><td>the exchange rate is less than or equal to zero</td></tr><tr><td>What to do</td><td>check the value of the exchange rate and provide correct value of <code>providedAmount</code></td></tr><tr><td>Arguments</td><td><code>providedAmount</code></td></tr></tbody></table>
+
+#### 21000-1020
+
+<table><thead><tr><th width="334"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>supply end date must be specified using ExpirationDate or ExpirationBlock</td></tr><tr><td>Description</td><td>the requested operation requires, that either of the parameters: ExpirationDate or ExpirationOnBlock is specified. You can't specify both of them</td></tr><tr><td>What to do</td><td>specify only one parameter: ExpirationDate or ExpirationOnBlock in the request</td></tr></tbody></table>
+
+#### 21000-1021
+
+<table><thead><tr><th width="334"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>supply with Id '<code>supplyId'</code> does not exist</td></tr><tr><td>Description</td><td>the requested operation requires, that the supply with the 'supplyId' exists prior to execution of this operation</td></tr><tr><td>What to do</td><td>check that correct <code>supplyId</code> is used</td></tr><tr><td>Arguments</td><td><code>supplyId</code></td></tr></tbody></table>
+
+### 22000
 
 <table><thead><tr><th width="315.5"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>One or more validations failed</td></tr><tr><td>Description</td><td>The provided input data are correct, but do not conform some of the prerequisites of the requested operation</td></tr><tr><td>Details</td><td>contains details about the failed validations. See error codes of the details below</td></tr><tr><td>What to do</td><td>Check the <code>details</code> field for additional information</td></tr></tbody></table>
 
@@ -150,3 +162,6 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 
 <table><thead><tr><th width="293.5"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>The output amount after warp execution is not sufficient</td></tr><tr><td>Description</td><td>The result of the warp execution gives an amount that is less than the amount defined in the invoice</td></tr><tr><td>What to do</td><td>Specify the higher amount. Or better use the input amount provided in the result of the WARP search</td></tr></tbody></table>
 
+#### 22000-2030
+
+<table><thead><tr><th width="299"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>supply end date must be in range <code>minSupplyEndDate</code> to <code>maxSupplyEndDate</code></td></tr><tr><td>Description</td><td>either of the supply end date parameters (ExpirationDate or ExpirationOnBlock) does not fit in the min/max end date limit</td></tr><tr><td>What to do</td><td>check the value of the supply end date and provide correct value</td></tr></tbody></table>
