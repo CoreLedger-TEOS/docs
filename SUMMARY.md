@@ -21,6 +21,7 @@
 * [How your users interact with the portal](how-your-users-interact-with-the-portal.md)
 * [WLP versions and changelog](wlp-versions-and-changelog/README.md)
   * [Version 1.2](wlp-versions-and-changelog/version-1.2.md)
+  * [Version 1.1](wlp-versions-and-changelog/version-1.1.md)
   * [Version 1.0](wlp-versions-and-changelog/version-1.0.md)
   * [Version 0.18](wlp-versions-and-changelog/version-0.18.md)
   * [Version 0.17](wlp-versions-and-changelog/version-0.17.md)
