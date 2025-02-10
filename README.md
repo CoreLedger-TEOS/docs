@@ -1,5 +1,5 @@
 ---
-description: WLP version 1.1
+description: WLP version 1.2
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
@@ -7,7 +7,7 @@ coverY: 0
 # 👋 Welcome!
 
 {% hint style="info" %}
-We've delivered cool changes with a brand new v1.1.[ Check](wlp-versions-and-changelog/version-1.1.md) what's new!
+We've delivered cool changes with a brand new v1.1.[ Check](wlp-versions-and-changelog/version-1.1.md)[ ](wlp-versions-and-changelog/version-1.2.md)what's new!
 {% endhint %}
 
 **White Label Portal (WLP)** is a customizable web application, which represents the bridge between fiat money or physical goods and digital assets within TEOS platform.&#x20;
