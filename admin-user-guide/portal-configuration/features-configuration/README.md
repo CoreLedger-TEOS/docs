@@ -27,14 +27,14 @@ Links to the specific **redemption methods** are built in the following way:\
 where redemptionId is the redemption ID from the Advanced config management\
 \
 Example:\
-_https://wlp-sandbox-pilot.onteos.net/redemption/details/1111-222-34242-123132_
+&#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/redemption/details/1111-222-34242-123132_
 
 Links to the specific **featured assets** are built in the following way:\
 `{portal url}/featured/{uniqueAssetId},`\
 where uniqueAssetId is the unique Asset ID assigned to the asset automatically when asset is created, it can be found in Advanced config management\
 \
 Example:\
-_https://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_&#x20;
+&#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_&#x20;
 
 Please, don't forget to provide all necessary configuration for all featured assets in advance. If some required configuration is missing, direct link won't work as expected.
 
