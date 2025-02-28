@@ -26,7 +26,6 @@ Payrexx is already integrated into WLP. This allows you to start using it quickl
 
     The Payrexx software offers you a simple and comprehensive overview of all transactions made. All payments are listed in your dashboard, including status, amount, description, customer details and date.
 
-    \
     To optimize the [export of your payments](https://payrexx.com/en/zahlungsabgleich), you can set various filters, save them and then download the file as a CSV or XLSX file.
 4.  **How quickly will my earnings be paid out?**
 
