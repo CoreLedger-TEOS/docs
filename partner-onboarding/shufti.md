@@ -10,9 +10,7 @@ Shufti is already integrated into WLP. This saves you dozens of development hour
 
 ### How does it work?
 
-
-
-<figure><img src="../.gitbook/assets/Shufti diagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Shufti diagram (1).png" alt=""><figcaption></figcaption></figure>
 
 ### FAQ
 
