@@ -24,6 +24,7 @@
   * [Coinify](partner-onboarding/coinify.md)
   * [Shufti](partner-onboarding/shufti.md)
 * [WLP versions and changelog](wlp-versions-and-changelog/README.md)
+  * [Version 1.3](wlp-versions-and-changelog/version-1.3.md)
   * [Version 1.2](wlp-versions-and-changelog/version-1.2.md)
   * [Version 1.1](wlp-versions-and-changelog/version-1.1.md)
   * [Version 1.0](wlp-versions-and-changelog/version-1.0.md)
