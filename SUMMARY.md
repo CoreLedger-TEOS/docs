@@ -34,3 +34,4 @@
   * [Earlier versions](wlp-versions-and-changelog/earlier-versions.md)
 * [⁉️ Troubleshooting](troubleshooting.md)
 * [Glossary](glossary.md)
+* [WLP API documentation](wlp-api-documentation.md)
