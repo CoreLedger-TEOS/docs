@@ -5,7 +5,7 @@ description: 'With this version WLP admins and users can try the following impro
 # Version 1.3
 
 👉 **WLP API Versioning Implemented**\
-API versioning has been introduced to ensure backward compatibility and facilitate future updates.
+API versioning has been introduced to ensure backward compatibility and facilitate future updates. [wlp-api-documentation.md](../wlp-api-documentation.md "mention")
 
 👉 **Login/Register Button Configuration**\
 Tenant admins can now configure the Login/Register button to appear only in the sidebar or also on the feature page. This allows for testing and comparing registration conversion rates across different layouts.
