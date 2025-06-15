@@ -28,6 +28,7 @@
     * [3xxxx codes](overview/handling-errors/3xxxx-codes.md)
   * [TEOS Events](overview/teos-events.md)
   * [Warp search](overview/warp-search.md)
+  * [Supply Management](overview/supply-management.md)
 * [TEOS API references](reference/README.md)
   * [TEOS API Swagger (OpenAPI)](https://teosapi.coreledger.net/swagger/index.html)
 * [Using additional APIs of TEOS Platform](using-additional-apis-of-teos-platform/README.md)
