@@ -12,6 +12,6 @@ Error codes `1xxxx` indicate non-business logic related issues with input (auth 
 
 ## 13000
 
-<table><thead><tr><th width="187.5"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>Whoa! Calm down, cowboy! Quota exceeded</td></tr><tr><td>Description</td><td>requests quota for the tenant per 30 days was exceeded</td></tr><tr><td>Details</td><td>contains the details about the current quota, time to wait until requests are allowed again</td></tr><tr><td>What to do</td><td><ul><li>wait until the requests are allowed again</li><li>check why the quota was exceeded</li><li>if you want to change the quota, contact your CL manager</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="187.5"></th><th></th></tr></thead><tbody><tr><td>Message</td><td>Too many requests received.</td></tr><tr><td>Description</td><td>Quota exceeded. Maximum allowed: 100 per 1m. </td></tr><tr><td>Details</td><td>contains the details about the current quota, time to wait until requests are allowed again</td></tr><tr><td>What to do</td><td><ul><li>wait until the requests are allowed again</li><li>check why the quota was exceeded</li><li>if you want to change the quota, contact your CL manager</li></ul></td></tr></tbody></table>
 
 1
