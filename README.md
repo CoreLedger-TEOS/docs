@@ -1,5 +1,5 @@
 ---
-description: 'Latest version: v0.9'
+description: 'Latest version: v1.0'
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
