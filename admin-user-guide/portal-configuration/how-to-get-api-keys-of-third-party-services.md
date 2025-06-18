@@ -10,7 +10,7 @@ Login to your Payrexx account at [payrexx.com](https://www.payrexx.com/en/home/)
 2.  You can find **API key** in API\&Plugins section. It's better to create new integration and use it for portal integration to make sure you don't make any mistakes with other integrations' data.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Put an integration name (only used by you) and click on the Add button. Now you can get your **API Key** here.\
 Please, note that if you deactivate API key which you've provided, it has to be changed in the portal settings to keep the integration working.
@@ -27,17 +27,9 @@ The API key has the following format: `<environment>_<uuid>`, where the environm
 
 Please, provide the received API key and the environment, for which the API key is used in Payment method - Cryptocurrency payment provider (for more details see [Cryptocurrency payment method configuration](features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md#cryptocurrency-payment-method)).
 
-<div align="left">
+<div align="left"><figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="right">
-
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="right"><figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure></div>
 
 ## KYC provider - Shufti Pro
 

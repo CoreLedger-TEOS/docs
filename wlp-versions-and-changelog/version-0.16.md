@@ -12,7 +12,7 @@ With this version **WLP admins** can try following improvements:
 
 :point\_right: Admin can define the step value between minimum and maximum amounts which can be selected as redemption amounts. User will be able to use step values to select desired amount. Still admin can leave step value = 0, then any value between minimum and maximum value can be selected. Read more about [redemption configuration updates](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/#step-2.-configure-redemption-methods)
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>New step values controls in case step value is defined by the admin</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>New step values controls in case step value is defined by the admin</p></figcaption></figure>
 
 :point\_right: We've introduced French language in WLP! Now you can configure WLP to use it among available languages for your end users
 

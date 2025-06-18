@@ -32,7 +32,7 @@ When asset is created by the admin, additional properties necessary for WLP, can
 Don't forget to remove optional properties if you don't want to define their values (Round to and Name)
 {% endhint %}
 
-![](<../../.gitbook/assets/image (5).png>)![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (16).png>)![](<../../.gitbook/assets/image (6).png>)
 
 
 

@@ -14,7 +14,7 @@ Go to **Configuration management** page to setup WLA name. Scroll down to **Mobi
 
 The App name is part of the instructions shown during the redeem process when the QR code is presented as shown in the picture below.
 
-![QR code scanning for redemption](<../../.gitbook/assets/image (11).png>)
+![QR code scanning for redemption](<../../.gitbook/assets/image (15).png>)
 
 ### Currency
 
@@ -40,4 +40,4 @@ Default language is used for the situations when custom texts don't have transla
 
 All changes are saved automatically.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>English is defined as the only available language for the portal</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>English is defined as the only available language for the portal</p></figcaption></figure>

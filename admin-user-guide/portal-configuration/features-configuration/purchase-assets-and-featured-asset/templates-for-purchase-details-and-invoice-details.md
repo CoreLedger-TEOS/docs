@@ -39,7 +39,7 @@ Using these variables, you will operate with the order specific data.
 *   You can use the table for listing the purchased items. The template document may have multiple tables. To find the appropriate one to list the purchased items, please set the description of the table to “Purchased Items”:\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>How to create the table for listing the purchased items</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>How to create the table for listing the purchased items</p></figcaption></figure>
 
 
 

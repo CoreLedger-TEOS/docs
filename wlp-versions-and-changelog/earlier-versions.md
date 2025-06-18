@@ -51,7 +51,7 @@ For the future, please, don't modify the structure of the config file. Only reus
 You shouldn't care about differences between assetId and ledgerId anymore. Just use uniqueAssetId which is available in the Asset details page in WLM\
 
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ## Version 0.14 in January, 2023
 

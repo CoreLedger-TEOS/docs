@@ -17,7 +17,7 @@ Use **"redeemSettings"** section of the config file available under the Advanced
 *   Define the description of the redemption method selection step for your end users with the help of "methodSelectionDescription" parameter. Text is shown at "Select method" step\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Redemption method selection screen</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Redemption method selection screen</p></figcaption></figure>
 * :new: You can request additional information from users when they create a redemption request. You should define the label of the input which will be shown to user and its description. This field allows to provide the text up to 350 symbols.\
   You can disable this field in the config file under the Advanced Config Management any time later.\
   Please, note that if you enable this field, it will be added to all redemption methods.
@@ -37,7 +37,7 @@ Use **"redeemSettings"** section of the config file available under the Advanced
 If "additionalInfoRedemptionRequest" is configured and enabled, additional field will be available for used in redemption flow\
 
 
-<figure><img src="../../../../.gitbook/assets/image (44).png" alt=""><figcaption><p>"additionalInfoRedemptionRequest" is configured and enabled</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (45).png" alt=""><figcaption><p>"additionalInfoRedemptionRequest" is configured and enabled</p></figcaption></figure>
 
 #### Step 2. Configure redemption methods&#x20;
 
@@ -150,7 +150,7 @@ Example redemption type “bank” and all properties are described below:
     If you define some value for "incrementNetAmount", user pays and user receives amount inputs in redemption flow will be enriched with the "+" and "-" signs to limit the values which can be entered as desired amount.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Step values controls are shown  in case step value is defined by the admin  (incrementNetAmount is not 0)</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Step values controls are shown  in case step value is defined by the admin  (incrementNetAmount is not 0)</p></figcaption></figure>
 
 #### Step 3. Prepare template for sending redemption details to users via the email   [template-for-redemption-details.md](template-for-redemption-details.md "mention")
 

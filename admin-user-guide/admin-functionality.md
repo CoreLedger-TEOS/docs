@@ -28,11 +28,11 @@ Admin can adjust KYC settings and define whether you want KYC cases to be automa
 This setting can be changed even when KYC checks functionality is already switched on. This setting is valid only for integration with KYC provider, if "Manual" provider is used, all KYC cases must be closed manually.\
 
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>KYC cases status settings: when WLP must close cases automatically based on verification results received from the KYC provider</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>KYC cases status settings: when WLP must close cases automatically based on verification results received from the KYC provider</p></figcaption></figure>
 
 **Step 3.** If tier upgrade was approved for user, user can start using functionality available for this tier. User will get a corresponding notification via email.
 
-![All cases are filtered by status = "Open" by default, remove filter to check all cases](<../.gitbook/assets/image (17).png>)
+![All cases are filtered by status = "Open" by default, remove filter to check all cases](<../.gitbook/assets/image (11).png>)
 
 ![Example of positive verification results (KYC request status is Accepted), admin can either Approve or Decline KYC case](<../.gitbook/assets/image (4).png>)
 

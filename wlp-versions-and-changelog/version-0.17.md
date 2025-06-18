@@ -14,23 +14,15 @@ With this version **WLP admins and users** can try the following improvements:&#
 If configured, the total fee will be calculated in the following way: variable part (in percent of the purchased amount) is added to fixed part on top. Both parts can be left empty if no fee needs to be applied.  \
 If fees are configured, the user will clearly see the calculations for total fee: how and why the final amount was applied in the following way. Read more in [Collection methods configuration](../admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration.md).
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Method and country fee configuration in Purchase configuration</p></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p>Method and country fee configuration in Purchase configuration</p></figcaption></figure>
-
-</div>
-
-<div align="right">
-
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Display of fees calculation for user (purchase flow)</p></figcaption></figure>
-
-</div>
+<div align="right"><figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Display of fees calculation for user (purchase flow)</p></figcaption></figure></div>
 
 :point\_right: For Redemption configuration in Advanced config management admin can now set two parts for each fee: **fixed fee** (which is set in portal currency and has a stable value) and **variable fee** (which is set in the percentage of the payout amount). The fees can be configured for issuerFee, methodFee and countryFees correspondingly. Country fee configuration for fixed and variable parts can be set up separately for each selected country and fallbackCountryFee. \
 If configured, the total fee for each fee type will be calculated in the following way: variable part (in percent of the redeemed amount) is added to fixed part on top. Both parts can be left empty if no fee needs to be applied.  \
 If fees are configured, the user will clearly see the calculations for total fee: how and why the final amount was applied in the following way. Read more in [Redemption functionality](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/).
 
-<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption><p>Display of fees calculation for user (redemption flow)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption><p>Display of fees calculation for user (redemption flow)</p></figcaption></figure>
 
 :point\_right: We've added "Go to My orders"/"Go to My redemptions" buttons to the final pages of Payment/Redemption flow. When clicked, the users will be redirected to their Account page and see Orders/Redemption history tables.
 
