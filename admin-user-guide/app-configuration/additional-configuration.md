@@ -39,7 +39,7 @@ Starting from v0.23 this section is not relevant, though config structure is sti
 
 Data policy files for corresponding language must be provided during the tenant setup to your CoreLedger manager, additional customization is not necessary anymore.&#x20;
 
-In the blob storage in the root folder **trading-app-configs** you can find the ui\_config.v2.json, "localization" section where the paths to the files with the terms must be defined**.**
+In the blob storage in the root folder **trading-app-configs** you can find the ui\_config.v2.json, "localization" section where the paths to the files with the terms must be define&#x64;**.**
 
 We understand that you can have users with different locales. You can provide \[en], \[de] and \[es] translations for the data policy. Depending on the language settings of the mobile phone, the WLA will either take the information from \[en], \[de] or \[es]. With "\*\***- \*\***" you define the fallback file. For example, in the example below English files are defined as fallback option which means that if user with French locale comes, he will see English version of data.&#x20;
 
