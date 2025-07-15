@@ -11,7 +11,7 @@ We are working on introducing a fully automated flow for setting up a new tenant
 In order to start building your apps with the TEOS API a few steps need to be taken:
 
 1. Make sure you have a contract signed with CoreLedger and have filled out the customer's questionnaire to provide a set of starting configurations. If you don't have a signed contract yet, please [use this form](https://coreledger.net/contact/) to request a meeting with a manager to onboard you. While being onboarded, you will be asked several questions to define the configuration you need. We will need the following information:\
-   \- The blockchain network on which your solution is going to run (SparkNet private blockchain, SparkNet shared blockchain, Ethereum Mainnet) and type of assets you need (FT, NFT)\
+   \- The blockchain network on which your solution is going to run (SparkNet private blockchain, SparkNet shared blockchain, Ethereum Mainnet, Polygon, Internet Computer) and type of assets you need (FT, NFT)\
    \- Which environments are needed right away (dev\&testing and/or productive)\
    \- The set of TEOS platform components you will need besides the TEOS API (check what the TEOS platform offers on the [CoreLedger website](https://coreledger.net/))\
    \- Name of the tenant
