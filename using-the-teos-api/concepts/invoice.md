@@ -2,7 +2,7 @@
 
 TEOS API consumers can create invoice to get digital record for agreed obligation of payment and pay invoice to fulfil this obligation. Invoice is a time-stamped digital record for a payment agreement made between two parties.
 
-Invoice object has following structure:
+In both EVM-compatible networks (e.g., Sparknet, Ethereum, Polygon) and non-EVM networks, the invoice object follows the same structure. The only difference is in the address length ("TargetAddress", "SenderAddress"). In EVM-compatible networks, addresses are 42 characters long. In non-EVM networks, the length may vary. For example, on Internet Computer, the address is 64 characters.
 
 ```json
   {

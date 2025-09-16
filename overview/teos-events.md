@@ -144,6 +144,8 @@ This chapter provides the list of published events, with their routing keys and 
 
 Routing Key: **{tenant-id}.account.balance\_changed**
 
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "AddressId" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "AddressId" has 64 characters.
+
 ```
 {
     "AccountId": "0xE0450CE1E2EF73B15514AE6A003B90D0EBAC88357649376D2AD894314E190001",
@@ -201,6 +203,8 @@ Routing Key: **{tenant-id}.supply.changed**
 
 Routing Key: **{tenant-id}**.**controller.created**
 
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" has 64 characters.
+
 ```
 {
     "ControllerAddress": "0x27fd8eec08ac380868bb8fd24fb439e573f71fc1",
@@ -212,6 +216,8 @@ Routing Key: **{tenant-id}**.**controller.created**
 ### ControllerLimitChanged
 
 Routing Key: **{tenant-id}.controller.limit\_changed**
+
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 64 characters.
 
 ```
 {
@@ -227,6 +233,8 @@ Routing Key: **{tenant-id}.controller.limit\_changed**
 
 Routing Key: **{tenant-id}.controller.admin\_changed**
 
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 64 characters.
+
 ```
 {
     "ControllerAddress": "0x27fd8eec08ac380868bb8fd24fb439e573f71fc1",
@@ -240,6 +248,8 @@ Routing Key: **{tenant-id}.controller.admin\_changed**
 ### ControllerBlacklistChanged
 
 Routing Key: **{tenant-id}.controller.black\_list\_changed**
+
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 64 characters.
 
 ```
 {
@@ -306,6 +316,8 @@ Routing Key: **{tenant-id}.asset.tokenized**
 ### AddressRegistered
 
 Routing Key: **{tenant-id}.address.registered**
+
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Address" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "Address" has 64 characters.
 
 ```
 {

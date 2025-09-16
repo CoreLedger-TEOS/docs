@@ -4,9 +4,9 @@ TEOS users can create supplies in order to trade their assets. Supply is an offe
 
 Supplies are consumed by other TEOS users when they execute trades, or execute [warps](warp.md), where supplies existing on blockchain take part.
 
-### EVM-compatible networks
+### Supply structure
 
-In EVM-compatible networks (e.g., Sparknet, Ethereum, Polygon), supply object has the following structure:
+In both EVM-compatible networks (e.g., Sparknet, Ethereum, Polygon) and non-EVM networks, the supply object follows the same structure. The only difference is in the address length ("OriginatorAddress", "ReceiverAddress"). In EVM-compatible networks, addresses are 42 characters long. In non-EVM networks, the length may vary. For example, on Internet Computer, the address is 64 characters.
 
 ```json
 {
@@ -49,10 +49,6 @@ Main properties description:
 {% hint style="info" %}
 CreatedOn is the parameter that indicates the timestamp when supply was created in TEOS Platform, while CreatedInBlockchainOn parameter indicates the timestamp when supply was written to blockchain.
 {% endhint %}
-
-### Non-EVM networks
-
-For non-EVM networks, the supply will have the same structure as for EVM-compatible ones, with the only difference being the address format. For example, in Internet Computer, the address consists of 64 characters.
 
 ### Supply operations
 

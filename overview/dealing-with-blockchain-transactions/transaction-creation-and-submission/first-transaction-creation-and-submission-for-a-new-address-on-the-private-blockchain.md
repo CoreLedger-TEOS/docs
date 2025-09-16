@@ -1,7 +1,7 @@
 ---
 description: >-
   How to build the flow for the first transaction submission for a new address
-  registered in TEOS API
+  registered in TEOS API for SparkNet or DevilNet
 ---
 
 # First transaction creation and submission for a new address on the private blockchain

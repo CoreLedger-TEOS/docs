@@ -20,7 +20,7 @@
   * [Postman examples](https://github.com/CoreLedger-TEOS/API)
   * [Rate limits](overview/rate-limits.md)
   * [Dealing with blockchain transactions](overview/dealing-with-blockchain-transactions/README.md)
-    * [How to get Ether for signing transactions](overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions.md)
+    * [How to get gas for signing transactions](overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions.md)
     * [Transaction creation and submission](overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/README.md)
       * [First transaction creation and submission for a new address on the private blockchain](overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain.md)
   * [Handling errors](overview/handling-errors/README.md)

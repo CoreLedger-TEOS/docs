@@ -16,7 +16,8 @@ To utilize TEOS platform, the key pair must be created in one or another way. Ap
 
 {% tabs %}
 {% tab title="C#" %}
-* [Nethereum](https://nethereum.com)
+* [Nethereum](https://nethereum.com) (EVM-compatible)
+* [Libsodium](https://doc.libsodium.org/) (ICP)
 {% endtab %}
 
 {% tab title="Node.js" %}

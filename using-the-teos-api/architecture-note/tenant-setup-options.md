@@ -8,24 +8,6 @@ There is a set of basic configurations which should be defined when new tenant i
 
 <figure><img src="../../.gitbook/assets/Data layers-Page-2.drawio.svg" alt=""><figcaption></figcaption></figure>
 
-
-
-##
-
-##
-
-Blockchain options:
-
-* Ethereum Mainnet - you get access to global public Ethereum network using PoS, [read more](https://ethereum.org/en/enterprise/#private-vs-public)
-* SparkNet - private Ethereum based network, used for pilot and productive solutions mainly, [read more](https://sparknet.online/)
-* DevilNet - private Ethereum based network run by CoreLedger, used for development purposes mainly
-* Your option can be discussed upon a request
-
-|                             | Ethereum Mainnet                                                                                                                                                                                                       | SparkNet                                                                                                                           | DevilNet                                                                                                        |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Transaction processing time | <p>is more than for other options, estimated in minutes (strongly depends on amount of available nodes and amount of transactions to be processed)<br><a href="https://etherscan.io/">Check current statistics</a></p> | <p>comparatively low, estimated in seconds<br><a href="https://netstats-sparknet.coreledger.net/">Check current statistics</a></p> | comparatively low, estimated in seconds, but more than in SparkNet                                              |
-| Transaction cost            | <p>varies, but definitely higher than for other options<br><a href="https://ethereum.org/en/developers/docs/gas/">Read more</a> and<br><a href="https://etherscan.io/">Check current statistics</a></p>                | stable and 0 (gas required for signing transactions is distributed automatically to newly registered addresses)                    | stable and 0 (gas required for signing transactions is distributed automatically to newly registered addresses) |
-
 ## Authentication type
 
 The authentication process for TEOS API consumers is described in [authentication.md](../authentication.md "mention"). The description below can help you decide on which option to go.

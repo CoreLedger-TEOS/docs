@@ -1,20 +1,19 @@
 ---
-description: >-
-  Ether distribution mechanism for SparkNet and DevilNet tenants, Ether
-  distribution limits
+description: Gas distribution mechanism
 ---
 
-# How to get Ether for signing transactions
+# How to get gas for signing transactions
 
 There is a gas cost for every transaction which must be paid for in Ether. TEOS Platform is integrated with several blockchains, depending on the selected option there are two approaches to getting Ether:
 
-* If Ethereum Mainnet is used, then TEOS API consumer takes care about making sure its end users have enough Ether to sign transactions (normally wallet owners should buy Ether to be able to operate)
-* If private blockchains ([SparkNet ](https://sparknet.online/)or DevilNet) are used, then TEOS API consumer shouldn't care about Ether necessary for gas costs paying because TEOS Platform provides the mechanism for Ether distribution described below
+* If Ethereum Mainnet or Polygon are used, then TEOS API consumer takes care about making sure its end users have enough Ether to sign transactions (normally wallet owners should buy Ether to be able to operate).
+* If ICP is used, then TEOS API consumer takes care about making sure its end users have enough cycles to sign transactions (normally wallet owners need to convert ICP into cycles to be able to operate).
+* If private blockchains ([SparkNet ](https://sparknet.online/)or DevilNet) are used, then TEOS API consumer shouldn't care about Ether necessary for gas costs paying because TEOS Platform provides the mechanism for Ether distribution described below.
 
 ### Ether distribution mechanism in TEOS Platform for private blockchains
 
 {% hint style="info" %}
-Please, note that this mechanism is valid only for SparkNet, DevilNet. It does NOT work for Ethereum MainNet
+Please, note that this mechanism is valid only for SparkNet, DevilNet. It does NOT work for Ethereum MainNet, Polygon and ICP.
 {% endhint %}
 
 #### How mechanism works
