@@ -14,7 +14,7 @@ TEOS user can link assets and unlink them, change asset with the help of amendme
 
 ### General properties
 
-For EVM-compatible networks (e.g. Sparknet, Ethereum, and Polygon), the "Author" has 42 characters. In non-EVM networks, address length may be different. For example, on Internet Computer, the "Author" has 63 characters. Your developer identity will have a principal identifier in the format `itk7v-ihlxk-ktdrh-fcnst-vkoou-orj77-52ogl-jqwj5-zpfdv-az3lr-xqe`.
+For EVM-compatible networks (e.g. Sparknet, Ethereum, and Polygon), the "Author" has 42 characters. In non-EVM networks, address length may be different. For example, on Internet Computer, the "Author" (principal identifier) has 63 characters.&#x20;
 
 ```json
 {
