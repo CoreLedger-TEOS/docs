@@ -144,7 +144,7 @@ This chapter provides the list of published events, with their routing keys and 
 
 Routing Key: **{tenant-id}.account.balance\_changed**
 
-In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "AddressId" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "AddressId" has 64 characters.
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "AddressId" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "AddressId" has 63 characters.
 
 ```
 {
@@ -203,7 +203,7 @@ Routing Key: **{tenant-id}.supply.changed**
 
 Routing Key: **{tenant-id}**.**controller.created**
 
-In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" has 64 characters.
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" has 63 characters.
 
 ```
 {
@@ -217,7 +217,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Control
 
 Routing Key: **{tenant-id}.controller.limit\_changed**
 
-In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 64 characters.
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 63 characters.
 
 ```
 {
@@ -233,7 +233,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Control
 
 Routing Key: **{tenant-id}.controller.admin\_changed**
 
-In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 64 characters.
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 63 characters.
 
 ```
 {
@@ -249,7 +249,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Control
 
 Routing Key: **{tenant-id}.controller.black\_list\_changed**
 
-In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 64 characters.
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 63 characters.
 
 ```
 {
@@ -317,7 +317,7 @@ Routing Key: **{tenant-id}.asset.tokenized**
 
 Routing Key: **{tenant-id}.address.registered**
 
-In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Address" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "Address" has 64 characters.
+In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Address" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "Address" has 63 characters.
 
 ```
 {
