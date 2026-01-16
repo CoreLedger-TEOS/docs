@@ -6,6 +6,7 @@ You can check the changelog of each version on a corresponding page. We announce
 
 | Version                  | Release date |
 | ------------------------ | ------------ |
+| Fox: Service Pack 1      | 17.02.2026   |
 | Fox                      | 16.06.2025   |
 | Estrella: Service Pack 3 | 30.04.2024   |
 | Estrella: Service Pack 2 | 14.03.2024   |
