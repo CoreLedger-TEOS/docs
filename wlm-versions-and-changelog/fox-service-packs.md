@@ -4,6 +4,14 @@ description: Fox Service Pack version available starting 17.02.2026.
 
 # Fox Service Packs
 
+## Fox Service Pack 2 (coming soon)
+
+### Changes:
+
+*   **This release enables CoreLedger TEOS to run on Internet Computer.**
+
+
+
 ## Fox Service Pack 1 (coming soon)
 
 ### Changes:
