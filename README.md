@@ -1,5 +1,5 @@
 ---
-description: 'Latest version: Fox (available from June, 16)'
+description: 'Latest version: Fox Service Pack 1 (available from February, 17)'
 cover: .gitbook/assets/logo for git.png
 coverY: 0
 ---
