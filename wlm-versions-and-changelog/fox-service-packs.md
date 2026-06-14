@@ -4,7 +4,7 @@ description: Fox Service Pack version available starting 17.02.2026.
 
 # Fox Service Packs
 
-## Fox Service Pack 2 (coming soon)
+## Fox Service Pack 2 (delivered on February, 26)
 
 ### Changes:
 
