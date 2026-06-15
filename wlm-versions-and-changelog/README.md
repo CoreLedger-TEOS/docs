@@ -4,16 +4,17 @@ You can check the changelog of each version on a corresponding page. We announce
 
 ### Released versions <a href="#available-graph-api-versions" id="available-graph-api-versions"></a>
 
-| Version                  | Release date |
-| ------------------------ | ------------ |
-| Fox: Service Pack 2      | 26.02.2026   |
-| Fox: Service Pack 1      | 17.02.2026   |
-| Fox                      | 16.06.2025   |
-| Estrella: Service Pack 3 | 30.04.2024   |
-| Estrella: Service Pack 2 | 14.03.2024   |
-| Estrella: Service Pack 1 | 25.01.2024   |
-| Estrella                 | 09.01.2024   |
-| Django                   | 14.02.2023   |
-| Casper                   | 06.09.2022   |
-| Batman                   | 28.06.2022   |
-| Abba                     | 07.06.2022   |
+| Version                  | Release date            |
+| ------------------------ | ----------------------- |
+| Gecko                    | Coming soon: 30.06.2026 |
+| Fox: Service Pack 2      | 26.02.2026              |
+| Fox: Service Pack 1      | 17.02.2026              |
+| Fox                      | 16.06.2025              |
+| Estrella: Service Pack 3 | 30.04.2024              |
+| Estrella: Service Pack 2 | 14.03.2024              |
+| Estrella: Service Pack 1 | 25.01.2024              |
+| Estrella                 | 09.01.2024              |
+| Django                   | 14.02.2023              |
+| Casper                   | 06.09.2022              |
+| Batman                   | 28.06.2022              |
+| Abba                     | 07.06.2022              |
