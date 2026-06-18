@@ -8,6 +8,7 @@
   * [Step 4 - Setup a wallet (WLM + TX.Mobile)](where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile.md)
   * [Step 5 - Start using WLM](where-to-start/step-5-start-using-wlm.md)
 * [WLM versions and changelog](wlm-versions-and-changelog/README.md)
+  * [Gecko](wlm-versions-and-changelog/gecko.md)
   * [Fox Service Packs](wlm-versions-and-changelog/fox-service-packs.md)
   * [Fox](wlm-versions-and-changelog/fox.md)
   * [Estrella Service Packs](wlm-versions-and-changelog/estrella-service-packs.md)
