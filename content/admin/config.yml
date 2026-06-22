@@ -6,10 +6,10 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: "content/assets"
-public_folder: "/assets"
-site_url: "https://docs.example.com"
-display_url: "https://docs.example.com"
-logo_url: "/assets/CoreLedger_Logo_Normal_RGB_horizontal.png"
+public_folder: "/teos/assets"
+site_url: "https://docs-fvapcccpf5fjdnc8.a02.azurefd.net/teos"
+display_url: "https://docs-fvapcccpf5fjdnc8.a02.azurefd.net/teos"
+logo_url: "/teos/assets/CoreLedger_Logo_Normal_RGB_horizontal.png"
 
 collections:
   - name: "pages"

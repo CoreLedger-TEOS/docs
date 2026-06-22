@@ -1,8 +1,9 @@
 site_name: CoreLedger TEOS Documentation
-site_url: https://docs.example.com/
+site_url: https://docs-fvapcccpf5fjdnc8.a02.azurefd.net/teos/
 repo_url: https://github.com/CoreLedger-TEOS/docs
 repo_name: CoreLedger-TEOS/docs
-edit_uri: edit/main/content/
+edit_uri: edit/mkdocs-migration/content/
+use_directory_urls: false
 
 docs_dir: content
 site_dir: .site
