@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  AZURE_STORAGE_ACCOUNT: devfrontends
+  AZURE_STORAGE_ACCOUNT: infrastructurefrontends
   AZURE_STORAGE_CONTAINER: $web
   AZURE_STORAGE_PREFIX: docs-mkdocs
 
