@@ -106,20 +106,31 @@ The connection to the RabbitMQ endpoint should be resistant to transient network
 
 ### Queues
 
+<details>
+
+<summary>Legacy (please use quorum queues)</summary>
+
 Only queues with server-generated names are allowed, which means the queue names should be left empty when declaring a new queue. In this case, a [Classic](https://www.rabbitmq.com/docs/classic-queues) queue will be created by default. Classic queues are suitable for standard, non-durable messaging. However, if you require higher reliability and replication across nodes, you can opt for a [Quorum](https://www.rabbitmq.com/docs/quorum-queues) queue. Quorum queues are more resilient to failures as they replicate messages across multiple nodes, ensuring better data durability and consistency in distributed environments.
 
-&#x20;If you choose a Quorum queue, you need to call the TEOS API using your TEOS API key (via a GET request to "/api/events/queue"). The TEOS API will create the Quorum queue and return its name along with the period after which the queue will be deleted if inactive (i.e., when the queue has no consumers).
+</details>
 
-For example, the API response might look like this:
+To declare and bind a queue, you need to call the TEOS API via a POST request to [`/api/v1.1/events/queue`](https://teos-uat.dev.coreledger.net/swagger/index.html#/Events/post_api_v1_1_events_queue), using your TEOS API key for authorization.
+
+The `eventRoutingKey` query parameter can be used to specify the topic, for example `asset.changed`. The default value is `#`. The available routing keys are listed [below](teos-events.md#events-overview).
+
+The TEOS API will create a quorum queue, bind it to the exchange, and return the queue name, the inactivity period after which the queue will be automatically deleted (i.e., when it has no consumers), and the routing key used for the binding.
+
+For example, the API response may look as follows:
 
 ```json
 {
-  "QuorumQueueName": "teos-events-prod-tamlan-80a8b316-d181-4476-8c33-5083d8e3a604",
-  "ExpirationDueToInactivity": "00:30:00"
+  "QuorumQueueName": "teos-events-cac3d4a2-b000-4c65-33bf-08d7401f724b-queue-5a1db48d",
+  "ExpirationDueToInactivity": "00:30:00",
+  "RoutingKey": "#"
 }
 ```
 
-Once you have the queue name, you can bind this queue to the `teos_events` exchange and start listening to events.
+Once you have the queue name, you can start listening to events (consume).
 
 ### Exchange
 
@@ -134,15 +145,13 @@ Queues are bound to the exchange with a routing key. The routing key specifies w
 
 Example: the routing key "asset.#" will bind the queue to all asset events
 
-The same queue can be bound multiple times to the exchange with different routing keys.
-
 ## Events overview
 
 This chapter provides the list of published events, with their routing keys and payload examples
 
 ### AccountBalanceChanged
 
-Routing Key: **{tenant-id}.account.balance\_changed**
+Routing Key: **account.balance\_changed**
 
 In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "AddressId" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "AddressId" has 63 characters.
 
@@ -161,7 +170,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Address
 
 ### AssetChanged
 
-Routing Key: **{tenant-id}.asset.changed**
+Routing Key: **asset.changed**
 
 ```
 {
@@ -174,7 +183,7 @@ Routing Key: **{tenant-id}.asset.changed**
 
 ### AmendmentChanged
 
-Routing Key: **{tenant-id}.amendment.changed**
+Routing Key: **amendment.changed**
 
 ```
 {
@@ -186,7 +195,7 @@ Routing Key: **{tenant-id}.amendment.changed**
 
 ### SupplyChanged
 
-Routing Key: **{tenant-id}.supply.changed**
+Routing Key: **supply.changed**
 
 ```
 {
@@ -201,7 +210,7 @@ Routing Key: **{tenant-id}.supply.changed**
 
 ### ControllerCreated
 
-Routing Key: **{tenant-id}**.**controller.created**
+Routing Key: **controller.created**
 
 In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" has 63 characters.
 
@@ -215,7 +224,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Control
 
 ### ControllerLimitChanged
 
-Routing Key: **{tenant-id}.controller.limit\_changed**
+Routing Key: **controller.limit\_changed**
 
 In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 63 characters.
 
@@ -231,7 +240,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Control
 
 ### ControllerAdminChanged
 
-Routing Key: **{tenant-id}.controller.admin\_changed**
+Routing Key: **controller.admin\_changed**
 
 In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 63 characters.
 
@@ -247,7 +256,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Control
 
 ### ControllerBlacklistChanged
 
-Routing Key: **{tenant-id}.controller.black\_list\_changed**
+Routing Key: **controller.black\_list\_changed**
 
 In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "ControllerAddress"  and "AffectedAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "ControllerAddress" and "AffectedAddress" have 63 characters.
 
@@ -263,7 +272,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Control
 
 ### TokenContractCreated
 
-Routing Key: **{tenant-id}.token\_contract.created**
+Routing Key: **token\_contract.created**
 
 ```
 {
@@ -281,7 +290,7 @@ Routing Key: **{tenant-id}.token\_contract.created**
 
 ### NFTContractCreated
 
-Routing Key: **{tenant-id}.nft\_contract.created**
+Routing Key: **nft\_contract.created**
 
 ```
 {
@@ -299,7 +308,7 @@ Routing Key: **{tenant-id}.nft\_contract.created**
 
 ### AssetTokenized
 
-Routing Key: **{tenant-id}.asset.tokenized**
+Routing Key: **asset.tokenized**
 
 ```
 {
@@ -315,7 +324,7 @@ Routing Key: **{tenant-id}.asset.tokenized**
 
 ### AddressRegistered
 
-Routing Key: **{tenant-id}.address.registered**
+Routing Key: **address.registered**
 
 In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Address" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, the "Address" has 63 characters.
 
@@ -331,7 +340,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Address
 
 ### TransactionStateChanged
 
-Routing Key: **{tenant-id}.transaction.state\_changed**
+Routing Key: **transaction.state\_changed**
 
 ```
 {
@@ -347,7 +356,7 @@ Routing Key: **{tenant-id}.transaction.state\_changed**
 
 ### InvoiceStateChanged
 
-Routing Key: **{tenant-id}.invoice.state\_changed**
+Routing Key: **invoice.state\_changed**
 
 ```
 {

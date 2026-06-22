@@ -1,7 +1,7 @@
 # TEOS API references
 
 {% hint style="info" %}
-Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept and [authentication.md](../using-the-teos-api/authentication.md "mention") to start trying out TEOS API
+Check [versioning.md](../changelog/versioning.md "mention") concept and [start trying](../get-started/) out TEOS API
 {% endhint %}
 
 ## Common request parameters

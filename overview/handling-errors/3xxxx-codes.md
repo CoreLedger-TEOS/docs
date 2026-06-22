@@ -113,19 +113,19 @@
 
 #### 31000-10023
 
-|             |                                                                                                                                                                                                                                                                                                                                                             |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | Schema names array `schemaKey.schemaKey` and display names array `schemaKey.dispalyName` have different length                                                                                                                                                                                                                                              |
-| Description | Asset object misses the display names for the sections path of custom definition items.                                                                                                                                                                                                                                                                     |
-| What to do  | Provide value for `SectionsPathNames` structured in the way which will match the `SectionsPath` for custom definition item&#x73;_._ For example, if `SectionsPath` is defined as \[General]\[Issuer], then `SectionsPathNames` must have structure \[DisplayNameForGeneral]\[DisplayNameForIssuer]. [Read more](../../using-the-teos-api/concepts/asset.md) |
+|             |                                                                                                                                                                                                                                                                                                                                                                       |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | Schema names array `schemaKey.schemaKey` and display names array `schemaKey.dispalyName` have different length                                                                                                                                                                                                                                                        |
+| Description | Asset object misses the display names for the sections path of custom definition items.                                                                                                                                                                                                                                                                               |
+| What to do  | Provide value for `SectionsPathNames` structured in the way which will match the `SectionsPath` for custom definition item&#x73;_._ For example, if `SectionsPath` is defined as \[General]\[Issuer], then `SectionsPathNames` must have structure \[DisplayNameForGeneral]\[DisplayNameForIssuer]. [Read more](../../resources/using-the-teos-api/concepts/asset.md) |
 
 #### 31000-10024
 
-|             |                                                                                                                                                                       |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message     | Amendment with docId:`docId` changes an immutable property `[GENERAL][tuf]`                                                                                           |
-| Description | There was a try to change asset general properties which are not allowed to be amended                                                                                |
-| What to do  | Make sure that your amendment request does not contain [general properties ](../../using-the-teos-api/concepts/asset.md#general-properties)of the asset and try again |
+|             |                                                                                                                                                                                 |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message     | Amendment with docId:`docId` changes an immutable property `[GENERAL][tuf]`                                                                                                     |
+| Description | There was a try to change asset general properties which are not allowed to be amended                                                                                          |
+| What to do  | Make sure that your amendment request does not contain [general properties ](../../resources/using-the-teos-api/concepts/asset.md#general-properties)of the asset and try again |
 
 #### 31000-10025
 
