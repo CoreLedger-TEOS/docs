@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: CoreLedger-TEOS/docs
-  branch: main
+  branch: mkdocs-migration
   squash_merges: true
 
 publish_mode: editorial_workflow

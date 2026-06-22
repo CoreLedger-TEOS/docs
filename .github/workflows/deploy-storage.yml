@@ -1,4 +1,4 @@
-name: Deploy dev docs to Azure Storage
+name: Deploy docs to Azure Storage
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
 env:
   AZURE_STORAGE_ACCOUNT: devfrontends
   AZURE_STORAGE_CONTAINER: $web
-  AZURE_STORAGE_PREFIX: docs-mkdocs-dev
+  AZURE_STORAGE_PREFIX: docs-mkdocs
 
 jobs:
   build_and_deploy:
@@ -42,7 +42,7 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Clear previous dev docs
+      - name: Clear previous docs
         run: |
           az storage blob delete-batch \
             --account-name "$AZURE_STORAGE_ACCOUNT" \
@@ -50,7 +50,7 @@ jobs:
             --pattern "$AZURE_STORAGE_PREFIX/*" \
             --auth-mode login
 
-      - name: Upload dev docs
+      - name: Upload docs
         run: |
           az storage blob upload-batch \
             --account-name "$AZURE_STORAGE_ACCOUNT" \

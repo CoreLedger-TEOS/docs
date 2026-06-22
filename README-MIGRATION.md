@@ -5,9 +5,9 @@ This branch starts the migration from GitBook-hosted documentation to a static M
 ## Target workflow
 
 1. Authors edit content in `/admin` through Decap CMS or directly in GitHub.
-2. Decap writes Markdown changes back to this GitHub repository.
+2. Decap writes Markdown changes back to the `mkdocs-migration` branch.
 3. GitHub pull requests run `mkdocs build --strict`.
-4. Pushes to `mkdocs-migration` deploy the dev documentation site.
+4. Pushes to `mkdocs-migration` deploy the MkDocs site to Azure Storage.
 5. GitBook remains backed by `main` until the final cutover.
 
 ## Local preview
@@ -20,17 +20,17 @@ python -m venv .venv
 
 Open `http://127.0.0.1:8000`.
 
-## Dev deployment through Azure Storage and Front Door
+## Deployment through Azure Storage and Front Door
 
-The dev MkDocs site is deployed from the `mkdocs-migration` branch to the existing `devfrontends` storage account.
+The MkDocs site is deployed from the `mkdocs-migration` branch to the existing `devfrontends` storage account.
 
 Build output is uploaded to:
 
 ```text
-devfrontends / $web / docs-mkdocs-dev
+devfrontends / $web / docs-mkdocs
 ```
 
-The external dev URL should be served by a dedicated Azure Front Door host that points to:
+The external URL should be served by a dedicated Azure Front Door host that points to:
 
 ```text
 https://devfrontends.z6.web.core.windows.net/
@@ -39,7 +39,7 @@ https://devfrontends.z6.web.core.windows.net/
 with the Front Door route origin path set to:
 
 ```text
-/docs-mkdocs-dev
+/docs-mkdocs
 ```
 
 Required GitHub secrets for OIDC Azure login:
