@@ -20,9 +20,9 @@ Most of the business cases which we encountered so far assume that tenant admins
 
 While working with TEOS you may also need to check the docs of other TEOS products:
 
-* [TEOS API](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/-McAKJLTTEmlfBIFJ-85/)
-* [White Label Portal](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/iTYqY7GQFlQO0s8Vbk2r/)
-* [White Label Mobile App](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/7Xg7iannH70Bvo1bfqMb/)
+* [TEOS API](using-the-teos-api/README.md)
+* [White Label Portal](how-your-users-interact-with-the-portal.md)
+* [White Label Mobile App](how-your-users-interact-with-wla/README.md)
 
 ### Support
 

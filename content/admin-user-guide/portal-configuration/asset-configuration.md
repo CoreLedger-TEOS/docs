@@ -5,7 +5,7 @@
 
 #### **Step 1. Define general asset properties in WLM**
 
-Asset configuration starts in WLM. Some of the general asset properties are used in WLA. You can [read more](https://teos-docs.coreledger.net/v/white-label-management-tool/user-guide/create-asset) about asset creation in WLM.
+Asset configuration starts in WLM. Some of the general asset properties are used in WLA. You can [read more](../../user-guide/create-asset.md) about asset creation in WLM.
 
 * **Asset name** is used in WLA if WLA specific name is not defined (check Step 2)
 * **Description** of the asset is going to be checked by WLP. This description will be shown in the "More details" window in the shop. You can also add some online resources which will be shown as links if you add them according to this notation "\[clickable text] (https://onlineresource.com)"

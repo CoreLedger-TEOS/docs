@@ -34,7 +34,7 @@ For better understanding read [our article on Medium](https://medium.com/coreled
 
 In order to describe your asset in more details, you can now add additional properties to the main properties. Dependent on the tenant, there might be specific collections to choose from various additional properties. Or you might have created a catalog in advance (see [#definition-items-management](additional-settings-management.md#definition-items-management "mention")).&#x20;
 
-If you're setting up an [Active Sandbox](https://coreledger.net/active-sandbox/) or productive solution based on TEOS Platform with [WLP ](https://teos-docs.coreledger.net/v/white-label-portal/)or [WLA](https://teos-docs.coreledger.net/v/white-label-mobile-app/), you are supposed to add necessary properties for WLP and WLA using collection "WLA\&WLP configuration". You can click "Add all" in the line of this collection, all available definition items will be added.&#x20;
+If you're setting up an [Active Sandbox](https://coreledger.net/active-sandbox/) or productive solution based on TEOS Platform with [WLP](../how-your-users-interact-with-the-portal.md) or [WLA](../how-your-users-interact-with-wla/README.md), you are supposed to add necessary properties for WLP and WLA using collection "WLA\&WLP configuration". You can click "Add all" in the line of this collection, all available definition items will be added.&#x20;
 
 <figure><img src="../assets/image (18).png" alt=""><figcaption></figcaption></figure>
 

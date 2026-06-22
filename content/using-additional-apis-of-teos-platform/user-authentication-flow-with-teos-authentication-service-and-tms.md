@@ -19,7 +19,7 @@ If the access token is not valid, the application should authenticate a user and
 
 #### Optional process. Authenticate user
 
-**Step 2.0.** If the user access token is expired, then it is necessary to reauthenticate. The user authentication process should be started from the call to [Authorize ](https://teos-docs.coreledger.net/using-additional-apis-of-teos-platform/using-teos-authentication-service#authorize-endpoint)endpoint of the Auth server.
+**Step 2.0.** If the user access token is expired, then it is necessary to reauthenticate. The user authentication process should be started from the call to [Authorize ](using-teos-authentication-service/README.md#authorize-endpoint)endpoint of the Auth server.
 
 **Step 2.1.** If the validation of the calling application and all parameters to the Authorize request is successful, the Auth server will return the login form, configured according to the white-labelled settings of the calling application.
 
