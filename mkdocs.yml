@@ -38,133 +38,186 @@ exclude_docs: |
 
 nav:
   - TEOS API:
-      - Overview: using-the-teos-api/README.md
-      - Authentication: using-the-teos-api/authentication.md
-      - Versioning: using-the-teos-api/versioning.md
-      - Architecture:
-          - Overview: using-the-teos-api/architecture-note/README.md
-          - Blockchain networks: using-the-teos-api/architecture-note/blockchain-networks.md
-          - Tenant setup options: using-the-teos-api/architecture-note/tenant-setup-options.md
-      - Concepts:
-          - Overview: using-the-teos-api/concepts/README.md
-          - Asset: using-the-teos-api/concepts/asset.md
-          - Invoice: using-the-teos-api/concepts/invoice.md
-          - Spark: using-the-teos-api/concepts/spark.md
-          - Supply: using-the-teos-api/concepts/supply.md
-          - Transaction: using-the-teos-api/concepts/transaction.md
-          - Wallet: using-the-teos-api/concepts/wallet.md
+      - Welcome to TEOS API: using-the-teos-api/README.md
+      - Get started:
+          - Get started: get-started.md
+          - Authentication Types: using-the-teos-api/authentication.md
+      - Guides:
+          - Guides: using-the-teos-api/concepts/README.md
+          - Assets: using-the-teos-api/concepts/asset.md
+          - Invoices: using-the-teos-api/concepts/invoice.md
+          - Transactions: using-the-teos-api/concepts/transaction.md
+          - Spark operations: using-the-teos-api/concepts/spark.md
+          - Supplies: using-the-teos-api/concepts/supply.md
           - Warp: using-the-teos-api/concepts/warp.md
+          - Wallets: using-the-teos-api/concepts/wallet.md
+      - TEOS API references:
+          - TEOS API references: reference/README.md
+          - Versioning: using-the-teos-api/versioning.md
+      - Using TEOS API:
+          - Using TEOS API: overview/README.md
+          - Rate limits: overview/rate-limits.md
+          - Handling errors:
+              - Handling errors: overview/handling-errors/README.md
+              - 1xxxx codes: overview/handling-errors/1xxxx-codes.md
+              - 2xxxx codes: overview/handling-errors/2xxxx-codes.md
+              - 3xxxx codes: overview/handling-errors/3xxxx-codes.md
+          - TEOS Events: overview/teos-events.md
+          - Supply management: overview/supply-management.md
+          - Warp search: overview/warp-search.md
+      - Resources:
+          - Resources: using-the-teos-api/architecture-note/README.md
+          - TEOS API overview:
+              - Architecture note: using-the-teos-api/architecture-note/README.md
+              - Blockchain networks: using-the-teos-api/architecture-note/blockchain-networks.md
+              - Tenant setup options: using-the-teos-api/architecture-note/tenant-setup-options.md
+          - Using additional APIs:
+              - Overview: using-additional-apis-of-teos-platform/README.md
+              - Add wallet flow: using-additional-apis-of-teos-platform/adding-wallet-to-the-teos-platform-flow-with-txserver-and-teos-api.md
+              - Device authorization flow: using-additional-apis-of-teos-platform/device-authorization-flow-with-txserver-and-teos-authentication-service.md
+              - User authentication flow: using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms.md
+              - Discovery service: using-additional-apis-of-teos-platform/using-discovery-service.md
+              - Authentication service: using-additional-apis-of-teos-platform/using-teos-authentication-service/README.md
+              - TMS API:
+                  - Overview: using-additional-apis-of-teos-platform/using-tms-api/README.md
+                  - Changelog: using-additional-apis-of-teos-platform/using-tms-api/changelog.md
+                  - Handling errors: using-additional-apis-of-teos-platform/using-tms-api/handling-errors.md
+              - TXServer API:
+                  - Overview: using-additional-apis-of-teos-platform/using-txserver-api/README.md
+                  - Device restoration: using-additional-apis-of-teos-platform/using-txserver-api/device-restoration.md
+                  - Key pair and signing: using-additional-apis-of-teos-platform/using-txserver-api/key-pair-generation.-transaction-signing.md
+          - Dealing with blockchain transactions:
+              - Overview: overview/dealing-with-blockchain-transactions/README.md
+              - Get Ether: overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions.md
+              - Transaction submission:
+                  - Overview: overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/README.md
+                  - First transaction: overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain.md
+      - Changelog:
+          - Changelog: changelog/README.md
+          - Non-versioned changes: changelog/non-versioned-changes.md
+          - Version 1.0: changelog/v1.0.md
+          - Version 0.9: changelog/v0.9.md
+          - Version 0.3: changelog/v0.3.md
+      - Troubleshooting: troubleshooting.md
   - White Label Management Tool:
-      - Welcome: README.md
+      - Welcome!: README.md
       - Where to start:
-          - Overview: where-to-start/README.md
-          - Create TEOS account: where-to-start/step-1-create-teos-account.md
-          - Register WLM profile: where-to-start/step-2-register-profile-in-wlm.md
-          - Install TX.Mobile: where-to-start/step-3-install-and-register-in-tx.mobile.md
-          - Set up wallet: where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile.md
-          - Start using WLM: where-to-start/step-5-start-using-wlm.md
-      - WLM versions:
-          - Overview: wlm-versions-and-changelog/README.md
+          - Where to start: where-to-start/README.md
+          - Step 1 - Create TEOS account: where-to-start/step-1-create-teos-account.md
+          - Step 2 - Register profile in WLM: where-to-start/step-2-register-profile-in-wlm.md
+          - Step 3 - Install and register in TX.Mobile: where-to-start/step-3-install-and-register-in-tx.mobile.md
+          - Step 4 - Setup a wallet (WLM + TX.Mobile): where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile.md
+          - Step 5 - Start using WLM: where-to-start/step-5-start-using-wlm.md
+      - WLM versions and changelog:
+          - WLM versions and changelog: wlm-versions-and-changelog/README.md
           - Gecko: wlm-versions-and-changelog/gecko.md
           - Fox Service Packs: wlm-versions-and-changelog/fox-service-packs.md
           - Fox: wlm-versions-and-changelog/fox.md
           - Estrella Service Packs: wlm-versions-and-changelog/estrella-service-packs.md
           - Estrella: wlm-versions-and-changelog/estrella.md
-          - Previous versions: wlm-versions-and-changelog/previous-versions-changelog.md
+          - Previous versions changelog: wlm-versions-and-changelog/previous-versions-changelog.md
       - Admin user guide:
-          - Overview: admin-user-guide/README.md
+          - Admin user guide: admin-user-guide/README.md
           - WLM configuration:
-              - Overview: admin-user-guide/wlm-configuration/README.md
-              - Branding: admin-user-guide/wlm-configuration/branding-management.md
-              - Templates: admin-user-guide/wlm-configuration/templates-management.md
-              - Constraints: admin-user-guide/wlm-configuration/constraints-management.md
-          - TEOS platform setup: admin-user-guide/teos-platform-preparation.md
+              - WLM configuration: admin-user-guide/wlm-configuration/README.md
+              - Branding management: admin-user-guide/wlm-configuration/branding-management.md
+              - Templates management: admin-user-guide/wlm-configuration/templates-management.md
+              - Constraints management: admin-user-guide/wlm-configuration/constraints-management.md
+          - TEOS Platform preparation: admin-user-guide/teos-platform-preparation.md
+          - Admin functionality: admin-user-guide/admin-functionality.md
+          - Login and wallet creation: admin-user-guide/login-and-wallet-creation.md
           - User management: admin-user-guide/user-management.md
           - Referral management: admin-user-guide/referral-management.md
           - Role management: admin-user-guide/role-management.md
-          - Transfer tokens: admin-user-guide/how-to-transfer-tokens-to-the-external-wallet.md
+          - How to transfer tokens to the external wallet?: admin-user-guide/how-to-transfer-tokens-to-the-external-wallet.md
       - User guide:
-          - Overview: user-guide/README.md
+          - User guide: user-guide/README.md
           - Create asset: user-guide/create-asset.md
-          - Asset management:
-              - Overview: user-guide/manage-asset-asset-details-asset-operations/README.md
+          - Manage asset  (asset details, asset operations):
+              - Manage asset  (asset details, asset operations): user-guide/manage-asset-asset-details-asset-operations/README.md
               - Create units: user-guide/manage-asset-asset-details-asset-operations/create-units.md
               - Transfer units: user-guide/manage-asset-asset-details-asset-operations/transfer-units.md
               - Destroy units: user-guide/manage-asset-asset-details-asset-operations/destroy-units.md
-              - Amend asset: user-guide/manage-asset-asset-details-asset-operations/amend-asset-edit-translations.md
+              - Amend asset, edit translations: user-guide/manage-asset-asset-details-asset-operations/amend-asset-edit-translations.md
               - Link assets: user-guide/manage-asset-asset-details-asset-operations/link-assets.md
               - FT & NFT contracts: user-guide/manage-asset-asset-details-asset-operations/ft-and-nft-contracts.md
-          - Search, buy, sell: user-guide/search-buy-sell-asset.md
-          - Transactions: user-guide/sign-and-check-executed-transactions.md
-          - Wallet management:
-              - Overview: user-guide/wallet-management-in-wlm-+-tx.mobile/README.md
-              - Add external wallets: user-guide/wallet-management-in-wlm-+-tx.mobile/add-external-wallets-tx.mobile.md
-              - Restore device data: user-guide/wallet-management-in-wlm-+-tx.mobile/restore-data-from-your-another-device-tx.mobile.md
-          - Controllers: user-guide/controller-management.md
-          - Additional settings: user-guide/additional-settings-management.md
+          - Search, buy, sell asset: user-guide/search-buy-sell-asset.md
+          - Sign and check executed transactions: user-guide/sign-and-check-executed-transactions.md
+          - Wallet management in WLM + TX.Mobile:
+              - Wallet management in WLM + TX.Mobile: user-guide/wallet-management-in-wlm-+-tx.mobile/README.md
+              - Add external wallets (TX.Mobile): user-guide/wallet-management-in-wlm-+-tx.mobile/add-external-wallets-tx.mobile.md
+              - Restore data from your another device (TX.Mobile): user-guide/wallet-management-in-wlm-+-tx.mobile/restore-data-from-your-another-device-tx.mobile.md
+          - Controller management: user-guide/controller-management.md
+          - Additional settings management: user-guide/additional-settings-management.md
           - Supply management: user-guide/supply-management.md
           - Profile settings: user-guide/profile-settings.md
           - Support: user-guide/support.md
-  - Platform overview:
-      - Overview: overview/README.md
-      - Rate limits: overview/rate-limits.md
-      - Supply management: overview/supply-management.md
-      - TEOS events: overview/teos-events.md
-      - Warp search: overview/warp-search.md
-      - Blockchain transactions:
-          - Overview: overview/dealing-with-blockchain-transactions/README.md
-          - Get Ether: overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions.md
-          - Transaction submission:
-              - Overview: overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/README.md
-              - First transaction: overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain.md
-      - Handling errors:
-          - Overview: overview/handling-errors/README.md
-          - 1xxxx codes: overview/handling-errors/1xxxx-codes.md
-          - 2xxxx codes: overview/handling-errors/2xxxx-codes.md
-          - 3xxxx codes: overview/handling-errors/3xxxx-codes.md
-  - WLA versions:
-      - Overview: wla-versions-and-changelog/README.md
-      - Version 0.23: wla-versions-and-changelog/version-0.23.md
-      - Version 0.22: wla-versions-and-changelog/version-0.22.md
-      - Version 0.21: wla-versions-and-changelog/version-0.21.md
-      - Earlier versions: wla-versions-and-changelog/earlier-versions.md
-  - WLP versions:
-      - Overview: wlp-versions-and-changelog/README.md
-      - Version 1.3: wlp-versions-and-changelog/version-1.3.md
-      - Version 1.2: wlp-versions-and-changelog/version-1.2.md
-      - Version 1.1: wlp-versions-and-changelog/version-1.1.md
-      - Version 1.0: wlp-versions-and-changelog/version-1.0.md
-      - Version 0.18: wlp-versions-and-changelog/version-0.18.md
-      - Version 0.17: wlp-versions-and-changelog/version-0.17.md
-      - Version 0.16: wlp-versions-and-changelog/version-0.16.md
-      - Earlier versions: wlp-versions-and-changelog/earlier-versions.md
-  - Additional APIs:
-      - Overview: using-additional-apis-of-teos-platform/README.md
-      - Add wallet flow: using-additional-apis-of-teos-platform/adding-wallet-to-the-teos-platform-flow-with-txserver-and-teos-api.md
-      - Device authorization flow: using-additional-apis-of-teos-platform/device-authorization-flow-with-txserver-and-teos-authentication-service.md
-      - User authentication flow: using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms.md
-      - Discovery service: using-additional-apis-of-teos-platform/using-discovery-service.md
-      - Authentication service:
-          - Overview: using-additional-apis-of-teos-platform/using-teos-authentication-service/README.md
-      - TMS API:
-          - Overview: using-additional-apis-of-teos-platform/using-tms-api/README.md
-          - Changelog: using-additional-apis-of-teos-platform/using-tms-api/changelog.md
-          - Handling errors: using-additional-apis-of-teos-platform/using-tms-api/handling-errors.md
-      - TXServer API:
-          - Overview: using-additional-apis-of-teos-platform/using-txserver-api/README.md
-          - Device restoration: using-additional-apis-of-teos-platform/using-txserver-api/device-restoration.md
-          - Key pair and signing: using-additional-apis-of-teos-platform/using-txserver-api/key-pair-generation.-transaction-signing.md
-  - Reference: reference/README.md
-  - Partner onboarding:
-      - Overview: partner-onboarding/README.md
-      - Coinify: partner-onboarding/coinify.md
-      - Payrexx: partner-onboarding/payrexx.md
-      - Shufti: partner-onboarding/shufti.md
-  - Changelog:
-      - Overview: changelog/README.md
-      - Non-versioned changes: changelog/non-versioned-changes.md
-      - Version 1.0: changelog/v1.0.md
-      - Version 0.9: changelog/v0.9.md
-      - Version 0.3: changelog/v0.3.md
-  - Troubleshooting: troubleshooting.md
-  - Glossary: glossary.md
+      - Troubleshooting: troubleshooting.md
+      - Glossary: glossary.md
+  - White Label Portal:
+      - Welcome!: how-your-users-interact-with-the-portal.md
+      - Admin user guide:
+          - Admin user guide: admin-user-guide/portal-configuration/README.md
+          - Admin users management: admin-user-guide/portal-configuration/admin-users-management.md
+          - Asset configuration: admin-user-guide/portal-configuration/asset-configuration.md
+          - Branding management: admin-user-guide/portal-configuration/branding-management.md
+          - Tenant configuration: admin-user-guide/portal-configuration/tenant-configuration.md
+          - Features configuration:
+              - Features configuration: admin-user-guide/portal-configuration/features-configuration/README.md
+              - KYC checks: admin-user-guide/portal-configuration/features-configuration/kyc-checks.md
+              - Purchase assets and featured asset:
+                  - Purchase assets and featured asset: admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/README.md
+                  - Collection methods configuration: admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration.md
+                  - Payment methods configuration: admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md
+                  - Templates for purchase details and invoice details: admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/templates-for-purchase-details-and-invoice-details.md
+              - Redemption functionality:
+                  - Redemption functionality: admin-user-guide/portal-configuration/features-configuration/redemption-functionality/README.md
+                  - Template for redemption details: admin-user-guide/portal-configuration/features-configuration/redemption-functionality/template-for-redemption-details.md
+          - How to get API keys of third-party services: admin-user-guide/portal-configuration/how-to-get-api-keys-of-third-party-services.md
+          - How to prepare custom HTML: admin-user-guide/portal-configuration/how-to-prepare-custom-html.md
+          - Reference code logic: admin-user-guide/portal-configuration/reference-code-logic.md
+      - How your users interact with the portal: how-your-users-interact-with-the-portal.md
+      - Partner Onboarding:
+          - Partner Onboarding: partner-onboarding/README.md
+          - Coinify: partner-onboarding/coinify.md
+          - Payrexx: partner-onboarding/payrexx.md
+          - Shufti: partner-onboarding/shufti.md
+      - WLP versions and changelog:
+          - WLP versions and changelog: wlp-versions-and-changelog/README.md
+          - Version 1.3: wlp-versions-and-changelog/version-1.3.md
+          - Version 1.2: wlp-versions-and-changelog/version-1.2.md
+          - Version 1.1: wlp-versions-and-changelog/version-1.1.md
+          - Version 1.0: wlp-versions-and-changelog/version-1.0.md
+          - Version 0.18: wlp-versions-and-changelog/version-0.18.md
+          - Version 0.17: wlp-versions-and-changelog/version-0.17.md
+          - Version 0.16: wlp-versions-and-changelog/version-0.16.md
+          - Earlier versions: wlp-versions-and-changelog/earlier-versions.md
+      - Troubleshooting: troubleshooting.md
+      - Glossary: glossary.md
+      - WLP API documentation: wlp-api-documentation.md
+  - White Label Mobile App:
+      - Welcome!: how-your-users-interact-with-wla/README.md
+      - Admin user guide:
+          - Admin user guide: admin-user-guide/app-configuration/README.md
+          - Additional configuration: admin-user-guide/app-configuration/additional-configuration.md
+          - Asset configuration: admin-user-guide/app-configuration/asset-configuration.md
+          - Branding management: admin-user-guide/app-configuration/branding-management.md
+          - Decentralized market and payment request configuration: admin-user-guide/app-configuration/decentralized-market-and-payment-request-configuration.md
+          - Market and payment request configuration: admin-user-guide/app-configuration/market-and-payment-request-configuration.md
+          - Non-productive functionality: admin-user-guide/app-configuration/non-productive-functionality.md
+          - User management: admin-user-guide/app-configuration/user-management.md
+          - WLA modules: admin-user-guide/wla-modules.md
+      - How your users interact with WLA:
+          - How your users interact with WLA: how-your-users-interact-with-wla/README.md
+          - Assets and transactions: how-your-users-interact-with-wla/assets-and-transactions.md
+          - Market functionality: how-your-users-interact-with-wla/market-functionality.md
+          - My wallet: how-your-users-interact-with-wla/my-wallet.md
+          - Payment request and invoices: how-your-users-interact-with-wla/payment-request-and-invoices.md
+      - WLA versions and changelog:
+          - WLA versions and changelog: wla-versions-and-changelog/README.md
+          - Version 0.23: wla-versions-and-changelog/version-0.23.md
+          - Version 0.22: wla-versions-and-changelog/version-0.22.md
+          - Version 0.21: wla-versions-and-changelog/version-0.21.md
+          - Earlier versions: wla-versions-and-changelog/earlier-versions.md
+      - Troubleshooting: troubleshooting.md
+      - Glossary: glossary.md
