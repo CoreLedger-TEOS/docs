@@ -6,11 +6,10 @@ As administrator you have access to the KYC Management section of WLP. Here you 
 
 #### Process of KYC checks
 
-{% hint style="info" %}
-All users automatically get tier 0 when they register
+!!! info
+    All users automatically get tier 0 when they register
 
-Users can't have several KYC cases opened
-{% endhint %}
+    Users can't have several KYC cases opened
 
 **Step 1.** User goes through KYC checks if he wants to upgrade his tier. Process is described here [#kyc-checks](../how-your-users-interact-with-the-portal.md#kyc-checks "mention").\
 In case you've configured the integration of the portal with KYC provider (ShuftiPro), user  provides all necessary data to KYC provider as configured for the requested tier.\

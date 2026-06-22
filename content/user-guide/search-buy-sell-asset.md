@@ -38,9 +38,8 @@ If you decide to buy this asset you can click on “Buy” (at the right side of
 
 Select the asset you want to propose (left) in exchange for the asset you want to buy (right). Define the amount you want to buy (or the amount you want to pay) and click on “Search WARPs”. Amount can be set in units or sparks, check more about units/sparks in [#units-of-measure](create-asset.md#units-of-measure "mention")
 
-{% hint style="info" %}
-Please, note that only one amount (to pay or to receive) can be defined to start search but both assets must be specified.
-{% endhint %}
+!!! info
+    Please, note that only one amount (to pay or to receive) can be defined to start search but both assets must be specified.
 
 The WLM will start looking for some matching trade chains for you. Each potential way to process your request (WARP) will be displayed separately as a tile.
 
@@ -48,9 +47,8 @@ The WLM will start looking for some matching trade chains for you. Each potentia
 
 Each tile representing different warps can have different gas costs, exchange rates, probabilities to be processed with such characteristics. You can select the one, which fulfills your needs the best. By clicking on “Trade” the warp will be executed, and your buying process/transaction will start. You will get a notification on the TX.Mobile app to sign the transaction [sign-and-check-executed-transactions.md](sign-and-check-executed-transactions.md "mention")
 
-{% hint style="info" %}
-Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
-{% endhint %}
+!!! info
+    Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
 
 After a successfully processed transaction, you will own specific amount of the recently bought asset. At the same time amount of asset you offered in exchange will be deducted from your holdings. To check it, you can click on the menu “Assets”. In the view “Holdings” you should now see the assets (and their amount) you hold [#assets-list](manage-asset-asset-details-asset-operations/#assets-list "mention")
 

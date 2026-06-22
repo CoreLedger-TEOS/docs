@@ -12,9 +12,8 @@ There is a gas cost for every transaction which must be paid for in Ether. TEOS 
 
 ### Ether distribution mechanism in TEOS Platform for private blockchains
 
-{% hint style="info" %}
-Please, note that this mechanism is valid only for SparkNet, DevilNet. It does NOT work for Ethereum MainNet, Polygon and ICP.
-{% endhint %}
+!!! info
+    Please, note that this mechanism is valid only for SparkNet, DevilNet. It does NOT work for Ethereum MainNet, Polygon and ICP.
 
 #### How mechanism works
 

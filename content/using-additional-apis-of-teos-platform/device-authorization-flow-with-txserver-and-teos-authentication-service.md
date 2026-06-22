@@ -6,9 +6,8 @@ The whole process consists of the following steps (See Diagram 1.)
 
 <figure><img src="../assets/Ext Mobile App Auth Flow (6).png" alt=""><figcaption><p>Diagram 1. Mobile Application Authorization Flow</p></figcaption></figure>
 
-{% hint style="info" %}
-The \[..] constraint notation on the diagram was used to number the steps. The numbering approach is similar to the communication diagram.
-{% endhint %}
+!!! info
+    The \[..] constraint notation on the diagram was used to number the steps. The numbering approach is similar to the communication diagram.
 
 **Step 1.** A User starts the application
 
@@ -22,9 +21,8 @@ If the device token is not valid, the application should authenticate the user a
 
 **Step 1.2.R.** Returned AuthorizedDeviceResponseData contains the device access token, device refresh token, and the expiration in seconds for the device token.
 
-{% hint style="warning" %}
-The refresh token returned from the call to the [RefreshDeviceToken](https://txapi.coreledger.net/swagger/index.html#/Device/post_api_Device_RefreshDeviceToken) endpoint can be different, from the one, that was sent. In this case, it should be used for the next call to the refresh endpoint
-{% endhint %}
+!!! warning
+    The refresh token returned from the call to the [RefreshDeviceToken](https://txapi.coreledger.net/swagger/index.html#/Device/post_api_Device_RefreshDeviceToken) endpoint can be different, from the one, that was sent. In this case, it should be used for the next call to the refresh endpoint
 
 If both device access and refresh tokens are expired, then it is necessary to connect or register the device. To do this, user authentication, using `authorization_code` flow is necessary.
 

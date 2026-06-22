@@ -14,7 +14,8 @@ theme:
   favicon: assets/CoreLedger_Logo_Normal_RGB_horizontal.png
   features:
     - navigation.instant
-    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - search.highlight
     - search.suggest

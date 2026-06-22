@@ -12,12 +12,11 @@ All methods can be enabled only if they are properly configured and can be disab
 
 <figure><img src="../../../../assets/image (27).png" alt=""><figcaption><p>"Configuration management" -> "Purchase configuration" -> "Payment methods"</p></figcaption></figure>
 
-{% hint style="info" %}
-Please note that
+!!! info
+    Please note that
 
-* there must be at least one configured and enabled payment method to switch on  "Featured asset" and/or "Asset purchase" featured
-* if the "Featured asset" or/and "Asset purchase" features are switched on you can't disable all payment methods: at least one collection method must be configured and enabled
-{% endhint %}
+    * there must be at least one configured and enabled payment method to switch on  "Featured asset" and/or "Asset purchase" featured
+    * if the "Featured asset" or/and "Asset purchase" features are switched on you can't disable all payment methods: at least one collection method must be configured and enabled
 
 ### General characteristics for all payment methods
 

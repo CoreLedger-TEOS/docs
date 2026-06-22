@@ -99,10 +99,9 @@ Examples of Mqtt clients, connecting to TEOS Api events can be found [here](http
 {% endtab %}
 {% endtabs %}
 
-{% hint style="warning" %}
-Important!\
-The connection to the RabbitMQ endpoint should be resistant to transient network errors and automatically reconnect to the server, recreate queues, and rebind them to the exchanges in case of network failures.
-{% endhint %}
+!!! warning
+    Important!\
+    The connection to the RabbitMQ endpoint should be resistant to transient network errors and automatically reconnect to the server, recreate queues, and rebind them to the exchanges in case of network failures.
 
 ### Queues
 

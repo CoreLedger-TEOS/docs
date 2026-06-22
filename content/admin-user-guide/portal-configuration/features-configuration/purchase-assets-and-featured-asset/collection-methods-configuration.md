@@ -19,12 +19,11 @@ All methods can be enabled only if they are properly configured and can be disab
 
 <figure><img src="../../../../assets/image (23).png" alt=""><figcaption><p> "Configuration management" -> "Purchase configuration" -> "Collection methods"</p></figcaption></figure>
 
-{% hint style="info" %}
-Please note that
+!!! info
+    Please note that
 
-* there must be at least one configured and enabled collection method to switch on  "Featured asset" and/or "Asset purchase" featured
-* if the "Featured asset" or/and "Asset purchase" features are switched on you can't disable all collection methods: at least one collection method must be configured and enabled
-{% endhint %}
+    * there must be at least one configured and enabled collection method to switch on  "Featured asset" and/or "Asset purchase" featured
+    * if the "Featured asset" or/and "Asset purchase" features are switched on you can't disable all collection methods: at least one collection method must be configured and enabled
 
 ### General characteristics for all collection methods
 

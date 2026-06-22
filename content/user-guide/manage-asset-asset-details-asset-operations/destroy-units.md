@@ -4,9 +4,8 @@ You can only destroy units of the asset, if you are the Issuer of the asset and 
 
 To do it, choose your asset and click on “Destroy Units”.
 
-{% hint style="info" %}
-Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
-{% endhint %}
+!!! info
+    Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
 
 You can provide the amount in natural units or in sparks. See more about the difference [#units-of-measure](../create-asset.md#units-of-measure "mention")
 

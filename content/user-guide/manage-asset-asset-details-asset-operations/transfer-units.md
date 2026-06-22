@@ -2,9 +2,8 @@
 
 You can transfer a specific amount of owned assets to another Ethereum address (it can be owned by you or any other user - it doesn't matter).
 
-{% hint style="info" %}
-Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
-{% endhint %}
+!!! info
+    Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
 
 If you want to transfer units, you first choose one of your assets you want to transfer and then click on “Transfer Units”.
 

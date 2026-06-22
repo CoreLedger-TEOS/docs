@@ -4,9 +4,8 @@ Every action which needs the transaction written into the blockchain, requires a
 
 Open the TX.Mobile app on your smartphone. Select the environment your tenant is running on. Click on “Connect to Tx.Server” to continue the login process (see Figure 6).
 
-{% hint style="info" %}
-**Important**: Please make sure you selected the correct environment. E.g. when working with your Sandbox you must select environment “POA SparkNet”.
-{% endhint %}
+!!! info
+    **Important**: Please make sure you selected the correct environment. E.g. when working with your Sandbox you must select environment “POA SparkNet”.
 
 
 
@@ -18,11 +17,10 @@ Allow TX.Mobile to use CoreLedger.net to sign up. Now you can login with your al
 
 You will be asked to create a new wallet or restore an existing one. Create a new one if you're going through the registration steps. Then you will be asked to write down the seed words which provide the access to the device data. Keep them always in a secure place and never share online.
 
-{% hint style="danger" %}
-**Important:** Please, note, that seed words saving is the most important step of wallet creation! You will need these seed words to restore your device data with all wallets and private keys for them.
+!!! danger
+    **Important:** Please, note, that seed words saving is the most important step of wallet creation! You will need these seed words to restore your device data with all wallets and private keys for them.
 
-You can only restore a device data in TEOS if you have your login details as well as the seed words.
-{% endhint %}
+    You can only restore a device data in TEOS if you have your login details as well as the seed words.
 
 ![Figure 8 - Registering new user and the device, seed words](../assets/photo\_2022-08-10\_15-00-02.jpg)
 

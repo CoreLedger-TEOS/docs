@@ -6,17 +6,15 @@ The description of an asset provides valuable information about the asset to pot
 
 The admin of a tenant can define [Asset template](../admin-user-guide/wlm-configuration/templates-management.md#\_ref18675748) and all mandatory fields to fill out. These **main properties** might include e.g. the language, issuer wallet, name, a short description, jurisdiction, asset type, unit of measure and spark factor.&#x20;
 
-{% hint style="info" %}
-First try to click "Create asset" and check how Asset template looks like. If you don't need any additional properties to describe it, you can skip creating custom definition items
-{% endhint %}
+!!! info
+    First try to click "Create asset" and check how Asset template looks like. If you don't need any additional properties to describe it, you can skip creating custom definition items
 
 #### Create collection of definition items
 
 If you want to create additional properties to describe your asset in more details, you can click on “Settings”, choose “Definition Items” and click on “New Collection”.
 
-{% hint style="info" %}
-Tenant collection and General collection are available for all users by default. Tenant collection is the collection which can be read and edited by admins only.&#x20;
-{% endhint %}
+!!! info
+    Tenant collection and General collection are available for all users by default. Tenant collection is the collection which can be read and edited by admins only.&#x20;
 
 ![](<../assets/image (30).png>)
 

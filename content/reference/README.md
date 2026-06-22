@@ -1,8 +1,7 @@
 # TEOS API references
 
-{% hint style="info" %}
-Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept and [authentication.md](../using-the-teos-api/authentication.md "mention") to start trying out TEOS API
-{% endhint %}
+!!! info
+    Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept and [authentication.md](../using-the-teos-api/authentication.md "mention") to start trying out TEOS API
 
 ## Common request parameters
 
@@ -10,13 +9,11 @@ Most of the TEOS API calls require the authentication header: Bearer token.
 
 [OData query builder syntax](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html) can be used for most of the TEOS API requests, swagger documentation provides explicitly the info about the methods that are already odata-compatible, and which are not.
 
-{% hint style="danger" %}
-Please note that TEOS API is case-sensitive. Pay attention to the upper/lower-case usage within request data
-{% endhint %}
+!!! danger
+    Please note that TEOS API is case-sensitive. Pay attention to the upper/lower-case usage within request data
 
-{% hint style="warning" %}
-Please note that starting from v0.5 the API object referencing using "resource/key" style is **deprecated**
-{% endhint %}
+!!! warning
+    Please note that starting from v0.5 the API object referencing using "resource/key" style is **deprecated**
 
 ## Examples of TEOS API calls
 

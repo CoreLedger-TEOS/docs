@@ -25,9 +25,8 @@ When new setting "Use WLP direct links for redemption and purchase" is switched 
 
 :point\_right: Due to the changes in the redemption flow for end users we removed "feesOnTop" configuration of redemption methods and moved minimum and maximum amount of asset to redeem to the "user pays" configuration section
 
-{% hint style="info" %}
-We've calculated all the values based on conversion rate, but we recommend to check current minAmountNet and maxAmountNet values anyway. Check detailed information about redemption configuration updates [here](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/)
-{% endhint %}
+!!! info
+    We've calculated all the values based on conversion rate, but we recommend to check current minAmountNet and maxAmountNet values anyway. Check detailed information about redemption configuration updates [here](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/)
 
 :point\_right: Most of the asset configuration can be done with WLM&#x20;
 

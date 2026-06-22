@@ -4,9 +4,8 @@ description: These changes are relevant for all versions with corresponding func
 
 # Non-versioned changes
 
-{% hint style="info" %}
-Check [versioning.md](../using-the-teos-api/versioning.md "mention") to learn more about this type of changes
-{% endhint %}
+!!! info
+    Check [versioning.md](../using-the-teos-api/versioning.md "mention") to learn more about this type of changes
 
 ## January, 2024
 

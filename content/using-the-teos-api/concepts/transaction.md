@@ -38,13 +38,11 @@ The signed transaction is validated and sent to the blockchain by TEOS Platform 
 
 The status of the transaction can be retrieved from TEOS Platform using corresponding functions of the TEOS API or third-party API and will change according to the status model described in [#transaction-states](transaction.md#transaction-states "mention").
 
-{% hint style="info" %}
-It is not necessary that the device which creates a transaction (1) and the device that signs a transaction (3) are one and the same device. They can be different devices authorized to use the specific wallet's private keys. Monitoring the transaction status after the submission (5) can be done by any TEOS Platform consumer authorized to retrieve tenant data.
-{% endhint %}
+!!! info
+    It is not necessary that the device which creates a transaction (1) and the device that signs a transaction (3) are one and the same device. They can be different devices authorized to use the specific wallet's private keys. Monitoring the transaction status after the submission (5) can be done by any TEOS Platform consumer authorized to retrieve tenant data.
 
-{% hint style="success" %}
-Check the detailed flow of creating and submitting transactions with TEOS API in [transaction-creation-and-submission](../../overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/ "mention")
-{% endhint %}
+!!! success
+    Check the detailed flow of creating and submitting transactions with TEOS API in [transaction-creation-and-submission](../../overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/ "mention")
 
 ### Transaction types available in TEOS platform
 

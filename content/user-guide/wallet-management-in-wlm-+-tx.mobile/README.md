@@ -22,11 +22,10 @@ Note that every transaction signing related action needs the specified wallet. W
 
 You can change it by selecting a new one from the dropdown which contains My wallets list.
 
-{% hint style="info" %}
-Every time you create asset, create supply or do any other transaction signing related action, check which wallet is selected as your current wallet in WLM. It can be selected and always displayed right under your account name
+!!! info
+    Every time you create asset, create supply or do any other transaction signing related action, check which wallet is selected as your current wallet in WLM. It can be selected and always displayed right under your account name
 
-![](<../../assets/image (43).png>)
-{% endhint %}
+    ![](<../../assets/image (43).png>)
 
 ## Add other wallet
 

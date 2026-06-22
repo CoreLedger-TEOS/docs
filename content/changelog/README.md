@@ -4,13 +4,11 @@ description: Versioned changes and non-versioned changes, list of TEOS API versi
 
 # Changelog
 
-{% hint style="danger" %}
-Please, note that support of TEOS API v0.8 is over. Plan the upgrade to v0.9 to keep your solution working and up to date
-{% endhint %}
+!!! danger
+    Please, note that support of TEOS API v0.8 is over. Plan the upgrade to v0.9 to keep your solution working and up to date
 
-{% hint style="info" %}
-Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept to make sure you organize your work in sync with TEOS API updates and you understand which influence different types of changes can have on your solution
-{% endhint %}
+!!! info
+    Check [versioning.md](../using-the-teos-api/versioning.md "mention") concept to make sure you organize your work in sync with TEOS API updates and you understand which influence different types of changes can have on your solution
 
 ### TEOS API changelog and available versions <a href="#available-graph-api-versions" id="available-graph-api-versions"></a>
 

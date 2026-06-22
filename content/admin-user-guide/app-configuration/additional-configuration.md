@@ -27,15 +27,13 @@ The WLA interface is available in 4 languages:
 
 Admin can define the default language, it will be used in case the device of the user is in the language which is not in the list of supported languages by WLA.&#x20;
 
-{% hint style="info" %}
-Please, note that custom data is translated separately, CoreLedger is not responsible for localizing asset data [#step-3.-translations-to-different-languages](asset-configuration.md#step-3.-translations-to-different-languages "mention") and data policy [#data-policy](additional-configuration.md#data-policy "mention")
-{% endhint %}
+!!! info
+    Please, note that custom data is translated separately, CoreLedger is not responsible for localizing asset data [#step-3.-translations-to-different-languages](asset-configuration.md#step-3.-translations-to-different-languages "mention") and data policy [#data-policy](additional-configuration.md#data-policy "mention")
 
 ## Data policy
 
-{% hint style="warning" %}
-Starting from v0.23 this section is not relevant, though config structure is still kept as it is for compatibility with previous versions. Now data policy is configured for your tenant in TEOS Platform in general, you provide necessary Terms and Conditions and Data policy files once when you setup the tenant. These texts are shown during the registration flow for end users and WLA doesn't request the acceptance of the Terms separately anymore.&#x20;
-{% endhint %}
+!!! warning
+    Starting from v0.23 this section is not relevant, though config structure is still kept as it is for compatibility with previous versions. Now data policy is configured for your tenant in TEOS Platform in general, you provide necessary Terms and Conditions and Data policy files once when you setup the tenant. These texts are shown during the registration flow for end users and WLA doesn't request the acceptance of the Terms separately anymore.&#x20;
 
 Data policy files for corresponding language must be provided during the tenant setup to your CoreLedger manager, additional customization is not necessary anymore.&#x20;
 
@@ -55,9 +53,8 @@ We understand that you can have users with different locales. You can provide \[
 
 Intro is a set of slides shown to user when he first enters the app.&#x20;
 
-{% hint style="info" %}
-If you don't need the intro for your app, just remove "intro" object from your config file (there shouldn't be the word "intro" in your config file at all)
-{% endhint %}
+!!! info
+    If you don't need the intro for your app, just remove "intro" object from your config file (there shouldn't be the word "intro" in your config file at all)
 
 Each slide can have image, title and description. Title and description can be provided in different languages according to the following rules:
 

@@ -8,9 +8,8 @@ The following diagram describes the typical request flow from an authentication/
 
 <figure><img src="../assets/TMS Auth Flow.png" alt=""><figcaption><p>User authentication flow</p></figcaption></figure>
 
-{% hint style="info" %}
-The \[..] constraint notation on the diagram was used to number the steps. The numbering approach is similar to the communication diagram.
-{% endhint %}
+!!! info
+    The \[..] constraint notation on the diagram was used to number the steps. The numbering approach is similar to the communication diagram.
 
 :arrow\_heading\_down: **Step 1.0.** User executes any action that triggers a request to TEOS API.
 

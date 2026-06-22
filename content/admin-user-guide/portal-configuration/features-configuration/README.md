@@ -2,9 +2,8 @@
 
 If you're going to use specific functionality, you should configure corresponding settings to adjust it to your needs.
 
-{% hint style="warning" %}
-Please, note that as soon as you switch on the feature, it will become available to your end-users, so we recommend to configure all necessary settings for the features before enabling them.
-{% endhint %}
+!!! warning
+    Please, note that as soon as you switch on the feature, it will become available to your end-users, so we recommend to configure all necessary settings for the features before enabling them.
 
 You can enable / disable the access to the functionalities “Purchase”, “Redeem”, "Featured asset" and "Know your customer checks" by setting necessary value for feature switchers in "Configuration management".&#x20;
 
@@ -64,8 +63,7 @@ The code can be configured using the following attributes and recommendations wh
 To make sure that every tenant has its own pool of codes, we add at the end of the refCode first letter of your tenant name automatically.\
 The above refCodeTemplate will automatically generate codes like “57Rad\_2021\_tn” or “22doh\_2021\_tn”, where "\_tn" stand for "Tenant Name".
 
-{% hint style="danger" %}
-Value of reference code template mustn't be static, use at least 2 or 3 special symbols to make sure that you at least some pool of reference codes.
-{% endhint %}
+!!! danger
+    Value of reference code template mustn't be static, use at least 2 or 3 special symbols to make sure that you at least some pool of reference codes.
 
 The reference code will be used/shown for each purchase order and redemption made in the portal, as well as on the invoice details PDF or redemption details PDF sent via e-mail.

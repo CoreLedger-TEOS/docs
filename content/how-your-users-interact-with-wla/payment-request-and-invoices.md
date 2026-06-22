@@ -2,13 +2,12 @@
 
 If you click on the menu, you can see Payment request menu item where you can select Create request tab for creating a payment request or an invoice.
 
-{% hint style="info" %}
-Difference between payment request and invoice:
+!!! info
+    Difference between payment request and invoice:
 
-Invoice record is created and saved in TEOS. Invoice can expire when expiry date comes.
+    Invoice record is created and saved in TEOS. Invoice can expire when expiry date comes.
 
-Payment request is a QR code only, no record in TEOS is created when payment request is generated.
-{% endhint %}
+    Payment request is a QR code only, no record in TEOS is created when payment request is generated.
 
 ## Payment request generation
 

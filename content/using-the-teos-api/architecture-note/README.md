@@ -10,9 +10,8 @@ TEOS platform architecture was designed in a way to address most development and
 
 TEOS platform has an architecture that ensures every customer and its project has data isolated to the required extent. One of the key concepts of TEOS platform architecture is a tenant.
 
-{% hint style="info" %}
-Tenant is a logical, uniquely identifiable grouping of information and settings in TEOS Platform related to the specific customer. Platform components are configured for every tenant specifically. One customer can have one or more tenants (for example, on different environments or on the same environment but for different business solutions).
-{% endhint %}
+!!! info
+    Tenant is a logical, uniquely identifiable grouping of information and settings in TEOS Platform related to the specific customer. Platform components are configured for every tenant specifically. One customer can have one or more tenants (for example, on different environments or on the same environment but for different business solutions).
 
 There are several layers of logical data isolation for tenants which are represented in the picture.
 

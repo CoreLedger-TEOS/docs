@@ -17,9 +17,8 @@ One of the most important rules for the custom HTML is to avoid adding content w
 
 Thus, the following rules need to be applied when setting up a custom HTML for WLP. Custom HTMLs which do not follow these rules are not supported by the WLP and we can’t help to fix related issues.
 
-{% hint style="warning" %}
-If you decide to use example custom HTMLs provided with the default setup of the tenant, you have to remember that our frontend developers had prepared it according to our design requirements. So, please, make sure that all elements, which are used there, are adjusted to your needs and unnecessary ones are removed. Don't forget to upload it and check.&#x20;
-{% endhint %}
+!!! warning
+    If you decide to use example custom HTMLs provided with the default setup of the tenant, you have to remember that our frontend developers had prepared it according to our design requirements. So, please, make sure that all elements, which are used there, are adjusted to your needs and unnecessary ones are removed. Don't forget to upload it and check.&#x20;
 
 * provide the custom HTML pages in the languages you want your users to see the content
 * make use of CSS classes and ids, ideally wrapping all your content in a div with a custom class

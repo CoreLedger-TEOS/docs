@@ -4,9 +4,8 @@
 
 To write something to the blockchain user must sign data with his private key of the wallet used for this action. Each try to write data to the blockchain is called transaction.&#x20;
 
-{% hint style="info" %}
-Every time you create asset, create supply or do any other transaction signing related action, check which wallet is selected as your current wallet in WLM. Transaction is created for the current wallet and pushed to the device with TX.Mobile where the private key pf current wallet is stored.
-{% endhint %}
+!!! info
+    Every time you create asset, create supply or do any other transaction signing related action, check which wallet is selected as your current wallet in WLM. Transaction is created for the current wallet and pushed to the device with TX.Mobile where the private key pf current wallet is stored.
 
 In WLM you can run following operations which result in the transaction and thus writing to blockchain:
 
@@ -33,11 +32,10 @@ To finish the transaction, you have to sign it by clicking on “Confirm”, oth
 
 When you sign the transaction, data is pushed to the server and is written to the blockchain. After some time, you will receive a notification of the successful operation in WLM and in the mobile app.&#x20;
 
-{% hint style="info" %}
-Writing to blockchain can take some time so the **time between placing signature and receiving notification about successful result** of operation depends on the blockchain (local/global) and current activity of all contributors to it.
+!!! info
+    Writing to blockchain can take some time so the **time between placing signature and receiving notification about successful result** of operation depends on the blockchain (local/global) and current activity of all contributors to it.
 
-Also **transaction costs (aka gas costs)** depend on the blockchain which is connected to the system. In local blockchain networks the costs are stable and very low. In global Ethereum network they can vary significantly.
-{% endhint %}
+    Also **transaction costs (aka gas costs)** depend on the blockchain which is connected to the system. In local blockchain networks the costs are stable and very low. In global Ethereum network they can vary significantly.
 
 ## Check executed transaction
 
