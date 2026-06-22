@@ -13,6 +13,7 @@ permissions:
 env:
   AZURE_STORAGE_ACCOUNT: infrastructureteosdocs
   AZURE_STORAGE_CONTAINER: $web
+  AZURE_STORAGE_PREFIX: teos
 
 jobs:
   build_and_deploy:
@@ -46,7 +47,7 @@ jobs:
           az storage blob delete-batch \
             --account-name "$AZURE_STORAGE_ACCOUNT" \
             --source "$AZURE_STORAGE_CONTAINER" \
-            --pattern "*" \
+            --pattern "$AZURE_STORAGE_PREFIX/*" \
             --auth-mode login
 
       - name: Upload docs
@@ -54,6 +55,7 @@ jobs:
           az storage blob upload-batch \
             --account-name "$AZURE_STORAGE_ACCOUNT" \
             --destination "$AZURE_STORAGE_CONTAINER" \
+            --destination-path "$AZURE_STORAGE_PREFIX" \
             --source ".site" \
             --overwrite true \
             --auth-mode login

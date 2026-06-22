@@ -27,7 +27,7 @@ The MkDocs site is deployed from the `mkdocs-migration` branch to the dedicated 
 Build output is uploaded to:
 
 ```text
-infrastructureteosdocs / $web
+infrastructureteosdocs / $web / teos
 ```
 
 The external URL should be served by a dedicated Azure Front Door host that points to:
@@ -36,10 +36,10 @@ The external URL should be served by a dedicated Azure Front Door host that poin
 https://infrastructureteosdocs.z6.web.core.windows.net/
 ```
 
-with the Front Door route origin path left empty:
+with the Front Door route origin path set to:
 
 ```text
-(empty)
+/teos
 ```
 
 Required GitHub secrets for OIDC Azure login:
