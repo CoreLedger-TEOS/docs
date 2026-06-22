@@ -22,24 +22,24 @@ Open `http://127.0.0.1:8000`.
 
 ## Deployment through Azure Storage and Front Door
 
-The MkDocs site is deployed from the `mkdocs-migration` branch to the existing `infrastructurefrontends` storage account.
+The MkDocs site is deployed from the `mkdocs-migration` branch to the dedicated `infrastructureteosdocs` storage account.
 
 Build output is uploaded to:
 
 ```text
-infrastructurefrontends / $web / docs-mkdocs
+infrastructureteosdocs / $web
 ```
 
 The external URL should be served by a dedicated Azure Front Door host that points to:
 
 ```text
-https://infrastructurefrontends.z6.web.core.windows.net/
+https://infrastructureteosdocs.z6.web.core.windows.net/
 ```
 
-with the Front Door route origin path set to:
+with the Front Door route origin path left empty:
 
 ```text
-/docs-mkdocs
+(empty)
 ```
 
 Required GitHub secrets for OIDC Azure login:
@@ -48,7 +48,7 @@ Required GitHub secrets for OIDC Azure login:
 - `AZURE_TENANT_ID`
 - `AZURE_SUBSCRIPTION_ID`
 
-The Azure application/service principal used by those secrets needs `Storage Blob Data Contributor` on the `infrastructurefrontends` storage account.
+The Azure application/service principal used by those secrets needs `Storage Blob Data Contributor` on the `infrastructureteosdocs` storage account.
 
 ## Remaining migration work
 
