@@ -28,5 +28,5 @@ For deleting profiles from specific applications you can use the TEOS API "Delet
 
 For deleting user accounts in the TEOS Authentication service, the users should be redirected to TEOS Authentication service UI which is used for the login process. There they will find the button "Delete Account".
 
-!!! info
+!!! note "Note"
     Note: We will still keep the history of transactions that were made with user's wallets (managing assets, supplies, controllers) and objects written to blockchain because blockchain technology does not allow it to be deleted from the ledger.

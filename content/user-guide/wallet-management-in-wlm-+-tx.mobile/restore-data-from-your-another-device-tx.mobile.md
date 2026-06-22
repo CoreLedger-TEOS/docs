@@ -4,7 +4,7 @@ To restore data (wallets and private keys) from your another device, it is essen
 
 Login with your account in TX.Mobile. Go to Settings and select “Restore user account”. Enter the seed words or paste them from clipboard. After you typed in your seed words in the correct order, click restore and confirm with “Ok”. Your device is now restored, all private keys were generated and you have access to your wallets again.
 
-!!! info
+!!! note "Note"
     **Important**: When restoring data from your another device, please make sure you use same combination of login credentials, environment, and seed as during the device creation process.
 
 &#x20;

@@ -46,7 +46,7 @@ Main properties description:
 * CreatedInBlockchainOn - the timestamp when supply is written to blockchain. Until supply creation transaction is confirmed, this parameter is empty.
 * CreatedOnBlock - the number of block in blockchain, when supply was created.
 
-!!! info
+!!! note "Note"
     CreatedOn is the parameter that indicates the timestamp when supply was created in TEOS Platform, while CreatedInBlockchainOn parameter indicates the timestamp when supply was written to blockchain.
 
 ### Supply operations
@@ -59,14 +59,14 @@ TEOS user can **create a supply** by providing the following parameters in the r
 * ExchangeRate
 * OriginatorAddress
 
-!!! info
+!!! note "Note"
     TEOS user can act as a middleware for the end users, therefore can provide issuer address separately on behalf of the end user.
 
 * ReceiverAddress
 * TakeAll (optional). If not provided, will be assigned automatically with "false" value in the response.
 * ExpirationDate / ExpirationOnBlock
 
-!!! info
+!!! note "Note"
     ExpirationDate and ExpirationOnBlock parameters are mutually exclusive: TEOS user must provide only one of them. The other parameter will be returned in the response.
 
 TEOS user can **change exchange rate** of a supply by providing the corresponding SupplyId and new ExchangeRate.
@@ -75,10 +75,10 @@ TEOS user can **change supply expiration** by providing corresponding SupplyId, 
 
 TEOS user can **restock a supply** by providing corresponding SupplyId and OfferedAmount in sparks.
 
-!!! info
+!!! note "Note"
     OfferedAmount must indicate the amount, to which the supply must be restocked.
 
 TEOS user can **delete a supply** by providing corresponding SupplyId. After the supply is deleted, it will be excluded from WARP search.
 
-!!! info
+!!! note "Note"
     The method can be called for the list of SupplyIds.

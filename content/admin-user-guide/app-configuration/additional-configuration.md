@@ -27,7 +27,7 @@ The WLA interface is available in 4 languages:
 
 Admin can define the default language, it will be used in case the device of the user is in the language which is not in the list of supported languages by WLA.&#x20;
 
-!!! info
+!!! note "Note"
     Please, note that custom data is translated separately, CoreLedger is not responsible for localizing asset data [#step-3.-translations-to-different-languages](asset-configuration.md#step-3.-translations-to-different-languages "mention") and data policy [#data-policy](additional-configuration.md#data-policy "mention")
 
 ## Data policy
@@ -53,7 +53,7 @@ We understand that you can have users with different locales. You can provide \[
 
 Intro is a set of slides shown to user when he first enters the app.&#x20;
 
-!!! info
+!!! note "Note"
     If you don't need the intro for your app, just remove "intro" object from your config file (there shouldn't be the word "intro" in your config file at all)
 
 Each slide can have image, title and description. Title and description can be provided in different languages according to the following rules:

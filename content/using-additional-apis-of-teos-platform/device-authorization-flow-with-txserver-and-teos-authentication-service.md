@@ -6,7 +6,7 @@ The whole process consists of the following steps (See Diagram 1.)
 
 <figure><img src="../assets/Ext Mobile App Auth Flow (6).png" alt=""><figcaption><p>Diagram 1. Mobile Application Authorization Flow</p></figcaption></figure>
 
-!!! info
+!!! note "Note"
     The \[..] constraint notation on the diagram was used to number the steps. The numbering approach is similar to the communication diagram.
 
 **Step 1.** A User starts the application

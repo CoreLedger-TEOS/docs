@@ -2,7 +2,7 @@
 
 In case your tenant is configured to support compatibility with ERC protocols FT (ERC20) or NFT (ERC721), you can create contracts and add asset to them. After adding the asset to the contract the asset management using ERC20/ERC721 interface will be possible and all token operations will be reflected in TEOS (including WLM).
 
-!!! info
+!!! note "Note"
     Please, note that tenant must be configured to support FT or NFT to use this functionality. Contact your CoreLedger manager if you need this functionality.
 
 ## FT (fungible token) contract
@@ -41,7 +41,7 @@ After the transaction is successfully completed, new NFT contract can be found i
 
 To add existing asset to the contract, you can either click "Add asset" in token contract details or you can go to the specific asset details and click "Add contract" in the right menu.
 
-!!! info
+!!! note "Note"
     Please, note that you can't add already existing asset with any amount of units to the NFT contract if the asset was created before the tenant was configured to support compatibility with ERC721.
 
     When tenant is correctly configured for supporting ERC721 interfaces, 1 asset unit is created automatically, spark factor can't be selected, it is always set to 1

@@ -6,7 +6,7 @@ Issuer of the asset may need to provide some additional details as part of the d
 
 To do it in WLM, issuer of the asset can create amendment by clicking "Amend asset" or "Edit translation".
 
-!!! info
+!!! note "Note"
     Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
 
 ![](<../../assets/image (57).png>)

@@ -4,7 +4,7 @@ description: These changes are relevant for all versions with corresponding func
 
 # Non-versioned changes
 
-!!! info
+!!! note "Note"
     Check [versioning.md](../using-the-teos-api/versioning.md "mention") to learn more about this type of changes
 
 ## January, 2024

@@ -16,7 +16,7 @@ If you're going to use TEOS Authentication services, you will need to use follow
 * **TEOS Authentication service**, implementing OAuth 2.0 protocol, and **Tenant Management Service** for retrieving user data and singing up new users. TEOS Authentication service should be used only if TEOS API is used with the user access token. Read more in [tenant-setup-options.md](architecture-note/tenant-setup-options.md "mention"), [authentication.md](authentication.md "mention") and [using-additional-apis-of-teos-platform](../using-additional-apis-of-teos-platform/ "mention")
 * **TxServer**, responsible for blockchain transactions processing and authorizing devices of end users. TxServer should be called directly only if TEOS API is used with the user access token. Read more in [tenant-setup-options.md](architecture-note/tenant-setup-options.md "mention")
 
-!!! info
+!!! note "Note"
     For the case when TEOS API is called with the API key, integration with TEOS API REST endpoint itself and Notification Endpoint is necessary
 
 ## How TEOS API can be used

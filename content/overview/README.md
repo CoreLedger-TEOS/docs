@@ -28,5 +28,5 @@ curl -X 'GET' \
 
 In the [TEOS API changelog](../changelog/) you can find all available versions. Our [Reference docs](../reference/) allow you to filter content by version.
 
-!!! info
+!!! note "Note"
     Please, note that additional APIs used together with the TEOS API may have their own versions or may have no versioning at all. Please, check the [documentation of the specific API](../using-additional-apis-of-teos-platform/) to find out its versioning concept

@@ -2,7 +2,7 @@
 
 ## Asset configuration for WLA
 
-!!! info
+!!! note "Note"
     Starting from v0.21 most of the configuration can be done with WLM (described below), existing configuration of the existing assets in Assets.json still will be used in couple of versions more. But **all new assets must be configured with the help of WLM**
 
 #### **Step 1. Define general asset properties in WLM**
@@ -23,7 +23,7 @@ When asset is created by the admin, additional properties necessary for WLA, can
 * If you want asset to be displayed in “My Asset” screen, even when the wallet has no Sparks of it, then the parameter **WLA\_Show if balance is 0** must be set to true
 * **WLA and WLP\_Round to (optional)** - For each asset to be shown in WLA, you can define the number of decimal places to which asset units will be rounded in WLA screens in case precise number is too long. This parameter is optional, in case you don't define it, WLA will round the amounts to 2 decimal places in case of Asset type is Cash or Cash Equivalent and to 4 decimal places for all other Asset types
 
-!!! info
+!!! note "Note"
     Don't forget to remove optional properties values which you don't want to define ("Round to" and "Name")
 
 <div>
@@ -54,7 +54,7 @@ You must use Assets.json configuration file to define the icon of the asset. Ass
 
 Open Assets.v2.json configuration and list all the asset unique ids which are going to be used in WLA and their icons. Unique asset id can be found and copied from Asset details in WLM.
 
-!!! info
+!!! note "Note"
     Please, note that \[languageCode]Assets.v2.json file must be used to list the assets and their properties starting from v0.21. All previous version used \[languageCode]Assets.v1.json file
 
 ```

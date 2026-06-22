@@ -31,7 +31,7 @@ If you want your users to receive emails sent from WLM, you can switch on emaili
 
 In the first column you can find the action which triggers the system to send an email. If you want to change a text of an email, just click in the corresponding row, choose a language and write the text the user should receive. Please, note that you can add as many translations as you want but users languages can be English or German, so we recommend to add only these translations.
 
-!!! info
+!!! note "Note"
     Please, note that the following letters are sent to all TEOS products users when they register:
 
     Registration confirmation (user was approved)

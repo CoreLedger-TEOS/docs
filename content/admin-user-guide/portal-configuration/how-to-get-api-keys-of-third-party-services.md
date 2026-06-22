@@ -21,7 +21,7 @@ Copy parameters above and configure integration to start using it in your WLP [#
 
 Login to your Coinify account at [https://merchant.coinify.com/signup/now](https://merchant.coinify.com/signup/now) and go to Integration tools section. You need API keys tab where you can request API keys to be generated. You are the new client most likely, so go to the New API documentation. You'll need to contact Coinify API Support to request the key.&#x20;
 
-!!! info
+!!! note "Note"
     The API key has the following format: `<environment>_<uuid>`, where the environment is `sandbox` for testing environment and `production` for production usage.
 
 Please, provide the received API key and the environment, for which the API key is used in Payment method - Cryptocurrency payment provider (for more details see [Cryptocurrency payment method configuration](features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md#cryptocurrency-payment-method)).
@@ -36,7 +36,7 @@ Please, provide the received API key and the environment, for which the API key 
 
 Login to your account at [https://backoffice.shuftipro.com](https://backoffice.shuftipro.com/) and go to "Settings -> "API keys". Generate new key or use existing one by copying **Client ID and Secret Key**, send them to CoreLedger project manager to start using this integration in your WLP.
 
-!!! info
+!!! note "Note"
     Please make sure that you use the account (test account or production account) which is expected to be applied to the portal integration with Shufti Pro. Use the toggl on the top to switch between test account and production account
 
 ![Shufti Pro portal](<../../assets/Shufti APi keys.png>)

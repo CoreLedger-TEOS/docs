@@ -12,7 +12,7 @@ Go to **"Advanced config management"** in order to configure settings for KYC ch
 
 You are welcome to set as many tiers as you need.&#x20;
 
-!!! info
+!!! note "Note"
     All users automatically get tier 0 when they register
 
 Each tier must have following parameters:
@@ -83,17 +83,17 @@ If you use Active Sandbox product and run pilot project you are welcome to use C
 
 In order to use KYC functionality with Shufti Pro integration productively you will need to create **your own productive account** with [Shufti Pro](https://shuftipro.com/) and follow the steps described below.
 
-!!! danger
+!!! warning "Important"
     Make sure that all integration parameters (API keys and redirect URL) are configured for productive account if you expect productive account to be used in WLP or test account if you expect test account to be used in WLP. **Productive and test account have different integration settings**
 
 1. Generate **API keys** for integration and send them to your CoreLedger project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services.md).&#x20;
 2. Configure **redirect URL** which will be used in integration parameters. This is the page to which user should be redirected after he or she completes the KYC checks in Shufti. Make a screenshot of the configured URL in Shufti Pro's account and send it to your CoreLedger project manager. [#how-to-configure-redirect-url-after-user-completes-the-kyc-checks](kyc-checks.md#how-to-configure-redirect-url-after-user-completes-the-kyc-checks "mention")
 3. Configure **integration parameters.** We use Onsite verification with OCR for integration with Shufti Pro. All parameters which can be set are described in [Shufti Pro's documentation in Verification Request section](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification). You will need to configure it by yourself or send screenshots described in [#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro](kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro "mention") and send them to your CoreLedger project manager together with all previous parameters.
 
-!!! info
+!!! note "Note"
     You can configure and define settings by yourself if you're familiar enough with json structure and integration parameters. If you have some problems, we can help you to configure Shufti Pro integration. You will have to provide screenshots with the selected parameters for your desired KYC flows for each tier > 0 (please note that we will need screenshots of each step: enabled services, each service parameters and common parameters) to your CoreLedger manager. Check info in [#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro](kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro "mention") to get necessary screenshots
 
-!!! danger
+!!! warning "Important"
     Please, note that you have to decide based on your business case which checks are necessary and define configuration settings of these checks.&#x20;
 
 Example which we use in our CoreLedger Active Sandbox (you can find it in KYC tier 1 settings in the example above) looks like this:
@@ -119,7 +119,7 @@ Example which we use in our CoreLedger Active Sandbox (you can find it in KYC ti
 }"
 ```
 
-!!! info
+!!! note "Note"
     "Config" parameter is a string made of json for technical reasons. Please, don't forget to use **\\** sign inside "config" parameter before each quotation sign **"**
 
 In our example following parameters are set:
@@ -139,7 +139,7 @@ You can use our example parameters for tests or even pilot projects with Active 
 * [Phone Service](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification#phone-service)&#x20;
 * [Background Checks Service](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification#background-checks-service)
 
-!!! danger
+!!! warning "Important"
     Please, don't set "reference" and "callback\_url" parameters and don't specify the values of "email" or any other end user's data described in Shufti Pro's documentation. They will be set automatically
 
 #### How to configure redirect URL after user completes the KYC checks

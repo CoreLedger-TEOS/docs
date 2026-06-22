@@ -8,7 +8,7 @@ description: WLP functionality available for end users
 
 If you enable KYC functionality, availability and visibility of functionality for user is defined by his current KYC tier. Functionality which is not available will be closed by "Get KYC tier N". Users will be forced to go through KYC checks to get required KYC tier.
 
-!!! info
+!!! note "Note"
     All users automatically get tier 0 when they register
 
     Users can't have several KYC cases opened

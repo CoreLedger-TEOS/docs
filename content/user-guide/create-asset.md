@@ -56,7 +56,7 @@ This collection contains following properties:
   * If asset is going to be used in WLP: WLP Name\
     You can define asset name specifically for WLP. If it's not set, Asset name defined in [#step-1-main-properties-mandatory](create-asset.md#step-1-main-properties-mandatory "mention")will be used
 
-!!! info
+!!! note "Note"
     You should remove all optional properties if you're not going to use them.\
     If you want to change some properties afterwards, you can create an [amendment](manage-asset-asset-details-asset-operations/amend-asset-edit-translations.md), changes will be applied in WLA and WLP automatically&#x20;
 

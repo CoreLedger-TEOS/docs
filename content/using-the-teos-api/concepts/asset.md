@@ -40,7 +40,7 @@ Default values for properties if not provided:
 * SparkFactorModifier: {"type":"FORMULA","start":"{current-datetime}","t":"1d","f":"1"}
 * AssetClassCode: "A017"
 
-!!! info
+!!! note "Note"
     **CurrencyCode definition rules**
 
     In case asset is created with AssetClassCode = "A013", CurrencyCode is mandatory and UnitOfMeasureCode must be left blank

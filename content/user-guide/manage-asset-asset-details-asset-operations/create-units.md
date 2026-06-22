@@ -2,14 +2,14 @@
 
 When the asset was successfully created, the next step is to emit units of it or to tokenize it.
 
-!!! info
+!!! note "Note"
     Please, note if the asset units were not created, it can’t be sold, bought or traded in the WLM. Tokenizing an asset means, to split the asset into fractions. That's how the asset gets its representation in the digital world.&#x20;
 
     In TEOS these fractions are called sparks and can be bought, sold and traded securely on the blockchain.
 
 For the purpose of tokenizing an asset in the WLM, go to the asset overview in the web app by clicking on “Assets” on the left menu bar. You can find all created assets in the “Issued” view.
 
-!!! info
+!!! note "Note"
     Please, note that only the issuer can create units of the asset. So, please, check that Current wallet = issuer of the asset.&#x20;
 
     The issuer can do it at any point of time if the asset is not of NFT type.

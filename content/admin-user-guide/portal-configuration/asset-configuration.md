@@ -1,6 +1,6 @@
 # Asset configuration
 
-!!! info
+!!! note "Note"
     Starting from v0.15 most of the asset configuration can be done with WLM (described below), existing configuration of the existing assets was moved from the config file which is available under Advanced config management and still will be used. But **all new assets must be configured with the help of WLM and in case of any changes in the existing assets asset must be amended in WLM and fully defined**
 
 #### **Step 1. Define general asset properties in WLM**
@@ -27,7 +27,7 @@ When asset is created by the admin, additional properties necessary for WLP, can
 * **WLP\_Name (optional)** - WLP specific asset name can be defined in case you want asset to be used in WLP with some alternative naming&#x20;
 * **WLA and WLP\_Round to (optional)** - For each asset to be shown in WLP, you can define the number of decimal places to which asset units will be rounded in WLP screens in case precise number is too long. This parameter is optional, in case you don't define it, WLP will round the amounts to 2 decimal places in case of Asset type is Cash or Cash Equivalent and to 4 decimal places for all other Asset types
 
-!!! info
+!!! note "Note"
     Don't forget to remove optional properties if you don't want to define their values (Round to and Name)
 
 ![](<../../assets/image (16).png>)![](<../../assets/image (6).png>)
@@ -38,7 +38,7 @@ When asset is created by the admin, additional properties necessary for WLP, can
 
 You can add translations for the name, description and ticker to English, German and Spanish languages in case you expect WLP users speaking these languages.
 
-!!! info
+!!! note "Note"
     Please, note that in WLP v0.15 asset translations are not used yet. We're working on it, this functionality will be delivered soon!
 
 Finally, you will have Asset defined in WLM which is going to be used in WLP. You can use TEOS API POST Asset functionality for the same purpose without WLM UI.

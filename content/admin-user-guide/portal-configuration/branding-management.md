@@ -10,7 +10,7 @@ With the “Colors.json” file the colors (HEX) of the WLP can be modified. The
 
 You can define 10 colors for different groups of elements described in the file. Please, pay attention to the provided recommendations to keep your portal looking nice. You can find them below and in the file itself. Please, note that some elements have default colors which are not customizable (such elements as error texts, error icons, etc).
 
-!!! info
+!!! note "Note"
     As soon as you change the file in the blob storage and save it, you should refresh the portal page to see the applied changes.
 
 List of customizable colors:
@@ -36,7 +36,7 @@ Go to **Advanced** **Configuration Management** page to provide file name of you
 
 The Favicon, shown in the browser tab, needs to be uploaded as .png into the “WLP-config” folder in the blob storage.&#x20;
 
-!!! info
+!!! note "Note"
     The name of the favicon file needs to be “favicon.png”, then it is automatically shown in the UI.
 
 ### Configure text of landing page

@@ -6,7 +6,7 @@ As administrator you have access to the KYC Management section of WLP. Here you 
 
 #### Process of KYC checks
 
-!!! info
+!!! note "Note"
     All users automatically get tier 0 when they register
 
     Users can't have several KYC cases opened

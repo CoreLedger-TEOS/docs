@@ -26,79 +26,207 @@ markdown_extensions:
   - admonition
   - attr_list
   - def_list
+  - markdown.extensions.fenced_code
   - md_in_html
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
 
 exclude_docs: |
   .site/
   admin/config.yml
+  /SUMMARY.md
+  /faq.md
+  /get-started.md
+  /trooubleshooting.md
+  /changelog/
+  /overview/
+  /reference/
+  /using-additional-apis-of-teos-platform/
+  /using-the-teos-api/
+  teos-api/SUMMARY.md
+  teos-api/overview/supply-management.md
+  teos-api/overview/warp-search.md
+  teos-api/overview/dealing-with-blockchain-transactions/
 
 nav:
   - TEOS API:
-      - Welcome to TEOS API: using-the-teos-api/README.md
+      - Welcome to TEOS API: teos-api/README.md
       - Get started:
-          - Get started: get-started.md
-          - Authentication Types: using-the-teos-api/authentication.md
+          - Get started: teos-api/get-started/README.md
+          - Quickstart Guide: teos-api/get-started/quickstart-guide.md
+          - Authentication Types: teos-api/get-started/authentication-types.md
       - Guides:
-          - Guides: using-the-teos-api/concepts/README.md
-          - Assets: using-the-teos-api/concepts/asset.md
-          - Invoices: using-the-teos-api/concepts/invoice.md
-          - Transactions: using-the-teos-api/concepts/transaction.md
-          - Spark operations: using-the-teos-api/concepts/spark.md
-          - Supplies: using-the-teos-api/concepts/supply.md
-          - Warp: using-the-teos-api/concepts/warp.md
-          - Wallets: using-the-teos-api/concepts/wallet.md
+          - Guides: teos-api/guides/README.md
+          - Assets:
+              - Assets: teos-api/guides/assets/README.md
+              - Create an asset: teos-api/guides/assets/create-an-asset.md
+              - Retrieve assets: teos-api/guides/assets/retrieve-assets.md
+              - Retrieve an asset by unique asset Id: teos-api/guides/assets/retrieve-an-asset-by-unique-asset-id.md
+              - Create units for an asset: teos-api/guides/assets/create-units-for-an-asset.md
+              - Destroy asset units: teos-api/guides/assets/destroy-asset-units.md
+              - Retrieve asset DocumentDb record: teos-api/guides/assets/retrieve-asset-documentdb-record.md
+              - Retrieve linked assets: teos-api/guides/assets/retrieve-linked-assets.md
+              - Get asset meta data: teos-api/guides/assets/get-asset-meta-data.md
+              - Remove asset controller: teos-api/guides/assets/remove-asset-controller.md
+              - Set asset controller: teos-api/guides/assets/set-asset-controller.md
+              - Get total amount of an asset: teos-api/guides/assets/get-total-amount-of-an-asset.md
+              - Transfer units of an asset: teos-api/guides/assets/transfer-units-of-an-asset.md
+              - Unlink assets: teos-api/guides/assets/unlink-assets.md
+          - Attributes:
+              - Attributes: teos-api/guides/attributes/README.md
+              - Get asset classes: teos-api/guides/attributes/get-asset-classes.md
+              - Get a single asset class: teos-api/guides/attributes/get-a-single-asset-class.md
+              - Get asset detail classes: teos-api/guides/attributes/get-asset-detail-classes.md
+              - Get a single asset detail class: teos-api/guides/attributes/get-a-single-asset-detail-class.md
+              - Get countries: teos-api/guides/attributes/get-countries.md
+              - Get a single country: teos-api/guides/attributes/get-a-single-country.md
+              - Get currencies: teos-api/guides/attributes/get-currencies.md
+              - Get a single currency: teos-api/guides/attributes/get-a-single-currency.md
+              - Get languages: teos-api/guides/attributes/get-languages.md
+              - Get a single language: teos-api/guides/attributes/get-a-single-language.md
+              - Get search properties: teos-api/guides/attributes/get-search-properties.md
+              - Get a single search property: teos-api/guides/attributes/get-a-single-search-property.md
+              - Get units: teos-api/guides/attributes/get-units.md
+          - Balances:
+              - Balances: teos-api/guides/balances/README.md
+              - Get asset balance: teos-api/guides/balances/get-asset-balance.md
+              - Get multiple asset balances: teos-api/guides/balances/get-multiple-asset-balances.md
+              - Get my balances: teos-api/guides/balances/get-my-balances.md
+              - Get ETH balances: teos-api/guides/balances/get-eth-balances.md
+          - Users:
+              - Users: teos-api/guides/users/README.md
+              - Delete a user: teos-api/guides/users/delete-a-user.md
+          - Wallets:
+              - Wallets: teos-api/guides/wallets/README.md
+              - Create a wallet: teos-api/guides/wallets/create-a-wallet.md
+              - Retrieve wallets: teos-api/guides/wallets/retrieve-wallets.md
+              - Retrieve a wallet by id: teos-api/guides/wallets/retrieve-a-wallet-by-id.md
+              - Retrieve a current user wallets: teos-api/guides/wallets/retrieve-a-current-user-wallets.md
+              - Delete a wallet: teos-api/guides/wallets/delete-a-wallet.md
+          - Invoices:
+              - Invoices: teos-api/guides/invoices/README.md
+              - Create an invoice: teos-api/guides/invoices/create-an-invoice.md
+              - Retrieve invoices: teos-api/guides/invoices/retrieve-invoices.md
+              - Retrieve an invoice by id: teos-api/guides/invoices/retrieve-an-invoice-by-id.md
+              - Pay an invoice with transfer: teos-api/guides/invoices/pay-an-invoice-with-transfer.md
+              - Pay an invoice with WARP: teos-api/guides/invoices/pay-an-invoice-with-warp.md
+              - Cancel invoices: teos-api/guides/invoices/cancel-invoices.md
+          - Transactions:
+              - Transactions: teos-api/guides/transactions/README.md
+              - Submit a transaction: teos-api/guides/transactions/submit-a-transaction.md
+              - Get current user transactions: teos-api/guides/transactions/get-current-user-transactions.md
+              - Retrieve transactions: teos-api/guides/transactions/retrieve-transactions.md
+              - Retrieve a transaction by Id: teos-api/guides/transactions/retrieve-a-transaction-by-id.md
+              - Retrieve signing parameters by transaction Id: teos-api/guides/transactions/retrieve-signing-parameters-by-transaction-id.md
+              - Revoke a transaction: teos-api/guides/transactions/revoke-a-transaction.md
+          - Spark operations:
+              - Spark operations: teos-api/guides/spark-operations/README.md
+              - Spark operations: teos-api/guides/spark-operations/spark-operations.md
+          - Supplies:
+              - Supplies: teos-api/guides/supplies/README.md
+              - Create a supply: teos-api/guides/supplies/create-a-supply.md
+              - Retrieve supplies: teos-api/guides/supplies/retrieve-supplies.md
+              - Retrieve a supply by id: teos-api/guides/supplies/retrieve-a-supply-by-id.md
+              - Change a supply exchange rate: teos-api/guides/supplies/change-a-supply-exchange-rate.md
+              - Extend a supply: teos-api/guides/supplies/extend-a-supply.md
+              - Restock a supply: teos-api/guides/supplies/restock-a-supply.md
+              - Delete a supply: teos-api/guides/supplies/delete-a-supply.md
+          - Warp:
+              - Warp: teos-api/guides/warp/README.md
+              - Warp Execution: teos-api/guides/warp/warp-execution.md
+              - Warp Search: teos-api/guides/warp/warp-search.md
+          - Controllers:
+              - Controllers: teos-api/guides/controllers/README.md
+              - Create a controller: teos-api/guides/controllers/create-a-controller.md
+              - Add an existing controller: teos-api/guides/controllers/add-an-existing-controller.md
+              - Retrieve controllers: teos-api/guides/controllers/retrieve-controllers.md
+              - Retrieve a controller by id: teos-api/guides/controllers/retrieve-a-controller-by-id.md
+              - Update a controller: teos-api/guides/controllers/update-a-controller.md
+              - Update a controller (PATCH): teos-api/guides/controllers/update-a-controller-patch.md
+              - Set a blacklist addresses: teos-api/guides/controllers/set-a-blacklist-addresses.md
+              - Remove blacklist addresses: teos-api/guides/controllers/remove-blacklist-addresses.md
+              - Set a whitelist addresses: teos-api/guides/controllers/set-a-whitelist-addresses.md
+              - Remove whitelist addresses: teos-api/guides/controllers/remove-whitelist-addresses.md
+              - Retrieve my controllers: teos-api/guides/controllers/retrieve-my-controllers.md
+          - Settings:
+              - Settings: teos-api/guides/settings/README.md
+              - Get Settings: teos-api/guides/settings/get-settings.md
+          - Health:
+              - Health: teos-api/guides/health/README.md
+              - Health Check: teos-api/guides/health/health-check.md
+          - Meta data:
+              - Meta data: teos-api/guides/meta-data/README.md
+              - Asset Metadata: teos-api/guides/meta-data/asset-metadata.md
+              - Get Entity Sets: teos-api/guides/meta-data/get-entity-sets.md
       - TEOS API references:
-          - TEOS API references: reference/README.md
-          - Versioning: using-the-teos-api/versioning.md
+          - TEOS API references: teos-api/reference/README.md
+          - TEOS API Swagger (OpenAPI): https://teosapi.coreledger.net/swagger/index.html
+          - Postman examples: https://github.com/CoreLedger-TEOS/API
       - Using TEOS API:
-          - Using TEOS API: overview/README.md
-          - Rate limits: overview/rate-limits.md
+          - Using TEOS API: teos-api/overview/README.md
+          - Rate limits: teos-api/overview/rate-limits.md
           - Handling errors:
-              - Handling errors: overview/handling-errors/README.md
-              - 1xxxx codes: overview/handling-errors/1xxxx-codes.md
-              - 2xxxx codes: overview/handling-errors/2xxxx-codes.md
-              - 3xxxx codes: overview/handling-errors/3xxxx-codes.md
-          - TEOS Events: overview/teos-events.md
-          - Supply management: overview/supply-management.md
-          - Warp search: overview/warp-search.md
+              - Handling errors: teos-api/overview/handling-errors/README.md
+              - 1xxxx codes: teos-api/overview/handling-errors/1xxxx-codes.md
+              - 2xxxx codes: teos-api/overview/handling-errors/2xxxx-codes.md
+              - 3xxxx codes: teos-api/overview/handling-errors/3xxxx-codes.md
+          - TEOS Events: teos-api/overview/teos-events.md
       - Resources:
-          - Resources: using-the-teos-api/architecture-note/README.md
+          - Resources: teos-api/resources/README.md
           - TEOS API overview:
-              - Architecture note: using-the-teos-api/architecture-note/README.md
-              - Blockchain networks: using-the-teos-api/architecture-note/blockchain-networks.md
-              - Tenant setup options: using-the-teos-api/architecture-note/tenant-setup-options.md
-          - Using additional APIs:
-              - Overview: using-additional-apis-of-teos-platform/README.md
-              - Add wallet flow: using-additional-apis-of-teos-platform/adding-wallet-to-the-teos-platform-flow-with-txserver-and-teos-api.md
-              - Device authorization flow: using-additional-apis-of-teos-platform/device-authorization-flow-with-txserver-and-teos-authentication-service.md
-              - User authentication flow: using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms.md
-              - Discovery service: using-additional-apis-of-teos-platform/using-discovery-service.md
-              - Authentication service: using-additional-apis-of-teos-platform/using-teos-authentication-service/README.md
-              - TMS API:
-                  - Overview: using-additional-apis-of-teos-platform/using-tms-api/README.md
-                  - Changelog: using-additional-apis-of-teos-platform/using-tms-api/changelog.md
-                  - Handling errors: using-additional-apis-of-teos-platform/using-tms-api/handling-errors.md
-              - TXServer API:
-                  - Overview: using-additional-apis-of-teos-platform/using-txserver-api/README.md
-                  - Device restoration: using-additional-apis-of-teos-platform/using-txserver-api/device-restoration.md
-                  - Key pair and signing: using-additional-apis-of-teos-platform/using-txserver-api/key-pair-generation.-transaction-signing.md
+              - TEOS API overview: teos-api/resources/using-the-teos-api/README.md
+              - TEOS Platform terms and concepts:
+                  - TEOS Platform terms and concepts: teos-api/resources/using-the-teos-api/concepts/README.md
+                  - Asset: teos-api/resources/using-the-teos-api/concepts/asset.md
+                  - Attributes: teos-api/resources/using-the-teos-api/concepts/attributes.md
+                  - Spark and natural units of measure: teos-api/resources/using-the-teos-api/concepts/spark.md
+                  - Wallet: teos-api/resources/using-the-teos-api/concepts/wallet.md
+                  - Supply: teos-api/resources/using-the-teos-api/concepts/supply.md
+                  - Warp:
+                      - Warp: teos-api/resources/using-the-teos-api/concepts/warp/README.md
+                      - Warp search: teos-api/resources/using-the-teos-api/concepts/warp/warp-search.md
+                  - Invoice: teos-api/resources/using-the-teos-api/concepts/invoice.md
+                  - Transaction: teos-api/resources/using-the-teos-api/concepts/transaction.md
+                  - Controllers: teos-api/resources/using-the-teos-api/concepts/controllers.md
+                  - Settings: teos-api/resources/using-the-teos-api/concepts/settings.md
+              - Architecture note:
+                  - Architecture note: teos-api/resources/using-the-teos-api/architecture-note/README.md
+                  - Blockchain networks: teos-api/resources/using-the-teos-api/architecture-note/blockchain-networks.md
+          - Using additional APIs of TEOS Platform:
+              - Using additional APIs of TEOS Platform: teos-api/resources/using-additional-apis-of-teos-platform/README.md
+              - User authentication flow with TEOS Authentication service and TMS: teos-api/resources/using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms.md
+              - Device authorization flow with TxServer and TEOS Authentication service: teos-api/resources/using-additional-apis-of-teos-platform/device-authorization-flow-with-txserver-and-teos-authentication-service.md
+              - Adding wallet to the TEOS Platform flow with TxServer and TEOS API: teos-api/resources/using-additional-apis-of-teos-platform/adding-wallet-to-the-teos-platform-flow-with-txserver-and-teos-api.md
+              - Using TxServer API:
+                  - Using TxServer API: teos-api/resources/using-additional-apis-of-teos-platform/using-txserver-api/README.md
+                  - TxServer API (OpenAPI): https://txapi.coreledger.net/swagger
+                  - Key Pair Generation. Transaction Signing: teos-api/resources/using-additional-apis-of-teos-platform/using-txserver-api/key-pair-generation.-transaction-signing.md
+                  - Device Restoration: teos-api/resources/using-additional-apis-of-teos-platform/using-txserver-api/device-restoration.md
+              - Using TEOS Authentication service:
+                  - Using TEOS Authentication service: teos-api/resources/using-additional-apis-of-teos-platform/using-teos-authentication-service/README.md
+                  - TEOS Authentication Service API: https://auth.coreledger.net/swagger
+              - Using TMS API:
+                  - Using TMS API: teos-api/resources/using-additional-apis-of-teos-platform/using-tms-api/README.md
+                  - TMS API Swagger (OpenAPI): https://tms.coreledger.net/swagger/index.html
+                  - Handling errors: teos-api/resources/using-additional-apis-of-teos-platform/using-tms-api/handling-errors.md
+                  - Changelog: teos-api/resources/using-additional-apis-of-teos-platform/using-tms-api/changelog.md
+              - Using Discovery Service: teos-api/resources/using-additional-apis-of-teos-platform/using-discovery-service.md
           - Dealing with blockchain transactions:
-              - Overview: overview/dealing-with-blockchain-transactions/README.md
-              - Get Ether: overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions.md
-              - Transaction submission:
-                  - Overview: overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/README.md
-                  - First transaction: overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain.md
+              - Dealing with blockchain transactions: teos-api/resources/dealing-with-blockchain-transactions/README.md
+              - How to get gas for signing transactions: teos-api/resources/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions.md
+              - Transaction creation and submission:
+                  - Transaction creation and submission: teos-api/resources/dealing-with-blockchain-transactions/transaction-creation-and-submission/README.md
+                  - First transaction creation and submission for a new address on the private blockchain: teos-api/resources/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain.md
       - Changelog:
-          - Changelog: changelog/README.md
-          - Non-versioned changes: changelog/non-versioned-changes.md
-          - Version 1.0: changelog/v1.0.md
-          - Version 0.9: changelog/v0.9.md
-          - Version 0.3: changelog/v0.3.md
-      - Troubleshooting: troubleshooting.md
+          - Changelog: teos-api/changelog/README.md
+          - Versioning: teos-api/changelog/versioning.md
+          - v1.1: teos-api/changelog/v1.0.md
+          - v1.0: teos-api/changelog/v1.0-1.md
+          - v0.9: teos-api/changelog/v0.9.md
+          - Non-versioned changes: teos-api/changelog/non-versioned-changes.md
+          - Previous versions (not supported): teos-api/changelog/v0.3.md
+      - Troubleshooting: teos-api/troubleshooting.md
   - White Label Management Tool:
       - Welcome!: README.md
       - Where to start:

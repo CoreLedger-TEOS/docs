@@ -12,7 +12,7 @@ All methods can be enabled only if they are properly configured and can be disab
 
 <figure><img src="../../../../assets/image (27).png" alt=""><figcaption><p>"Configuration management" -> "Purchase configuration" -> "Payment methods"</p></figcaption></figure>
 
-!!! info
+!!! note "Note"
     Please note that
 
     * there must be at least one configured and enabled payment method to switch on  "Featured asset" and/or "Asset purchase" featured

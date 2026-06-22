@@ -14,12 +14,12 @@ If you set a master filter, the users of the tenant will only be able to find th
 
 This constraint allows you to turn on and off email sending. In case this setting is on, emails are sent with the content according to templates defined in Templates section.
 
-!!! info
+!!! note "Note"
     We strongly recommend to go through the text of email templates and adjust them in [templates-management.md](templates-management.md "mention") before switch on this feature
 
 ### Spark Factor Modifier
 
-!!! danger
+!!! warning "Important"
     Not available at the moment
 
 This constraint allows your users manage Spark Factor Modifier when creating their assets. The modifier defines how the Spark Factor (correlation between Spark and natural unit of measure of the asset) changes over the time.

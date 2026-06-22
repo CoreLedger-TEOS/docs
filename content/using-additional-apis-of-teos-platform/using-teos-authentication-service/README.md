@@ -26,7 +26,7 @@ The discovery endpoint is available via _/.well-known/openid-configuration_ rela
 {% endtab %}
 {% endtabs %}
 
-!!! info
+!!! note "Note"
     You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically access the discovery endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/discovery.html).
 
 **Authorize Endpoint**
@@ -66,7 +66,7 @@ Reason for such an error could be: ClientId, scopes or redirect\_uri are sent to
 {% endtab %}
 {% endtabs %}
 
-!!! info
+!!! note "Note"
     AuthServer supports a subset of the OpenID Connect and OAuth 2.0 authorize request parameters. For a full list, see [here](https://openid.net/specs/openid-connect-core-1_0.html#AuthRequest).
 
 Example:
@@ -83,7 +83,7 @@ GET /connect/authorize?
 
 (URL encoding removed, and line breaks added for readability)
 
-!!! info
+!!! note "Note"
     You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically create authorize requests .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/authorize.html).
 
 **Token Endpoint**
@@ -121,7 +121,7 @@ The token endpoint can be used to programmatically request tokens. It supports t
 {% endtab %}
 {% endtabs %}
 
-!!! info
+!!! note "Note"
     AuthServer supports a subset of the OpenID Connect and OAuth 2.0 token request parameters. For a full list, see [here](http://openid.net/specs/openid-connect-core-1_0.html#TokenRequest).
 
 Example:
@@ -147,7 +147,7 @@ In the case of wrong request it returns the problem
 
 (Form-encoding removed and line breaks added for readability)
 
-!!! info
+!!! note "Note"
     You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel) client library to programmatically access the token endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/token.html).
 
 **UserInfo Endpoint**
@@ -189,7 +189,7 @@ Content-Type: application/json
 }
 ```
 
-!!! info
+!!! note "Note"
     You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically access the userinfo endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/userinfo.html).
 
 **Introspection Endpoint**
@@ -244,7 +244,7 @@ Unknown or expired tokens will be marked as inactive:
 
 An invalid request will return a 400, an unauthorized request 401.
 
-!!! info
+!!! note "Note"
     You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically access the introspection endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/introspection.html).
 
 **Revocation Endpoint**
@@ -273,12 +273,12 @@ Authorization: Basic czZCaGRSa3F0MzpnWDFmQmF0M2JW
 token=45ghiukldjahdnhzdauz&token_type_hint=refresh_token
 ```
 
-!!! info
+!!! note "Note"
     You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically access the revocation endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/revocation.html).
 
 **End Session Endpoint**
 
-!!! info
+!!! note "Note"
     The URL for the end session endpoint is available via the [discovery endpoint](./#discovery-endpoint).
 
 ## End Session Endpoint
@@ -309,7 +309,7 @@ Example:
 GET /connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjdlOGFkZmMzMjU1OTEyNzI0ZDY4NWZmYmIwOThjNDEyIiwidHlwIjoiSldUIn0.eyJuYmYiOjE0OTE3NjUzMjEsImV4cCI6MTQ5MTc2NTYyMSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoianNfb2lkYyIsIm5vbmNlIjoiYTQwNGFjN2NjYWEwNGFmNzkzNmJjYTkyNTJkYTRhODUiLCJpYXQiOjE0OTE3NjUzMjEsInNpZCI6IjI2YTYzNWVmOTQ2ZjRiZGU3ZWUzMzQ2ZjFmMWY1NTZjIiwic3ViIjoiODg0MjExMTMiLCJhdXRoX3RpbWUiOjE0OTE3NjUzMTksImlkcCI6ImxvY2FsIiwiYW1yIjpbInB3ZCJdfQ.STzOWoeVYMtZdRAeRT95cMYEmClixWkmGwVH2Yyiks9BETotbSZiSfgE5kRh72kghN78N3-RgCTUmM2edB3bZx4H5ut3wWsBnZtQ2JLfhTwJAjaLE9Ykt68ovNJySbm8hjZhHzPWKh55jzshivQvTX0GdtlbcDoEA1oNONxHkpDIcr3pRoGi6YveEAFsGOeSQwzT76aId-rAALhFPkyKnVc-uB8IHtGNSyRWLFhwVqAdS3fRNO7iIs5hYRxeFSU7a5ZuUqZ6RRi-bcDhI-djKO5uAwiyhfpbpYcaY_TxXWoCmq8N8uAw9zqFsQUwcXymfOAi2UF3eFZt02hBu-shKA&post_logout_redirect_uri=http%3A%2F%2Flocalhost%3A7017%2Findex.html
 ```
 
-!!! info
+!!! note "Note"
     You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically create end\_session requests .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/end_session.html).
 
 ## Specific endpoints
