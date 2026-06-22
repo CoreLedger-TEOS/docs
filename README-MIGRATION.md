@@ -7,28 +7,48 @@ This branch starts the migration from GitBook-hosted documentation to a static M
 1. Authors edit content in `/admin` through Decap CMS or directly in GitHub.
 2. Decap writes Markdown changes back to this GitHub repository.
 3. GitHub pull requests run `mkdocs build --strict`.
-4. Merged changes on `main` are deployed as a static site.
+4. Pushes to `mkdocs-migration` deploy the dev documentation site.
+5. GitBook remains backed by `main` until the final cutover.
 
 ## Local preview
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\pip install -r requirements-docs.txt
-.\.venv\Scripts\mkdocs serve
+.\.venv\Scripts\python.exe -m mkdocs serve --dev-addr 127.0.0.1:8000
 ```
 
 Open `http://127.0.0.1:8000`.
 
-## Azure Static Web Apps deployment
+## Dev deployment through Azure Storage and Front Door
 
-1. Create an Azure Static Web App.
-2. Choose GitHub as the deployment source and select `CoreLedger-TEOS/docs`.
-3. Use custom build settings:
-   - app location: `.site`
-   - output location: leave empty
-   - skip app build: enabled
-4. Add the deployment token as GitHub secret `AZURE_STATIC_WEB_APPS_API_TOKEN`.
-5. Merge this branch into `main`.
+The dev MkDocs site is deployed from the `mkdocs-migration` branch to the existing `devfrontends` storage account.
+
+Build output is uploaded to:
+
+```text
+devfrontends / $web / docs-mkdocs-dev
+```
+
+The external dev URL should be served by a dedicated Azure Front Door host that points to:
+
+```text
+https://devfrontends.z6.web.core.windows.net/
+```
+
+with the Front Door route origin path set to:
+
+```text
+/docs-mkdocs-dev
+```
+
+Required GitHub secrets for OIDC Azure login:
+
+- `AZURE_CLIENT_ID`
+- `AZURE_TENANT_ID`
+- `AZURE_SUBSCRIPTION_ID`
+
+The Azure application/service principal used by those secrets needs `Storage Blob Data Contributor` on the `devfrontends` storage account.
 
 ## Remaining migration work
 

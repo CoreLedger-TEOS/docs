@@ -1,0 +1,61 @@
+name: Deploy dev docs to Azure Storage
+
+on:
+  push:
+    branches:
+      - mkdocs-migration
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  AZURE_STORAGE_ACCOUNT: devfrontends
+  AZURE_STORAGE_CONTAINER: $web
+  AZURE_STORAGE_PREFIX: docs-mkdocs-dev
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements-docs.txt
+
+      - name: Install documentation dependencies
+        run: pip install -r requirements-docs.txt
+
+      - name: Build documentation
+        run: mkdocs build --strict
+
+      - name: Azure login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Clear previous dev docs
+        run: |
+          az storage blob delete-batch \
+            --account-name "$AZURE_STORAGE_ACCOUNT" \
+            --source "$AZURE_STORAGE_CONTAINER" \
+            --pattern "$AZURE_STORAGE_PREFIX/*" \
+            --auth-mode login
+
+      - name: Upload dev docs
+        run: |
+          az storage blob upload-batch \
+            --account-name "$AZURE_STORAGE_ACCOUNT" \
+            --destination "$AZURE_STORAGE_CONTAINER" \
+            --destination-path "$AZURE_STORAGE_PREFIX" \
+            --source ".site" \
+            --overwrite true \
+            --auth-mode login
