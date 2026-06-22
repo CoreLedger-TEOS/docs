@@ -1,0 +1,35 @@
+backend:
+  name: github
+  repo: CoreLedger-TEOS/docs
+  branch: main
+  squash_merges: true
+
+publish_mode: editorial_workflow
+media_folder: "content/assets"
+public_folder: "/assets"
+site_url: "https://docs.example.com"
+display_url: "https://docs.example.com"
+logo_url: "/assets/CoreLedger_Logo_Normal_RGB_horizontal.png"
+
+collections:
+  - name: "pages"
+    label: "Documentation pages"
+    folder: "content"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    nested:
+      depth: 6
+      summary: "{{title}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: false
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
