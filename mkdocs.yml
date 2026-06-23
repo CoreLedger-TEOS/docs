@@ -34,6 +34,9 @@ markdown_extensions:
   - def_list
   - markdown.extensions.fenced_code
   - md_in_html
+  - toc:
+      permalink: "#"
+      toc_depth: 2-6
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
