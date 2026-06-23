@@ -11,7 +11,7 @@ const config = {
 
   url: 'https://docs.coreledger.net',
   baseUrl: '/',
-  trailingSlash: false,
+  trailingSlash: true,
 
   organizationName: 'CoreLedger',
   projectName: 'docs',
