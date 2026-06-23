@@ -16,4 +16,21 @@ As soon as we have your tenant ready, you can start trying out TEOS API function
 
 While you're waiting for your tenant to be prepared, we invite you to start exploring the TEOS API with the following topics:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><mark style="color:blue;"><strong>Authentication</strong></mark></td><td>Learn how different types of access tokens work</td><td></td><td></td><td><a href="authentication-types.md">authentication-types.md</a></td></tr><tr><td><mark style="color:blue;"><strong>Guides</strong></mark></td><td>Learn which main concepts TEOS platform operates</td><td></td><td></td><td><a href="../guides/">guides</a></td></tr><tr><td><mark style="color:blue;"><strong>API reference</strong></mark></td><td>Check API description and common rules how to use it</td><td></td><td></td><td><a href="../reference/">reference</a></td></tr><tr><td><mark style="color:blue;"><strong>TEOS API overview</strong></mark></td><td>Check how TEOS API overview as part of TEOS platform to make sure you're fully prepared to get maximum of it</td><td></td><td></td><td><a href="../resources/using-the-teos-api/">using-the-teos-api</a></td></tr></tbody></table>
+<div class="doc-cards">
+  <a class="doc-card" href="authentication-types.html">
+    <strong>Authentication</strong>
+    <span>Learn how different types of access tokens work.</span>
+  </a>
+  <a class="doc-card" href="../guides/index.html">
+    <strong>Guides</strong>
+    <span>Learn which main concepts TEOS platform operates.</span>
+  </a>
+  <a class="doc-card" href="../reference/index.html">
+    <strong>API reference</strong>
+    <span>Check API description and common rules how to use it.</span>
+  </a>
+  <a class="doc-card" href="../resources/using-the-teos-api/index.html">
+    <strong>TEOS API overview</strong>
+    <span>Check how TEOS API overview as part of TEOS platform to make sure you're fully prepared to get maximum of it.</span>
+  </a>
+</div>

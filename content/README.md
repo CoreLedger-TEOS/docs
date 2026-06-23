@@ -20,7 +20,7 @@ Most of the business cases which we encountered so far assume that tenant admins
 
 While working with TEOS you may also need to check the docs of other TEOS products:
 
-* [TEOS API](using-the-teos-api/README.md)
+* [TEOS API](teos-api/README.md)
 * [White Label Portal](how-your-users-interact-with-the-portal.md)
 * [White Label Mobile App](how-your-users-interact-with-wla/README.md)
 
