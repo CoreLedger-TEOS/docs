@@ -10,7 +10,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://docs.coreledger.net',
-  baseUrl: '/',
+  baseUrl: '/docusaurus/',
   trailingSlash: false,
 
   organizationName: 'CoreLedger',
