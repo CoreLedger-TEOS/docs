@@ -54,32 +54,11 @@ const config = {
     ({
       image: 'img/coreledger-social-card.png',
       navbar: {
-        title: 'CoreLedger Docs',
         logo: {
           alt: 'CoreLedger',
           src: 'img/coreledger-logo.png',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'docsSidebar',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {
-            href: 'https://coreledger.net/',
-            label: 'CoreLedger',
-            position: 'right',
-          },
-        ],
-      },
-      announcementBar: {
-        id: 'gitbook_to_docusaurus',
-        content:
-          'GitBook to Docusaurus migration preview for TEOS platform documentation.',
-        backgroundColor: '#eef6ff',
-        textColor: '#19324d',
-        isCloseable: true,
+        items: [],
       },
       footer: {
         style: 'light',

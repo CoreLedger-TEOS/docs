@@ -916,124 +916,12 @@ const sidebars = {
     },
     {
       "type": "category",
-      "label": "Additional GitBook pages",
+      "label": "White Label Management (WLM)",
       "collapsed": true,
       "items": [
         {
           "type": "doc",
-          "id": "admin-user-guide/admin-functionality"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/app-configuration/additional-configuration"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/app-configuration/asset-configuration"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/app-configuration/branding-management"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/app-configuration/decentralized-market-and-payment-request-configuration"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/app-configuration/index"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/app-configuration/market-and-payment-request-configuration"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/app-configuration/non-productive-functionality"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/app-configuration/user-management"
-        },
-        {
-          "type": "doc",
           "id": "admin-user-guide/how-to-transfer-tokens-to-the-external-wallet"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/index"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/login-and-wallet-creation"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/admin-users-management"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/asset-configuration"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/branding-management"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/features-configuration/index"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/features-configuration/kyc-checks"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/index"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/templates-for-purchase-details-and-invoice-details"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/features-configuration/redemption-functionality/index"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/features-configuration/redemption-functionality/template-for-redemption-details"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/how-to-get-api-keys-of-third-party-services"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/how-to-prepare-custom-html"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/index"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/reference-code-logic"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/portal-configuration/tenant-configuration"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/referral-management"
         },
         {
           "type": "doc",
@@ -1046,10 +934,6 @@ const sidebars = {
         {
           "type": "doc",
           "id": "admin-user-guide/user-management"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/wla-modules"
         },
         {
           "type": "doc",
@@ -1066,90 +950,6 @@ const sidebars = {
         {
           "type": "doc",
           "id": "admin-user-guide/wlm-configuration/templates-management"
-        },
-        {
-          "type": "doc",
-          "id": "faq"
-        },
-        {
-          "type": "doc",
-          "id": "get-started"
-        },
-        {
-          "type": "doc",
-          "id": "glossary"
-        },
-        {
-          "type": "doc",
-          "id": "how-your-users-interact-with-the-portal"
-        },
-        {
-          "type": "doc",
-          "id": "how-your-users-interact-with-wla/assets-and-transactions"
-        },
-        {
-          "type": "doc",
-          "id": "how-your-users-interact-with-wla/index"
-        },
-        {
-          "type": "doc",
-          "id": "how-your-users-interact-with-wla/market-functionality"
-        },
-        {
-          "type": "doc",
-          "id": "how-your-users-interact-with-wla/my-wallet"
-        },
-        {
-          "type": "doc",
-          "id": "how-your-users-interact-with-wla/payment-request-and-invoices"
-        },
-        {
-          "type": "doc",
-          "id": "overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions"
-        },
-        {
-          "type": "doc",
-          "id": "overview/dealing-with-blockchain-transactions/index"
-        },
-        {
-          "type": "doc",
-          "id": "overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain"
-        },
-        {
-          "type": "doc",
-          "id": "overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/index"
-        },
-        {
-          "type": "doc",
-          "id": "overview/supply-management"
-        },
-        {
-          "type": "doc",
-          "id": "overview/warp-search"
-        },
-        {
-          "type": "doc",
-          "id": "partner-onboarding/coinify"
-        },
-        {
-          "type": "doc",
-          "id": "partner-onboarding/index"
-        },
-        {
-          "type": "doc",
-          "id": "partner-onboarding/payrexx"
-        },
-        {
-          "type": "doc",
-          "id": "partner-onboarding/shufti"
-        },
-        {
-          "type": "doc",
-          "id": "SUMMARY"
-        },
-        {
-          "type": "doc",
-          "id": "trooubleshooting"
         },
         {
           "type": "doc",
@@ -1226,6 +1026,339 @@ const sidebars = {
         {
           "type": "doc",
           "id": "user-guide/wallet-management-in-wlm-+-tx.mobile/restore-data-from-your-another-device-tx.mobile"
+        },
+        {
+          "type": "doc",
+          "id": "where-to-start/index"
+        },
+        {
+          "type": "doc",
+          "id": "where-to-start/step-1-create-teos-account"
+        },
+        {
+          "type": "doc",
+          "id": "where-to-start/step-2-register-profile-in-wlm"
+        },
+        {
+          "type": "doc",
+          "id": "where-to-start/step-3-install-and-register-in-tx.mobile"
+        },
+        {
+          "type": "doc",
+          "id": "where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile"
+        },
+        {
+          "type": "doc",
+          "id": "where-to-start/step-5-start-using-wlm"
+        },
+        {
+          "type": "doc",
+          "id": "wlm-versions-and-changelog/estrella"
+        },
+        {
+          "type": "doc",
+          "id": "wlm-versions-and-changelog/estrella-service-packs"
+        },
+        {
+          "type": "doc",
+          "id": "wlm-versions-and-changelog/fox"
+        },
+        {
+          "type": "doc",
+          "id": "wlm-versions-and-changelog/fox-service-packs"
+        },
+        {
+          "type": "doc",
+          "id": "wlm-versions-and-changelog/gecko"
+        },
+        {
+          "type": "doc",
+          "id": "wlm-versions-and-changelog/index"
+        },
+        {
+          "type": "doc",
+          "id": "wlm-versions-and-changelog/previous-versions-changelog"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "White Label Portal (WLP)",
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "admin-user-guide/admin-functionality"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/admin-users-management"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/asset-configuration"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/branding-management"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/features-configuration/index"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/features-configuration/kyc-checks"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/index"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/templates-for-purchase-details-and-invoice-details"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/features-configuration/redemption-functionality/index"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/features-configuration/redemption-functionality/template-for-redemption-details"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/how-to-get-api-keys-of-third-party-services"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/how-to-prepare-custom-html"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/index"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/reference-code-logic"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/portal-configuration/tenant-configuration"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/referral-management"
+        },
+        {
+          "type": "doc",
+          "id": "how-your-users-interact-with-the-portal"
+        },
+        {
+          "type": "doc",
+          "id": "partner-onboarding/coinify"
+        },
+        {
+          "type": "doc",
+          "id": "partner-onboarding/index"
+        },
+        {
+          "type": "doc",
+          "id": "partner-onboarding/payrexx"
+        },
+        {
+          "type": "doc",
+          "id": "partner-onboarding/shufti"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-api-documentation"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/earlier-versions"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/index"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/version-0.16"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/version-0.17"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/version-0.18"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/version-1.0"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/version-1.1"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/version-1.2"
+        },
+        {
+          "type": "doc",
+          "id": "wlp-versions-and-changelog/version-1.3"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "White Label App (WLA)",
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "admin-user-guide/app-configuration/additional-configuration"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/app-configuration/asset-configuration"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/app-configuration/branding-management"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/app-configuration/decentralized-market-and-payment-request-configuration"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/app-configuration/index"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/app-configuration/market-and-payment-request-configuration"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/app-configuration/non-productive-functionality"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/app-configuration/user-management"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/wla-modules"
+        },
+        {
+          "type": "doc",
+          "id": "how-your-users-interact-with-wla/assets-and-transactions"
+        },
+        {
+          "type": "doc",
+          "id": "how-your-users-interact-with-wla/index"
+        },
+        {
+          "type": "doc",
+          "id": "how-your-users-interact-with-wla/market-functionality"
+        },
+        {
+          "type": "doc",
+          "id": "how-your-users-interact-with-wla/my-wallet"
+        },
+        {
+          "type": "doc",
+          "id": "how-your-users-interact-with-wla/payment-request-and-invoices"
+        },
+        {
+          "type": "doc",
+          "id": "wla-versions-and-changelog/earlier-versions"
+        },
+        {
+          "type": "doc",
+          "id": "wla-versions-and-changelog/index"
+        },
+        {
+          "type": "doc",
+          "id": "wla-versions-and-changelog/version-0.21"
+        },
+        {
+          "type": "doc",
+          "id": "wla-versions-and-changelog/version-0.22"
+        },
+        {
+          "type": "doc",
+          "id": "wla-versions-and-changelog/version-0.23"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Other imported pages",
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "admin-user-guide/index"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/login-and-wallet-creation"
+        },
+        {
+          "type": "doc",
+          "id": "faq"
+        },
+        {
+          "type": "doc",
+          "id": "get-started"
+        },
+        {
+          "type": "doc",
+          "id": "glossary"
+        },
+        {
+          "type": "doc",
+          "id": "overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions"
+        },
+        {
+          "type": "doc",
+          "id": "overview/dealing-with-blockchain-transactions/index"
+        },
+        {
+          "type": "doc",
+          "id": "overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain"
+        },
+        {
+          "type": "doc",
+          "id": "overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/index"
+        },
+        {
+          "type": "doc",
+          "id": "overview/supply-management"
+        },
+        {
+          "type": "doc",
+          "id": "overview/warp-search"
+        },
+        {
+          "type": "doc",
+          "id": "SUMMARY"
+        },
+        {
+          "type": "doc",
+          "id": "trooubleshooting"
         },
         {
           "type": "doc",
@@ -1330,118 +1463,6 @@ const sidebars = {
         {
           "type": "doc",
           "id": "using-the-teos-api/versioning"
-        },
-        {
-          "type": "doc",
-          "id": "where-to-start/index"
-        },
-        {
-          "type": "doc",
-          "id": "where-to-start/step-1-create-teos-account"
-        },
-        {
-          "type": "doc",
-          "id": "where-to-start/step-2-register-profile-in-wlm"
-        },
-        {
-          "type": "doc",
-          "id": "where-to-start/step-3-install-and-register-in-tx.mobile"
-        },
-        {
-          "type": "doc",
-          "id": "where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile"
-        },
-        {
-          "type": "doc",
-          "id": "where-to-start/step-5-start-using-wlm"
-        },
-        {
-          "type": "doc",
-          "id": "wla-versions-and-changelog/earlier-versions"
-        },
-        {
-          "type": "doc",
-          "id": "wla-versions-and-changelog/index"
-        },
-        {
-          "type": "doc",
-          "id": "wla-versions-and-changelog/version-0.21"
-        },
-        {
-          "type": "doc",
-          "id": "wla-versions-and-changelog/version-0.22"
-        },
-        {
-          "type": "doc",
-          "id": "wla-versions-and-changelog/version-0.23"
-        },
-        {
-          "type": "doc",
-          "id": "wlm-versions-and-changelog/estrella"
-        },
-        {
-          "type": "doc",
-          "id": "wlm-versions-and-changelog/estrella-service-packs"
-        },
-        {
-          "type": "doc",
-          "id": "wlm-versions-and-changelog/fox"
-        },
-        {
-          "type": "doc",
-          "id": "wlm-versions-and-changelog/fox-service-packs"
-        },
-        {
-          "type": "doc",
-          "id": "wlm-versions-and-changelog/gecko"
-        },
-        {
-          "type": "doc",
-          "id": "wlm-versions-and-changelog/index"
-        },
-        {
-          "type": "doc",
-          "id": "wlm-versions-and-changelog/previous-versions-changelog"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-api-documentation"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/earlier-versions"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/index"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/version-0.16"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/version-0.17"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/version-0.18"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/version-1.0"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/version-1.1"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/version-1.2"
-        },
-        {
-          "type": "doc",
-          "id": "wlp-versions-and-changelog/version-1.3"
         }
       ]
     }

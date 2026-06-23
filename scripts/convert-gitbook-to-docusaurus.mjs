@@ -389,19 +389,80 @@ function collectSummaryDocIds(items, target = new Set()) {
   return target;
 }
 
+const additionalGroups = [
+  {
+    label: 'White Label Management (WLM)',
+    matches: [
+      /^where-to-start(?:\/|$)/,
+      /^user-guide(?:\/|$)/,
+      /^wlm-versions-and-changelog(?:\/|$)/,
+      /^admin-user-guide\/wlm-configuration(?:\/|$)/,
+      /^admin-user-guide\/(how-to-transfer-tokens-to-the-external-wallet|role-management|teos-platform-preparation|user-management)$/,
+    ],
+  },
+  {
+    label: 'White Label Portal (WLP)',
+    matches: [
+      /^wlp-versions-and-changelog(?:\/|$)/,
+      /^wlp-api-documentation$/,
+      /^how-your-users-interact-with-the-portal$/,
+      /^admin-user-guide\/portal-configuration(?:\/|$)/,
+      /^admin-user-guide\/(admin-functionality|referral-management)$/,
+      /^partner-onboarding(?:\/|$)/,
+    ],
+  },
+  {
+    label: 'White Label App (WLA)',
+    matches: [
+      /^wla-versions-and-changelog(?:\/|$)/,
+      /^how-your-users-interact-with-wla(?:\/|$)/,
+      /^admin-user-guide\/app-configuration(?:\/|$)/,
+      /^admin-user-guide\/wla-modules$/,
+    ],
+  },
+];
+
+function matchesAdditionalGroup(id, group) {
+  return group.matches.some((pattern) => pattern.test(id));
+}
+
 function buildAdditionalItems(allDocIds, summaryDocIds) {
   const extras = [...allDocIds]
     .filter((id) => !summaryDocIds.has(id) && id !== 'index')
     .sort((a, b) => a.localeCompare(b));
   if (!extras.length) return [];
-  return [
-    {
+
+  const used = new Set();
+  const grouped = additionalGroups
+    .map((group) => {
+      const items = extras
+        .filter((id) => matchesAdditionalGroup(id, group))
+        .map((id) => {
+          used.add(id);
+          return { type: 'doc', id };
+        });
+
+      if (!items.length) return null;
+      return {
+        type: 'category',
+        label: group.label,
+        collapsed: true,
+        items,
+      };
+    })
+    .filter(Boolean);
+
+  const remaining = extras.filter((id) => !used.has(id));
+  if (remaining.length) {
+    grouped.push({
       type: 'category',
-      label: 'Additional GitBook pages',
+      label: 'Other imported pages',
       collapsed: true,
-      items: extras.map((id) => ({ type: 'doc', id })),
-    },
-  ];
+      items: remaining.map((id) => ({ type: 'doc', id })),
+    });
+  }
+
+  return grouped;
 }
 
 function writeSidebar(allDocIds) {
