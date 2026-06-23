@@ -19,6 +19,9 @@ theme:
     - search.suggest
     - toc.follow
 
+extra_css:
+  - stylesheets/coreledger-docs.css
+
 plugins:
   - search
 
