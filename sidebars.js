@@ -28,7 +28,7 @@ const sidebars = {
               "label": "Authentication Types"
             }
           ],
-          "collapsed": false,
+          "collapsed": true,
           "link": {
             "type": "doc",
             "id": "get-started/index"
@@ -108,7 +108,7 @@ const sidebars = {
                   "label": "Unlink assets"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/assets/index"
@@ -184,7 +184,7 @@ const sidebars = {
                   "label": "Get units"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/attributes/index"
@@ -215,7 +215,7 @@ const sidebars = {
                   "label": "Get ETH balances"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/balances/index"
@@ -231,7 +231,7 @@ const sidebars = {
                   "label": "Delete a user"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/users/index"
@@ -267,7 +267,7 @@ const sidebars = {
                   "label": "Delete a wallet"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/wallets/index"
@@ -308,7 +308,7 @@ const sidebars = {
                   "label": "Cancel invoices"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/invoices/index"
@@ -349,7 +349,7 @@ const sidebars = {
                   "label": "Revoke a transaction"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/transactions/index"
@@ -365,7 +365,7 @@ const sidebars = {
                   "label": "Spark operations"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/spark-operations/index"
@@ -411,7 +411,7 @@ const sidebars = {
                   "label": "Delete a supply"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/supplies/index"
@@ -432,7 +432,7 @@ const sidebars = {
                   "label": "Warp Search"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/warp/index"
@@ -498,7 +498,7 @@ const sidebars = {
                   "label": "Retrieve my controllers"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/controllers/index"
@@ -514,7 +514,7 @@ const sidebars = {
                   "label": "Get Settings"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/settings/index"
@@ -530,7 +530,7 @@ const sidebars = {
                   "label": "Health Check"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/health/index"
@@ -551,14 +551,14 @@ const sidebars = {
                   "label": "Get Entity Sets"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "guides/meta-data/index"
               }
             }
           ],
-          "collapsed": false,
+          "collapsed": true,
           "link": {
             "type": "doc",
             "id": "guides/index"
@@ -579,7 +579,7 @@ const sidebars = {
               "href": "https://github.com/CoreLedger-TEOS/API"
             }
           ],
-          "collapsed": false,
+          "collapsed": true,
           "link": {
             "type": "doc",
             "id": "reference/index"
@@ -614,7 +614,7 @@ const sidebars = {
                   "label": "3xxxx codes"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "overview/handling-errors/index"
@@ -626,7 +626,7 @@ const sidebars = {
               "label": "TEOS Events"
             }
           ],
-          "collapsed": false,
+          "collapsed": true,
           "link": {
             "type": "doc",
             "id": "overview/index"
@@ -679,7 +679,7 @@ const sidebars = {
                           "label": "Warp search"
                         }
                       ],
-                      "collapsed": false,
+                      "collapsed": true,
                       "link": {
                         "type": "doc",
                         "id": "resources/using-the-teos-api/concepts/warp/index"
@@ -706,7 +706,7 @@ const sidebars = {
                       "label": "Settings"
                     }
                   ],
-                  "collapsed": false,
+                  "collapsed": true,
                   "link": {
                     "type": "doc",
                     "id": "resources/using-the-teos-api/concepts/index"
@@ -722,14 +722,14 @@ const sidebars = {
                       "label": "Blockchain networks"
                     }
                   ],
-                  "collapsed": false,
+                  "collapsed": true,
                   "link": {
                     "type": "doc",
                     "id": "resources/using-the-teos-api/architecture-note/index"
                   }
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "resources/using-the-teos-api/index"
@@ -774,7 +774,7 @@ const sidebars = {
                       "label": "Device Restoration"
                     }
                   ],
-                  "collapsed": false,
+                  "collapsed": true,
                   "link": {
                     "type": "doc",
                     "id": "resources/using-additional-apis-of-teos-platform/using-txserver-api/index"
@@ -790,7 +790,7 @@ const sidebars = {
                       "href": "https://auth.coreledger.net/swagger"
                     }
                   ],
-                  "collapsed": false,
+                  "collapsed": true,
                   "link": {
                     "type": "doc",
                     "id": "resources/using-additional-apis-of-teos-platform/using-teos-authentication-service/index"
@@ -816,7 +816,7 @@ const sidebars = {
                       "label": "Changelog"
                     }
                   ],
-                  "collapsed": false,
+                  "collapsed": true,
                   "link": {
                     "type": "doc",
                     "id": "resources/using-additional-apis-of-teos-platform/using-tms-api/index"
@@ -828,7 +828,7 @@ const sidebars = {
                   "label": "Using Discovery Service"
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "resources/using-additional-apis-of-teos-platform/index"
@@ -853,21 +853,21 @@ const sidebars = {
                       "label": "First transaction creation and submission for a new address on the private blockchain"
                     }
                   ],
-                  "collapsed": false,
+                  "collapsed": true,
                   "link": {
                     "type": "doc",
                     "id": "resources/dealing-with-blockchain-transactions/transaction-creation-and-submission/index"
                   }
                 }
               ],
-              "collapsed": false,
+              "collapsed": true,
               "link": {
                 "type": "doc",
                 "id": "resources/dealing-with-blockchain-transactions/index"
               }
             }
           ],
-          "collapsed": false,
+          "collapsed": true,
           "link": {
             "type": "doc",
             "id": "resources/index"
@@ -908,7 +908,7 @@ const sidebars = {
               "label": "Previous versions (not supported)"
             }
           ],
-          "collapsed": false,
+          "collapsed": true,
           "link": {
             "type": "doc",
             "id": "changelog/index"

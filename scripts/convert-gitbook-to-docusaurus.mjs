@@ -371,7 +371,7 @@ function summaryItemToSidebar(item, existingDocIds) {
       type: 'category',
       label: item.label,
       items: children,
-      collapsed: false,
+      collapsed: true,
     };
     if (hasDoc) category.link = { type: 'doc', id };
     return category;
