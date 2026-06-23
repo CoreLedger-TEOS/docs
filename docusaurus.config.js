@@ -39,7 +39,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
-          editUrl: undefined,
+          editUrl:
+            'https://github.com/CoreLedger-TEOS/docs/edit/docusaurus-migration/',
         },
         blog: false,
         theme: {
