@@ -918,17 +918,168 @@ const sidebars = {
           "type": "doc",
           "id": "troubleshooting",
           "label": "Troubleshooting"
+        },
+        {
+          "type": "category",
+          "label": "Additional TEOS API pages",
+          "collapsed": true,
+          "items": [
+            {
+              "type": "doc",
+              "id": "faq"
+            },
+            {
+              "type": "doc",
+              "id": "get-started"
+            },
+            {
+              "type": "doc",
+              "id": "glossary"
+            },
+            {
+              "type": "doc",
+              "id": "overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions"
+            },
+            {
+              "type": "doc",
+              "id": "overview/dealing-with-blockchain-transactions/index"
+            },
+            {
+              "type": "doc",
+              "id": "overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain"
+            },
+            {
+              "type": "doc",
+              "id": "overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/index"
+            },
+            {
+              "type": "doc",
+              "id": "overview/supply-management"
+            },
+            {
+              "type": "doc",
+              "id": "overview/warp-search"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/adding-wallet-to-the-teos-platform-flow-with-txserver-and-teos-api"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/device-authorization-flow-with-txserver-and-teos-authentication-service"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/index"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/using-discovery-service"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/using-teos-authentication-service/index"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/using-tms-api/changelog"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/using-tms-api/handling-errors"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/using-tms-api/index"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/using-txserver-api/device-restoration"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/using-txserver-api/index"
+            },
+            {
+              "type": "doc",
+              "id": "using-additional-apis-of-teos-platform/using-txserver-api/key-pair-generation.-transaction-signing"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/architecture-note/blockchain-networks"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/architecture-note/index"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/architecture-note/tenant-setup-options"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/authentication"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/concepts/asset"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/concepts/index"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/concepts/invoice"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/concepts/spark"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/concepts/supply"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/concepts/transaction"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/concepts/wallet"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/concepts/warp"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/index"
+            },
+            {
+              "type": "doc",
+              "id": "using-the-teos-api/versioning"
+            }
+          ]
         }
       ]
     },
     {
       "type": "category",
-      "label": "White Label Management (WLM)",
+      "label": "White Label Management Tool",
       "collapsed": true,
       "items": [
         {
           "type": "doc",
           "id": "admin-user-guide/how-to-transfer-tokens-to-the-external-wallet"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/index"
         },
         {
           "type": "doc",
@@ -1090,7 +1241,7 @@ const sidebars = {
     },
     {
       "type": "category",
-      "label": "White Label Portal (WLP)",
+      "label": "White Label Portal",
       "collapsed": true,
       "items": [
         {
@@ -1229,7 +1380,7 @@ const sidebars = {
     },
     {
       "type": "category",
-      "label": "White Label App (WLA)",
+      "label": "White Label Mobile App",
       "collapsed": true,
       "items": [
         {
@@ -1263,6 +1414,10 @@ const sidebars = {
         {
           "type": "doc",
           "id": "admin-user-guide/app-configuration/user-management"
+        },
+        {
+          "type": "doc",
+          "id": "admin-user-guide/login-and-wallet-creation"
         },
         {
           "type": "doc",
@@ -1307,169 +1462,6 @@ const sidebars = {
         {
           "type": "doc",
           "id": "wla-versions-and-changelog/version-0.23"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Other imported pages",
-      "collapsed": true,
-      "items": [
-        {
-          "type": "doc",
-          "id": "admin-user-guide/index"
-        },
-        {
-          "type": "doc",
-          "id": "admin-user-guide/login-and-wallet-creation"
-        },
-        {
-          "type": "doc",
-          "id": "faq"
-        },
-        {
-          "type": "doc",
-          "id": "get-started"
-        },
-        {
-          "type": "doc",
-          "id": "glossary"
-        },
-        {
-          "type": "doc",
-          "id": "overview/dealing-with-blockchain-transactions/how-to-get-ether-for-signing-transactions"
-        },
-        {
-          "type": "doc",
-          "id": "overview/dealing-with-blockchain-transactions/index"
-        },
-        {
-          "type": "doc",
-          "id": "overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/first-transaction-creation-and-submission-for-a-new-address-on-the-private-blockchain"
-        },
-        {
-          "type": "doc",
-          "id": "overview/dealing-with-blockchain-transactions/transaction-creation-and-submission/index"
-        },
-        {
-          "type": "doc",
-          "id": "overview/supply-management"
-        },
-        {
-          "type": "doc",
-          "id": "overview/warp-search"
-        },
-        {
-          "type": "doc",
-          "id": "SUMMARY"
-        },
-        {
-          "type": "doc",
-          "id": "trooubleshooting"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/adding-wallet-to-the-teos-platform-flow-with-txserver-and-teos-api"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/device-authorization-flow-with-txserver-and-teos-authentication-service"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/index"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/using-discovery-service"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/using-teos-authentication-service/index"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/using-tms-api/changelog"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/using-tms-api/handling-errors"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/using-tms-api/index"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/using-txserver-api/device-restoration"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/using-txserver-api/index"
-        },
-        {
-          "type": "doc",
-          "id": "using-additional-apis-of-teos-platform/using-txserver-api/key-pair-generation.-transaction-signing"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/architecture-note/blockchain-networks"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/architecture-note/index"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/architecture-note/tenant-setup-options"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/authentication"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/concepts/asset"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/concepts/index"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/concepts/invoice"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/concepts/spark"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/concepts/supply"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/concepts/transaction"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/concepts/wallet"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/concepts/warp"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/index"
-        },
-        {
-          "type": "doc",
-          "id": "using-the-teos-api/versioning"
         }
       ]
     }
