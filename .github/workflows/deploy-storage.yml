@@ -1,0 +1,65 @@
+name: Deploy Docusaurus docs to Azure Storage
+
+on:
+  push:
+    branches:
+      - docusaurus-migration
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  AZURE_STORAGE_ACCOUNT: infrastructureteosdocs
+  AZURE_STORAGE_CONTAINER: $web
+  AZURE_STORAGE_PREFIX: docusaurus
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+
+      - name: Setup pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@11.7.0 --activate
+
+      - name: Install documentation dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build documentation
+        run: pnpm run build
+
+      - name: Azure login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Clear previous Docusaurus docs
+        run: |
+          az storage blob delete-batch \
+            --account-name "$AZURE_STORAGE_ACCOUNT" \
+            --source "$AZURE_STORAGE_CONTAINER" \
+            --pattern "$AZURE_STORAGE_PREFIX/*" \
+            --auth-mode login
+
+      - name: Upload Docusaurus docs
+        run: |
+          az storage blob upload-batch \
+            --account-name "$AZURE_STORAGE_ACCOUNT" \
+            --destination "$AZURE_STORAGE_CONTAINER" \
+            --destination-path "$AZURE_STORAGE_PREFIX" \
+            --source "docusaurus" \
+            --overwrite true \
+            --auth-mode login

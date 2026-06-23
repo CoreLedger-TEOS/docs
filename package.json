@@ -1,0 +1,21 @@
+{
+  "name": "coreledger-docs-docusaurus",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "convert:gitbook": "node scripts/convert-gitbook-to-docusaurus.mjs",
+    "start": "docusaurus start",
+    "build": "docusaurus build --out-dir docusaurus",
+    "serve": "docusaurus serve docusaurus"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
+    "@mdx-js/react": "^3.1.0",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {}
+}
