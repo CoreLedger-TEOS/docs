@@ -244,10 +244,54 @@
   line-height: 1.45;
 }
 
+.md-sidebar--primary .md-nav {
+  font-size: 0.72rem;
+}
+
+.md-sidebar--primary .md-nav__list {
+  gap: 0.02rem;
+}
+
+.md-sidebar--primary .md-nav__item {
+  padding: 0;
+}
+
 .md-nav__link {
   border-radius: 6px;
-  margin-top: 0.08rem;
-  padding: 0.28rem 0.45rem;
+  line-height: 1.25;
+  margin-top: 0.03rem;
+  min-height: 1.55rem;
+  padding: 0.18rem 0.38rem;
+}
+
+.md-sidebar--primary .md-nav__container {
+  align-items: center;
+  border-radius: 6px;
+  display: grid;
+  gap: 0.12rem;
+  grid-template-columns: minmax(0, 1fr) 1.55rem;
+  margin-top: 0.03rem;
+}
+
+.md-sidebar--primary .md-nav__container > .md-nav__link {
+  margin: 0;
+  min-width: 0;
+}
+
+.md-sidebar--primary .md-nav__container > label.md-nav__link {
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.md-sidebar--primary .md-nav__container:has(> .md-nav__link--active),
+.md-sidebar--primary .md-nav__container:hover {
+  background: #f0f4ff;
+}
+
+.md-sidebar--primary .md-nav__container > .md-nav__link--active,
+.md-sidebar--primary .md-nav__container:hover > .md-nav__link {
+  background: transparent;
 }
 
 .md-nav__link--active,

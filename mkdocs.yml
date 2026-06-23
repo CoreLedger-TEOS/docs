@@ -232,7 +232,7 @@ nav:
           - Previous versions (not supported): teos-api/changelog/v0.3.md
       - Troubleshooting: teos-api/troubleshooting.md
   - White Label Management Tool:
-      - Welcome!: README.md
+      - Welcome!: white-label-management-tool.md
       - Where to start:
           - Where to start: where-to-start/README.md
           - Step 1 - Create TEOS account: where-to-start/step-1-create-teos-account.md
