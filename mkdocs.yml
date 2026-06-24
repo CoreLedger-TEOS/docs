@@ -13,6 +13,7 @@ theme:
   logo: assets/CoreLedger_Logo_Normal_RGB_horizontal.png
   favicon: assets/CoreLedger_Logo_Normal_RGB_horizontal.png
   features:
+    - content.action.edit
     - navigation.indexes
     - navigation.top
     - search.highlight
