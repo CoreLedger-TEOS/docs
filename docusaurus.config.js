@@ -50,12 +50,13 @@ const config = {
     ],
   ],
 
-  themes: [
+  plugins: [
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         hashed: true,
         language: ['en'],
+        docsRouteBasePath: '/',
         indexBlog: false,
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
