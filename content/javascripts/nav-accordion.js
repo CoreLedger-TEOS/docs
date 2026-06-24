@@ -30,9 +30,25 @@
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', bindProductAccordion);
-  } else {
+  function openEditLinksInNewTab() {
+    var editLinks = document.querySelectorAll(
+      '.md-content__button[title="Edit this page"]'
+    );
+
+    editLinks.forEach(function (link) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+  }
+
+  function initDocsBehavior() {
     bindProductAccordion();
+    openEditLinksInNewTab();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initDocsBehavior);
+  } else {
+    initDocsBehavior();
   }
 })();
