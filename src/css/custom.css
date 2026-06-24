@@ -86,6 +86,14 @@ html[data-theme='dark'] .theme-doc-sidebar-container {
   margin-bottom: 1.25rem;
 }
 
+.theme-doc-markdown h1 + .doc-description {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.05rem;
+  line-height: 1.45;
+  margin-top: -0.75rem;
+  margin-bottom: 1.5rem;
+}
+
 .theme-doc-markdown h2 {
   border-top: 1px solid #e7edf3;
   padding-top: 1.5rem;

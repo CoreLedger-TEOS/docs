@@ -4,6 +4,8 @@ description: 'With this version WLP admins and users can try the following impro
 
 # Version 1.3
 
+<p className="doc-description">With this version WLP admins and users can try the following improvements:</p>
+
 👉 **WLP API Versioning Implemented**\
 API versioning has been introduced to ensure backward compatibility and facilitate future updates. [wlp-api-documentation.md](../wlp-api-documentation.md)
 

@@ -7,6 +7,8 @@ description: &gt;-
 
 # How to transfer tokens to the external wallet?
 
+<p className="doc-description">You can send tokens from WLM to external wallets via “WLM - Transfer token”. Below is a short instruction how to do it and how to import token data to such popular wallets as Trust Walle and MetaMask.</p>
+
 ### How to transfer tokens from WLM?
 
 1. Go to “Asset-My Assets” on the left menu in the WLM.

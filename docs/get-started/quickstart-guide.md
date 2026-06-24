@@ -4,6 +4,8 @@ description: How to authenticate
 
 # 🚀 Quickstart Guide
 
+<p className="doc-description">How to authenticate</p>
+
 This guide explains the types of access tokens supported by TEOS API, how to get them, and how to use them in API calls.
 
 #### Types of access tokens

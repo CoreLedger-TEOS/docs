@@ -4,6 +4,8 @@ description: 'With this version WLP admins and users can try the following impro
 
 # Version 1.1
 
+<p className="doc-description">With this version WLP admins and users can try the following improvements:</p>
+
 👉  Adding a redirect to an external website when clicking on the logo.
 
 👉  Adding the user's name to the welcome message after registration.

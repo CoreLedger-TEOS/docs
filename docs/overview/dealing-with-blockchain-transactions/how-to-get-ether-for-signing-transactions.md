@@ -4,6 +4,8 @@ description: Gas distribution mechanism
 
 # How to get gas for signing transactions
 
+<p className="doc-description">Gas distribution mechanism</p>
+
 There is a gas cost for every transaction which must be paid for in Ether. TEOS Platform is integrated with several blockchains, depending on the selected option there are two approaches to getting Ether:
 
 * If Ethereum Mainnet or Polygon are used, then TEOS API consumer takes care about making sure its end users have enough Ether to sign transactions (normally wallet owners should buy Ether to be able to operate).

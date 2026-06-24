@@ -4,6 +4,8 @@ description: Layout, order properties
 
 # Template for redemption details
 
+<p className="doc-description">Layout, order properties</p>
+
 Please, prepare a word document which will follow the rules described below. You should send this template to CL manager to apply it. Based on this template PDF with redemption details of each redemption will be generated and attached to the email sent to user.
 
 ### How to prepare layout

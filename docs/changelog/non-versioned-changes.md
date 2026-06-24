@@ -4,6 +4,8 @@ description: These changes are relevant for all versions with corresponding func
 
 # Non-versioned changes
 
+<p className="doc-description">These changes are relevant for all versions with corresponding functionality</p>
+
 :::info
 Check [versioning.md](./versioning.md) to learn more about this type of changes
 :::

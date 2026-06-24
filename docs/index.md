@@ -4,6 +4,8 @@ description: 'Latest version: v1.1'
 
 # 👋 Welcome to TEOS API
 
+<p className="doc-description">Latest version: v1.1</p>
+
 :::info
 We've delivered some [non-versioned updates ](./changelog/non-versioned-changes.md)to currently available versions, check what's new and try it out
 :::

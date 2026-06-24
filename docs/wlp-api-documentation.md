@@ -4,6 +4,8 @@ description: Welcome to the WLP API documentation. This API follows the OData pr
 
 # WLP API documentation
 
+<p className="doc-description">Welcome to the WLP API documentation. This API follows the OData protocol.</p>
+
 **Introduction**
 
 The latest Swagger documentation is available at [this URL](https://wlp-dev2.dev.coreledger.net/api/swagger).

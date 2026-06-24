@@ -7,6 +7,8 @@ description: &gt;-
 
 # Purchase assets and Featured asset
 
+<p className="doc-description">Settings in this section are relevant for purchasing functionality only. You can skip this part if you're not going to switch on feature "Purchase assets" or "Featured asset"</p>
+
 Full configuration of Shop and Featured asset functionality includes following steps:
 
 1. Configure assets to sell in WLM [asset-configuration.md](../../asset-configuration.md) and enrich with specific purchasing properties [#asset-configuration-for-purchasing](./index.md#asset-configuration-for-purchasing)

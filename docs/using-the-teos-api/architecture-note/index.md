@@ -4,6 +4,8 @@ description: Data isolation for tenants, high-availability, interfaces
 
 # Architecture note
 
+<p className="doc-description">Data isolation for tenants, high-availability, interfaces</p>
+
 TEOS platform architecture was designed in a way to address most development and IT operations concerns. Here you can find how we cover the most sensitive topics.
 
 ## Data isolation

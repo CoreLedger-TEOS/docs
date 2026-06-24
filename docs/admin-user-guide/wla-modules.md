@@ -4,6 +4,8 @@ description: List of modules, how to build your own app using WLA code base
 
 # WLA modules
 
+<p className="doc-description">List of modules, how to build your own app using WLA code base</p>
+
 Starting from v0.19 WLA code base is divided into several modules. Now you can use only those modules which are necessary for your business case. The list of available modules:
 
 * tech modules which are mandatory to use: core, authorization, api requests, wallets, transactions

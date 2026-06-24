@@ -7,6 +7,8 @@ description: &gt;-
 
 # Versioning
 
+<p className="doc-description">Why we use versioning, how to use versions in your requests, and the difference between versioned &amp; non-versioned changes and breaking &amp; non-breaking changes.</p>
+
 ## What is the latest TEOS API Version?
 Check it in [.](./index.md)
 

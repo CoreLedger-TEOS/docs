@@ -4,6 +4,8 @@ description: Supply expiry date, invoice target address, invoice expiry date
 
 # Decentralized market and payment request configuration
 
+<p className="doc-description">Supply expiry date, invoice target address, invoice expiry date</p>
+
 All configuration _is_ done within main configuration file _trading-app-configs/ui\_config.v1.json._
 
 ## Supply expiry date

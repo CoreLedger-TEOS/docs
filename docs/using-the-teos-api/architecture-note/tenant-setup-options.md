@@ -4,6 +4,8 @@ description: Blockchain providers, cloud providers, authentication types typical
 
 # Tenant setup options
 
+<p className="doc-description">Blockchain providers, cloud providers, authentication types typical cases</p>
+
 There is a set of basic configurations which should be defined when new tenant is setup. Necessary tenant setup configuration is defined by TEOS API consumer requirements. We collected typical setup configurations which were used so far and described it below. If you are looking for some other options, they can be discussed upon a request.
 
 ![](/img/gitbook-assets/data-layers-page-2.drawio.svg)

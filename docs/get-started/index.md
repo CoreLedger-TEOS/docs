@@ -6,6 +6,8 @@ description: &gt;-
 
 # Get started
 
+<p className="doc-description">Steps to get started with the TEOS API and info to read while waiting for your tenant.</p>
+
 The TEOS API is currently only available via subscription. A free or trial version is not available. Since all data and information generated and processed via the TEOS API belong to your subscription, we set up a separate workspace for it. We call this a "tenant".
 
 Contact CoreLedger and obtain a subscription. You can use [use this form](https://coreledger.net/contact/) to request a meeting with a manager to onboard you.

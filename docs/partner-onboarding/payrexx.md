@@ -4,6 +4,8 @@ description: The All-in-One payment solution for global SMEs.
 
 # Payrexx
 
+<p className="doc-description">The All-in-One payment solution for global SMEs.</p>
+
 [Payrexx ](https://payrexx.com/en)offers you all common payment methods from a single source. These include Visa, Mastercard, Klarna, Apple Pay, Diners, Google Pay and many more - without any additional contracts.
 
 Payrexx is already integrated into WLP. This allows you to start using it quickly.&#x20;

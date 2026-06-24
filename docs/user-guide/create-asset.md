@@ -4,6 +4,8 @@ description: Main properties, additional properties, controllers, translations
 
 # Create asset
 
+<p className="doc-description">Main properties, additional properties, controllers, translations</p>
+
 Go to "Assets" in the sidebar menu. Click button “New Asset” at the top right.
 
 ### Step 1 - Main properties (mandatory)

@@ -4,6 +4,8 @@ description: Fox version available starting 16th June.
 
 # Fox
 
+<p className="doc-description">Fox version available starting 16th June.</p>
+
 ### Changes:
 
 *   **Default pagination implemented for all data collections to improve performance and usability**

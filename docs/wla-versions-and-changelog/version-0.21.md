@@ -4,6 +4,8 @@ description: Available from April, 2023
 
 # Version 0.21
 
+<p className="doc-description">Available from April, 2023</p>
+
 #### New features
 
 We've made the process of the supplies search in the Market more stable and user-friendly:&#x20;

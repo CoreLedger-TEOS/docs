@@ -4,6 +4,8 @@ description: Portal colors, logo and favicon, texts for landing page, imprint da
 
 # Branding management
 
+<p className="doc-description">Portal colors, logo and favicon, texts for landing page, imprint data</p>
+
 ### Portal colors
 
 With the “Colors.json” file the colors (HEX) of the WLP can be modified. The file can be found in the blob storage of your tenant.

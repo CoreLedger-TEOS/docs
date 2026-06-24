@@ -4,6 +4,8 @@ description: WLP functionality available for end users
 
 # How your users interact with the portal
 
+<p className="doc-description">WLP functionality available for end users</p>
+
 ## KYC checks
 
 If you enable KYC functionality, availability and visibility of functionality for user is defined by his current KYC tier. Functionality which is not available will be closed by "Get KYC tier N". Users will be forced to go through KYC checks to get required KYC tier.

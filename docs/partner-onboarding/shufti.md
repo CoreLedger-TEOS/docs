@@ -4,6 +4,8 @@ description: Fast and easy AI-powered KYC and AML verification.
 
 # Shufti
 
+<p className="doc-description">Fast and easy AI-powered KYC and AML verification.</p>
+
 [Shufti](https://shuftipro.com/category/user-identification-authentication/) is a service for fast and secure online KYC and AML checks, using AI to verify documents, faces, and addresses.
 
 Shufti is already integrated into WLP. This saves you dozens of development hours.

@@ -4,6 +4,8 @@ description: Asset balance, balance operations, transactions overview, signing t
 
 # Assets and transactions
 
+<p className="doc-description">Asset balance, balance operations, transactions overview, signing transactions</p>
+
 ## Assets overview and asset balance
 
 User can check the list of assets available in this app (defined by admin [asset-configuration.md](../admin-user-guide/app-configuration/asset-configuration.md)) and the balance of these assets for the wallet owned by user and connected to the app.

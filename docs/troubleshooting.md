@@ -4,6 +4,8 @@ description: How to report an issue, how to request urgent help
 
 # Troubleshooting
 
+<p className="doc-description">How to report an issue, how to request urgent help</p>
+
 ### I get 503 Service unavailable error in production
 
 All planned and unplanned outages in the production environment are communicated via our [Telegram channel](https://t.me/notifyteos). We recommend you subscribe to be notified about all status updates.

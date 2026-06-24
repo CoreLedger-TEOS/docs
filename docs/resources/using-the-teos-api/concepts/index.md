@@ -7,6 +7,8 @@ description: &gt;-
 
 # TEOS Platform terms and concepts
 
+<p className="doc-description">Main TEOS Platform terms, development and blockchain terms used in TEOS API and TEOS platform in general. You can check the extended description of main TEOS platform concepts in subsections</p>
+
 ## TEOS Platform terms
 
 **TEOS as PaaS /TEOS Platform/** – Token Economy Operating System which represents platform as a service (TEOS as PaaS), CoreLedger’s core product, includes all platform components.

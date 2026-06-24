@@ -4,6 +4,8 @@ description: Error response structure, errors overview
 
 # Handling errors
 
+<p className="doc-description">Error response structure, errors overview</p>
+
 Requests made to our APIs can result in several different error responses. The following document describes a list of error values with a map to the most common recovery tactic to use.
 
 ## Error Responses

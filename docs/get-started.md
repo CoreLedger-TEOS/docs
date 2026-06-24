@@ -7,6 +7,8 @@ slug: /get-started-page
 
 # Get started
 
+<p className="doc-description">Steps to get started with the TEOS API and info to read while waiting for your tenant.</p>
+
 We are working on introducing a fully automated flow for setting up a new tenant, which will require a lot of configuration questions to be answered right at the start. Until this is in place, we're happy to offer you the care and support of one of our CoreLedger managers who help customers find the right answers.
 
 In order to start building your apps with the TEOS API a few steps need to be taken:

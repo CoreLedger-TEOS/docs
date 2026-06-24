@@ -4,6 +4,8 @@ description: WLP v1.3 introduces new features for Reference Code Logic.
 
 # Reference Code Logic
 
+<p className="doc-description">WLP v1.3 introduces new features for Reference Code Logic.</p>
+
 These changes ensure that customers can generate more flexible, readable, and customizable reference codes, improving the overall experience and making it easier to meet specific business requirements.
 
 **Variable Support:**

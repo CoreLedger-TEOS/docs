@@ -6,6 +6,8 @@ description: &gt;-
 
 # First transaction creation and submission for a new address on the private blockchain
 
+<p className="doc-description">How to build the flow for the first transaction submission for a new address registered in TEOS API for SparkNet or DevilNet</p>
+
 Ether is distributed via transfer transactions, so it takes some time. Sending Ether to a new address is triggered only when this address is used as a source of a transaction, so you need to wait until Ether is received in order to submit the transaction signed by this address successfully. In case the address doesn't have enough Ether, the transaction will be revoked by the blockchain because of the lack of gas.
 
 #### Flow for creating and singing transactions first time for a new address

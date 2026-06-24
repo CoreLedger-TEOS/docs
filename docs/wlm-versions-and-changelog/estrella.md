@@ -4,6 +4,8 @@ description: Estrella is available from January, 9
 
 # Estrella
 
+<p className="doc-description">Estrella is available from January, 9</p>
+
 This release brings significant architectural changes introduced to improve system's reliability, security and performance.
 
 ### Changes:

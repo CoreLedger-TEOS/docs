@@ -4,6 +4,8 @@ description: Types of access tokens, how to get them and how to use
 
 # Authentication
 
+<p className="doc-description">Types of access tokens, how to get them and how to use</p>
+
 TEOS API uses two types of access tokens:
 
 * **API key** for most of the cases

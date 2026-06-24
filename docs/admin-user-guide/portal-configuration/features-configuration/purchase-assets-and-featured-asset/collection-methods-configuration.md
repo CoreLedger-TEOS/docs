@@ -6,6 +6,8 @@ description: &gt;-
 
 # Collection methods configuration
 
+<p className="doc-description">Under this section the collection methods can be enabled / disabled and configured</p>
+
 Starting from v0.16 collection methods can be configured via UI under "Configuration management" -&gt; "Purchase configuration" -&gt; "Collection methods"
 
 Currently four collection methods “Token Card”, “Wallets created in mobile app", "Wallets saved to portal directly or via other TEOS platform components” and “One time wallet” are available:

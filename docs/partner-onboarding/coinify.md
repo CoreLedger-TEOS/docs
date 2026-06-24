@@ -4,6 +4,8 @@ description: Accept crypto payments everywhere.
 
 # Coinify
 
+<p className="doc-description">Accept crypto payments everywhere.</p>
+
 [Coinify ](https://www.coinify.com/payment-solutions)offers a payment solution for accepting crypto payments online and settling in your local currency or cryptocurrency.
 
 Coinify is already integrated into WLP. This makes development much faster.

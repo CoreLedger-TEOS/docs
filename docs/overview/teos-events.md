@@ -4,6 +4,8 @@ description: Subscribing to events, types of events, receiving events
 
 # TEOS Events
 
+<p className="doc-description">Subscribing to events, types of events, receiving events</p>
+
 Numerous requests to our API are asynchronous. Results to such calls arrive shortly in forms of events. Here you can find what types of events are produced and how to subscribe to them.
 
 ## Subscribing to events

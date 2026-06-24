@@ -6,6 +6,8 @@ description: &gt;-
 
 # Tenant configuration
 
+<p className="doc-description">General settings, admin users management, mobile app name setting, reference code template</p>
+
 ### White Label Mobile Application name
 
 Go to **Configuration management** page to setup WLA name. Scroll down to **Mobile application config** section and provide the name to display

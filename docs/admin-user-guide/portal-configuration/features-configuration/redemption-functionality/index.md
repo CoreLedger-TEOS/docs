@@ -6,6 +6,8 @@ description: &gt;-
 
 # Redemption functionality
 
+<p className="doc-description">Settings in this section are relevant for redemption functionality only. You can skip this part if you're not going to switch on feature "Redeem assets"</p>
+
 Full configuration of Redemption functionality includes following steps:
 
 #### Step 1. Configure general redemption settings

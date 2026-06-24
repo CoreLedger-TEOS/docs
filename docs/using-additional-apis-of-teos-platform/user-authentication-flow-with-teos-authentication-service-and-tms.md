@@ -4,6 +4,8 @@ description: User authentication flow description
 
 # User authentication flow with TEOS Authentication service and TMS
 
+<p className="doc-description">User authentication flow description</p>
+
 The following diagram describes the typical request flow from an authentication/authorization point of view. You can find a detailed description of each step below.
 
 ![](../.gitbook/assets/TMS Auth Flow.png)

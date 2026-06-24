@@ -4,6 +4,8 @@ description: Application colors, in app logo
 
 # Branding management
 
+<p className="doc-description">Application colors, in app logo</p>
+
 The WLA look and feel can be customized to a specific degree. All options can be set in the corresponding config file (The config file is stored on our Azure blob in the root of the folder **trading-app-configs** and called _ui\_config.v1.json_).
 
 Every change in this file is reflected in the WLA immediately after restarting the app or after manually updating the configuration in the app. To do the manual update go to settings, select “About the app” and then click “Update configs”.

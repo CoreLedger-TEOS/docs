@@ -6,6 +6,8 @@ description: &gt;-
 
 # KYC checks
 
+<p className="doc-description">Settings in this section are relevant for KYC functionality only. You can skip this part if you're not going to switch on feature "KYC checks"</p>
+
 Go to **"Advanced config management"** in order to configure settings for KYC checks using json editor.
 
 ## Step 1. Decide how many tiers are necessary for your business case and describe them
