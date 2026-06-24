@@ -10,4 +10,4 @@ Asset can be described in a very detailed way by filling its properties in TEOS 
 
 TEOS user can link assets and unlink them, change asset with the help of amendments written to blockchain, exchange them with the help of supplies. All of these operations are possible after asset is created and written to blockchain.
 
-📘 Learn more about Assets -[ link](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/8Gkk33l0DIIchfRT86LP/~/changes/1/resources/using-the-teos-api/concepts/asset)
+📘 Learn more about Assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)

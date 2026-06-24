@@ -4,8 +4,7 @@ Select which template you want to manage, click on the corresponding row to adju
 
 ![](/img/gitbook-assets/image-49.png)
 
-### Asset creation: properties &lt;a href="#_ref18675748" id="_ref18675748"&gt;&lt;/a&gt;
-
+### Asset creation: properties
 If you're going to let WLM users create assets [create-asset.md](../../user-guide/create-asset.md), you may need to change the set of properties required for each new asset. Default asset template contains the list of required properties from technical perspective and some general properties valid for every business case.
 
 In the asset template management view you can do the following:

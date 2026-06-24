@@ -6,8 +6,7 @@ description: Error response structure, errors overview
 
 Requests made to our APIs can result in several different error responses. The following document describes a list of error values with a map to the most common recovery tactic to use.
 
-## Error Responses &lt;a href="#receiving-errorcodes" id="receiving-errorcodes"&gt;&lt;/a&gt;
-
+## Error Responses
 TEOS API is using HTTP status codes as a highest level of response codes. Following status codes can be returned by TEOS API:
 
 * HTTP 4xx - error on the client side

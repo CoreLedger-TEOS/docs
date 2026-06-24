@@ -2,8 +2,7 @@
 
 You can check the changelog of each version on a corresponding page. We announce our updates in telegram channel. [Join us there](https://t.me/notifyteos)!
 
-### Released versions &lt;a href="#available-graph-api-versions" id="available-graph-api-versions"&gt;&lt;/a&gt;
-
+### Released versions
 | Version                  | Release date            |
 | ------------------------ | ----------------------- |
 | Gecko                    | Coming soon: 30.06.2026 |

@@ -8,7 +8,7 @@ description: 'With this version WLP admins and users can try the following impro
 API versioning has been introduced to ensure backward compatibility and facilitate future updates. [wlp-api-documentation.md](../wlp-api-documentation.md)
 
 👉 **Improved Reference Code Logic**\
-New dynamic variables — `&#123;year&#125;`, `&#123;month&#125;`, `&#123;day&#125;`, `&#123;count&#125;` (incrementing order number) — allow for the generation of flexible, readable, and unique reference codes tailored to specific business needs. [reference-code-logic.md](../admin-user-guide/portal-configuration/reference-code-logic.md)
+New dynamic variables — `{year}`, `{month}`, `{day}`, `{count}` (incrementing order number) — allow for the generation of flexible, readable, and unique reference codes tailored to specific business needs. [reference-code-logic.md](../admin-user-guide/portal-configuration/reference-code-logic.md)
 
 👉 **Login/Register Button Configuration**\
 Tenant admins can now configure the Login/Register button to appear only in the sidebar or also on the feature page. This allows for testing and comparing registration conversion rates across different layouts.

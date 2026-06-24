@@ -11,7 +11,7 @@ This endpoint unlinks one or more assets from a source asset. The transaction is
 * The user owns the source asset issuer's address.
 * Target assets with the provided uniqueAssetIds exist and are currently linked.
 
-📘 Learn more about assets -[ link](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/8Gkk33l0DIIchfRT86LP/~/changes/1/resources/using-the-teos-api/concepts/asset)
+📘 Learn more about assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
 
 #### Request Endpoint:
 

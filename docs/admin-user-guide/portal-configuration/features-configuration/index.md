@@ -25,14 +25,14 @@ _User view when user uses direct link to the redemption method when "Use WLP dir
 #### How to build direct links
 
 Links to the specific **redemption methods** are built in the following way:\
-`&#123;portal url&#125;/redemption/details/&#123;redemptionId&#125;,`\
+`{portal url}/redemption/details/{redemptionId},`\
 where redemptionId is the redemption ID from the Advanced config management\
 \
 Example:\
 &#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/redemption/details/1111-222-34242-123132_
 
 Links to the specific **featured assets** are built in the following way:\
-`&#123;portal url&#125;/featured/&#123;uniqueAssetId&#125;,`\
+`{portal url}/featured/{uniqueAssetId},`\
 where uniqueAssetId is the unique Asset ID assigned to the asset automatically when asset is created, it can be found in Advanced config management\
 \
 Example:\

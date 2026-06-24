@@ -52,7 +52,7 @@ _Search Assets_
 
 We're working on making the configuration process of TEOS platform easier for admins.
 
-With this version first step is already available: now all WLM users have collection of definition items called "WLA\&WLP configuration", admins can use this collection during asset creation process to set [WLA ](https://teos-docs.coreledger.net/v/white-label-mobile-app/)and [WLP ](https://teos-docs.coreledger.net/v/white-label-portal/)properties instead of configuration files of [WLA ](https://teos-docs.coreledger.net/v/white-label-mobile-app/)and [WLP](https://teos-docs.coreledger.net/v/white-label-portal/). Soon [WLP v0.15](https://teos-docs.coreledger.net/v/white-label-portal/) and [WLA v0.21](https://teos-docs.coreledger.net/v/white-label-mobile-app/) will be released which use these properties instead of asset configuration files.
+With this version first step is already available: now all WLM users have collection of definition items called "WLA\&WLP configuration", admins can use this collection during asset creation process to set [WLA ](../wla-versions-and-changelog/index.md)and [WLP ](../wlp-versions-and-changelog/index.md)properties instead of configuration files of [WLA ](../wla-versions-and-changelog/index.md)and [WLP](../wlp-versions-and-changelog/index.md). Soon [WLP v0.15](../wlp-versions-and-changelog/index.md) and [WLA v0.21](../wla-versions-and-changelog/index.md) will be released which use these properties instead of asset configuration files.
 
 We introduced some technical changes to make solution more stable.
 
@@ -90,4 +90,4 @@ We fixed some bugs to make our solution more user-friendly and stable.&#x20;
 
 We made changes in the sign up flow to make accepting terms and conditions easier.&#x20;
 
-Also we introduced unique asset ID displaying on the asset details page which admins use for [WLA ](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/7Xg7iannH70Bvo1bfqMb/)and [WLP ](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/iTYqY7GQFlQO0s8Vbk2r/)setup.&#x20;
+Also we introduced unique asset ID displaying on the asset details page which admins use for [WLA ](../wla-versions-and-changelog/index.md)and [WLP ](../wlp-versions-and-changelog/index.md)setup.&#x20;

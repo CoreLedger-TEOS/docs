@@ -67,7 +67,7 @@ The imprint section can be accessed via the button on the bottom of the sidebar.
 
 Additionally, the imprint section can be fully customized with an individual html. The custom html needs to be uploaded in the blob storage and the path needs to be provided in the configuration management “customHtmlSourcePath”. Check [here how to prepare custom HTML](./how-to-prepare-custom-html.md)
 
-`"imprint": &#123;`
+`"imprint": {`
 
 `"company": "testcompany",`
 
@@ -77,7 +77,7 @@ Additionally, the imprint section can be fully customized with an individual htm
 
 `"email": "testmail@company.com ",`
 
-`"customHtmlSourcePath": "drafts/anything/anything.html"&#125;`
+`"customHtmlSourcePath": "drafts/anything/anything.html"}`
 
 :::warning
 We highly recommend to provide email by which your end-users can contact you. If you don't provide it, all texts, where it should be shown, will be empty&#x20;

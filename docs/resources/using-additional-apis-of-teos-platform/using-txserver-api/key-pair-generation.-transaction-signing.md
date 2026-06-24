@@ -12,7 +12,7 @@ There is plenty of information in the internet about public-key cryptography (PK
 
 #### Key Pair generation
 
-To utilize TEOS platform, the key pair must be created in one or another way. Applications like TXMobile or [White Label Mobile App (WLA)](https://teos-docs.coreledger.net/v/white-label-mobile-app) provide a way to generate a key pair as a part of their main process. These applications keep the private key encrypted and secured on the user device. To use the Teos API the key pairs could be generated using libraries and frameworks, available for most of actual languages. Some examples (the list does not pretend to be complete) are below:
+To utilize TEOS platform, the key pair must be created in one or another way. Applications like TXMobile or [White Label Mobile App (WLA)](../../../wla-versions-and-changelog/index.md) provide a way to generate a key pair as a part of their main process. These applications keep the private key encrypted and secured on the user device. To use the Teos API the key pairs could be generated using libraries and frameworks, available for most of actual languages. Some examples (the list does not pretend to be complete) are below:
 
 
 

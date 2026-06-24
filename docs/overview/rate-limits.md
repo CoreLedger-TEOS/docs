@@ -6,8 +6,7 @@ All API requests are subject to rate limits. TEOS API requests are subject to [P
 
 Real-time rate limit usage statistics are described in headers that are included with most API responses once enough calls have been made to an endpoint. Once a rate limit is reached, any subsequent requests made by your app will fail and the API will return an error code until enough time has passed for the call count to drop below the limit.
 
-### Platform Rate Limits &lt;a href="#platform-rate-limits" id="platform-rate-limits"&gt;&lt;/a&gt;
-
+### Platform Rate Limits
 TEOS API requests made with an API key or user access token ([check here](../get-started/authentication-types.md))  are counted against that tenant’s rate limit. A tenant’s call count is the number of calls it can make during a rolling twenty-four-hour window and is defined as follows:
 
 
@@ -32,8 +31,7 @@ To prevent the spikes in a short time, the default limit of 100 calls per minute
 
 
 
-#### Headers &lt;a href="#headers" id="headers"&gt;&lt;/a&gt;
-
+#### Headers
 Endpoints that receive enough requests from your app will include a `X-Rate-Limit-Limit`, `X-Rate-Limit-Remaining` and `X-Rate-Limit-Reset` HTTP headers in their responses. The headers will contain strings, describing current application rate limit usage.
 
 **Header Contents**
@@ -51,8 +49,7 @@ DateTime resetDate = DateTime.ParseExact(resetHeader, "o",
     DateTimeFormatInfo.InvariantInfo);
 ```
 
-#### Best Practices &lt;a href="#best-practices" id="best-practices"&gt;&lt;/a&gt;
-
+#### Best Practices
 * When the limit has been reached, stop making API calls. Continuing to make calls will continue to increase your call count, which will increase the time before calls will be successful again.
 * Spread out queries evenly to avoid traffic spikes.
 * Use filters to limit the data response size and avoid calls that request overlapping data.

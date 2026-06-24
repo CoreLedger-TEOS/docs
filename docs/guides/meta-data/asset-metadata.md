@@ -4,7 +4,7 @@ This API allows you to get full **metadata** of a blockchain asset, including bo
 
 The user can request metadata by providing the **unique asset ID**.
 
-📘 [Learn more](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/8Gkk33l0DIIchfRT86LP/~/changes/83/guides/meta-data) about meta data.
+📘 [Learn more](./index.md) about meta data.
 
 #### Endpoint
 

@@ -4,7 +4,7 @@ Discovery service of TEOS platform is a component, providing configurations to f
 
 ## Returns Front-End or Mobile Application configuration and endpoints
 
-`GET` `https://disco.coreledger.net/api/discovery/v1.0/config/&#123;id&#125;`
+`GET` `https://disco.coreledger.net/api/discovery/v1.0/config/{id}`
 
 The structure of the returned json document differs from application to application and is based solely on the provided ID. Returned result can be single record or an array of records. In case of multiple configurations, returned by the endpoint the application should correspondingly handle them and e.g. offer a selection window to a user right after the start
 

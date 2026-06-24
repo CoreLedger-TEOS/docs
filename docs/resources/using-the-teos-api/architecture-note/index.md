@@ -18,24 +18,21 @@ There are several layers of logical data isolation for tenants which are represe
 
 ![](/img/gitbook-assets/cl_teos-api_arch-note-data-layers.drawio.svg)
 
-### Blockchain level &lt;a href="#network-layer" id="network-layer"&gt;&lt;/a&gt;
-
+### Blockchain level
 Every tenant is configured to be connected with the specific blockchain. TEOS platform is integrated with the list of blockchains, some of which are used mainly for development purposes (DevilNet). TEOS API consumers can decide with which blockchain to integrate when a tenant is being set up.
 
 Data written to the blockchain is available for any blockchain reader. For example, in the picture tenants A and B have access to the data written to the Ethereum blockchain. Tenants C and D have access to the data written to the SparkNet blockchain. Though data can be encrypted and filtered on the application level.
 
 Also, the TEOS Platform provides a possibility to use controllers which operate on the blockchain level and restrict specific operations with specific data types.
 
-### Application level &lt;a href="#application-layer" id="application-layer"&gt;&lt;/a&gt;
-
+### Application level
 All platform components have in-built authorization to get access to the tenant data.
 
 TEOS platform has a multi-tenancy concept which means that several tenants are served by one set of components. Each tenant has its own logically isolated data storage on the application level, access to which is provided only for authorized components and users.
 
 [Assets ](../concepts/asset.md)written to the blockchain contain a hash of all parameters which define the specific asset and which are available in the TEOS platform. Assets have special parameters which allow filtering data on the application level to limit access to the blockchain data for end users of TEOS API consumers.
 
-### Environments &lt;a href="#environments-and-nodes" id="environments-and-nodes"&gt;&lt;/a&gt;
-
+### Environments
 TEOS platform has a list of environments that have different purposes. We distinguish Production, Pilot and Development environments which have different sets of TEOS platform components with different SLAs and transaction costs.
 
 * Production - the environment for production-ready solutions, high SLAs, both private and public blockchains can be used.

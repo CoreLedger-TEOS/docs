@@ -7,12 +7,10 @@ description: &gt;-
 
 # Versioning
 
-## What is the latest TEOS API Version? &lt;a href="#latest" id="latest"&gt;&lt;/a&gt;
-
+## What is the latest TEOS API Version?
 Check it in [.](./index.md)
 
-## Why do we have versions? &lt;a href="#whyversion" id="whyversion"&gt;&lt;/a&gt;
-
+## Why do we have versions?
 We want developers using the TEOS API to benefit from new features and changes when it's convenient for their development cycle and to make sure that running solutions don't break with a new release.
 
 Version availability can be critical for mobile development. The person using your app on their device may not upgrade for a long time, which can result in the app calling an unavailable version.
@@ -38,20 +36,17 @@ For SDKs or code base templates using the TEOS API which can be mentioned in the
 
 You can find specific information about our version timelines, changes, and release dates on our [changelog page](./index.md).
 
-#### Will everything remain completely unchanged in a version? &lt;a href="#stability" id="stability"&gt;&lt;/a&gt;
-
+#### Will everything remain completely unchanged in a version?
 CoreLedger does reserve the right to make changes to the TEOS API and its components on short notice for issues related to security, privacy, or performance. These changes don't happen often, but they do happen. Normally such changes are applied as non-versioned changes.
 
-#### Do I have to specify a version for an API? &lt;a href="#unversioned_calls" id="unversioned_calls"&gt;&lt;/a&gt;
-
+#### Do I have to specify a version for an API?
 Yes, the version is a mandatory part of API calls. For example, let's say the current version is v3.2. The call is as follows:
 
 ```
 curl -i -X "https://teosapi.coreledger.net/odata/v3.2/assets/{asset-id}
 ```
 
-#### Can my app make calls to versions older than the current version? &lt;a href="#calling_older_versions" id="calling_older_versions"&gt;&lt;/a&gt;
-
+#### Can my app make calls to versions older than the current version?
 You can specify older versions in your API calls as long as they are available and your app has already made calls to that version. For example, if your app was created after v2.0 was released and makes calls using v2.0, it will be able to make calls to v2.0 until the version expires even after newer versions have been released. Check the availability of the versions in [.](./index.md)
 
 ## Types of changes

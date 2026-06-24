@@ -67,7 +67,7 @@ The authorize endpoint can be used to request tokens or authorization codes via 
 
 If the error page is returned, it is always the same, and stating\
 `Sorry, there was an error: unauthorized_client`\
-Reason for such an error could be: ClientId, scopes or redirect\_uri are sent to the /authorize endpoint not like they are defined in the [Discovery Service](https://teos-docs.coreledger.net/using-additional-apis-of-teos-platform/using-discovery-service). Exact reason could be determined by CoreLedger support.
+Reason for such an error could be: ClientId, scopes or redirect\_uri are sent to the /authorize endpoint not like they are defined in the [Discovery Service](../using-discovery-service.md). Exact reason could be determined by CoreLedger support.
 
 
 

@@ -4,7 +4,7 @@ This API method returns a list of all **available entity sets** in the OData ser
 
 This method provides the **service document**, which is a top-level overview of the service. It allows clients to discover what entity sets are available without needing to query each one individually. In OData terminology, this is part of the **metadata** that describes the structure of the service, including the types of entities and their relationships.
 
-📘 [Learn more](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/8Gkk33l0DIIchfRT86LP/~/changes/83/guides/meta-data) about meta data.
+📘 [Learn more](./index.md) about meta data.
 
 #### **Parameters:**&#x20;
 

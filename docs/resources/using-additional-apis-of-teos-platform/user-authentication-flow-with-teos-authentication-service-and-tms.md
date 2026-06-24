@@ -22,7 +22,7 @@ If the access token is not valid, the application should authenticate a user and
 
 #### Optional process. Authenticate user
 
-**Step 2.0.** If the user access token is expired, then it is necessary to reauthenticate. The user authentication process should be started from the call to [Authorize ](https://teos-docs.coreledger.net/using-additional-apis-of-teos-platform/using-teos-authentication-service#authorize-endpoint)endpoint of the Auth server.
+**Step 2.0.** If the user access token is expired, then it is necessary to reauthenticate. The user authentication process should be started from the call to [Authorize ](../../using-additional-apis-of-teos-platform/using-teos-authentication-service/index.md#authorize-endpoint)endpoint of the Auth server.
 
 **Step 2.1.** If the validation of the calling application and all parameters to the Authorize request is successful, the Auth server will return the login form, configured according to the white-labelled settings of the calling application.
 
@@ -60,7 +60,7 @@ GET /templates
 Auth: Bearer <access-token>
 ```
 
-The response body will contain the information about the registration template for the customer's tenant: `&#123;"ReferralCodeRequired": true&#125;`. This data must be used in the next step.\
+The response body will contain the information about the registration template for the customer's tenant: `{"ReferralCodeRequired": true}`. This data must be used in the next step.\
 Please refer to [using-tms-api](./using-tms-api/index.md) to learn more about the endpoint request and its response.
 
 **Step 3.1.** Application shows the 'signup' screen for a user. This screen should provide the user with the possibility to fill in the referral code.
@@ -82,7 +82,7 @@ Auth: Bearer <access-token>
 
 All the fields except for "referralCode" are optional and may be omitted (default values are shown in the example request).
 
-If response in the step 3.0 contains `&#123;"ReferralCodeRequired": true&#125;`, then `POST /users/signup` must contain valid value of `"referralCode"`. If `"referralCode"` is missing or incorrect, corresponding error will be returned.\
+If response in the step 3.0 contains `{"ReferralCodeRequired": true}`, then `POST /users/signup` must contain valid value of `"referralCode"`. If `"referralCode"` is missing or incorrect, corresponding error will be returned.\
 Please refer to [using-tms-api](./using-tms-api/index.md) to learn more about the endpoint request and its response.
 
 **Step 3.2.1.** TMS responds with the created tenant-user's data in the response body (see next step). Here the application user profile can be created, if necessary

@@ -18,7 +18,7 @@ This endpoint creates a new asset by providing the required general properties, 
 
 Additionally, custom properties can be defined using CustomDefinitionItems to capture asset-specific information.
 
-📘 Learn more about assets -[ link](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/8Gkk33l0DIIchfRT86LP/~/changes/1/resources/using-the-teos-api/concepts/asset)
+📘 Learn more about assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
 
 #### Request Endpoint:
 

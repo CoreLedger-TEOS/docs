@@ -2,8 +2,7 @@
 
 Normally we release one version in 3-6 months. You can check the changelog of each version on a corresponding page. We announce our updates in telegram channel. [Join us there](https://t.me/notifyteos)!
 
-### Released versions &lt;a href="#available-graph-api-versions" id="available-graph-api-versions"&gt;&lt;/a&gt;
-
+### Released versions
 | Version | When introduced |
 | ------- | --------------- |
 | 1.3     | May, 2025       |

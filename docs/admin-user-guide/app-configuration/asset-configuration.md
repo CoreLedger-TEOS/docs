@@ -8,7 +8,7 @@ Starting from v0.21 most of the configuration can be done with WLM (described be
 
 #### **Step 1. Define general asset properties in WLM**
 
-Asset configuration starts in WLM. Some of the general asset properties are used in WLA. You can [read more](https://teos-docs.coreledger.net/v/white-label-management-tool/user-guide/create-asset) about asset creation in WLM.
+Asset configuration starts in WLM. Some of the general asset properties are used in WLA. You can [read more](../../user-guide/create-asset.md) about asset creation in WLM.
 
 * **Asset name** is used in WLA if WLA specific name is not defined (check Step 2)
 * **Description** of the asset is going to be checked by WLA and in case it contains url (string starting from "http..."), it will be used as information link for info icon of the asset :point\_left: We recommend to include it if you have website for your asset

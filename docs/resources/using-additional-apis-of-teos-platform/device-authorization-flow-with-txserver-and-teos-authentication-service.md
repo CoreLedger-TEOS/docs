@@ -30,7 +30,7 @@ The refresh token returned from the call to the [RefreshDeviceToken](https://txa
 
 If both device access and refresh tokens are expired, then it is necessary to connect or register the device. To do this, user authentication, using `authorization_code` flow is necessary.
 
-**Step 1.3.** The user authentication process should be started from the call to [Authorize ](https://teos-docs.coreledger.net/using-additional-apis-of-teos-platform/using-teos-authentication-service#authorize-endpoint)endpoint of the Auth server.
+**Step 1.3.** The user authentication process should be started from the call to [Authorize ](../../using-additional-apis-of-teos-platform/using-teos-authentication-service/index.md#authorize-endpoint)endpoint of the Auth server.
 
 **Step 1.3.1.** If the validation of the calling application and all parameters to the Authorize request is successful, the Auth server will return the login form, configured according to the white-labelled settings of the calling application.
 
@@ -40,7 +40,7 @@ If both device access and refresh tokens are expired, then it is necessary to co
 
 **Step 1.3.R.** Auth server authenticates the user and in case of success, redirects the browser back to the app (to the redirect URL, provided in Step 2.0) with the requested authorization code
 
-**Step 1.4.** The application calls [Token ](https://teos-docs.coreledger.net/using-additional-apis-of-teos-platform/using-teos-authentication-service#token-endpoint)endpoint of Auth server with the 'authorization\_code' grant type and the code, acquired in Step 1.3.R.
+**Step 1.4.** The application calls [Token ](../../using-additional-apis-of-teos-platform/using-teos-authentication-service/index.md#token-endpoint)endpoint of Auth server with the 'authorization\_code' grant type and the code, acquired in Step 1.3.R.
 
 **Step 1.4.R.** Auth server checks all the provided parameters and returns the requested user access token, refresh token and ID token (if configured)
 

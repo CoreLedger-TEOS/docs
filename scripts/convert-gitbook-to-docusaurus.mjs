@@ -51,6 +51,91 @@ function isExternalLink(href) {
   return /^(https?:|mailto:|tel:)/i.test(href);
 }
 
+function routeToMarkdownTarget(route) {
+  const clean = route.replace(/^\/+|\/+$/g, '');
+  if (!clean) return 'index.md';
+  if (clean === 'using-the-teos-api/teos-events') return 'overview/teos-events.md';
+  if (clean === 'v/white-label-management-tool') return 'where-to-start/index.md';
+  if (clean === 'v/white-label-portal') return 'wlp-versions-and-changelog/index.md';
+  if (clean === 'v/white-label-mobile-app') return 'wla-versions-and-changelog/index.md';
+
+  let withoutVersion = clean
+    .replace(/^v\/white-label-management-tool\//, '')
+    .replace(/^v\/white-label-portal\//, '')
+    .replace(/^v\/white-label-mobile-app\//, '');
+
+  if (!withoutVersion || withoutVersion === clean && clean.startsWith('v/')) return null;
+  withoutVersion = withoutVersion.replace(/\/+$/, '');
+
+  const candidates = [
+    `${withoutVersion}.md`,
+    `${withoutVersion}/README.md`,
+    `${withoutVersion}/index.md`,
+  ];
+  const sourcePath = candidates.find((candidate) => fs.existsSync(path.join(backupDir, candidate)));
+  if (sourcePath) return outputPathForMarkdown(path.join(backupDir, sourcePath));
+
+  return withoutVersion.endsWith('.md') ? withoutVersion : `${withoutVersion}.md`;
+}
+
+function relativeMarkdownTarget(currentOutputRel, targetOutputRel, hash = '') {
+  const currentDir = path.posix.dirname(currentOutputRel.replace(/\\/g, '/'));
+  let relative = path.posix.relative(currentDir === '.' ? '' : currentDir, targetOutputRel);
+  if (!relative || relative === '') relative = './index.md';
+  if (!relative.startsWith('.')) relative = `./${relative}`;
+  return `${relative}${hash}`;
+}
+
+function legacyUrlToMarkdownTarget(url, currentOutputRel) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return null;
+  }
+
+  const hash = parsed.hash || '';
+  if (parsed.hostname === 'teos-docs.coreledger.net') {
+    const target = routeToMarkdownTarget(decodeURIComponent(parsed.pathname));
+    return target ? relativeMarkdownTarget(currentOutputRel, target, hash) : null;
+  }
+
+  if (parsed.hostname === 'app.gitbook.com') {
+    const pathName = decodeURIComponent(parsed.pathname);
+    const changePath = pathName.match(/\/~\/changes\/\d+\/(.+)$/)?.[1];
+    if (changePath) {
+      return relativeMarkdownTarget(currentOutputRel, routeToMarkdownTarget(changePath) || `${changePath}.md`, hash);
+    }
+    if (pathName.includes('/s/tUL13xBnNCyueYnmUZV7/')) {
+      const targetPath = pathName.split('/s/tUL13xBnNCyueYnmUZV7/')[1] || '';
+      return relativeMarkdownTarget(currentOutputRel, routeToMarkdownTarget(targetPath) || 'where-to-start/index.md', hash);
+    }
+    if (pathName.includes('/s/7Xg7iannH70Bvo1bfqMb/')) {
+      return relativeMarkdownTarget(currentOutputRel, 'wla-versions-and-changelog/index.md', hash);
+    }
+    if (pathName.includes('/s/iTYqY7GQFlQO0s8Vbk2r/')) {
+      return relativeMarkdownTarget(currentOutputRel, 'wlp-versions-and-changelog/index.md', hash);
+    }
+    if (pathName.includes('/s/-McAKJLTTEmlfBIFJ-85/')) {
+      return relativeMarkdownTarget(currentOutputRel, 'index.md', hash);
+    }
+  }
+
+  return null;
+}
+
+function rewriteLegacyAbsoluteLinks(content, currentOutputRel) {
+  return content
+    .replace(/\[\[([^\]]+)]\((https:\/\/app\.gitbook\.com\/o\/[^)\s]+)(?:\s+"mention")?\)]\((https:\/\/app\.gitbook\.com\/[^)\s]+)(?:\s+"mention")?\)/g, (match, label, innerHref, outerHref) => {
+      const target = legacyUrlToMarkdownTarget(outerHref, currentOutputRel) || legacyUrlToMarkdownTarget(innerHref, currentOutputRel);
+      return target ? `[${label}](${target})` : match;
+    })
+    .replace(/(\[[^\]]*]\()([^) \t]+)(?:\s+"mention")?(\))/g, (match, prefix, href, suffix) => {
+      const target = legacyUrlToMarkdownTarget(href, currentOutputRel);
+      return target ? `${prefix}${target}${suffix}` : match;
+    });
+}
+
 function normalizeDocPathFromGitBookLink(link) {
   let clean = decodeURI(link.trim()).split('#')[0].split('?')[0];
   clean = clean.replace(/\\/g, '/').replace(/\/+$/, '');
@@ -228,6 +313,26 @@ function convertExpandableHeadings(content) {
     .replace(/{% endtab %}/g, '');
 }
 
+function convertGitBookEmbeds(content) {
+  return content.replace(/{%\s*embed\s+url="([^"]+)"\s*%}/g, (_, url) => `[${url}](${url})`);
+}
+
+function stripGitBookHeadingAnchors(content) {
+  return content.replace(
+    /^(#{1,6}\s+.*?)\s+(?:<a\s+href="[^"]*"\s+id="[^"]*">\s*<\/a>|&lt;a\s+href="[^"]*"\s+id="[^"]*"&gt;\s*&lt;\/a&gt;)\s*$/gim,
+    '$1',
+  );
+}
+
+function decodeCodeSpanEntities(value) {
+  return value
+    .replace(/&#123;/g, '{')
+    .replace(/&#125;/g, '}')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+}
+
 function escapeMdxTextExpressions(content) {
   const lines = content.split(/\r?\n/);
   let inFence = false;
@@ -239,11 +344,14 @@ function escapeMdxTextExpressions(content) {
       }
       if (inFence) return line;
       if (/^\s*</.test(line)) return line;
-      return line
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/{/g, '&#123;')
-        .replace(/}/g, '&#125;');
+      return line.split(/(`+[^`]*`+)/g).map((part) => {
+        if (/^`+[^`]*`+$/.test(part)) return decodeCodeSpanEntities(part);
+        return part
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/{/g, '&#123;')
+          .replace(/}/g, '&#125;');
+      }).join('');
     })
     .join('\n');
 }
@@ -321,6 +429,9 @@ function convertMarkdown(sourcePath, assetMap, slugOverrides) {
   content = convertHtmlImages(content);
   content = convertHtmlCodeBlocks(content);
   content = convertExpandableHeadings(content);
+  content = convertGitBookEmbeds(content);
+  content = stripGitBookHeadingAnchors(content);
+  content = rewriteLegacyAbsoluteLinks(content, outputRel);
   content = rewriteLocalLinks(content, outputRel);
   content = content.replace(/<mark\b[^>]*>/gi, '').replace(/<\/mark>/gi, '');
   content = escapeMdxTextExpressions(content);

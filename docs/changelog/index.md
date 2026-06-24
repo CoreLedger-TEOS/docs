@@ -12,8 +12,7 @@ Please, note that support of TEOS API v0.8 is over. Plan the upgrade to v1.1 to 
 Check [versioning.md](./versioning.md) concept to make sure you organize your work in sync with TEOS API updates and you understand which influence different types of changes can have on your solution
 :::
 
-### TEOS API changelog and available versions &lt;a href="#available-graph-api-versions" id="available-graph-api-versions"&gt;&lt;/a&gt;
-
+### TEOS API changelog and available versions
 | Changes Introduced                                                                        | Date Introduced | Supported until |
 | ----------------------------------------------------------------------------------------- | --------------- | --------------- |
 | [1.1](./v1.0.md)                                                                            | February, 2026  |                 |

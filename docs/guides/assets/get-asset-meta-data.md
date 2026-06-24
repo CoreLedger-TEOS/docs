@@ -4,7 +4,7 @@ An asset, often referred to as a **token,** represents a digital artifact on the
 
 This endpoint returns metadata stored on-chain and in the system for a given asset, including blockchain details, original document data, and amendment history.
 
-📘 Learn more about assets -[ link](https://app.gitbook.com/o/ZaeNizhnU47lCcTSk7wB/s/8Gkk33l0DIIchfRT86LP/~/changes/1/resources/using-the-teos-api/concepts/asset)
+📘 Learn more about assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
 
 #### Request Endpoint:
 
