@@ -1,6 +1,10 @@
+---
+slug: /using-additional-apis-of-teos-platform/using-teos-authentication-service
+---
+
 # Using TEOS Authentication service
 
-Additional APIs are required to be used along with TEOS API in case TEOS API Consumer doesn't have its own authentication service and needs TEOS Authentication service.
+Additional APIs are required to be used along with TEOS API in case TEOS API Consumer doesn't have its own authentication service and needs TEOS Authentication service. [Read more](/using-the-teos-api/architecture-note/tenant-setup-options/#using-teos-api-with-the-user-access-token)
 
 **TEOS Authentication service** (we also refer to it as AuthServer) is used to authenticate users for TEOS Platform components including TEOS API.
 
@@ -67,7 +71,7 @@ The authorize endpoint can be used to request tokens or authorization codes via 
 
 If the error page is returned, it is always the same, and stating\
 `Sorry, there was an error: unauthorized_client`\
-Reason for such an error could be: ClientId, scopes or redirect\_uri are sent to the /authorize endpoint not like they are defined in the [Discovery Service](../using-discovery-service.md). Exact reason could be determined by CoreLedger support.
+Reason for such an error could be: ClientId, scopes or redirect\_uri are sent to the /authorize endpoint not like they are defined in the [Discovery Service](/using-additional-apis-of-teos-platform/using-discovery-service/). Exact reason could be determined by CoreLedger support.
 
 
 
@@ -346,4 +350,4 @@ Refer to the [Auth Server Swagger](https://auth.coreledger.net/swagger)
 
 ## Rate limits
 
-When developing integration with TEOS Authentication service you should take into account the limits described in [rate-limits.md](../../../overview/rate-limits.md) of TEOS API. Those limits are defined per tenant and shared by all TEOS Platform components.
+When developing integration with TEOS Authentication service you should take into account the limits described in [rate-limits.md](/overview/rate-limits/) of TEOS API. Those limits are defined per tenant and shared by all TEOS Platform components.

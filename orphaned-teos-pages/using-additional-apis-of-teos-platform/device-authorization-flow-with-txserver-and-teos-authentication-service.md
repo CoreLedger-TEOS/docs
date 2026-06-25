@@ -1,3 +1,7 @@
+---
+slug: /using-additional-apis-of-teos-platform/device-authorization-flow-with-txserver-and-teos-authentication-service
+---
+
 # Device authorization flow with TxServer and TEOS Authentication service
 
 To utilize the full power of the TEOS platform mobile applications should utilize the Device API of the TXServer. It provides useful services, like push notifications to all connected user devices.
