@@ -1297,8 +1297,8 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "troubleshooting",
-          "label": "⁉️ Troubleshooting"
+          "id": "trooubleshooting",
+          "label": "⁉️ Trooubleshooting"
         },
         {
           "type": "doc",
@@ -1495,8 +1495,8 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "troubleshooting",
-          "label": "⁉️ Troubleshooting"
+          "id": "trooubleshooting",
+          "label": "⁉️ Trooubleshooting"
         },
         {
           "type": "doc",
