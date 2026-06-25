@@ -6,7 +6,7 @@ Controller is an entity that manages access rights to assets, allowing you to re
 
 This endpoint initiates a transaction to set a new controller for the specified asset. The source asset must exist, and the controller address provided must be valid. The transaction must be signed by the asset issuer to complete the action.
 
-📘 Learn more about assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/asset.md) about assets.
 
 #### Request Endpoint:
 

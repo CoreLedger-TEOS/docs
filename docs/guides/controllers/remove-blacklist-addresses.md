@@ -6,7 +6,7 @@ This endpoint removes one or more addresses from the blacklist of a specific con
 
 The operation updates the blockchain-level controller by removing the specified addresses from its blacklist. It generates a blockchain transaction, and the removal is applied only after the transaction is processed and confirmed.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

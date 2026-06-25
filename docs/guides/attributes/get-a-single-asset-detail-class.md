@@ -2,7 +2,7 @@
 
 This endpoint returns a specific asset detail class available in the TEOS platform. Asset detail classes provide additional classification for digital assets and help define their properties in more detail. No OData query options are supported for this endpoint.
 
-📘 Learn more about Assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/asset.md) about assets.
 
 #### Request Endpoint:
 

@@ -4,4 +4,4 @@ TEOS users can create supplies in order to trade their assets. Supply is an offe
 
 Supplies are consumed by other TEOS users when they execute trades, or execute [warps](../../resources/using-the-teos-api/concepts/warp/index.md), where supplies existing on blockchain take part.
 
-📘 Learn more about [supplies](../../resources/using-the-teos-api/concepts/supply.md) and [warps.](../../resources/using-the-teos-api/concepts/warp/index.md)
+📘 Learn more about [supplies](../../resources/using-the-teos-api/concepts/supply.md) and [warps](../../resources/using-the-teos-api/concepts/warp/index.md).

@@ -2,7 +2,7 @@
 
 This method allows a TEOS user to increase the available amount of an existing supply by adding additional sparks. The restocked amount is added to the RemainingAmount of the supply, making more units available for trades or warp executions.
 
-📘[ Learn more ](../../resources/using-the-teos-api/concepts/supply.md)about supplies.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/supply.md) about supplies.
 
 #### **Request Endpoint**
 

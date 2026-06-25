@@ -2,7 +2,7 @@
 
 Revokes a blockchain transaction. Only the transaction initiator (or authorized signer) can revoke a transaction that has not yet been committed to the blockchain.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/transaction.md)about transactions.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/transaction.md) about transactions.
 
 #### Request Endpoint:
 

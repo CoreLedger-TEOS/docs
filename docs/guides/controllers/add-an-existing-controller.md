@@ -4,7 +4,7 @@ Controllers are blockchain-level entities that manage access rights to assets, a
 
 This endpoint adds an existing controller to the system. It allows you to register a controller that already exists on the blockchain by providing its address and basic details, making it available for management within the TEOS platform.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

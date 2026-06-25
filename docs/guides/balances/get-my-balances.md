@@ -5,7 +5,7 @@ This endpoint returns the balances of all assets (tokens) associated with the us
 
 ⚠️  API key authentication is not supported
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/spark.md) about natural units of measure and Sparks.
 
 Request Endpoint:
 

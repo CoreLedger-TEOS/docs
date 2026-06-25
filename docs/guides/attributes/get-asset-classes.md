@@ -2,7 +2,7 @@
 
 This endpoint returns all asset classes available in the TEOS platform. Asset classes define the type of a digital asset and help structure its general and custom properties. You can optionally use OData query options to filter, select, order, or paginate results.
 
-📘 Learn more about Assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/asset.md) about assets.
 
 #### Request Endpoint:
 

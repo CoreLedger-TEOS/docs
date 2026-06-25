@@ -4,7 +4,7 @@ An asset, often referred to as a **token,** represents a digital artifact on the
 
 This endpoint retrieves the document stored in the DocumentDB for a given asset, referenced by its uniqueAssetId. The document contains the structured JSON representing the asset, including its general and custom properties.
 
-📘 Learn more about assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/asset.md) about assets.
 
 #### Request Endpoint:
 

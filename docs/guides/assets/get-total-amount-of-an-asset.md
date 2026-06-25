@@ -4,7 +4,7 @@ An asset, often referred to as a **token,** represents a digital artifact on the
 
 This endpoint returns both the total number of Sparks and the total number of natural units associated with the asset identified by the provided uniqueAssetId.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/spark.md) about natural units of measure and Sparks.
 
 #### Request Endpoint:
 

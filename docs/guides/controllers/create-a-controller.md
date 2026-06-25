@@ -4,7 +4,7 @@ Controllers are blockchain-level entities that manage access rights to assets, a
 
 This endpoint creates a new controller. It allows you to specify the controller’s Name, Description, and Issuer Address, enabling the creation of a controller that can manage access permissions for assets on the blockchain.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

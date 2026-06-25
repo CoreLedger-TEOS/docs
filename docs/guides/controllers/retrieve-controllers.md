@@ -5,7 +5,7 @@ This endpoint retrieves all controllers or a filtered subset based on query para
 Controllers are blockchain-level entities that manage access rights to assets, allowing you to restrict who can buy, sell, or trade them. They can include whitelist and blacklist addresses to control who can interact with specific blockchain assets or operations.\
 Using this endpoint, you can retrieve all controllers or filter them based on name, associated whitelist or blacklist addresses, or other parameters.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

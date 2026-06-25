@@ -4,7 +4,7 @@ Retrieve a specific supply offer by its unique identifier. A Supply represents a
 
 **Note:** Supplies cannot be ordered by the ExchangeRate field.
 
-📘[ Learn more ](../../resources/using-the-teos-api/concepts/supply.md)about supplies.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/supply.md) about supplies.
 
 #### Request Endpoint:
 

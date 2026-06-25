@@ -2,7 +2,7 @@
 
 Pays a specific Invoice using a direct transfer of the specified asset from the sender's address. The invoice represents a digital record of payment obligation, and this operation transfers the required asset amount (in sparks) to the invoice's target address.
 
-📘 Learn more about [invoices.](../../resources/using-the-teos-api/concepts/invoice.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/invoice.md) about invoices.
 
 #### **Request Endpoint**
 

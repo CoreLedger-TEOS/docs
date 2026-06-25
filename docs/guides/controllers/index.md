@@ -9,4 +9,4 @@ Controllers are blockchain-level entities  that manages access rights to assets,
 Controllers provide flexible access management and let you safely delegate rights to other users.\
 They can include whitelist and blacklist addresses to control who can interact with certain blockchain assets or operations.
 
-📘 Learn more how to [set a blacklist ](./set-a-blacklist-addresses.md)and [whitelist addresses.](./set-a-whitelist-addresses.md)
+📘 Learn more about how to [set blacklist](./set-a-blacklist-addresses.md) and [whitelist addresses](./set-a-whitelist-addresses.md).

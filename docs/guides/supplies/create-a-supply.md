@@ -2,7 +2,7 @@
 
 This method allows a TEOS user to create a new supply. A supply is an offer to exchange a specific amount of sparks of an offered asset for a specific amount of sparks of a desired asset.
 
-📘[ Learn more ](../../resources/using-the-teos-api/concepts/supply.md)about supplies.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/supply.md) about supplies.
 
 #### Request Endpoint:
 

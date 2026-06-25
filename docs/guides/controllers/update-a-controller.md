@@ -4,7 +4,7 @@ This endpoint updates off-chain data of a controller.
 
 Controllers on the TEOS platform are blockchain-level entities that manage permissions and restrictions for specific operations. This endpoint allows updating only the Name and Description fields of a controller.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

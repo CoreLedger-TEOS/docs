@@ -4,7 +4,7 @@ This method allows a user to remove an already created supply, making it no long
 
 A supply is an offer created by a TEOS user to trade a specific amount of sparks of one digital asset in exchange for sparks of another asset. Supplies are used by other TEOS users when executing trades or warps, and they exist on the blockchain until they are fully consumed, expired, or deleted.
 
-📘[ Learn more ](../../resources/using-the-teos-api/concepts/supply.md)about supplies.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/supply.md) about supplies.
 
 #### Request Endpoint:
 

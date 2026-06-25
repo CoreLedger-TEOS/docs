@@ -7,7 +7,7 @@ Controllers on the TEOS platform are blockchain-level entities that define restr
 A controller may include whitelisted and blacklisted addresses, which determine which wallets or users can interact with the associated assets.\
 This endpoint returns full details of a controller, including its metadata and address lists, by providing its unique ID.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

@@ -2,7 +2,7 @@
 
 Submits a prepared and signed blockchain transaction to the TEOS Platform for processing. After submission, the transaction status will change according to the TEOS transaction states.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/transaction.md)about transactions.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/transaction.md) about transactions.
 
 #### Request Endpoint:
 

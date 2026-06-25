@@ -2,7 +2,7 @@
 
 Retrieves a single Invoice by its unique identifier. An invoice represents a digital record of a payment obligation between two parties on the blockchain. This endpoint returns all details of the invoice, including status, amount, target and sender addresses, due date, and associated transaction.
 
-📘 Learn more about [invoices.](../../resources/using-the-teos-api/concepts/invoice.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/invoice.md) about invoices.
 
 #### **Request Endpoint**
 

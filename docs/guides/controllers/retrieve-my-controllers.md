@@ -6,7 +6,7 @@ This endpoint retrieves all controllers associated with the current user. Contro
 
 The endpoint returns a paginated list of user controllers, with a maximum of 50 items per page. API key authentication is not supported for this endpoint.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

@@ -4,7 +4,7 @@ Retrieves the balance of a specific asset for a given blockchain address.\
 This endpoint allows you to check how many units (or Sparks) of a particular asset are held on a specific address.\
 It is not limited by the currently authenticated user — meaning you can query the balance of any address.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/spark.md) about natural units of measure and Sparks.
 
 #### Request Endpoint:
 

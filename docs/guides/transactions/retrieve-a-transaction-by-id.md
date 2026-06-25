@@ -4,7 +4,7 @@ Retrieves a specific blockchain transaction using its unique identifier. A trans
 
 You can use OData Select query option to retrieve specific fields of the transaction.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/transaction.md)about transactions.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/transaction.md) about transactions.
 
 #### Request Endpoint:
 

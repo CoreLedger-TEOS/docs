@@ -4,7 +4,7 @@ Retrieves balances for multiple blockchain addresses and multiple assets in a si
 This endpoint allows you to efficiently query the balance of several wallet addresses across multiple assets at once.\
 It is not limited by the currently authenticated user — meaning you can retrieve balances for any combination of addresses and assets.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/spark.md) about natural units of measure and Sparks.
 
 #### Request Endpoint:
 

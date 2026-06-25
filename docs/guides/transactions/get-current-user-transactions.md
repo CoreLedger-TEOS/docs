@@ -2,7 +2,7 @@
 
 Retrieves transactions belonging to the current user. This endpoint supports default pagination, with a maximum of 50 items per page. API key authentication is not supported for this endpoint.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/transaction.md)about transactions.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/transaction.md) about transactions.
 
 #### Request Endpoint:
 

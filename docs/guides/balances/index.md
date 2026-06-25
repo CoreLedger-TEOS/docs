@@ -8,5 +8,5 @@ Every asset has its own representation in real world and thus has its own natura
 
 Every digital asset written to the blockchain has unified indivisible unit of measure. In TEOS we call it Spark. Spark is the generalized term for the smallest indivisible fraction of a digital asset (like one Satoshi is for Bitcoin or one Wei is for Ether).
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/spark.md) about natural units of measure and Sparks.
 

@@ -4,7 +4,7 @@ Controllers are blockchain-level entities that manage access rights to assets, a
 
 This endpoint updates the blacklist addresses of a specific controller. It can add new addresses to the blacklist or update the reason for existing addresses. The operation modifies the blockchain-level controller and ensures that the restrictions are applied according to the updated blacklist.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

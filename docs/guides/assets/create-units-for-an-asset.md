@@ -2,7 +2,7 @@
 
 This endpoint allows you to create units for an existing asset on the blockchain. The amount of units can be provided either in natural units or in Sparks. The transaction is created for the address of the asset issuer (the Author field in the Asset model). The transaction must be signed by the asset issuer to complete this action.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/spark.md) about natural units of measure and Sparks.
 
 #### Preconditions:
 

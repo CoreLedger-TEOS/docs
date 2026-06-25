@@ -4,7 +4,7 @@ An asset, often referred to as a **token,** represents a digital artifact on the
 
 This endpoint retrieves all assets that are linked from the specified asset, returning their uniqueAssetIds and full asset details.
 
-📘 Learn more about assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/asset.md) about assets.
 
 #### Request Endpoint:
 

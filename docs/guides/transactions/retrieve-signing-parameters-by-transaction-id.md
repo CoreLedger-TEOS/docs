@@ -2,7 +2,7 @@
 
 Returns the signing parameters for a specific blockchain transaction. These parameters are required to sign the transaction using the private key of the signing address.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/transaction.md)about transactions.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/transaction.md) about transactions.
 
 #### Request Endpoint:
 

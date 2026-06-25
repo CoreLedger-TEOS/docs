@@ -4,7 +4,7 @@ An asset, often referred to as a token, represents a digital artifact on the TEO
 
 This endpoint retrieves a list of assets based on the provided query parameters. It supports forced pagination, with a maximum of 50 items per page, allowing clients to efficiently navigate through large sets of assets.
 
-📘 Learn more about assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/asset.md) about assets.
 
 #### Request Endpoint:
 

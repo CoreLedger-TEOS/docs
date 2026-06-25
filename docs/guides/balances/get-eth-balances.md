@@ -3,7 +3,7 @@
 Retrieves the ETH balances for one or multiple wallet addresses.\
 This endpoint allows you to check how much Ether (ETH) each specified blockchain address holds.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/spark.md) about natural units of measure and Sparks.
 
 Request Endpoint:
 

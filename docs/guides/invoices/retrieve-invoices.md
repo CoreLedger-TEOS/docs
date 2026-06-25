@@ -2,7 +2,7 @@
 
 Retrieves a list of Invoices based on optional OData filters. Invoices represent digital records of payment obligations between two parties on the blockchain. This endpoint allows fetching details such as invoice status, amount, target and sender addresses, due date, and associated transactions.
 
-📘 Learn more about [invoices.](../../resources/using-the-teos-api/concepts/invoice.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/invoice.md) about invoices.
 
 #### **Request Endpoint**
 

@@ -2,7 +2,7 @@
 
 This endpoint returns a specific asset class available in the TEOS platform. Asset classes define the type of a digital asset and help structure its general and custom properties. No OData query options are supported for this endpoint.
 
-📘 Learn more about Assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/asset.md) about assets.
 
 #### Request Endpoint:
 

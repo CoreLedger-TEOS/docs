@@ -2,7 +2,7 @@
 
 This method allows a TEOS user to extend the expiration of an existing supply. Supply represents an offer created by a user to trade a specific amount of one asset for a specific amount of another asset. By extending a supply, the user can keep it active for a longer period, allowing other users to execute trades or participate in warps using this supply.
 
-📘[ Learn more ](../../resources/using-the-teos-api/concepts/supply.md)about supplies.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/supply.md) about supplies.
 
 #### **Request Endpoint**
 

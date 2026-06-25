@@ -4,7 +4,7 @@ Retrieves blockchain transactions. Each transaction represents an action that wr
 
 You can filter transactions by signer address, transaction state, or other properties using standard OData query options.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/transaction.md)about transactions.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/transaction.md) about transactions.
 
 #### Request Endpoint:
 

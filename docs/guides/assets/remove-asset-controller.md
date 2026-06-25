@@ -6,7 +6,7 @@ Controller is an entity that manages access rights to assets, allowing you to re
 
 This endpoint initiates a transaction to remove the controller of a specified asset. The source asset must exist in the system.
 
-📘 Learn more about assets -[ link](../../resources/using-the-teos-api/concepts/asset.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/asset.md) about assets.
 
 #### Request Endpoint:
 

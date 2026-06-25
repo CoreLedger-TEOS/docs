@@ -2,7 +2,7 @@
 
 This endpoint allows TEOS users to cancel one or more invoices. Only invoices that are in the Open status can be canceled. If any invoice ID in the request is not found, it will be ignored. Cancelling an invoice sets its status to Cancelled.
 
-📘 Learn more about [invoices.](../../resources/using-the-teos-api/concepts/invoice.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/invoice.md) about invoices.
 
 #### **Request Endpoint**
 

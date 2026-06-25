@@ -8,7 +8,7 @@ Users can execute a WARP to pay the invoice even if they do not hold the exact a
 
 * The sender address has enough units of the WARP offered asset to cover the transaction.
 
-📘 Learn more about [invoices.](../../resources/using-the-teos-api/concepts/invoice.md)
+📘 [Learn more](../../resources/using-the-teos-api/concepts/invoice.md) about invoices.
 
 #### **Request Endpoint**
 

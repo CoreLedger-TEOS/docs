@@ -4,7 +4,7 @@ An asset, often referred to as a **token**, represents a digital artifact on the
 
 This endpoint transfers units of an asset from one address to another. The amount can be specified in either natural units or Sparks. The transaction is created for the asset issuer’s address (the Author field in the Asset model) and must be signed by the asset issuer to be completed.
 
-📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/spark.md) about natural units of measure and Sparks.
 
 #### Request Endpoint:
 

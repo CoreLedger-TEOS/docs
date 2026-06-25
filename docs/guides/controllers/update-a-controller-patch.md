@@ -6,7 +6,7 @@ This endpoint updates off-chain data of a controller. It allows modifying only t
 
 Unlike the PUT method, PATCH updates only the fields specified in the request body, leaving all other fields unchanged. This endpoint provides a way to modify descriptive metadata without affecting the blockchain-level data.
 
-📘 Learn more about [controllers](../../resources/using-the-teos-api/concepts/controllers.md).
+📘 [Learn more](../../resources/using-the-teos-api/concepts/controllers.md) about controllers.
 
 #### Request Endpoint:
 

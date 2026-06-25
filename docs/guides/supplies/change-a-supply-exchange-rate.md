@@ -2,7 +2,7 @@
 
 This method allows a TEOS user to update the exchange rate of an existing supply. Supply represents an offer created by a user to trade a specific amount of one asset for a specific amount of another asset. By changing the exchange rate, the user can adjust the amount of desired asset received per unit of offered asset for that supply.
 
-📘[ Learn more ](../../resources/using-the-teos-api/concepts/supply.md)about supplies.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/supply.md) about supplies.
 
 #### Request Endpoint:
 

@@ -2,7 +2,7 @@
 
 Retrieve a list of supply offers available in the TEOS Platform. A Supply represents an offer created by a user to exchange a specific amount of sparks of one asset for a desired amount of sparks of another asset. Supplies can be consumed by other users during trades or warp executions.
 
-📘[ Learn more ](../../resources/using-the-teos-api/concepts/supply.md)about supplies.
+📘 [Learn more](../../resources/using-the-teos-api/concepts/supply.md) about supplies.
 
 #### Request Endpoint:
 
