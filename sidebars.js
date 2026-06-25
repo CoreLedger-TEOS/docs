@@ -1155,7 +1155,7 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "glossary",
+          "id": "white-label-management-tool/glossary",
           "label": "Glossary"
         }
       ]
@@ -1353,7 +1353,7 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "glossary",
+          "id": "white-label-portal/glossary",
           "label": "Glossary"
         },
         {
@@ -1482,7 +1482,7 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "glossary",
+          "id": "white-label-mobile-app/glossary",
           "label": "Glossary"
         }
       ]
