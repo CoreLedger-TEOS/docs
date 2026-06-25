@@ -23,7 +23,7 @@ Error codes `2xxxx` indicate business logic related issues with input (failed pr
 | Message     | User with id = `userId` already exists                                                                                                |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Description | You're trying to register a new user with existing user id                                                                            |
-| What to do  | &lt;p&gt;Check that correct user in requesting the operation&lt;/p&gt;&lt;p&gt;Try again with the correct user. If it doesn't help, contact support&lt;/p&gt; |
+| What to do  | Check that correct user in requesting the operation<br />Try again with the correct user. If it doesn't help, contact support |
 
 ### 22000-2003
 

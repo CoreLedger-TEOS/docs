@@ -16,7 +16,7 @@ In the asset template management view you can do the following:
 
 ### Registration form
 
-If you want your users to provide the referral code during the registration process, you can switch on registration form template.&#x20;
+If you want your users to provide the referral code during the registration process, you can switch on registration form template.
 
 If you click the "Registration form" you can select whether to make referral mandatory (both Referrals and Mandatory flags must be enabled) or keep it optional (Referral must be set to true, Mandatory must be set to false)
 
@@ -24,7 +24,7 @@ If you click the "Registration form" you can select whether to make referral man
 
 ### Email templates
 
-If you want your users to receive emails sent from WLM, you can switch on emailing in [constraints management](./constraints-management.md#email-sending). Here you can click on “Email templates” to see the list of all emails and manage template texts.&#x20;
+If you want your users to receive emails sent from WLM, you can switch on emailing in [constraints management](./constraints-management.md#email-sending). Here you can click on “Email templates” to see the list of all emails and manage template texts.
 
 ![](/img/gitbook-assets/image-59.png)
 
@@ -60,9 +60,9 @@ Content of "PDF Disclaimer” is shown right before the asset description when u
 
 #### Asset prospectus
 
-Asset prospectus is generated automatically for specific asset as onr of the available types of Asset description PDF documents. To change the content of the asset prospectus, click on “Asset prospectus”.&#x20;
+Asset prospectus is generated automatically for specific asset as onr of the available types of Asset description PDF documents. To change the content of the asset prospectus, click on “Asset prospectus”.
 
-If you want to see how to format the prospectus and how to use values from your asset, select “Show more”. The prospectus must be provided as a text document (.txt). Inside the text document use the formatting and elements explained under “Show more” (elements of basic html markup are used).&#x20;
+If you want to see how to format the prospectus and how to use values from your asset, select “Show more”. The prospectus must be provided as a text document (.txt). Inside the text document use the formatting and elements explained under “Show more” (elements of basic html markup are used).
 
 Upload the text document using the “Upload new” button. While uploading the document, a syntax verification is performed. If there is something wrong inside your document, an information is provided. After uploading the document, you can generate a preview to check the appearance of your prospectus. If you are fine with the result, select “Activate” in the top left corner and all assets will use the prospectus.
 

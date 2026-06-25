@@ -16,13 +16,13 @@ The **advanced search** is designed for a more precise query. You can group and 
 
 Every property of an asset can be polled. You should add the properties to be polled and to define the values if needed.
 
-You can find the example for a query with “gold” in the name and in the jurisdiction Switzerland below.&#x20;
+You can find the example for a query with “gold” in the name and in the jurisdiction Switzerland below.
 
 ![](/img/gitbook-assets/image-38.png)
 
 If you want to save your query, you can click on “Save filter” and enter a name as well as a description of the filter. Note, if you want to generate a master filter as an administrator you need to select “Save as tenant filter”. Read more about filters [#filters-management](./additional-settings-management.md#filters-management)
 
-After you found an asset you need, you can select the asset and click on “More info”. By selecting “Additional Properties”, all properties that were defined for this asset are shown.&#x20;
+After you found an asset you need, you can select the asset and click on “More info”. By selecting “Additional Properties”, all properties that were defined for this asset are shown.
 
 ![](/img/gitbook-assets/image-11.png)
 

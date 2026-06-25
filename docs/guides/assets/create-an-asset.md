@@ -32,7 +32,7 @@ No query parameters.
 
 #### Request Body:
 
-&#x20;`application/json`  — The asset object to create.
+`application/json`  — The asset object to create.
 
 | **Parameter**         | **Type** | **Description**                            | **Mandatory** |
 | --------------------- | -------- | ------------------------------------------ | ------------- |

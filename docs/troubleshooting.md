@@ -20,7 +20,7 @@ If it has never worked for you before, please, contact your CoreLedger manager.
 
 ### I get some errors that are not clear to me
 
-Please check our [handling-errors](./overview/handling-errors/index.md) page. Most likely you will find the answer there. If not, you're welcome to report an issue in our [GitHub Repository](https://github.com/CoreLedger-TEOS/API).&#x20;
+Please check our [handling-errors](./overview/handling-errors/index.md) page. Most likely you will find the answer there. If not, you're welcome to report an issue in our [GitHub Repository](https://github.com/CoreLedger-TEOS/API).
 
 ### I have a blocker that is critical for my project and blocks my solution from functioning
 

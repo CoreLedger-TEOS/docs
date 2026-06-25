@@ -30,7 +30,7 @@ All API requests are subject to rate limits. TMS API requests are subject to [Pl
 Real-time rate limit usage statistics are described in headers that are included with most API responses once enough calls have been made to an endpoint. Once a rate limit is reached, any subsequent requests made by your app will fail and the API will return an error code until enough time has passed for the call count to drop below the limit.
 
 #### Platform Rate Limits
-TMS API requests made with an [API key](../../using-the-teos-api/authentication.md#api-key) or [user access token](../../using-the-teos-api/authentication.md#user-access-token) are counted against that tenant’s rate limit. A tenant’s call count is the number of calls it can make during a rolling twenty-four-hour window and is defined as follows:
+TMS API requests made with an [API key](../../using-the-teos-api/authentication.md#api-key-generation) or [user access token](../../using-the-teos-api/authentication.md#user-token-generation) are counted against that tenant’s rate limit. A tenant’s call count is the number of calls it can make during a rolling twenty-four-hour window and is defined as follows:
 
 `Calls within twenty-four hours = 10000`
 

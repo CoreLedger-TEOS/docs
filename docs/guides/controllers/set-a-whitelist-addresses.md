@@ -58,7 +58,7 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the  "Addres
 
 #### Response Body Example:
 
-`application/json`&#x20;
+`application/json`
 
 ```json
 {

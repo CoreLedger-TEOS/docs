@@ -19,7 +19,7 @@ Check [versioning.md](./versioning.md) concept to make sure you organize your wo
 | ----------------------------------------------------------------------------------------- | --------------- | --------------- |
 | [1.1](./v1.0.md)                                                                            | February, 2026  |                 |
 | [1.0](./v1.0-1.md)                                                                          | June, 2025      |                 |
-| [non-versioned changes (Estrella)](./non-versioned-changes.md#december-2023)                | January, 2024   | -               |
+| [non-versioned changes (Estrella)](./non-versioned-changes.md#january-2024)                 | January, 2024   | -               |
 | [non-versioned change (Django - Service Pack 3)](./non-versioned-changes.md#september-2023) | September, 2023 | -               |
 | [0.9](./v0.9.md)                                                                            | 06.07.2023      |                 |
 | [non-versioned change (Django - Service Pack 2)](./non-versioned-changes.md#june-2023)      | June, 2023      | -               |

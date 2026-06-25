@@ -30,7 +30,7 @@ Content type: `application/json`  — Specifies the sender address initiating th
 POST /Invoices(68c6abdb-0650-46d5-7d33-08da44a68d8c)/PayWithTransfer
 ```
 
-**Content-Type**: `application/json`&#x20;
+**Content-Type**: `application/json`
 
 In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "SenderAddress" is 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, it is 63 characters.
 

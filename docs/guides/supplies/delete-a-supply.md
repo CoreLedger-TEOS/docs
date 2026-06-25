@@ -25,7 +25,7 @@ DELETE /Supplies('0x261A23135CE91032AA960001A76D397041B5B3A8E5FF000146B799B60000
 | -------- | ------------------------------------------------------ |
 | key      | string (path) — The identifier of the supply to delete |
 
-**Media type:** `application/json`&#x20;
+**Media type:** `application/json`
 
 #### Example Response Body:
 

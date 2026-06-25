@@ -7,6 +7,3 @@ Login with your account in TX.Mobile. Go to Settings and select “Restore user 
 :::info
 **Important**: When restoring data from your another device, please make sure you use same combination of login credentials, environment, and seed as during the device creation process.
 :::
-
-&#x20;
-

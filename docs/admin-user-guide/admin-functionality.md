@@ -16,7 +16,7 @@ Users can't have several KYC cases opened
 In case you've configured the integration of the portal with KYC provider (ShuftiPro), user  provides all necessary data to KYC provider as configured for the requested tier.\
 :bangbang: In case you've decided to manage the KYC process fully by yourself (provider "manual" is set for all tiers), you're taking the responsibility of collecting all necessary data from users. Here in the portal you can only approve or decline the requested KYC tier within the KYC case.
 
-**Step 2.** Admin makes a decision whether to approve requested tier.&#x20;
+**Step 2.** Admin makes a decision whether to approve requested tier.
 
 Results of verification by KYC provider are available for admins in the KYC case if the portal is configured to have the integration with KYC provider. If KYC provider's verification result is "Declined", "Cancelled" or "Error", KYC case is automatically closed and gets status "Declined". If KYC provider's verification result is "Accepted" then admin can decide either to **approve** requested tier for the user or to **decline** it. User will have to start another case after his current case is declined.
 

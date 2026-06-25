@@ -2,7 +2,7 @@
 
 As usual, with this version we've brought some UI improvements and a couple of bug fixes. Apart from that, we've introduced features for end users and made some changes in the configuration flow of WLP.
 
-With this version **WLP admins and users** can try the following improvements:&#x20;
+With this version **WLP admins and users** can try the following improvements:
 
 :point\_right: Admin can now limit the amount which can be paid via corresponding payment method. The limit can be set in the configured payment method. In case the limit has been set up and user creates an order with the invoice amount more than the defined limit value, this payment method won't be available for the order. Read more in [Payment methods configuration](../admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md).
 
@@ -38,7 +38,7 @@ _Display of fees calculation for user (redemption flow)_
 
 **We've fixed:**
 
-:point\_right: Several color-related bugs.&#x20;
+:point\_right: Several color-related bugs.
 
 :point\_right: Text display on Purchase configuration page in section for minimum KYC tier for German, French and Spanish languages, which will not be cut off now.
 

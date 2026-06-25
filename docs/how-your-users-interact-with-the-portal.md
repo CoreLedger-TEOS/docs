@@ -46,9 +46,9 @@ By clicking on the shopping cart on top, the cart opens and shows all items. Use
 
 _Shopping cart_
 
-Click on “Checkout” brings user to the collection method selection screen.&#x20;
+Click on “Checkout” brings user to the collection method selection screen.
 
-As next step user can select how he wants to receive the purchased items. The list of collection methods [can be configured](./admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/index.md#collection-methods-configuration) in the “Configuration Management” editor by admin.
+As next step user can select how he wants to receive the purchased items. The list of collection methods [can be configured](./admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration.md) in the “Configuration Management” editor by admin.
 
 When selecting method of types "Wallets created in mobile app" and "Wallets saved to portal directly or via other TEOS platform components", a QR code dialog opens. User can scan the QR code with his WLA to check if the correct wallet is used. This step is optional and can be skipped.
 
@@ -68,7 +68,7 @@ The details of the order are shown for confirmation after clicking the “Contin
 
 _Order details_
 
-If everything is fine, user goes to selecting the payment method he wants to use. Currently the methods “Bank Transfer”, “Credit Card” and “Bitcoin” are available as shown in the picture. Admin manages them [in cofig file](./admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/index.md#payment-methods-configuration).
+If everything is fine, user goes to selecting the payment method he wants to use. Currently the methods “Bank Transfer”, “Credit Card” and “Bitcoin” are available as shown in the picture. Admin manages them [in cofig file](./admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md).
 
 ![](/img/gitbook-assets/image-2.png)
 

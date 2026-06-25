@@ -14,7 +14,7 @@ User can also click "Info" icon to check the content provided by admin as asset 
 
 ![](/img/gitbook-assets/microsoftteams-image-17.png)
 
-User can tap any asset to see balance changes with basic details of the operation like transaction id, sparks flow direction (incoming/outgoing) and wallet addresses from/to which transfer was done.&#x20;
+User can tap any asset to see balance changes with basic details of the operation like transaction id, sparks flow direction (incoming/outgoing) and wallet addresses from/to which transfer was done.
 
 Balance operations are shown for the current wallet address of the user. If user changed the wallet address of the application, he won't see the balance operations for the previous wallet address.
 

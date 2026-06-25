@@ -12,6 +12,6 @@ description: 'With this version WLP admins and users can try the following impro
 
 👉 Adding an ability to rename Purchase and Redemption PDF.
 
-👉 Adding an "Existing Token Card" Delivery Method.&#x20;
+👉 Adding an "Existing Token Card" Delivery Method.
 
 👉  Adding the ability for the WLP frontend to take strings from the customer's Blob. Updating translations has never been easier.

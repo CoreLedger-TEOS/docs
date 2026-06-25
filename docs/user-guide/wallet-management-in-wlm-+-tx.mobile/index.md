@@ -48,7 +48,7 @@ To request Ether, click "Get Ether" and select token type, ask your tenant admin
 
 ![](/img/gitbook-assets/image-8.png)
 
-### Convert Ether&#x20;
+### Convert Ether
 
 Some tenants may use Ether as a digital asset to perform functions available for all other digital assets. In this case you may need to convert service Ether to digital asset and withdraw it in opposite.
 

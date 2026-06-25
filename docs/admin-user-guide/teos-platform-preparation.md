@@ -8,4 +8,4 @@ Also, after the documents have been provided, "Support" section in WLM will now 
 
 _"Terms of Use" document in "Support" section_
 
-If any of the documents has not been provided, the link to the document will not be displayed in "Support" section at all.&#x20;
+If any of the documents has not been provided, the link to the document will not be displayed in "Support" section at all.

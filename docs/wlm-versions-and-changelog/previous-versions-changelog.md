@@ -78,16 +78,16 @@ We fixed some bugs to make our solution more user-friendly and stable:
 
 We fixed some bugs to make our solution more user-friendly and stable.
 
-We fixed the problem with displaying the whole list of wallets in the unit allocation section.&#x20;
+We fixed the problem with displaying the whole list of wallets in the unit allocation section.
 
-We introduced notification for the case when you have problems with connection which limits WLM functionality.&#x20;
+We introduced notification for the case when you have problems with connection which limits WLM functionality.
 
 Also starting from this version users can delete their TEOS accounts with all associated data automatically. Feel free to contact us to provide any feedback or report errors.
 
 ## Abba - 07.06.2022
 
-We fixed some bugs to make our solution more user-friendly and stable.&#x20;
+We fixed some bugs to make our solution more user-friendly and stable.
 
-We made changes in the sign up flow to make accepting terms and conditions easier.&#x20;
+We made changes in the sign up flow to make accepting terms and conditions easier.
 
-Also we introduced unique asset ID displaying on the asset details page which admins use for [WLA ](../wla-versions-and-changelog/index.md)and [WLP ](../wlp-versions-and-changelog/index.md)setup.&#x20;
+Also we introduced unique asset ID displaying on the asset details page which admins use for [WLA ](../wla-versions-and-changelog/index.md)and [WLP ](../wlp-versions-and-changelog/index.md)setup.

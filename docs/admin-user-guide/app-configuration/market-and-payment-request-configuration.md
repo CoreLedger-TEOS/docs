@@ -22,7 +22,7 @@ The set expiry date in this example will be today + 10 days. The setting is defi
 
 ## Invoice configuration
 
-Invoices can be created along with Payment requests. Some of the properties are defined based on config:&#x20;
+Invoices can be created along with Payment requests. Some of the properties are defined based on config:
 
 * expiry date is defined as current date + "days\_before\_expired" set in the config file. The setting is defined in the amount of days.
 * target address of the invoice (address which will receive paid asset) can be set in the config file. User can change it. But if not set in config - current user's address is set as default and still can be edited

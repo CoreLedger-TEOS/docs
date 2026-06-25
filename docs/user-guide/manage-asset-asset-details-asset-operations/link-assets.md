@@ -1,6 +1,6 @@
 # Link assets
 
-Some business cases need to link several assets. For this purpose TEOS has assets linking functionality. &#x20;
+Some business cases need to link several assets. For this purpose TEOS has assets linking functionality.
 
 To link one asset to another ones, go to "Assets", select the asset and go to tab "Links" of asset details. Click "Link asset" and select the assets which should be linked to the current one.
 

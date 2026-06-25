@@ -8,7 +8,7 @@ description: Available from April, 2023
 
 #### New features
 
-We've made the process of the supplies search in the Market more stable and user-friendly:&#x20;
+We've made the process of the supplies search in the Market more stable and user-friendly:
 
 * results are sorted based on the exchange rate
 * now any internet connection interruptions will be properly handled and your users will clearly see when some results may be not valid because of the network problems
@@ -17,7 +17,7 @@ We've added [new feature for signing generic texts](../how-your-users-interact-w
 
 We've added the progress bar for the importing assets process. If there is more than one asset to be imported when scanning QR code with the private key, we show the progress bar to have cleat understanding on how many assets are still left.
 
-We've added search and filters [for "My activity" screen](../how-your-users-interact-with-wla/assets-and-transactions.md#transactions-overview-and-signing-transaction). Now you can easily find the transaction which you were looking for.&#x20;
+We've added search and filters [for "My activity" screen](../how-your-users-interact-with-wla/assets-and-transactions.md#transactions-overview-and-signing-transaction). Now you can easily find the transaction which you were looking for.
 
 #### Configuration changes
 

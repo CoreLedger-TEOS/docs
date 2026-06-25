@@ -33,10 +33,10 @@ Asset details view contains all provided info about the asset and main asset ope
 
 ### Additional properties
 
-* Additional properties define by the user when asset was created  [#step-2-additional-properties-optional](./index.md#step-2-additional-properties-optional)
-* Controller - controller added to the asset when asset was created[#step-3-add-controllers-optional](./index.md#step-3-add-controllers-optional). Controller can be changed by the issuer under Asset details view
+* Additional properties define by the user when asset was created [Step 2 - Additional properties](../create-asset.md#step-2---additional-properties-optional)
+* Controller - controller added to the asset when asset was created [Step 3 - Add controllers](../create-asset.md#step-3---add-controllers-optional). Controller can be changed by the issuer under Asset details view
 * Private asset - if asset is defined as private, it won't be discovered by users of other tenants which are connected to the same blockchain
-* Available languages - the list of languages, translations to which were added by the issuer [#step-4-translations-optional](./index.md#step-4-translations-optional). Translations can be changed (added, removed, edited) by the issuer under Asset details view
+* Available languages - the list of languages, translations to which were added by the issuer [Step 4 - Translations](../create-asset.md#step-4---translations-optional). Translations can be changed (added, removed, edited) by the issuer under Asset details view
 
 ### Units
 

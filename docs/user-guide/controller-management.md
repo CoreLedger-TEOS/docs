@@ -1,12 +1,12 @@
 # Controller management
 
-If you want to limit the access to your assets to specific wallets, you can issue the exclusive rights to buy, sell, trade etc. by using a controller.&#x20;
+If you want to limit the access to your assets to specific wallets, you can issue the exclusive rights to buy, sell, trade etc. by using a controller.
 
 :::info
 Adding controller to the asset can only be done by the issuer of an asset
 :::
 
-You can always check available controllers in "Settings" -&gt; "Controllers". Please, pay attention to the status of your controllers. You can use only "Active" ones.&#x20;
+You can always check available controllers in "Settings" -> "Controllers". Please, pay attention to the status of your controllers. You can use only "Active" ones.
 
 * Active - controllers which are written to blockchain
 * Updating - controllers which are in the process of writing to blockchain
@@ -32,7 +32,7 @@ After you confirmed the transaction with TX.Mobile, a new controller is created.
 
 ## Manage whitelist and blacklist of a Controller
 
-If you select your created controller and click on “Manage”, you can create a “**Whitelist**” and thus give access to your assets to selected wallets or "**Blacklist**" and thus restrict the access to your assets for selected wallets.&#x20;
+If you select your created controller and click on “Manage”, you can create a “**Whitelist**” and thus give access to your assets to selected wallets or "**Blacklist**" and thus restrict the access to your assets for selected wallets.
 
 Select the wallets you added previously, to put them on desired type of the list. Finish the process by clicking on “Save” and sign the transaction with TX.Mobile [sign-and-check-executed-transactions.md](./sign-and-check-executed-transactions.md)
 
@@ -45,12 +45,12 @@ Please, be careful with adding wallets to Whitelist or Blacklist. It doesn't mak
 
 Only wallets added to Whitelist will be able to receive units of the assets to which the controller will be added..
 
-Only wallets added to Blacklist won't have possibility to receive units of the assets to which the controller will be added.&#x20;
+Only wallets added to Blacklist won't have possibility to receive units of the assets to which the controller will be added.
 :::
 
 ### Add controller to the asset
 
-Go to “Assets” and select “My Assets”, then choose the asset which you want to add the controller to. On the top right of the page, you now see “Controller”.&#x20;
+Go to “Assets” and select “My Assets”, then choose the asset which you want to add the controller to. On the top right of the page, you now see “Controller”.
 
 When you click on “Change” you can add the controller to the asset. Only active controllers can be selected. Click on “Select” and confirm with TX.Mobile [sign-and-check-executed-transactions.md](./sign-and-check-executed-transactions.md)
 

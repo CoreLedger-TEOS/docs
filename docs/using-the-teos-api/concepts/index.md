@@ -13,7 +13,7 @@ description: &gt;-
 
 **TEOS as PaaS /TEOS Platform/** – Token Economy Operating System which represents platform as a service (TEOS as PaaS), CoreLedger’s core product, includes all platform components
 
-**Tenant** – set of the TEOS platform components configured for specific customer and use case, connected to the specific [environment](../architecture-note/index.md#environments-and-nodes). Normally one customer has one development tenant and one or more productive tenants
+**Tenant** – set of the TEOS platform components configured for specific customer and use case, connected to the specific [environment](../architecture-note/index.md#environments). Normally one customer has one development tenant and one or more productive tenants
 
 **Tenant admin** – administrative user of the tenant who can manage tenant configuration, all tenant admins must have CL user account
 
@@ -49,7 +49,7 @@ description: &gt;-
 
 **Provider** – logical entity for presenting source of transactions, authorized to push transactions to connected devices, normally provider is a specific tenant
 
-**Environment** - the set of TEOS platform components serving tenants which are setup within this environment, each environment has its own SLAs, can be on-premise or cloud based. [Read more](../architecture-note/index.md#environments-and-nodes)
+**Environment** - the set of TEOS platform components serving tenants which are setup within this environment, each environment has its own SLAs, can be on-premise or cloud based. [Read more](../architecture-note/index.md#environments)
 
 ## Blockchain terms
 

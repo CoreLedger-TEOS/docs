@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "convert:gitbook": "node scripts/convert-gitbook-to-docusaurus.mjs",
+    "clean:migrated-markdown": "node scripts/clean-migrated-markdown.mjs",
     "render:descriptions": "node scripts/render-frontmatter-descriptions.mjs",
     "start": "docusaurus start",
     "build": "docusaurus build --out-dir docusaurus",

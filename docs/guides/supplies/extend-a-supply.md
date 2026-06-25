@@ -28,7 +28,7 @@ POST
 POST /Supplies('0x1EAEFD42D684567ABDC7000193A96C4653DE1314DB20000167242CB20000024E')/Extend
 ```
 
-**Content-Type:**  `application/json`&#x20;
+**Content-Type:**  `application/json`
 
 ```json
     "expiryTime": "2024-02-15T23:25:24.295Z"

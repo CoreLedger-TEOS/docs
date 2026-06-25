@@ -12,7 +12,7 @@ Please, prepare a word document which will follow the rules described below. You
 
 You can use any layout of the document. You can insert your company logo, any header and footer. All texts and images will be used exactly like you'll provide in the template except for the properties variables (described below).
 
-All colors will be used as is. So do not put any color if you do not need it&#x20;
+All colors will be used as is. So do not put any color if you do not need it
 
 Any modification/extension of the template should be provided to CL.
 
@@ -20,8 +20,8 @@ Any modification/extension of the template should be provided to CL.
 
 Using these variables, you will operate with the order specific data.
 
-* Keywords (mapped to properties) are surrounded by &lt;&gt;.  Therefore, avoid using &lt;&gt; in the template except for mappings or if you open one “&lt;” then close it by “&gt;”. If the application cannot find a mapping for a found keyword between &lt;&gt;, it will not change it. &#x20;
-* If two keywords are together (ex: \&lt;ZIP&gt;\&lt;TOWN&gt;) think of a white space between them unless you want them to be one word: 6300Zug&#x20;
+* Keywords (mapped to properties) are surrounded by &lt;&gt;.  Therefore, avoid using &lt;&gt; in the template except for mappings or if you open one “&lt;” then close it by “&gt;”. If the application cannot find a mapping for a found keyword between &lt;&gt;, it will not change it.
+* If two keywords are together (ex: \&lt;ZIP&gt;\&lt;TOWN&gt;) think of a white space between them unless you want them to be one word: 6300Zug
 
 
 
@@ -47,26 +47,26 @@ _How to create the table for listing the purchased items_
 
 
 
-* The first row of the table should be the table’s header in whatever language and it will not be touched.&#x20;
-* The second row will have mappings keywords&lt;-&gt; props of purchased item and will be replaced by a real data.&#x20;
+* The first row of the table should be the table’s header in whatever language and it will not be touched.
+* The second row will have mappings keywords&lt;-> props of purchased item and will be replaced by a real data.
 * No third row is required
-* Cell should contain only one keyword, nothing else&#x20;
-* Keywords to the properties of purchased item mappings:&#x20;
+* Cell should contain only one keyword, nothing else
+* Keywords to the properties of purchased item mappings:
 
 | \&lt;pos&gt;                | Index (ex. 1 2 3 etc..                                 |
 | --------------------- | ------------------------------------------------------ |
 | \&lt;asset.name&gt;         | The name of the purchased asset                        |
 | \&lt;units&gt;              | The number of purchased units of the asset             |
 | \&lt;unit.price&gt;         | The price for a single unit of the asset               |
-| \&lt;units.total.price&gt;  | &lt;p&gt;The total price for all units of the asset &lt;br /&gt;&lt;/p&gt; |
+| \&lt;units.total.price&gt;  | The total price for all units of the asset <br /> |
 
 ![](/img/gitbook-assets/image-2-1-1.png)
 
 _Example of the table_
 
-### Bank Transfer details&#x20;
+### Bank Transfer details
 
-* All fields related to Bank transfer details are filled in from [Portal configuration file](./payment-methods-configuration.md#bank-transfer). You can use them in template or just provide static data.&#x20;
+* All fields related to Bank transfer details are filled in from [Portal configuration file](./payment-methods-configuration.md#bank-transfer-payment-method). You can use them in template or just provide static data.
 
 | \&lt;beneficiary.name&gt;         | Company name, mandatory field                       |
 | --------------------------- | --------------------------------------------------- |
@@ -79,4 +79,4 @@ _Example of the table_
 | \&lt;intermediary.swift&gt;       | Intermediary’s bank Swift code, optional field      |
 | \&lt;intermediary.account&gt;     | Intermediary's account, optional field              |
 
-You can use additional fields to describe the telephone number for consultation, the company's website and other data. Additional field names should not contain "&lt;&gt;" they will be added automatically&#x20;
+You can use additional fields to describe the telephone number for consultation, the company's website and other data. Additional field names should not contain "&lt;&gt;" they will be added automatically

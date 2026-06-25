@@ -26,7 +26,7 @@ After the transaction is successfully completed, the asset management using ERC2
 
 To add asset to NFT contract, you should first create NFT contract. Several assets can be added to the same contract, each asset will be still unique but they will be managed using ERC721 protocol interface as part of one token contract.
 
-Go to "Settings" -&gt; "NFT contracts" and click "Add NFT contract".&#x20;
+Go to "Settings" -> "NFT contracts" and click "Add NFT contract".
 
 Form will be opened where you will have to define following data:
 

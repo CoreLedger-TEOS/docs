@@ -16,7 +16,7 @@ GET /Currencies[odataQuery]
 
 #### Supported OData query options:
 
-&#x20;Filter, Select, OrderBy, Top, Skip, Count.
+Filter, Select, OrderBy, Top, Skip, Count.
 
 #### Parameters
 

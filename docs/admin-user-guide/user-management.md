@@ -1,10 +1,10 @@
 # User management
 
-As an administrator you can manage the users of you tenant and WLM specifically. Go to  “Administrate” and select “Users” in the menu bar. The page shows you an overview of all user requests with available details.&#x20;
+As an administrator you can manage the users of you tenant and WLM specifically. Go to  “Administrate” and select “Users” in the menu bar. The page shows you an overview of all user requests with available details.
 
 ## Manage user requests
 
-:point\_right:Users can register and create a confirmation request from all TEOS products: WLM, WLP, WLA and TEOS API.&#x20;
+:point\_right:Users can register and create a confirmation request from all TEOS products: WLM, WLP, WLA and TEOS API.
 
 On the top left of the “Requests” view, you can set the auto confirmation, if you want new users of your tenant (also valid for WLP, WLA and TEOS API) to be automatically confirmed. We recommend to turn on this feature if you don't have specific business process for accepting new users.
 
@@ -20,7 +20,7 @@ You can switch to the view of active users. Here you can see all users registere
 
 ### Disable user
 
-You can disable user, then its profile will be moved to "Disabled" list. You can undo this action later.&#x20;
+You can disable user, then its profile will be moved to "Disabled" list. You can undo this action later.
 
 While user is disabled, he won't be able to user TEOS services, he will get corresponding error when he enters.
 

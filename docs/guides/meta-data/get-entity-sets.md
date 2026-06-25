@@ -6,7 +6,7 @@ This method provides the **service document**, which is a top-level overview of 
 
 📘 [Learn more](./index.md) about meta data.
 
-#### **Parameters:**&#x20;
+#### **Parameters:**
 
 None
 

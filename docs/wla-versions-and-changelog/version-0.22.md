@@ -12,7 +12,7 @@ description: Available from July, 2023
 
 ![](/img/gitbook-assets/screenshot-2023-07-13-at-18.14.13.png)
 
-_User settings -&gt; Check ID to sign transaction_
+_User settings -> Check ID to sign transaction_
 
 :point\_right:Now **invoice or payment request can be paid with other assets** which user has, not the one which is requested in the invoice or payment request. If you setup the app in the way that this feature is enabled, when user scans invoice or payment request QR code and doesn't have desired asset, he or she will be offered to search for other payment options using our warp transfer technology (yes, warp and transfer as one transaction!). [Read more](../admin-user-guide/app-configuration/index.md)
 
@@ -47,7 +47,7 @@ To support all the changes below we had to introduce versions in the config file
 #### Localization
 
 Starting from this version localization of UI strings is not available for customers by default. So, we removed links to localization files from the config file. \
-But now customer can easily define default language of the app using new parameter&#x20;
+But now customer can easily define default language of the app using new parameter
 
 ```json
 	"default_language": "en", //possible values: en, de, es, fr
@@ -55,7 +55,7 @@ But now customer can easily define default language of the app using new paramet
 
 All custom texts still can be localized:
 
-* we use asset data translations defined with the help of WLM [#step-3.-translations-to-different-languages](../admin-user-guide/app-configuration/asset-configuration.md#step-3.-translations-to-different-languages)
+* we use asset data translations defined with the help of WLM [Step 3. Translations to different languages](../admin-user-guide/app-configuration/asset-configuration.md#step-3-translations-to-different-languages)
 * data policy still can be localized [#data-policy](../admin-user-guide/app-configuration/additional-configuration.md#data-policy)
 
 #### Intro

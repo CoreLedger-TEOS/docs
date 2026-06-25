@@ -35,7 +35,7 @@ GET /Assets?$count=true&$select=Name&$filter=startsWith(Name, 'k')&$skip=3
 
 #### Response Body:
 
-&#x20;`application/json` — Returns a list of asset objects.
+`application/json` — Returns a list of asset objects.
 
 **Asset Object Fields**
 
@@ -61,9 +61,9 @@ GET /Assets?$count=true&$select=Name&$filter=startsWith(Name, 'k')&$skip=3
 | TransactionId         | Transaction ID where asset was written to blockchain. |
 | ControllerAddress     | Controller address for the asset.                     |
 | Translations          | List of asset translations by language.               |
-| State                 | &lt;p&gt;Current state of the asset&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;          |
+| State                 | Current state of the asset<br /><br />          |
 
-**CustomDefinitionItems Fields**&#x20;
+**CustomDefinitionItems Fields**
 
 | **Parameter**     | **Description**                           |
 | ----------------- | ----------------------------------------- |

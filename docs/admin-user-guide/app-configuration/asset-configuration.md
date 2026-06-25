@@ -20,7 +20,7 @@ When asset is created by the admin, additional properties necessary for WLA, can
 
 * **Make available in** - add "WLA" as a value here to make sure that this asset is used in WLA
 * **WLA and WLP\_Asset ticker** - Asset ticker used both in WLA and WLP must be defined
-* **WLA\_Name (optional)** - WLA specific asset name can be defined in case you want asset to be used in WLA with some alternative naming&#x20;
+* **WLA\_Name (optional)** - WLA specific asset name can be defined in case you want asset to be used in WLA with some alternative naming
 * If you want asset to be displayed in “My Asset” screen, even when the wallet has no Sparks of it, then the parameter **WLA\_Show if balance is 0** must be set to true
 * **WLA and WLP\_Round to (optional)** - For each asset to be shown in WLA, you can define the number of decimal places to which asset units will be rounded in WLA screens in case precise number is too long. This parameter is optional, in case you don't define it, WLA will round the amounts to 2 decimal places in case of Asset type is Cash or Cash Equivalent and to 4 decimal places for all other Asset types
 
@@ -73,7 +73,7 @@ Please, note that \[languageCode]Assets.v2.json file must be used to list the as
 
 If you want to define default order of the assets to be displayed in the list of assets you can use the parameter below.
 
-In the example below assets are order by the amount of units of measure on the balance in the descending order.&#x20;
+In the example below assets are order by the amount of units of measure on the balance in the descending order.
 
 * sort\_direction can have values "desc" (descending) and "asc" (ascending)
 * sort\_by can have any asset object property as a value (for example, uomValue, name, description)

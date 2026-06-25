@@ -22,7 +22,7 @@ POST
 POST /Supplies('0x1EAEFD42D684567ABDC7000193A96C4653DE1314DB20000167242CB20000024E')/Restock
 ```
 
-**Content-Type:**  `application/json`&#x20;
+**Content-Type:**  `application/json`
 
 ```json
 {
@@ -38,14 +38,14 @@ POST /Supplies('0x1EAEFD42D684567ABDC7000193A96C4653DE1314DB20000167242CB2000002
 
 #### Request body
 
-&#x20;`application/json`&#x20;
+`application/json`
 
 | **Field**        | **Type** | **Description**                                  | **Mandatory** |
 | ---------------- | -------- | ------------------------------------------------ | ------------- |
 | additionalAmount | string   | Number of additional sparks to add to the supply | ✅             |
 
 **Media type**\
-&#x20;`application/json`&#x20;
+`application/json`
 
 #### Example Response Value
 

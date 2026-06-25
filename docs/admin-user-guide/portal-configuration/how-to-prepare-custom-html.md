@@ -4,7 +4,7 @@
 
 We understand that it can be very important for your project to have specific and perfectly aligned with your brand advertising page for the featured asset or company details description for the imprint which shouldn't be limited to any white label layouts. That's why we provide the possibility to upload your own HTML page (we call it "custom HTML") for 2 cases:
 
-* [For featured asset ](./features-configuration/index.md)(your page will be displayed when your users click custom sidebar menu item if you activated "Featured asset" functionality). If you switched on "Featured asset" uploading custom HTLM for featured asset description is mandatory.&#x20;
+* [For featured asset ](./features-configuration/index.md)(your page will be displayed when your users click custom sidebar menu item if you activated "Featured asset" functionality). If you switched on "Featured asset" uploading custom HTLM for featured asset description is mandatory.
 * [For imprint](./branding-management.md#imprint-configuration) (your page will be displayed when your users click Imprint). Uploading custom HTML for imprint is optional, you can just provide your company details
 
 The custom HTML pages can be delivered in various languages, allowing for a seamless multilingual user experience based on your audience's preferences. Each language version should be uploaded separately to ensure users see content in their chosen language, providing a better user experience.
@@ -18,7 +18,7 @@ One of the most important rules for the custom HTML is to avoid adding content w
 Thus, the following rules need to be applied when setting up a custom HTML for WLP. Custom HTMLs which do not follow these rules are not supported by the WLP and we can’t help to fix related issues.
 
 :::warning
-If you decide to use example custom HTMLs provided with the default setup of the tenant, you have to remember that our frontend developers had prepared it according to our design requirements. So, please, make sure that all elements, which are used there, are adjusted to your needs and unnecessary ones are removed. Don't forget to upload it and check.&#x20;
+If you decide to use example custom HTMLs provided with the default setup of the tenant, you have to remember that our frontend developers had prepared it according to our design requirements. So, please, make sure that all elements, which are used there, are adjusted to your needs and unnecessary ones are removed. Don't forget to upload it and check.
 :::
 
 * provide the custom HTML pages in the languages you want your users to see the content

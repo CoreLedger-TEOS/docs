@@ -6,7 +6,7 @@ description: Integration with TEOS Authentication service, TMS, TxServer
 
 <p className="doc-description">Integration with TEOS Authentication service, TMS, TxServer</p>
 
-Additional APIs are required to be used along with TEOS API in case TEOS API Consumer doesn't have its own authentication service and needs TEOS Authentication service.&#x20;
+Additional APIs are required to be used along with TEOS API in case TEOS API Consumer doesn't have its own authentication service and needs TEOS Authentication service.
 
 [**TEOS Authentication service**](./using-teos-authentication-service/index.md) is used to authenticate users for TEOS Platform components including TEOS API.
 

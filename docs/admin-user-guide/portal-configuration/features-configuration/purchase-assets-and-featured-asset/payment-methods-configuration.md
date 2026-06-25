@@ -1,8 +1,8 @@
 # Payment methods configuration
 
-Starting from v0.16  paymemnt methods can be configured via UI under "Configuration management" -&gt; "Purchase configuration" -&gt; "Payment methods".&#x20;
+Starting from v0.16  paymemnt methods can be configured via UI under "Configuration management" -> "Purchase configuration" -> "Payment methods".
 
-Currently the following three payment methods are available:&#x20;
+Currently the following three payment methods are available:
 
 * “Bank Transfer” - user pays via bank transfer based on the invoice details configured by admin
 * “Credit Card”  - user pays with his debit or credit card
@@ -12,7 +12,7 @@ All methods can be enabled only if they are properly configured and can be disab
 
 ![](/img/gitbook-assets/image-27.png)
 
-_"Configuration management" -&gt; "Purchase configuration" -&gt; "Payment methods"_
+_"Configuration management" -> "Purchase configuration" -> "Payment methods"_
 
 :::info
 Please note that
@@ -48,7 +48,7 @@ _Purchase amount limits, displayed to the user_
 Step 1. Configure bank transfer details
 
 For the payment method “Bank Transfer” the bank details of the receiving account must be configured, they will be used in the invoice generated for the order. \
-Descriptions for each field of the bank details are optional, in case you provide them, users will see them in info tooltip. Descriptions can be added in all languages available for the portal.&#x20;
+Descriptions for each field of the bank details are optional, in case you provide them, users will see them in info tooltip. Descriptions can be added in all languages available for the portal.
 
 ![](/img/gitbook-assets/image-32.png)
 
@@ -69,16 +69,16 @@ Refer to [templates-for-purchase-details-and-invoice-details.md](./templates-for
 
 Step 1. Configure credit card payment parameters
 
-Apart from the [#general-characteristics-for-all-payment-methods](./payment-methods-configuration.md#general-characteristics-for-all-payment-methods) integration with cryptopayment provider must be configured to use this payment method.&#x20;
+Apart from the [#general-characteristics-for-all-payment-methods](./payment-methods-configuration.md#general-characteristics-for-all-payment-methods) integration with cryptopayment provider must be configured to use this payment method.
 
-Currently integration with [Payrexx](https://www.payrexx.com/en/home/) is used for credit card payments.&#x20;
+Currently integration with [Payrexx](https://www.payrexx.com/en/home/) is used for credit card payments.
 
 To use it productively you will have to provide your Payrexx account details:
 
 * Payrexx account name (they also call it Instance Name in some documents)
-* API secret&#x20;
+* API secret
 
-Check [#bank-card-payment-provider-payrexx](../../how-to-get-api-keys-of-third-party-services.md#bank-card-payment-provider-payrexx) to find integration parameters in your Payrexx account. Payrexx account configuration must be done separately according to Payrexx guidelines. Please, make sure that the portal currency is within the payment currencies configured for Payrexx.
+Check [Bank card payment provider - Payrexx](../../how-to-get-api-keys-of-third-party-services.md#bank-card-payment-provider---payrexx) to find integration parameters in your Payrexx account. Payrexx account configuration must be done separately according to Payrexx guidelines. Please, make sure that the portal currency is within the payment currencies configured for Payrexx.
 
 ![](/img/gitbook-assets/image-35.png)
 
@@ -94,7 +94,7 @@ Refer to [templates-for-purchase-details-and-invoice-details.md](./templates-for
 
 Step 1. Configure credit card payment parameters
 
-Apart from the [#general-characteristics-for-all-payment-methods](./payment-methods-configuration.md#general-characteristics-for-all-payment-methods) integration with cryptopayment provider must be configured to use this payment method.&#x20;
+Apart from the [#general-characteristics-for-all-payment-methods](./payment-methods-configuration.md#general-characteristics-for-all-payment-methods) integration with cryptopayment provider must be configured to use this payment method.
 
 Currently integration with [Coinify ](https://www.coinify.com/)is used for cryptocurrency payments.
 
@@ -103,7 +103,7 @@ To use it productively you will have to provide your Coinify account details:
 * API key
 * The environment, for which the API key is used (Sandbox or Production)
 
-Check [#crypto-payment-provider-coinify](../../how-to-get-api-keys-of-third-party-services.md#crypto-payment-provider-coinify) to find integration parameters in your Coinify account. Coinify account configuration must be done separately according to Coinify guidelines.&#x20;
+Check [Crypto payment provider - Coinify](../../how-to-get-api-keys-of-third-party-services.md#crypto-payment-provider---coinify) to find integration parameters in your Coinify account. Coinify account configuration must be done separately according to Coinify guidelines.
 
 ![](/img/gitbook-assets/image-55.png)
 

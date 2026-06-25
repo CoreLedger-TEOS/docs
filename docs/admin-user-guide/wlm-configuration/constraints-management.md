@@ -6,9 +6,9 @@
 
 If you want your users to have limited access to the assets within your tenant, you can set Master filter. For example, you may want your users to have access to assets created by your company/project and not to provide access to other assets available in connected blockchain.
 
-To set Master filer, you should select “Administrate” in sidebar menu and go to “Constraints”. You can select any available filter in the tenant. Filters can be created and edited in the advanced search.&#x20;
+To set Master filer, you should select “Administrate” in sidebar menu and go to “Constraints”. You can select any available filter in the tenant. Filters can be created and edited in the advanced search.
 
-If you set a master filter, the users of the tenant will only be able to find the assets which are consistent with this filter in the list of owned assets, in the Asset search and in Market functionality.&#x20;
+If you set a master filter, the users of the tenant will only be able to find the assets which are consistent with this filter in the list of owned assets, in the Asset search and in Market functionality.
 
 ### Email sending
 

@@ -8,20 +8,20 @@ description: &gt;-
 
 <p className="doc-description">Under this section the collection methods can be enabled / disabled and configured</p>
 
-Starting from v0.16 collection methods can be configured via UI under "Configuration management" -&gt; "Purchase configuration" -&gt; "Collection methods"
+Starting from v0.16 collection methods can be configured via UI under "Configuration management" -> "Purchase configuration" -> "Collection methods"
 
 Currently four collection methods “Token Card”, “Wallets created in mobile app", "Wallets saved to portal directly or via other TEOS platform components” and “One time wallet” are available:
 
 * Token card - physical representation of the ownership of the asset
 * Wallets created in mobile app - user can get the units of bought asset to the wallet which they create with the help of the app associated with the portal
 * Wallets saved to portal directly or via other TEOS platform components - user can get the units of bought asset to the wallet which he or she saved in the portal (list of saved wallets can be found under Account management) or which were added via TEOS API with the help of WLM or your other apps integrated with TEOS via TEOS API
-* One time wallet - user can get the units of bought asset to any external Ethereum wallet which is compatible with unlisted tokens. Please note, that not all external Ethereum wallets support unlisted tokens. Additionally, if the external Ethereum wallets support unlisted tokens, they might need to be configured separately.&#x20;
+* One time wallet - user can get the units of bought asset to any external Ethereum wallet which is compatible with unlisted tokens. Please note, that not all external Ethereum wallets support unlisted tokens. Additionally, if the external Ethereum wallets support unlisted tokens, they might need to be configured separately.
 
 All methods can be enabled only if they are properly configured and can be disabled at any moment.
 
 ![](/img/gitbook-assets/image-23.png)
 
-_"Configuration management" -&gt; "Purchase configuration" -&gt; "Collection methods"_
+_"Configuration management" -> "Purchase configuration" -> "Collection methods"_
 
 :::info
 Please note that
@@ -43,7 +43,7 @@ _Description definition in the Configuration management_ ![](/img/gitbook-assets
 
 _Description is shown under "More details" in user checkout flow_
 * Collection method fee which will be added on top to the order amount which end users will have to pay. Collection method fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency). \
-  Fee is a decimal number, with max 2 decimal places. Total collection method fee will be calculated as a sum of variable fee part and fixed fee part.&#x20;
+  Fee is a decimal number, with max 2 decimal places. Total collection method fee will be calculated as a sum of variable fee part and fixed fee part.
 
 ![](/img/gitbook-assets/image-53.png)
 

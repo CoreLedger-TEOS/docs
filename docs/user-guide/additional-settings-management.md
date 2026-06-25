@@ -2,9 +2,9 @@
 
 ## Definition items management
 
-The description of an asset provides valuable information about the asset to potential buyers. Since there is no limitation on e.g. categories of assets which can be issued on the web app, the descriptions might strongly differ depending on the asset. For example, in order to describe metal, you might need different properties than you need for meat. Thus, you may need to create additional properties which can be added to your asset description. You can manage them in the section "Settings" -&gt; “Definition items” in the web app.
+The description of an asset provides valuable information about the asset to potential buyers. Since there is no limitation on e.g. categories of assets which can be issued on the web app, the descriptions might strongly differ depending on the asset. For example, in order to describe metal, you might need different properties than you need for meat. Thus, you may need to create additional properties which can be added to your asset description. You can manage them in the section "Settings" -> “Definition items” in the web app.
 
-The admin of a tenant can define [Asset template](../admin-user-guide/wlm-configuration/templates-management.md#\_ref18675748) and all mandatory fields to fill out. These **main properties** might include e.g. the language, issuer wallet, name, a short description, jurisdiction, asset type, unit of measure and spark factor.&#x20;
+The admin of a tenant can define [Asset template](../admin-user-guide/wlm-configuration/templates-management.md) and all mandatory fields to fill out. These **main properties** might include e.g. the language, issuer wallet, name, a short description, jurisdiction, asset type, unit of measure and spark factor.
 
 :::info
 First try to click "Create asset" and check how Asset template looks like. If you don't need any additional properties to describe it, you can skip creating custom definition items
@@ -15,7 +15,7 @@ First try to click "Create asset" and check how Asset template looks like. If yo
 If you want to create additional properties to describe your asset in more details, you can click on “Settings”, choose “Definition Items” and click on “New Collection”.
 
 :::info
-Tenant collection and General collection are available for all users by default. Tenant collection is the collection which can be read and edited by admins only.&#x20;
+Tenant collection and General collection are available for all users by default. Tenant collection is the collection which can be read and edited by admins only.
 :::
 
 ![](/img/gitbook-assets/image-30.png)
@@ -49,7 +49,7 @@ You can create as much catalogs and as much items as you want to describe your a
 
 ## Filters management
 
-All created filters in Advanced search can be checked and managed under "Settings" -&gt; "Filters".
+All created filters in Advanced search can be checked and managed under "Settings" -> "Filters".
 
 You can check the clauses of existing filters, duplicate, remove existing filters or add a new one.
 

@@ -1,6 +1,6 @@
 # Get a single currency
 
-&#x20;This endpoint returns a specific currency available in the TEOS platform. No OData query options are supported for this endpoint.
+This endpoint returns a specific currency available in the TEOS platform. No OData query options are supported for this endpoint.
 
 #### Request Endpoint:
 

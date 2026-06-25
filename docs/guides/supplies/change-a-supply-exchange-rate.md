@@ -19,7 +19,7 @@ POST
 
 #### Request Body
 
-`application/json`&#x20;
+`application/json`
 
 | **Field**    | **Type** | **Description**                                                                                              |
 | ------------ | -------- | ------------------------------------------------------------------------------------------------------------ |
@@ -31,7 +31,7 @@ POST
 POST /Supplies('0x1EAEFD42D684567ABDC7000193A96C4653DE1314DB20000167242CB20000024E')/ChangeExchangeRate
 ```
 
-**Content-Type:** `application/json`&#x20;
+**Content-Type:** `application/json`
 
 ```json
 {

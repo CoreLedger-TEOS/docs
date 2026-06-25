@@ -8,7 +8,7 @@ If you login with your already existing account, the WLA will ask you if you wan
 
 ![](/img/gitbook-assets/2.png)
 
-A new wallet will now automatically be created, and the app ensures you write down your seed words. Seed words are keys to your blockchain wallets. Please, make sure you write them and keep them in safe and secret place. You will need them to restore the access to the wallet. Number of words used in the seed can be defined when WLA is only setup, read more in [#number-of-seed-words](./app-configuration/index.md#number-of-seed-words)
+A new wallet will now automatically be created, and the app ensures you write down your seed words. Seed words are keys to your blockchain wallets. Please, make sure you write them and keep them in safe and secret place. You will need them to restore the access to the wallet. Number of words used in the seed can be defined when WLA is only setup, read more in [Wallets module](./app-configuration/index.md#wallets-module)
 
 If you used the same login as you used for your WLM account, the new created WLA wallet is now shown in you WLM wallets automatically.
 

@@ -24,7 +24,7 @@ Supported OData query options: Expand, Select.
 
 **Code:** 200\
 **Description:** The supply was successfully retrieved.\
-**Media type:** `application/json`&#x20;
+**Media type:** `application/json`
 
 #### Example Response Body:
 

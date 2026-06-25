@@ -12,7 +12,7 @@ This endpoint retrieves all wallets associated with the current authenticated us
 GET /odata/v1.0/Wallets/My
 ```
 
-**Supports OData query options:**&#x20;
+**Supports OData query options:**
 
 Filter, Expand, Select, OrderBy, Top, Skip, Count, Format, SkipToken, DeltaToken, Apply, Compute, Search.
 

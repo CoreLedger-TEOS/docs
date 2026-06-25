@@ -19,7 +19,7 @@ None.
 
 | **Name** | **Type**      | **Description**                                                                                                     |
 | -------- | ------------- | ------------------------------------------------------------------------------------------------------------------- |
-| key      | string($uuid) | &lt;p&gt;Required. Unique identifier of the wallet to be deleted.&lt;/p&gt;&lt;p&gt;Example: B5BB3E99-A8F8-4896-8D41-07920DFCDAEC&lt;/p&gt; |
+| key      | string($uuid) | Required. Unique identifier of the wallet to be deleted.<br />Example: B5BB3E99-A8F8-4896-8D41-07920DFCDAEC |
 
 #### Sample Request
 

@@ -6,7 +6,7 @@ If you're going to use specific functionality, you should configure correspondin
 Please, note that as soon as you switch on the feature, it will become available to your end-users, so we recommend to configure all necessary settings for the features before enabling them.
 :::
 
-You can enable / disable the access to the functionalities “Purchase”, “Redeem”, "Featured asset" and "Know your customer checks" by setting necessary value for feature switchers in "Configuration management".&#x20;
+You can enable / disable the access to the functionalities “Purchase”, “Redeem”, "Featured asset" and "Know your customer checks" by setting necessary value for feature switchers in "Configuration management".
 
 ![](/img/gitbook-assets/screenshot-2023-04-24-at-16.54.47.png)
 
@@ -36,7 +36,7 @@ Links to the specific **featured assets** are built in the following way:\
 where uniqueAssetId is the unique Asset ID assigned to the asset automatically when asset is created, it can be found in Advanced config management\
 \
 Example:\
-&#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_&#x20;
+&#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_
 
 Please, don't forget to provide all necessary configuration for all featured assets in advance. If some required configuration is missing, direct link won't work as expected.
 

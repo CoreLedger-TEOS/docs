@@ -37,7 +37,7 @@ Go to **Advanced** **Configuration Management** page to provide file name of you
 
 “logo”: “icons/logo.png”
 
-The Favicon, shown in the browser tab, needs to be uploaded as .png into the “WLP-config” folder in the blob storage.&#x20;
+The Favicon, shown in the browser tab, needs to be uploaded as .png into the “WLP-config” folder in the blob storage.
 
 :::info
 The name of the favicon file needs to be “favicon.png”, then it is automatically shown in the UI.
@@ -49,7 +49,7 @@ Go to **Advanced** **Configuration Management** page to setup currency
 
 Here you can define and modify the texts which are shown at the welcome page as shown in Figure 4.
 
-“landingPage”: &#123;
+“landingPage”: \{
 
 “primaryHeaderText”: “Welcome to Coreledger”,
 
@@ -57,7 +57,7 @@ Here you can define and modify the texts which are shown at the welcome page as 
 
 “subHeaderText”: “Token distribution management. Fully customizable. Simple.”
 
-&#125;,
+\},
 
 ![Welcome page](/img/gitbook-assets/5.png)
 
@@ -82,6 +82,6 @@ Additionally, the imprint section can be fully customized with an individual htm
 `"customHtmlSourcePath": "drafts/anything/anything.html"}`
 
 :::warning
-We highly recommend to provide email by which your end-users can contact you. If you don't provide it, all texts, where it should be shown, will be empty&#x20;
+We highly recommend to provide email by which your end-users can contact you. If you don't provide it, all texts, where it should be shown, will be empty
 :::
 

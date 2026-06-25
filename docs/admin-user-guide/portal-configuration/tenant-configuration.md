@@ -34,7 +34,7 @@ _USD is defined as portal currency_
 
 Go to **Configuration Management** page to setup languages. Scroll down to **Languages and currencies** section to setup portal languages.
 
-You can define which languages will be available for your users from this list:&#x20;
+You can define which languages will be available for your users from this list:
 
 * English
 * German

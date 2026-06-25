@@ -16,15 +16,15 @@ All supplies can be in one of the following status:
 All supplies are grouped under 4 tabs:
 
 * Active - only active supplies are displayed in this group
-* Critical - supplies which are going to be exhausted or expired soon can be found in this section&#x20;
+* Critical - supplies which are going to be exhausted or expired soon can be found in this section
 * Inactive - supplies with status "Expired", "Exhausted" and "Inactive" are displayed here
 * Draft - supplies with status "Draft" and "Activating"
 
 ## **Create supply**
 
-User can create supply from "My Supplies" page (Market -&gt; My Supplies) or from Exchange screen when no available warps are found by clicking on “Create Supply”.&#x20;
+User can create supply from "My Supplies" page (Market -> My Supplies) or from Exchange screen when no available warps are found by clicking on “Create Supply”.
 
-The new form opens where you should define&#x20;
+The new form opens where you should define
 
 * **assets** to trade (proposed and desired assets)
 * **exchange rate** between them and amount to pay or to receive OR only both amounts, the system calculates the other part for you
@@ -67,6 +67,6 @@ To refill existing supply, go to supply menu and select "Restock". You will have
 
 ### Terminate supply
 
-In case you want to remove your active supply from the market, you can do it by changing the status to "Inactive".&#x20;
+In case you want to remove your active supply from the market, you can do it by changing the status to "Inactive".
 
 Go to supply menu and select "Terminate". You will have to sign the transaction to finish the process [sign-and-check-executed-transactions.md](./sign-and-check-executed-transactions.md)

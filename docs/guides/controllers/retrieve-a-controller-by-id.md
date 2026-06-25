@@ -15,7 +15,7 @@ This endpoint returns full details of a controller, including its metadata and a
 GET /odata/v1.0/Controllers({key})
 ```
 
-Retrieves the controller object identified by the specified &#123;key&#125; (UUID).\
+Retrieves the controller object identified by the specified \{key\} (UUID).\
 You can optionally use OData query options to expand related entities or select specific fields.
 
 **Supported OData query options:**\

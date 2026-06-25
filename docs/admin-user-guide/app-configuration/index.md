@@ -1,6 +1,6 @@
 # App configuration
 
-At the very beginning of WLA setup (when you order it from CoreLedger) you can define several characteristics of your future app which can't be changed without additional fee. They are listed in [#configuration-to-setup-the-app](./index.md#configuration-to-setup-the-app). All other configuration can be easily changed when your app already exists [#configuration-to-be-changed-when-the-app-already-exists](./index.md#configuration-to-be-changed-when-the-app-already-exists)
+At the very beginning of WLA setup (when you order it from CoreLedger) you can define several characteristics of your future app which can't be changed without additional fee. They are listed in [Configuration to setup the app](./index.md#configuration-to-setup-the-app-before-the-app-is-delivered). All other configuration can be easily changed when your app already exists [Configuration when the app is already delivered](./index.md#configuration-when-the-app-is-already-delivered)
 
 ## Configuration to setup the app (before the app is delivered)
 
@@ -26,6 +26,7 @@ Some modules have optional functionality which is listed below. If our default s
 * Let user copy seed words\
   Enable the possibility to copy the seed words when the wallet is created. It's very sensitive information and we don't recommend to copy seed words, we recommend to write them down instead. But we've decided to let customers define how user friendly their app must be. \
   By default this feature is enabled
+
 * Define the number of seed words\
   This app parameter means how many words the seed of the wallet should have. By default we use 12 seed words which is secure enough, but you can set any amount which can be divided by 3 (3, 6, 12, etc)
 

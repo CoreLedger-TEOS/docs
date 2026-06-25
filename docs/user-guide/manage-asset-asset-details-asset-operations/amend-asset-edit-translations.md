@@ -1,8 +1,8 @@
 # Amend asset, edit translations
 
-When asset is created, all data provided as part of the description is converted into asset hash and written to blockchain to make sure it can't be modified.&#x20;
+When asset is created, all data provided as part of the description is converted into asset hash and written to blockchain to make sure it can't be modified.
 
-Issuer of the asset may need to provide some additional details as part of the description or even change some parts of the description, including translations.&#x20;
+Issuer of the asset may need to provide some additional details as part of the description or even change some parts of the description, including translations.
 
 To do it in WLM, issuer of the asset can create amendment by clicking "Amend asset" or "Edit translation".
 

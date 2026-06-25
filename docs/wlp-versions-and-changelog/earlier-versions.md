@@ -1,6 +1,6 @@
 # Earlier versions
 
-## Version 0.15&#x20;
+## Version 0.15
 
 ### June, 2023
 
@@ -31,16 +31,16 @@ _User view when user uses direct link to the redemption method when "Use WLP dir
 We've calculated all the values based on conversion rate, but we recommend to check current minAmountNet and maxAmountNet values anyway. Check detailed information about redemption configuration updates [here](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/index.md)
 :::
 
-:point\_right: Most of the asset configuration can be done with WLM&#x20;
+:point\_right: Most of the asset configuration can be done with WLM
 
-Starting from this version most of the general asset configuration necessary for WLP can be defined with the help of WLM UI when asset is being setup by the admin. Admins should add these properties as additional ones from the collection "WLA\&WLP configuration". We've already prepared everything, just add this folder, fill the values of WLP properties and remove unnecessary ones. Check how to do it in [White Label Management Tool](../user-guide/create-asset.md#step-2-additional-properties-optional).&#x20;
+Starting from this version most of the general asset configuration necessary for WLP can be defined with the help of WLM UI when asset is being setup by the admin. Admins should add these properties as additional ones from the collection "WLA\&WLP configuration". We've already prepared everything, just add this folder, fill the values of WLP properties and remove unnecessary ones. Check how to do it in [White Label Management Tool](../user-guide/create-asset.md#step-2---additional-properties-optional).
 
 Though, please, keep in mind that some of the asset properties for purchase and redemption features must be still configured in the json config file under Advanced management.\
 Also, we are not asking you to replace the existing configuration of the existing assets used in WLP. We've moved all the properties from the config file to the WLP and saved it. But if you decide to change some of these properties, you should amend existing asset in the WLM and define all the WLP properties. For all new assets added to WLP, please, use new approach for asset definition described in [asset-configuration.md](../admin-user-guide/portal-configuration/asset-configuration.md)
 
 :point\_right: We have new recommendation for asset and redemption pictures
 
-Please, use the square picture of file type PNG; recommended size: 400\*400 px.&#x20;
+Please, use the square picture of file type PNG; recommended size: 400\*400 px.
 
 :point\_right: We've enriched validation rules for Advanced config management to make sure that you don't miss any important configuration parameters.
 
@@ -91,7 +91,7 @@ In this version we introduced integration with KYC provider [Shufti Pro](https:/
 
 Starting from this version admins can [manage features available in the portal](../admin-user-guide/portal-configuration/features-configuration/index.md), [list of admins of the portal](../admin-user-guide/portal-configuration/admin-users-management.md) and [configure WLA name](../admin-user-guide/portal-configuration/tenant-configuration.md#white-label-mobile-application-name) used with WLP using UI instead of configuration management file. We will keep replacing configuration management file entries by UI in the upcoming versions.
 
-Also now you can configure disclaimer text for using New Ethereum wallet as a collection method. Check [#collection-methods-configuration](../admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/index.md#collection-methods-configuration)
+Also now you can configure disclaimer text for using New Ethereum wallet as a collection method. Check [Collection methods configuration](../admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration.md)
 
 And as usual we fixed some bugs and introduced some design and architecture changes to improve user experience.
 
@@ -127,7 +127,7 @@ In this version we made some changes in existing functionality, introduced some 
 
 Now users can see when they were not approved by admin yet
 
-#### Redemption process changes&#x20;
+#### Redemption process changes
 
 Now it is possible to use decimals in the desired amount to redeem
 

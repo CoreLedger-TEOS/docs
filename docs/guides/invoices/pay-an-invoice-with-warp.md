@@ -1,6 +1,6 @@
 # Pay an invoice with WARP
 
-This endpoint allows TEOS users to pay an invoice using the WARP mechanism. A WARP is a chain of supplies that enables exchanging sparks of offered assets for sparks of desired assets based on available offers in the TEOS Platform.&#x20;
+This endpoint allows TEOS users to pay an invoice using the WARP mechanism. A WARP is a chain of supplies that enables exchanging sparks of offered assets for sparks of desired assets based on available offers in the TEOS Platform.
 
 Users can execute a WARP to pay the invoice even if they do not hold the exact asset required, as long as they have enough of the offered asset in the WARP chain.
 

@@ -28,7 +28,7 @@ GET /Assets('0x86766979FD04114E1F90001')?$select=Name,Author,Description
 
 #### Response Body
 
-&#x20;`application/json`— Returns the requested asset object.
+`application/json`— Returns the requested asset object.
 
 **Asset Object Fields**
 

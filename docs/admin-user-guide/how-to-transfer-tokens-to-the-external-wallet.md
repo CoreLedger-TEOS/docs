@@ -56,7 +56,7 @@ You can find this token contract address in the WLM on your "Asset detail" page 
 
 ![](/img/gitbook-assets/metamask1.png)
 
-2. Select "Custom token". You should fill out "Token contract address". &#x20;
+2. Select "Custom token". You should fill out "Token contract address".
 
 ![](/img/gitbook-assets/metamask2.png)
 

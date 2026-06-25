@@ -2,7 +2,7 @@
 
 ## Sign transaction
 
-To write something to the blockchain user must sign data with his private key of the wallet used for this action. Each try to write data to the blockchain is called transaction.&#x20;
+To write something to the blockchain user must sign data with his private key of the wallet used for this action. Each try to write data to the blockchain is called transaction.
 
 :::info
 Every time you create asset, create supply or do any other transaction signing related action, check which wallet is selected as your current wallet in WLM. Transaction is created for the current wallet and pushed to the device with TX.Mobile where the private key pf current wallet is stored.
@@ -31,7 +31,7 @@ To finish the transaction, you have to sign it by clicking on “Confirm”, oth
 
 ![](/img/gitbook-assets/image-10.png)
 
-When you sign the transaction, data is pushed to the server and is written to the blockchain. After some time, you will receive a notification of the successful operation in WLM and in the mobile app.&#x20;
+When you sign the transaction, data is pushed to the server and is written to the blockchain. After some time, you will receive a notification of the successful operation in WLM and in the mobile app.
 
 :::info
 Writing to blockchain can take some time so the **time between placing signature and receiving notification about successful result** of operation depends on the blockchain (local/global) and current activity of all contributors to it.
@@ -55,7 +55,7 @@ By switching to "Other" tab you can check the transactions which were triggered 
 
 ### Check transaction in TX.Mobile
 
-When you open the app you see all triggered transactions by all addresses from the list of Wallets in TX.Mobile.&#x20;
+When you open the app you see all triggered transactions by all addresses from the list of Wallets in TX.Mobile.
 
 By selecting the transaction, you can check its details. You can always check the status and errors in case the transaction has failed. Apart from this metadata details depend on the type of the transaction are also displayed.
 

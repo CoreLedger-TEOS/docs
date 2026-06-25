@@ -12,9 +12,9 @@ Full configuration of Redemption functionality includes following steps:
 
 #### Step 1. Configure general redemption settings
 
-Use **"redeemSettings"** section of the config file available under the Advanced Config Management.&#x20;
+Use **"redeemSettings"** section of the config file available under the Advanced Config Management.
 
-* :new: Define the display name of corresponding menu item which is called "Redemption" by default "redeemSettings" -&gt; "menuItemName"\
+* :new: Define the display name of corresponding menu item which is called "Redemption" by default "redeemSettings" -> "menuItemName"\
   This value is used for menu item display name which is "Redemption" by default. The name will be the same in all languages. You can use up to 20 symbols.
 *   Define the description of the redemption method selection step for your end users with the help of "methodSelectionDescription" parameter. Text is shown at "Select method" step\
 
@@ -45,7 +45,7 @@ If "additionalInfoRedemptionRequest" is configured and enabled, additional field
 
 _"additionalInfoRedemptionRequest" is configured and enabled_
 
-#### Step 2. Configure redemption methods&#x20;
+#### Step 2. Configure redemption methods
 
 One method is configured for redeeming one specific asset for receiving fiat money ("bank" type) /cryptocurrency ("ETH", "bitcoin" or "ERC20" types) /physical asset ("physical" type) as a payout as described below.
 

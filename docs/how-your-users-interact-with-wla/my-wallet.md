@@ -1,6 +1,6 @@
 # My wallet
 
-The last step of the user registration process is creating the wallet. User can find his wallet's details by clicking Menu.&#x20;
+The last step of the user registration process is creating the wallet. User can find his wallet's details by clicking Menu.
 
 
 
@@ -15,7 +15,7 @@ The last step of the user registration process is creating the wallet. User can 
 Following details are available:
 
 * public address\
-  User can also use QR code with the public address to show to other WLA users&#x20;
+  User can also use QR code with the public address to show to other WLA users
 * Ether balance\
   WLA is based on Ethereum blockchain, so each signing of a transaction costs some ETH. Most of WLAs are running against private blockchain, so ETH is distributed automatically. A very low balance of ETH plus the high costs of a specific transaction can block transaction signing
 

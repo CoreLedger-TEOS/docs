@@ -12,6 +12,6 @@ If the sign up was successful, you will receive an email from CoreLedger. Check 
 
 ![Figure 2: Email confirmation](/img/gitbook-assets/1-1.png)
 
-Starting from now you have a TEOS account which will be used in all TEOS apps and tech products.&#x20;
+Starting from now you have a TEOS account which will be used in all TEOS apps and tech products.
 
 Next you can click “here” to continue the registration process in the app where you came from.

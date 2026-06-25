@@ -28,7 +28,7 @@ POST /odata/v1.0/Assets('0x5f1e6522bd3b65be880007')/RemoveAssetController
 
 #### Response Body:
 
-&#x20;`application/json`  — Transaction details
+`application/json`  — Transaction details
 
 #### Example Response:
 

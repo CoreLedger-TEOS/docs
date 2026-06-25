@@ -26,7 +26,7 @@ _Loading purchase templates in the languages you need._
 
 👉 Decimal places and rounding rules for each asset and price have been added.
 
-👉 Checkout and redemption flow: customized checkboxes for terms have been added.&#x20;
+👉 Checkout and redemption flow: customized checkboxes for terms have been added.
 
 **We've fixed:**
 

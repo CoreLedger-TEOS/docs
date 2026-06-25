@@ -1,6 +1,6 @@
 # Get units
 
-&#x20;This endpoint returns all units available in the TEOS platform. Units are used to define the measurement for digital assets. You can optionally use OData query options to filter, select, order, or paginate results.
+This endpoint returns all units available in the TEOS platform. Units are used to define the measurement for digital assets. You can optionally use OData query options to filter, select, order, or paginate results.
 
 📘 [Learn more ](../../resources/using-the-teos-api/concepts/spark.md)about natural units of measure and Sparks.
 
@@ -16,7 +16,7 @@ GET /odata/v1.0/Units
 GET /Units[odataQuery]
 ```
 
-#### Supported OData query options:&#x20;
+#### Supported OData query options:
 
 Filter, Select, OrderBy, Top, Skip, Count.
 

@@ -25,7 +25,7 @@ When asset is created by the admin, additional properties necessary for WLP, can
 
 * **Make available in** - add "WLP" as a value here to make sure that this asset is used in WLP
 * **WLA and WLP\_Asset ticker** - Asset ticker used both in WLA and WLP must be defined
-* **WLP\_Name (optional)** - WLP specific asset name can be defined in case you want asset to be used in WLP with some alternative naming&#x20;
+* **WLP\_Name (optional)** - WLP specific asset name can be defined in case you want asset to be used in WLP with some alternative naming
 * **WLA and WLP\_Round to (optional)** - For each asset to be shown in WLP, you can define the number of decimal places to which asset units will be rounded in WLP screens in case precise number is too long. This parameter is optional, in case you don't define it, WLP will round the amounts to 2 decimal places in case of Asset type is Cash or Cash Equivalent and to 4 decimal places for all other Asset types
 
 :::info

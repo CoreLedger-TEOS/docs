@@ -29,10 +29,10 @@ Once a version is no longer available on production, any calls made to it will n
 \
 Here is a timeline example:
 
-| &lt;p&gt;01.01.2030&lt;br /&gt;Version 2.3 is released&lt;/p&gt; | &lt;p&gt;01.07.2030&lt;br /&gt;half a year after v2.3 release date: v2.3 is not supported&lt;/p&gt; |                                                                                                                         |
+| 01.01.2030<br />Version 2.3 is released | 01.07.2030<br />half a year after v2.3 release date: v2.3 is not supported |                                                                                                                         |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-|                                                               | &lt;p&gt;15.08.2030&lt;br /&gt;Version 2.4 is released&lt;/p&gt;                                    | &lt;p&gt;15.02.2031&lt;br /&gt;half a year after v2.4 release date: v2.4 is not supported, v2.3 is not available&lt;/p&gt; |
-|                                                               |                                                                                                  | &lt;p&gt;15.02.2031&lt;br /&gt;Version 2.5 is released&lt;/p&gt;                                                           |
+|                                                               | 15.08.2030<br />Version 2.4 is released                                    | 15.02.2031<br />half a year after v2.4 release date: v2.4 is not supported, v2.3 is not available |
+|                                                               |                                                                                                  | 15.02.2031<br />Version 2.5 is released                                                           |
 
 For SDKs or code base templates using the TEOS API which can be mentioned in the documentation, a version will always remain available as it is a downloadable package. However, the SDK or code base template may rely upon API versions that no longer work, so you should assume an end-of-life SDK is no longer functional.
 

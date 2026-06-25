@@ -16,7 +16,7 @@ POST/odata/v1.0/Supplies/Create
 POST /Supplies/Create
 ```
 
-**Content-Type:** `application/json`&#x20;
+**Content-Type:** `application/json`
 
 In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "OriginatorAddress" and "ReceiverAddress" are 42 characters long. In non-EVM networks, the address length may differ. For example, on Internet Computer, it is 63 characters.
 

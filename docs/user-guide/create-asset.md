@@ -22,11 +22,11 @@ If you finished filling out the main properties of your asset, click on “Save 
 
 There are two types of units which can be used in TEOS (and in WLM particularly) for displaying asset amount: natural units of measure and sparks.
 
-Every asset has its own representation in real world and thus has its own natural units of measure which are defined for the digital asset when it is created.  For example, steel is measure in kilograms or tons and man-hours in days or hours.&#x20;
+Every asset has its own representation in real world and thus has its own natural units of measure which are defined for the digital asset when it is created.  For example, steel is measure in kilograms or tons and man-hours in days or hours.
 
 Every digital asset written to the blockchain has unified indivisible unit of measure. In TEOS we call it Spark. **Spark is the generalized term for the smallest indivisible fraction of a digital asset** (like one Satoshi is for Bitcoin or one Wei is for Ether).
 
-The number of sparks needed to get one unit of measure (kilogram, liter, token) can be defined by the TEOS user with the help of the Spark factor.&#x20;
+The number of sparks needed to get one unit of measure (kilogram, liter, token) can be defined by the TEOS user with the help of the Spark factor.
 
 For example, asset has unit of measure defined as liter and Spark factor as 1000. That means, that its smallest indivisible part refers to milliliter in the physical world. In this example, the smallest indivisible fraction for a TEOS to operate is 0.001 liter (1 Spark) of this asset.
 
@@ -34,9 +34,9 @@ For better understanding read [our article on Medium](https://medium.com/coreled
 
 ### Step 2 - Additional properties (optional)
 
-In order to describe your asset in more details, you can now add additional properties to the main properties. Dependent on the tenant, there might be specific collections to choose from various additional properties. Or you might have created a catalog in advance (see [#definition-items-management](./additional-settings-management.md#definition-items-management)).&#x20;
+In order to describe your asset in more details, you can now add additional properties to the main properties. Dependent on the tenant, there might be specific collections to choose from various additional properties. Or you might have created a catalog in advance (see [#definition-items-management](./additional-settings-management.md#definition-items-management)).
 
-If you're setting up an [Active Sandbox](https://coreledger.net/active-sandbox/) or productive solution based on TEOS Platform with [WLP ](../wlp-versions-and-changelog/index.md)or [WLA](../wla-versions-and-changelog/index.md), you are supposed to add necessary properties for WLP and WLA using collection "WLA\&WLP configuration". You can click "Add all" in the line of this collection, all available definition items will be added.&#x20;
+If you're setting up an [Active Sandbox](https://coreledger.net/active-sandbox/) or productive solution based on TEOS Platform with [WLP ](../wlp-versions-and-changelog/index.md)or [WLA](../wla-versions-and-changelog/index.md), you are supposed to add necessary properties for WLP and WLA using collection "WLA\&WLP configuration". You can click "Add all" in the line of this collection, all available definition items will be added.
 
 ![](/img/gitbook-assets/image-18.png)
 
@@ -54,13 +54,13 @@ This collection contains following properties:
   * Round to\
     You can decide how many decimal numbers should be shown to users when they check asset balance in WLA and WLP. By default we're going to show 2 decimal numbers for currencies (asset type "cash and cash equivalent") and 4 for all other asset types
   * If asset is going to be used in WLA: WLA Name\
-    You can define asset name specifically for WLA. If it's not set, Asset name defined in [#step-1-main-properties-mandatory](./create-asset.md#step-1-main-properties-mandatory)will be used
+    You can define asset name specifically for WLA. If it's not set, Asset name defined in [Step 1 - Main properties](./create-asset.md#step-1---main-properties-mandatory) will be used
   * If asset is going to be used in WLP: WLP Name\
-    You can define asset name specifically for WLP. If it's not set, Asset name defined in [#step-1-main-properties-mandatory](./create-asset.md#step-1-main-properties-mandatory)will be used
+    You can define asset name specifically for WLP. If it's not set, Asset name defined in [Step 1 - Main properties](./create-asset.md#step-1---main-properties-mandatory) will be used
 
 :::info
 You should remove all optional properties if you're not going to use them.\
-If you want to change some properties afterwards, you can create an [amendment](./manage-asset-asset-details-asset-operations/amend-asset-edit-translations.md), changes will be applied in WLA and WLP automatically&#x20;
+If you want to change some properties afterwards, you can create an [amendment](./manage-asset-asset-details-asset-operations/amend-asset-edit-translations.md), changes will be applied in WLA and WLP automatically
 :::
 
 ![](/img/gitbook-assets/image-15.png)
@@ -96,7 +96,7 @@ In case your tenant is configured to support FT or NFT contracts you can add the
 
 #### NFT
 
-Go to "Settings" -&gt; "NFT contracts", pick the one you need from the list of existing NFT contracts, click "Add Asset" and pick your asset from the list of  assets
+Go to "Settings" -> "NFT contracts", pick the one you need from the list of existing NFT contracts, click "Add Asset" and pick your asset from the list of  assets
 
 ![](/img/gitbook-assets/image-80.png)
 

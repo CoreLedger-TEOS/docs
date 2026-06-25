@@ -14,7 +14,7 @@ GET /odata/v1.0/AssetDetailClasses
 GET /AssetDetailClasses[odataQuery]
 ```
 
-#### Supported OData query options:&#x20;
+#### Supported OData query options:
 
 Filter, Select, OrderBy, Top, Skip, Count.
 

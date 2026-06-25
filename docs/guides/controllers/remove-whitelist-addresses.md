@@ -1,6 +1,6 @@
 # Remove whitelist addresses
 
-&#x20;Controllers are blockchain-level entities that manage access rights to assets, allowing you to restrict who can buy, sell, or trade them. Removes one or more addresses from the whitelist of a specific controller.
+Controllers are blockchain-level entities that manage access rights to assets, allowing you to restrict who can buy, sell, or trade them. Removes one or more addresses from the whitelist of a specific controller.
 
 This endpoint removes one or more addresses from the whitelist of a specific controller.
 

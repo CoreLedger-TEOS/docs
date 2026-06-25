@@ -18,7 +18,7 @@ The structure of the returned json document differs from application to applicat
 
 | Name | Type    | Description                                                                                                               |
 | ---- | ------- | ------------------------------------------------------------------------------------------------------------------------- |
-| dev  | boolean | &lt;p&gt;If additional dev configurations should be returned. E.g. ?dev=true&lt;/p&gt;&lt;p&gt;Is relevant only for CoreLedger Support.&lt;/p&gt; |
+| dev  | boolean | If additional dev configurations should be returned. E.g. ?dev=true<br />Is relevant only for CoreLedger Support. |
 
 
 
