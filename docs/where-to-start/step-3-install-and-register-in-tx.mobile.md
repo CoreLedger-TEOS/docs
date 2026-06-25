@@ -20,7 +20,7 @@ _Figure 7: Sign up for TX.Mobile_
 
 You will be asked to create a new wallet or restore an existing one. Create a new one if you're going through the registration steps. Then you will be asked to write down the seed words which provide the access to the device data. Keep them always in a secure place and never share online.
 
-:::danger
+:::caution[Attention]
 **Important:** Please, note, that seed words saving is the most important step of wallet creation! You will need these seed words to restore your device data with all wallets and private keys for them.
 
 You can only restore a device data in TEOS if you have your login details as well as the seed words.

@@ -10,7 +10,7 @@ Most of the TEOS API calls require the authentication header: Bearer token.
 
 [OData query builder syntax](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html) can be used for most of the TEOS API requests, swagger documentation provides explicitly the info about the methods that are already odata-compatible, and which are not.
 
-:::danger
+:::caution[Attention]
 Please note that TEOS API is case-sensitive. Pay attention to the upper/lower-case usage within request data
 :::
 

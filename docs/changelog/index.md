@@ -6,7 +6,7 @@ description: Versioned changes and non-versioned changes, list of TEOS API versi
 
 <p className="doc-description">Versioned changes and non-versioned changes, list of TEOS API versions</p>
 
-:::danger
+:::caution[Attention]
 Please, note that support of TEOS API v0.8 is over. Plan the upgrade to v1.1 to keep your solution working and up to date
 :::
 

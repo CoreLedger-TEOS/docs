@@ -20,7 +20,7 @@ We strongly recommend to go through the text of email templates and adjust them 
 
 ### Spark Factor Modifier
 
-:::danger
+:::caution[Attention]
 Not available at the moment
 :::
 

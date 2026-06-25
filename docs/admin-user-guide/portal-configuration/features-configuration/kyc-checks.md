@@ -86,7 +86,7 @@ If you use Active Sandbox product and run pilot project you are welcome to use C
 
 In order to use KYC functionality with Shufti Pro integration productively you will need to create **your own productive account** with [Shufti Pro](https://shuftipro.com/) and follow the steps described below.
 
-:::danger
+:::caution[Attention]
 Make sure that all integration parameters (API keys and redirect URL) are configured for productive account if you expect productive account to be used in WLP or test account if you expect test account to be used in WLP. **Productive and test account have different integration settings**
 :::
 
@@ -98,7 +98,7 @@ Make sure that all integration parameters (API keys and redirect URL) are config
 You can configure and define settings by yourself if you're familiar enough with json structure and integration parameters. If you have some problems, we can help you to configure Shufti Pro integration. You will have to provide screenshots with the selected parameters for your desired KYC flows for each tier &gt; 0 (please note that we will need screenshots of each step: enabled services, each service parameters and common parameters) to your CoreLedger manager. Check info in [#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro](./kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) to get necessary screenshots
 :::
 
-:::danger
+:::caution[Attention]
 Please, note that you have to decide based on your business case which checks are necessary and define configuration settings of these checks.
 :::
 
@@ -146,7 +146,7 @@ You can use our example parameters for tests or even pilot projects with Active 
 * [Phone Service](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification#phone-service)
 * [Background Checks Service](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification#background-checks-service)
 
-:::danger
+:::caution[Attention]
 Please, don't set "reference" and "callback\_url" parameters and don't specify the values of "email" or any other end user's data described in Shufti Pro's documentation. They will be set automatically
 :::
 
