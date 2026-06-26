@@ -59,5 +59,4 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Address
 | 200      | Wallets successfully retrieved. The response includes a list of wallets for the current user. |
 | 401      | Unauthorized — authentication credentials are missing or invalid.                             |
 
-\
 <br />

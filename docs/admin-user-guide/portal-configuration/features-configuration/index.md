@@ -27,14 +27,12 @@ _User view when user uses direct link to the redemption method when "Use WLP dir
 Links to the specific **redemption methods** are built in the following way:\
 `{portal url}/redemption/details/{redemptionId},`\
 where redemptionId is the redemption ID from the Advanced config management\
-\
 Example:\
 &#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/redemption/details/1111-222-34242-123132_
 
 Links to the specific **featured assets** are built in the following way:\
 `{portal url}/featured/{uniqueAssetId},`\
 where uniqueAssetId is the unique Asset ID assigned to the asset automatically when asset is created, it can be found in Advanced config management\
-\
 Example:\
 &#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_
 
@@ -62,7 +60,6 @@ The code can be configured using the following attributes and recommendations wh
 
 `"refCodeTemplate": “+**!!_2021”`
 
-\
 To make sure that every tenant has its own pool of codes, we add at the end of the refCode first letter of your tenant name automatically.\
 The above refCodeTemplate will automatically generate codes like “57Rad\_2021\_tn” or “22doh\_2021\_tn”, where "\_tn" stand for "Tenant Name".
 

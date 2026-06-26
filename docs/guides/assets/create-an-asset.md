@@ -124,5 +124,4 @@ No query parameters.
 | 400      | The asset is invalid. Error details are included.       |
 | 401      | Unauthorized.                                           |
 
-\
 <br />

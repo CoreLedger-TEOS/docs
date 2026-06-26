@@ -26,7 +26,6 @@ Normally, **we only support a version for not more than 12 months after its rele
 We notify our customers 1 month in advance about the version running out of the support and we notify when the version is not supported anymore. Normally, after explicit notification about not supporting the version, it is still available on production for some time for those who are running late (from 1 to 6 months).
 
 Once a version is no longer available on production, any calls made to it will not work.\
-\
 Here is a timeline example:
 
 | 01.01.2030<br />Version 2.3 is released | 01.07.2030<br />half a year after v2.3 release date: v2.3 is not supported |                                                                                                                         |

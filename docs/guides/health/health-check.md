@@ -33,5 +33,3 @@ None.
 | 200      | OK. The TEOS API is healthy, and the API key (if provided) is valid.             |
 | 401      | Unauthorized. The provided API key or authorization token is missing or invalid. |
 
-\
-.

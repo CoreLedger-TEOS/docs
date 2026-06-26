@@ -78,6 +78,4 @@ POST /odata/v1.0/Assets('0x5f1e6522bd3b65be880007')/SetController
 | 401      | Unauthorized.                                           |
 | 404      | The asset or controller address was not found.          |
 
-\
-\
 <br />

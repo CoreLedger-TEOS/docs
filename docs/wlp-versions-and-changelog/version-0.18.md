@@ -40,4 +40,3 @@ _Loading purchase templates in the languages you need._
 
 
 
-\

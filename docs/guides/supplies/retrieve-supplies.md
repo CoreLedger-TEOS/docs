@@ -72,5 +72,4 @@ In EVM-compatible networks (e.g., Sparknet, Ethereum, and Polygon), the "Origina
 | 400      | The request is invalid. Error details are included. |
 | 401      | Unauthorized                                        |
 
-\
 <br />
