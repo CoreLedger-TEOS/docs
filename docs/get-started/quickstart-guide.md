@@ -58,7 +58,7 @@ Authorization: Bearer 9D19D3CA6361713D49CFC4C8668C4D9A9ED3B3621E763B0607F77D24CF
 
 #### Example with curl
 
-```http
+```bash
 curl -X 'GET' \
   'https://teosapi.coreledger.net/odata/v0.7/AssetClasses(code=,,languageCode=,)' \
   -H 'accept: application/json' \

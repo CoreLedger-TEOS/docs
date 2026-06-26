@@ -16,7 +16,7 @@ All data transfers conform to HTTP/1.1, and all endpoints require HTTPS. Because
 
 .. is equivalent to performing this cURL request:
 
-```
+```bash
 curl -X 'GET' \
   'https://tms.coreledger.net/odata/v1' \
   -H 'accept: application/json'
@@ -57,7 +57,7 @@ The TMS API has multiple versions. You can read more about versioning in [Versio
 
 Build your query with the endpoint containing necessary version. For example, here's a call to version 1:
 
-```
+```bash
 curl -X 'GET' \
   'https://tms.coreledger.net/v1/users' \
   -H 'accept: application/json'

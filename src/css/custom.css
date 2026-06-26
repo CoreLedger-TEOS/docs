@@ -120,6 +120,54 @@ html[data-theme='dark'] .theme-doc-markdown img {
   box-shadow: none;
 }
 
+.theme-code-block {
+  border: 1px solid #d8e2ec;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.theme-code-block pre {
+  background: #f8fafc !important;
+}
+
+.theme-code-block code {
+  line-height: 1.65;
+}
+
+.theme-code-block .token.property,
+.theme-code-block .token.header,
+.theme-code-block .token.attr-name {
+  color: #b45f06 !important;
+}
+
+.theme-code-block .token.string,
+.theme-code-block .token.url {
+  color: #0a7f38 !important;
+}
+
+.theme-code-block .token.function,
+.theme-code-block .token.command {
+  color: #0969da !important;
+}
+
+.theme-code-block .token.keyword,
+.theme-code-block .token.operator,
+.theme-code-block .token.option {
+  color: #8250df !important;
+}
+
+.theme-code-block .token.punctuation {
+  color: #586069 !important;
+}
+
+html[data-theme='dark'] .theme-code-block {
+  border-color: #2a3948;
+}
+
+html[data-theme='dark'] .theme-code-block pre {
+  background: #111923 !important;
+}
+
 table {
   display: table;
   width: 100%;

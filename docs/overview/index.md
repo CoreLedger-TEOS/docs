@@ -8,7 +8,7 @@ All data transfers conform to HTTP/1.1, and all endpoints require HTTPS. Because
 
 ... is equivalent to performing this cURL request:
 
-```
+```bash
 curl -X 'GET' \
   'https://teosapi.coreledger.net/odata/v1.0/$metadata' \
   -H 'accept: application/json;odata.metadata=minimal;odata.streaming=true'
@@ -19,7 +19,7 @@ The TEOS API has multiple versions. You can read more about versioning in [Versi
 
 It's really simple — just build your query with the endpoint containing necessary version. For example, here's a call to version 0.9:
 
-```
+```bash
 curl -X 'GET' \
   'https://teosapi.coreledger.net/odata/v0.9' \
   -H 'accept: application/json;odata.metadata=minimal;odata.streaming=true'

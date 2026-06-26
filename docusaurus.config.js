@@ -119,7 +119,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['bash', 'json', 'powershell'],
+        additionalLanguages: ['bash', 'http', 'json', 'powershell'],
       },
       tableOfContents: {
         minHeadingLevel: 2,
