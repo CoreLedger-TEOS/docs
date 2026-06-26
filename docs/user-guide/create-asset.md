@@ -34,9 +34,9 @@ For better understanding read [our article on Medium](https://medium.com/coreled
 
 ### Step 2 - Additional properties (optional)
 
-In order to describe your asset in more details, you can now add additional properties to the main properties. Dependent on the tenant, there might be specific collections to choose from various additional properties. Or you might have created a catalog in advance (see [#definition-items-management](./additional-settings-management.md#definition-items-management)).
+In order to describe your asset in more details, you can now add additional properties to the main properties. Dependent on the tenant, there might be specific collections to choose from various additional properties. Or you might have created a catalog in advance (see [Definition Items Management](./additional-settings-management.md#definition-items-management)).
 
-If you're setting up an [Active Sandbox](https://coreledger.net/active-sandbox/) or productive solution based on TEOS Platform with [WLP ](../wlp-versions-and-changelog/index.md)or [WLA](../wla-versions-and-changelog/index.md), you are supposed to add necessary properties for WLP and WLA using collection "WLA\&WLP configuration". You can click "Add all" in the line of this collection, all available definition items will be added.
+If you're setting up an [Active Sandbox](https://coreledger.net/active-sandbox/) or productive solution based on TEOS Platform with [WLP](../wlp-versions-and-changelog/index.md) or [WLA](../wla-versions-and-changelog/index.md), you are supposed to add necessary properties for WLP and WLA using collection "WLA\&WLP configuration". You can click "Add all" in the line of this collection, all available definition items will be added.
 
 ![](/img/gitbook-assets/image-18.png)
 
@@ -69,7 +69,7 @@ As soon as you added all properties needed to describe your asset in depth, clic
 
 ### Step 3 - Add controllers (optional)
 
-After that you can add controller and thus limit the access to your asset to specific users only. For creating a controller see section [#create-new-controller](./controller-management.md#create-new-controller)\
+After that you can add controller and thus limit the access to your asset to specific users only. For creating a controller see section [Create New Controller](./controller-management.md#create-new-controller)\
 Click “Save and Next” to continue or "Activate" right away.
 
 ![](/img/gitbook-assets/image-37.png)

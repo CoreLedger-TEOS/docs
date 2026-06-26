@@ -8,7 +8,7 @@ description: &gt;-
 
 <p className="doc-description">Flow for signing transactions using user token authentication and using API key authentication</p>
 
-TEOS API consumers can submit signed transactions using the TEOS API. Each transaction mentioned in [#transaction-types-available-in-teos-platform](../../using-the-teos-api/concepts/transaction.md#transaction-types-available-in-teos-platform)requires the same set of actions described in the diagrams below, using the asset creation process as an example.
+TEOS API consumers can submit signed transactions using the TEOS API. Each transaction mentioned in [Transaction types available in TEOS platform](../../using-the-teos-api/concepts/transaction.md#transaction-types-available-in-teos-platform) requires the same set of actions described in the diagrams below, using the asset creation process as an example.
 
 ### Flow with API key
 

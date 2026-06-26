@@ -11,6 +11,6 @@ description: &gt;-
 
 ### Learn more about existing integrations with third-party providers.
 
-1. [Payrexx. The All-in-One payment solution for global SMEs. ](./payrexx.md)
+1. [Payrexx. The All-in-One payment solution for global SMEs.](./payrexx.md)
 2. [Coinify. Accept crypto payments everywhere.](./coinify.md)
 3. [Shufti. Fast and easy AI-powered KYC and AML verification.](./shufti.md)

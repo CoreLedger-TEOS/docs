@@ -125,7 +125,7 @@
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Message     | Amendment with docId:`docId` changes an immutable property `[GENERAL][tuf]`                                                                                                     |
 | Description | There was a try to change asset general properties which are not allowed to be amended                                                                                          |
-| What to do  | Make sure that your amendment request does not contain [general properties ](../../resources/using-the-teos-api/concepts/asset.md#general-properties)of the asset and try again |
+| What to do  | Make sure that your amendment request does not contain [general properties](../../resources/using-the-teos-api/concepts/asset.md#general-properties) of the asset and try again |
 
 #### 31000-10025
 

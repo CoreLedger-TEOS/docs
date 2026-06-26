@@ -8,9 +8,9 @@ Step 2. Adjust general settings of tenant configuration such as app name, langua
 
 Step 3. Adjust the look and feel of the portal to make it recognizable by your end-users [Branding management](./branding-management.md)
 
-Step 4. Configure features which you want your portal to have (don't forget to provide accounts for third-party services!) [features-configuration](./features-configuration/index.md)
+Step 4. Configure features which you want your portal to have (don't forget to provide accounts for third-party services!) [Features Configuration](./features-configuration/index.md)
 
-Step 5. Switch features on for your end-users. Let the portal running by TEOS on blockchain work for your case! [features-configuration](./features-configuration/index.md)
+Step 5. Switch features on for your end-users. Let the portal running by TEOS on blockchain work for your case! [Features Configuration](./features-configuration/index.md)
 
 In subpages you can find the description of how your portal can be configured. WLP configurations can be adjusted by several means (depending on the setting you want to configure):\
 1\. "Configuration management" section where you can find nice UI for managing admin users, WLA name and switching on/off portal features\

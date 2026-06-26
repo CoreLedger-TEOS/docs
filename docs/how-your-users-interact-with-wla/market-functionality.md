@@ -12,8 +12,8 @@ All existing supplies will be listed. You then can select one of the existing su
 
 ## Create supply
 
-If you didn't find desired supply in the result of [#buy-and-sell](./market-functionality.md#buy-and-sell) you can create your own supply. You are selling an asset and getting another asset in return.\
-Go to My supplies and follow the steps described above [#buy-and-sell](./market-functionality.md#buy-and-sell), but make sure you enter an amount in both fields, sell and receive. Then you have the option to create a supply (see Figure 6). As the supply is created, other users can find  and consume it.
+If you didn't find desired supply in the result of [Buy and sell](./market-functionality.md#buy-and-sell) you can create your own supply. You are selling an asset and getting another asset in return.\
+Go to My supplies and follow the steps described above [Buy and sell](./market-functionality.md#buy-and-sell), but make sure you enter an amount in both fields, sell and receive. Then you have the option to create a supply (see Figure 6). As the supply is created, other users can find  and consume it.
 
 ![Create supply](/img/gitbook-assets/photo_2022-04-22_16-30-16.jpg) ![Confirm supply creation](/img/gitbook-assets/photo_2022-04-22_16-30-18.jpg)
 

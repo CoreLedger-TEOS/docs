@@ -11,7 +11,7 @@ Starting from v0.21 most of the configuration can be done with WLM (described be
 Asset configuration starts in WLM. Some of the general asset properties are used in WLA. You can [read more](../../user-guide/create-asset.md) about asset creation in WLM.
 
 * **Asset name** is used in WLA if WLA specific name is not defined (check Step 2)
-* **Description** of the asset is going to be checked by WLA and in case it contains url (string starting from "http..."), it will be used as information link for info icon of the asset :point\_left: We recommend to include it if you have website for your asset
+* **Description** of the asset is going to be checked by WLA and in case it contains url (string starting from "http..."), it will be used as information link for info icon of the asset 👈 We recommend to include it if you have website for your asset
 * **Unit of measure or Currency** (Currency must be filled in case asset type is Cash or Cash equivalent) of the asset are used as asset units in WLA
 
 #### **Step 2. Define WLA specific properties in WLM**

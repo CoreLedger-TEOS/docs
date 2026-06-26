@@ -20,7 +20,7 @@ You can find the example for a query with “gold” in the name and in the juri
 
 ![](/img/gitbook-assets/image-38.png)
 
-If you want to save your query, you can click on “Save filter” and enter a name as well as a description of the filter. Note, if you want to generate a master filter as an administrator you need to select “Save as tenant filter”. Read more about filters [#filters-management](./additional-settings-management.md#filters-management)
+If you want to save your query, you can click on “Save filter” and enter a name as well as a description of the filter. Note, if you want to generate a master filter as an administrator you need to select “Save as tenant filter”. Read more about filters [Filters Management](./additional-settings-management.md#filters-management)
 
 After you found an asset you need, you can select the asset and click on “More info”. By selecting “Additional Properties”, all properties that were defined for this asset are shown.
 
@@ -28,7 +28,7 @@ After you found an asset you need, you can select the asset and click on “More
 
 Furthermore, if you click on “Download PDF” (bottom of the right menu bar) you get all the information about the asset in one document. You can decide which type of the document you need - Asset description or Asset prospectus. Also you can select the language on which this document should be generated.
 
-Both documents are generated automatically based on the templates defined by admins [#asset-description-pdf-generation](../admin-user-guide/wlm-configuration/templates-management.md#asset-description-pdf-generation)
+Both documents are generated automatically based on the templates defined by admins [Asset Description PDF Generation](../admin-user-guide/wlm-configuration/templates-management.md#asset-description-pdf-generation)
 
 ## Buy and sell asset
 
@@ -36,7 +36,7 @@ If you decide to buy this asset you can click on “Buy” (at the right side of
 
 ![](/img/gitbook-assets/image-70.png)
 
-Select the asset you want to propose (left) in exchange for the asset you want to buy (right). Define the amount you want to buy (or the amount you want to pay) and click on “Search WARPs”. Amount can be set in units or sparks, check more about units/sparks in [#units-of-measure](./create-asset.md#units-of-measure)
+Select the asset you want to propose (left) in exchange for the asset you want to buy (right). Define the amount you want to buy (or the amount you want to pay) and click on “Search WARPs”. Amount can be set in units or sparks, check more about units/sparks in [Units of measure](./create-asset.md#units-of-measure)
 
 :::info
 Please, note that only one amount (to pay or to receive) can be defined to start search but both assets must be specified.
@@ -52,9 +52,9 @@ Each tile representing different warps can have different gas costs, exchange ra
 Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
 :::
 
-After a successfully processed transaction, you will own specific amount of the recently bought asset. At the same time amount of asset you offered in exchange will be deducted from your holdings. To check it, you can click on the menu “Assets”. In the view “Holdings” you should now see the assets (and their amount) you hold [#assets-list](./manage-asset-asset-details-asset-operations/index.md#assets-list)
+After a successfully processed transaction, you will own specific amount of the recently bought asset. At the same time amount of asset you offered in exchange will be deducted from your holdings. To check it, you can click on the menu “Assets”. In the view “Holdings” you should now see the assets (and their amount) you hold [Assets List](./manage-asset-asset-details-asset-operations/index.md#assets-list)
 
 If no result was found for your request, you can trigger another search by changing search criteria.
 
-Alternatively you can create your own supply by clicking on “Create Supply” [#create-supply](./supply-management.md#create-supply)
+Alternatively you can create your own supply by clicking on “Create Supply” [Create Supply](./supply-management.md#create-supply)
 

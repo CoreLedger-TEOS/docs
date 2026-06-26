@@ -32,7 +32,7 @@ All platform components have in-built authorization to get access to the tenant 
 
 TEOS platform has a multi-tenancy concept which means that several tenants are served by one set of components. Each tenant has its own logically isolated data storage on the application level, access to which is provided only for authorized components and users.
 
-[Assets ](../concepts/asset.md)written to the blockchain contain a hash of all parameters which define the specific asset and which are available in the TEOS platform. Assets have special parameters which allow filtering data on the application level to limit access to the blockchain data for end users of TEOS API consumers.
+[Assets](../concepts/asset.md) written to the blockchain contain a hash of all parameters which define the specific asset and which are available in the TEOS platform. Assets have special parameters which allow filtering data on the application level to limit access to the blockchain data for end users of TEOS API consumers.
 
 ### Environments
 TEOS platform has a list of environments that have different purposes. We distinguish Production, Pilot and Development environments which have different sets of TEOS platform components with different SLAs and transaction costs.

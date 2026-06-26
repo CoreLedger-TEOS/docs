@@ -42,7 +42,7 @@ _Search Assets_
 
 ### Changes:
 
-* Ether distribution mechanism in TEOS Platform for private blockchains now works for the addresses added to TEOS API with API key and also used up Ether is refilled automatically. [Read more  ](#)
+* Ether distribution mechanism in TEOS Platform for private blockchains now works for the addresses added to TEOS API with API key and also used up Ether is refilled automatically. [Read more](#)
 * Following emails are not sent from WLM anymore:
   * when user creates a new account and confirms email, he is not notified about this registration
   * when admin approves or declines user request, user is not notified about his account approval
@@ -52,7 +52,7 @@ _Search Assets_
 
 We're working on making the configuration process of TEOS platform easier for admins.
 
-With this version first step is already available: now all WLM users have collection of definition items called "WLA\&WLP configuration", admins can use this collection during asset creation process to set [WLA ](../wla-versions-and-changelog/index.md)and [WLP ](../wlp-versions-and-changelog/index.md)properties instead of configuration files of [WLA ](../wla-versions-and-changelog/index.md)and [WLP](../wlp-versions-and-changelog/index.md). Soon [WLP v0.15](../wlp-versions-and-changelog/index.md) and [WLA v0.21](../wla-versions-and-changelog/index.md) will be released which use these properties instead of asset configuration files.
+With this version first step is already available: now all WLM users have collection of definition items called "WLA\&WLP configuration", admins can use this collection during asset creation process to set [WLA](../wla-versions-and-changelog/index.md) and [WLP](../wlp-versions-and-changelog/index.md) properties instead of configuration files of [WLA](../wla-versions-and-changelog/index.md) and [WLP](../wlp-versions-and-changelog/index.md). Soon [WLP v0.15](../wlp-versions-and-changelog/index.md) and [WLA v0.21](../wla-versions-and-changelog/index.md) will be released which use these properties instead of asset configuration files.
 
 We introduced some technical changes to make solution more stable.
 
@@ -90,4 +90,4 @@ We fixed some bugs to make our solution more user-friendly and stable.
 
 We made changes in the sign up flow to make accepting terms and conditions easier.
 
-Also we introduced unique asset ID displaying on the asset details page which admins use for [WLA ](../wla-versions-and-changelog/index.md)and [WLP ](../wlp-versions-and-changelog/index.md)setup.
+Also we introduced unique asset ID displaying on the asset details page which admins use for [WLA](../wla-versions-and-changelog/index.md) and [WLP](../wlp-versions-and-changelog/index.md) setup.

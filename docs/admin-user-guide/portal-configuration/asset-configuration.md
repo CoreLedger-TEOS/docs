@@ -13,7 +13,7 @@ Asset configuration starts in WLM. Some of the general asset properties are used
 
 &gt; This is an example of a nice description of the asset which can be easily read. You can also add some links \[clickable text] (https://onlineresource.com)
 
-In case description contains only the url (string starting from "http..."), it will be used as the resource to which user should be redirected when he clicks "Read more" button. So, no additional window will be opened. We recommend such an approach it if you have website or any other publicly available resource for detailed description of your asset. In such a case description should look like this :point\_down:
+In case description contains only the url (string starting from "http..."), it will be used as the resource to which user should be redirected when he clicks "Read more" button. So, no additional window will be opened. We recommend such an approach it if you have website or any other publicly available resource for detailed description of your asset. In such a case description should look like this 👇
 
 &gt; https://onlineresource.com
 
@@ -48,4 +48,4 @@ Finally, you will have Asset defined in WLM which is going to be used in WLP. Yo
 
 #### Step 4. Asset properties for purchasing and redemption
 
-There are still some very specific asset properties which are used in WLP in purchase and redemption processes. They can be defined directly in WLP in [purchase-assets-and-featured-asset](./features-configuration/purchase-assets-and-featured-asset/index.md) and [redemption-functionality](./features-configuration/redemption-functionality/index.md)
+There are still some very specific asset properties which are used in WLP in purchase and redemption processes. They can be defined directly in WLP in [Purchase Assets And Featured Asset](./features-configuration/purchase-assets-and-featured-asset/index.md) and [Redemption Functionality](./features-configuration/redemption-functionality/index.md)

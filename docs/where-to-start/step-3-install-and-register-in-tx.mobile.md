@@ -1,6 +1,6 @@
 # Step 3 - Install and register in TX.Mobile
 
-Every action which needs the transaction written into the blockchain, requires a signature. A transaction triggered in WLM needs to be signed with the TX.Mobile app. You can install the mobile app from[ Google Play Store ](https://play.google.com/store/apps/details?id=com.coreledger.txmobile.android)(Android devices) or the [App Store](https://apps.apple.com/ru/app/tx-mobile/id1459637926?l=en) (iOS devices).
+Every action which needs the transaction written into the blockchain, requires a signature. A transaction triggered in WLM needs to be signed with the TX.Mobile app. You can install the mobile app from[ Google Play Store](https://play.google.com/store/apps/details?id=com.coreledger.txmobile.android)(Android devices) or the [App Store](https://apps.apple.com/ru/app/tx-mobile/id1459637926?l=en) (iOS devices).
 
 Open the TX.Mobile app on your smartphone. Select the environment your tenant is running on. Click on “Connect to Tx.Server” to continue the login process (see Figure 6).
 

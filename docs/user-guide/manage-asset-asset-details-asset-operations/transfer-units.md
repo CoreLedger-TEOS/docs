@@ -12,6 +12,6 @@ If you want to transfer units, you first choose one of your assets you want to t
 
 You can click on the “To” field and the system opens your wallet list. If you want to send the asset to someone else, whom address you don’t have stored in your wallet list, you can just paste the Ethereum address (public address) into the “To” field, fill out the amount to transfer and confirm with “Transfer”.
 
-You can provide the amount in natural units or in sparks. See more about the difference [#units-of-measure](../create-asset.md#units-of-measure)
+You can provide the amount in natural units or in sparks. See more about the difference [Units of measure](../create-asset.md#units-of-measure)
 
 The transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [Sign and check executed transactions](../sign-and-check-executed-transactions.md)

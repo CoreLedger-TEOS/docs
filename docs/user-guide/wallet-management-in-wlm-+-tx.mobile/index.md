@@ -10,7 +10,7 @@ All wallets in TEOS are divided into My wallets and Other wallets.
 
 ## Add my wallet
 
-Click "Add wallet", select "Add Provider" tab and scan this QR code by TX.Mobile in the step "Add provider" [#add-wlm-as-the-provider-of-transactions-to-the-wallet](../../where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile.md#add-wlm-as-the-provider-of-transactions-to-the-wallet)
+Click "Add wallet", select "Add Provider" tab and scan this QR code by TX.Mobile in the step "Add provider" [Add WLM As The Provider Of Transactions To The Wallet](../../where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile.md#add-wlm-as-the-provider-of-transactions-to-the-wallet)
 
 ![](/img/gitbook-assets/image-46.png)
 

@@ -14,7 +14,7 @@ Full configuration of Redemption functionality includes following steps:
 
 Use **"redeemSettings"** section of the config file available under the Advanced Config Management.
 
-* :new: Define the display name of corresponding menu item which is called "Redemption" by default "redeemSettings" -> "menuItemName"\
+* 🆕 Define the display name of corresponding menu item which is called "Redemption" by default "redeemSettings" -> "menuItemName"\
   This value is used for menu item display name which is "Redemption" by default. The name will be the same in all languages. You can use up to 20 symbols.
 *   Define the description of the redemption method selection step for your end users with the help of "methodSelectionDescription" parameter. Text is shown at "Select method" step\
 
@@ -22,7 +22,7 @@ Use **"redeemSettings"** section of the config file available under the Advanced
     ![](/img/gitbook-assets/image-41.png)
 
 _Redemption method selection screen_
-* :new: You can request additional information from users when they create a redemption request. You should define the label of the input which will be shown to user and its description. This field allows to provide the text up to 350 symbols.\
+* 🆕 You can request additional information from users when they create a redemption request. You should define the label of the input which will be shown to user and its description. This field allows to provide the text up to 350 symbols.\
   You can disable this field in the config file under the Advanced Config Management any time later.\
   Please, note that if you enable this field, it will be added to all redemption methods.
 
@@ -168,4 +168,4 @@ _Step values controls are shown  in case step value is defined by the admin  (in
 
 #### Step 3. Prepare template for sending redemption details to users via the email   [Template for redemption details](./template-for-redemption-details.md)
 
-#### Step 4. Also, don't forget to configure[ reference code template ](../index.md#reference-code-template)which is used both for purchase reference codes and redemption reference codes
+#### Step 4. Also, don't forget to configure [reference code template](../index.md#reference-code-template) which is used both for purchase reference codes and redemption reference codes

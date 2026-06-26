@@ -20,7 +20,7 @@ Click on the asset you want to tokenize. The detail overview of the asset opens.
 
 ![](/img/gitbook-assets/image-34.png)
 
-A new form opens. You can now define how many units you want to create. You can type in the amount either in natural units or in sparks. See more about the difference [#units-of-measure](../create-asset.md#units-of-measure)
+A new form opens. You can now define how many units you want to create. You can type in the amount either in natural units or in sparks. See more about the difference [Units of measure](../create-asset.md#units-of-measure)
 
 ![](/img/gitbook-assets/image-14.png)
 

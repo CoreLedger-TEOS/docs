@@ -4,7 +4,7 @@
 
 ### June, 2023
 
-We introduced the possibility to handle KYC processes without the integration with 3rd party service Shufti Pro and without the necessity to collect any info in the portal. Now admins can set "manual" KYC provider and handle KYC checks by any mean they prefer out of the portal. Read more how to set and handle manual KYC checks in [KYC checks](../admin-user-guide/portal-configuration/features-configuration/kyc-checks.md) and [#kyc-management](../admin-user-guide/admin-functionality.md#kyc-management)
+We introduced the possibility to handle KYC processes without the integration with 3rd party service Shufti Pro and without the necessity to collect any info in the portal. Now admins can set "manual" KYC provider and handle KYC checks by any mean they prefer out of the portal. Read more how to set and handle manual KYC checks in [KYC checks](../admin-user-guide/portal-configuration/features-configuration/kyc-checks.md) and [KYC Management](../admin-user-guide/admin-functionality.md#kyc-management)
 
 ### April, 2023
 
@@ -16,7 +16,7 @@ As usual, with this version we've brought some UI improvements and couple of bug
 
 With this version **WLP admins** can try following improvements:
 
-:point\_right: New mode for secondary markets is introduced in the Tenant WLP configuration under Configuration management
+👉 New mode for secondary markets is introduced in the Tenant WLP configuration under Configuration management
 
 When new setting "Use WLP direct links for redemption and purchase" is switched on, direct links to specific featured asset or specific redemption method can be used by end users. When they open portal by clicking this direct link, user will be able to see and start the flow only for that featured asset or redemption method which was specified in the link. Read more about this functionality [here](../admin-user-guide/portal-configuration/features-configuration/index.md#use-wlp-direct-links-for-redemption-and-purchase)\
 
@@ -25,30 +25,30 @@ When new setting "Use WLP direct links for redemption and purchase" is switched 
 
 _User view when user uses direct link to the redemption method when "Use WLP direct links for redemption and purchase" is enabled_
 
-:point\_right: Due to the changes in the redemption flow for end users we removed "feesOnTop" configuration of redemption methods and moved minimum and maximum amount of asset to redeem to the "user pays" configuration section
+👉 Due to the changes in the redemption flow for end users we removed "feesOnTop" configuration of redemption methods and moved minimum and maximum amount of asset to redeem to the "user pays" configuration section
 
 :::info
 We've calculated all the values based on conversion rate, but we recommend to check current minAmountNet and maxAmountNet values anyway. Check detailed information about redemption configuration updates [here](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/index.md)
 :::
 
-:point\_right: Most of the asset configuration can be done with WLM
+👉 Most of the asset configuration can be done with WLM
 
 Starting from this version most of the general asset configuration necessary for WLP can be defined with the help of WLM UI when asset is being setup by the admin. Admins should add these properties as additional ones from the collection "WLA\&WLP configuration". We've already prepared everything, just add this folder, fill the values of WLP properties and remove unnecessary ones. Check how to do it in [White Label Management Tool](../user-guide/create-asset.md#step-2---additional-properties-optional).
 
 Though, please, keep in mind that some of the asset properties for purchase and redemption features must be still configured in the json config file under Advanced management.\
 Also, we are not asking you to replace the existing configuration of the existing assets used in WLP. We've moved all the properties from the config file to the WLP and saved it. But if you decide to change some of these properties, you should amend existing asset in the WLM and define all the WLP properties. For all new assets added to WLP, please, use new approach for asset definition described in [Asset configuration](../admin-user-guide/portal-configuration/asset-configuration.md)
 
-:point\_right: We have new recommendation for asset and redemption pictures
+👉 We have new recommendation for asset and redemption pictures
 
 Please, use the square picture of file type PNG; recommended size: 400\*400 px.
 
-:point\_right: We've enriched validation rules for Advanced config management to make sure that you don't miss any important configuration parameters.
+👉 We've enriched validation rules for Advanced config management to make sure that you don't miss any important configuration parameters.
 
 You won't see any difference unless you try to save updated config file without some mandatory values under Advanced config management.
 
 For the future, please, don't modify the structure of the config file. Only reuse existing objects.
 
-:point\_right: Now WLP uses unique asset id in the configuration under Advanced config management
+👉 Now WLP uses unique asset id in the configuration under Advanced config management
 
 You shouldn't care about differences between assetId and ledgerId anymore. Just use uniqueAssetId which is available in the Asset details page in WLM\
 
@@ -70,7 +70,7 @@ This version brings significant changes for the end users too. We improved UX of
 In this version we focused on redemption process refurbishment. We introduced following changes:
 
 * now end-users will start receiving redemption details to their emails when redemption request is created
-* all redemption requests are created with the redemption reference code. Admins are responsible for managing redemption reference code templates in configuration management, this is the same reference code template which is used for purchases, don't forget to adjust it to your needs as described here [#reference-code-template](../admin-user-guide/portal-configuration/features-configuration/index.md#reference-code-template)
+* all redemption requests are created with the redemption reference code. Admins are responsible for managing redemption reference code templates in configuration management, this is the same reference code template which is used for purchases, don't forget to adjust it to your needs as described here [Reference Code Template](../admin-user-guide/portal-configuration/features-configuration/index.md#reference-code-template)
 * some refurbishments in the steps of redemption request creation flow to make it more user-friendly
 
 Also we fixed some bugs and introduced some architectural changes to make our solution more stable and to improve user experience.
@@ -87,7 +87,7 @@ Also we fixed some bugs and introduced some design and architecture changes to i
 
 ## Version 0.11 introduced on July, 19 2022
 
-In this version we introduced integration with KYC provider [Shufti Pro](https://shuftipro.com/) to let admins define necessary KYC tiers and functionality available for them. Check how to [configure KYC functionality](../admin-user-guide/portal-configuration/features-configuration/kyc-checks.md). Your end-users will have to go through KYC checks to get access to the functionality according to defined tiers as described in [#kyc-checks](../how-your-users-interact-with-the-portal.md#kyc-checks) and your admins will have to take care of approval of KYC tier upgrade requests as described in [#kyc-management](../admin-user-guide/admin-functionality.md#kyc-management).
+In this version we introduced integration with KYC provider [Shufti Pro](https://shuftipro.com/) to let admins define necessary KYC tiers and functionality available for them. Check how to [configure KYC functionality](../admin-user-guide/portal-configuration/features-configuration/kyc-checks.md). Your end-users will have to go through KYC checks to get access to the functionality according to defined tiers as described in [KYC Checks](../how-your-users-interact-with-the-portal.md#kyc-checks) and your admins will have to take care of approval of KYC tier upgrade requests as described in [KYC Management](../admin-user-guide/admin-functionality.md#kyc-management).
 
 Starting from this version admins can [manage features available in the portal](../admin-user-guide/portal-configuration/features-configuration/index.md), [list of admins of the portal](../admin-user-guide/portal-configuration/admin-users-management.md) and [configure WLA name](../admin-user-guide/portal-configuration/tenant-configuration.md#white-label-mobile-application-name) used with WLP using UI instead of configuration management file. We will keep replacing configuration management file entries by UI in the upcoming versions.
 
@@ -99,7 +99,7 @@ And as usual we fixed some bugs and introduced some design and architecture chan
 
 In this version we introduced possibility to switch languages which means that admins can set the list of available languages for portal (find how to configure them in [Tenant configuration](../admin-user-guide/portal-configuration/tenant-configuration.md)) and users can easily select desired language among English, German, Spanish.
 
-Starting from this version admins can define the list of bank identifiers they need for their bank transfers including adding specific local ids and intermediary bank details (find how to configure them in [features-configuration](../admin-user-guide/portal-configuration/features-configuration/index.md)). Also now admins can check the invoice details and order details which were sent to the end user when order was placed in purchase details (purchase management view).
+Starting from this version admins can define the list of bank identifiers they need for their bank transfers including adding specific local ids and intermediary bank details (find how to configure them in [Features Configuration](../admin-user-guide/portal-configuration/features-configuration/index.md)). Also now admins can check the invoice details and order details which were sent to the end user when order was placed in purchase details (purchase management view).
 
 Also we fixed some bugs and introduced some design changes to improve user experience.
 
@@ -108,7 +108,7 @@ Also we fixed some bugs and introduced some design changes to improve user exper
 In this version we introduced some changes in purchasing process:\
 Users can give crypto wallets names when saving them. Users can see and manage them in account details
 
-1. Admins can provide different custom HTMLs for logged in and non-logged in users for featured asset for purchasing (check [features-configuration](../admin-user-guide/portal-configuration/features-configuration/index.md))
+1. Admins can provide different custom HTMLs for logged in and non-logged in users for featured asset for purchasing (check [Features Configuration](../admin-user-guide/portal-configuration/features-configuration/index.md))
 2. User can see how much time is left for finishing order and how long portal owner will wait for bank transfer payment
 
 Also we fixed some bugs to make our solution more stable and improved UX.

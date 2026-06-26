@@ -1,6 +1,6 @@
 # Dealing with blockchain transactions
 
-TEOS Platform uses Ethereum blockchain technology. Blockchain requires a transaction to be created and signed to write data to its network. Check out how [transaction ](../using-the-teos-api/concepts/transaction.md)is defined in TEOS API.
+TEOS Platform uses Ethereum blockchain technology. Blockchain requires a transaction to be created and signed to write data to its network. Check out how [transaction](../using-the-teos-api/concepts/transaction.md) is defined in TEOS API.
 
 To create and submit transactions you should check following pages:
 

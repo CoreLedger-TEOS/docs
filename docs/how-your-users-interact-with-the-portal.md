@@ -26,7 +26,7 @@ Users can't have several KYC cases opened
 
 After clicking "Get tier N" user is redirected to KYC provider's page, verification process takes place on the provider's page.
 
-After user passes all necessary checks he is redirected back to the portal. After he gets an admin's approval of KYC tier (process described in [#kyc-management](./admin-user-guide/admin-functionality.md#kyc-management)), all functionality configured for this tier will be available for him.
+After user passes all necessary checks he is redirected back to the portal. After he gets an admin's approval of KYC tier (process described in [KYC Management](./admin-user-guide/admin-functionality.md#kyc-management)), all functionality configured for this tier will be available for him.
 
 #### Flow without the integration with the KYC provider
 

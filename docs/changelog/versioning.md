@@ -10,7 +10,7 @@ description: &gt;-
 <p className="doc-description">Why we use versioning, how to use versions in your requests, and the difference between versioned &amp; non-versioned changes and breaking &amp; non-breaking changes.</p>
 
 ## What is the latest TEOS API Version?
-Check it in [.](./index.md)
+Check it in [Changelog](./index.md)
 
 ## Why do we have versions?
 We want developers using the TEOS API to benefit from new features and changes when it's convenient for their development cycle and to make sure that running solutions don't break with a new release.
@@ -48,7 +48,7 @@ curl -i -X "https://teosapi.coreledger.net/odata/v3.2/assets/{asset-id}
 ```
 
 #### Can my app make calls to versions older than the current version?
-You can specify older versions in your API calls as long as they are available and your app has already made calls to that version. For example, if your app was created after v2.0 was released and makes calls using v2.0, it will be able to make calls to v2.0 until the version expires even after newer versions have been released. Check the availability of the versions in [.](./index.md)
+You can specify older versions in your API calls as long as they are available and your app has already made calls to that version. For example, if your app was created after v2.0 was released and makes calls using v2.0, it will be able to make calls to v2.0 until the version expires even after newer versions have been released. Check the availability of the versions in [Changelog](./index.md)
 
 ## Types of changes
 

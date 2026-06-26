@@ -69,7 +69,7 @@ Refer to [Templates for purchase details and invoice details](./templates-for-pu
 
 Step 1. Configure credit card payment parameters
 
-Apart from the [#general-characteristics-for-all-payment-methods](./payment-methods-configuration.md#general-characteristics-for-all-payment-methods) integration with cryptopayment provider must be configured to use this payment method.
+Apart from the [General characteristics for all payment methods](./payment-methods-configuration.md#general-characteristics-for-all-payment-methods) integration with cryptopayment provider must be configured to use this payment method.
 
 Currently integration with [Payrexx](https://www.payrexx.com/en/home/) is used for credit card payments.
 
@@ -94,9 +94,9 @@ Refer to [Templates for purchase details and invoice details](./templates-for-pu
 
 Step 1. Configure credit card payment parameters
 
-Apart from the [#general-characteristics-for-all-payment-methods](./payment-methods-configuration.md#general-characteristics-for-all-payment-methods) integration with cryptopayment provider must be configured to use this payment method.
+Apart from the [General characteristics for all payment methods](./payment-methods-configuration.md#general-characteristics-for-all-payment-methods) integration with cryptopayment provider must be configured to use this payment method.
 
-Currently integration with [Coinify ](https://www.coinify.com/)is used for cryptocurrency payments.
+Currently integration with [Coinify](https://www.coinify.com/) is used for cryptocurrency payments.
 
 To use it productively you will have to provide your Coinify account details:
 

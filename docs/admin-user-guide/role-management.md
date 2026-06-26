@@ -6,7 +6,7 @@ As an administrator you can manage the list of WLM roles and the permissions ava
 
 Click on “Administrate” and select “Roles” in the menu bar. Now you see the different roles existing in WLM. As an administrator you can create, edit roles, and assign them to users.
 
-:point\_right:In the picture below you see the list of default roles available for every tenant. We recommend to assign to your tenant admins default "Tenant administrators" role at the beginning. After that you will be able to adjust this role to your needs or create new roles.
+👉In the picture below you see the list of default roles available for every tenant. We recommend to assign to your tenant admins default "Tenant administrators" role at the beginning. After that you will be able to adjust this role to your needs or create new roles.
 
 ![Overview of WLM roles](/img/gitbook-assets/image-56.png)
 

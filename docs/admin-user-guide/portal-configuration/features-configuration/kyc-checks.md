@@ -25,7 +25,7 @@ Each tier must have following parameters:
 * description - optional, but we highly recommend to provide it, you can briefly explain your end-users the purpose of this tier and documents which they will need to submit to get it
 * KYC providers configuration (starting from tier 1)\
   You can set one of the following options for name: "Manual" or "ShuftiPro" (note that register is important here). "config" value depends on the way you're going to handle the KYC checks.\
-  :bangbang:Note that all tiers must have the same provider name.
+  ‼️Note that all tiers must have the same provider name.
 
 ### Manual KYC checks (no integration with 3rd party services)
 
@@ -91,11 +91,11 @@ Make sure that all integration parameters (API keys and redirect URL) are config
 :::
 
 1. Generate **API keys** for integration and send them to your CoreLedger project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services.md).
-2. Configure **redirect URL** which will be used in integration parameters. This is the page to which user should be redirected after he or she completes the KYC checks in Shufti. Make a screenshot of the configured URL in Shufti Pro's account and send it to your CoreLedger project manager. [#how-to-configure-redirect-url-after-user-completes-the-kyc-checks](./kyc-checks.md#how-to-configure-redirect-url-after-user-completes-the-kyc-checks)
-3. Configure **integration parameters.** We use Onsite verification with OCR for integration with Shufti Pro. All parameters which can be set are described in [Shufti Pro's documentation in Verification Request section](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification). You will need to configure it by yourself or send screenshots described in [#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro](./kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) and send them to your CoreLedger project manager together with all previous parameters.
+2. Configure **redirect URL** which will be used in integration parameters. This is the page to which user should be redirected after he or she completes the KYC checks in Shufti. Make a screenshot of the configured URL in Shufti Pro's account and send it to your CoreLedger project manager. [How to configure redirect URL after user completes the KYC checks](./kyc-checks.md#how-to-configure-redirect-url-after-user-completes-the-kyc-checks)
+3. Configure **integration parameters.** We use Onsite verification with OCR for integration with Shufti Pro. All parameters which can be set are described in [Shufti Pro's documentation in Verification Request section](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification). You will need to configure it by yourself or send screenshots described in [How to define KYC configuration and test the KYC flow in Shufti Pro](./kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) and send them to your CoreLedger project manager together with all previous parameters.
 
 :::info
-You can configure and define settings by yourself if you're familiar enough with json structure and integration parameters. If you have some problems, we can help you to configure Shufti Pro integration. You will have to provide screenshots with the selected parameters for your desired KYC flows for each tier &gt; 0 (please note that we will need screenshots of each step: enabled services, each service parameters and common parameters) to your CoreLedger manager. Check info in [#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro](./kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) to get necessary screenshots
+You can configure and define settings by yourself if you're familiar enough with json structure and integration parameters. If you have some problems, we can help you to configure Shufti Pro integration. You will have to provide screenshots with the selected parameters for your desired KYC flows for each tier &gt; 0 (please note that we will need screenshots of each step: enabled services, each service parameters and common parameters) to your CoreLedger manager. Check info in [How to define KYC configuration and test the KYC flow in Shufti Pro](./kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) to get necessary screenshots
 :::
 
 :::caution[Attention]

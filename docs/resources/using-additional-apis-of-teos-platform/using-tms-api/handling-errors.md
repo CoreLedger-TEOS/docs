@@ -1,6 +1,6 @@
 # Handling errors
 
-Errors structure and errors handling approach is the same for all TEOS Platform APIs. Please, refer to [handling-errors](../../../overview/handling-errors/index.md) for the info about handling errors received from TMS API.
+Errors structure and errors handling approach is the same for all TEOS Platform APIs. Please, refer to [Handling errors](../../../overview/handling-errors/index.md) for the info about handling errors received from TMS API.
 
 ## 1xxxx codes
 

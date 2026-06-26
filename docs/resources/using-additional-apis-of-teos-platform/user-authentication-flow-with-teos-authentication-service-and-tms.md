@@ -16,15 +16,15 @@ _User authentication flow_
 The \[..] constraint notation on the diagram was used to number the steps. The numbering approach is similar to the communication diagram.
 :::
 
-:arrow\_heading\_down: **Step 1.0.** User executes any action that triggers a request to TEOS API.
+⤵️ **Step 1.0.** User executes any action that triggers a request to TEOS API.
 
 **Step 1.1.** Application must check if the user access token is valid (present and not expired) (exact implementation is application-specific and is out of the scope of this document).
 
-If the access token is not valid, the application should authenticate a user and retrieve a new access token from the auth-server (steps2.0)
+If the access token is not valid, the application should authenticate a user and retrieve a new access token from the auth-server (steps 2.0)
 
 #### Optional process. Authenticate user
 
-**Step 2.0.** If the user access token is expired, then it is necessary to reauthenticate. The user authentication process should be started from the call to [Authorize ](./using-teos-authentication-service/index.md#authorize-endpoint)endpoint of the Auth server.
+**Step 2.0.** If the user access token is expired, then it is necessary to reauthenticate. The user authentication process should be started from the call to [Authorize](./using-teos-authentication-service/index.md#authorize-endpoint) endpoint of the Auth server.
 
 **Step 2.1.** If the validation of the calling application and all parameters to the Authorize request is successful, the Auth server will return the login form, configured according to the white-labelled settings of the calling application.
 
@@ -34,7 +34,7 @@ If the access token is not valid, the application should authenticate a user and
 
 **Step 2.0.1.** Auth server authenticates the user and in case of success, redirects the browser back to the app (to the redirect URL, provided in Step 2.0) with the requested user access token and the ID token (if configured)
 
-Please refer to [Authentication types](../../get-started/authentication-types.md)the for more details about the authentication types.
+Please refer to [Authentication types](../../get-started/authentication-types.md) for more details about the authentication types.
 
 **Step 1.2.** Application sends a request to the `/users` endpoint in TMS to retrieve information about the authenticated user:
 
@@ -45,7 +45,7 @@ Auth: Bearer <access-token>
 
 **Step 1.2.1.** Application processes response from 1.2.
 
-Please refer to [using-tms-api](./using-tms-api/index.md) to learn more about the endpoint request and its response.
+Please refer to [Using TMS API](./using-tms-api/index.md) to learn more about the endpoint request and its response.
 
 **Step 1.2.1.** Application processes response from 1.2.
 
@@ -63,7 +63,7 @@ Auth: Bearer <access-token>
 ```
 
 The response body will contain the information about the registration template for the customer's tenant: `{"ReferralCodeRequired": true}`. This data must be used in the next step.\
-Please refer to [using-tms-api](./using-tms-api/index.md) to learn more about the endpoint request and its response.
+Please refer to [Using TMS API](./using-tms-api/index.md) to learn more about the endpoint request and its response.
 
 **Step 3.1.** Application shows the 'signup' screen for a user. This screen should provide the user with the possibility to fill in the referral code.
 
@@ -85,11 +85,11 @@ Auth: Bearer <access-token>
 All the fields except for "referralCode" are optional and may be omitted (default values are shown in the example request).
 
 If response in the step 3.0 contains `{"ReferralCodeRequired": true}`, then `POST /users/signup` must contain valid value of `"referralCode"`. If `"referralCode"` is missing or incorrect, corresponding error will be returned.\
-Please refer to [using-tms-api](./using-tms-api/index.md) to learn more about the endpoint request and its response.
+Please refer to [Using TMS API](./using-tms-api/index.md) to learn more about the endpoint request and its response.
 
 **Step 3.2.1.** TMS responds with the created tenant-user's data in the response body (see next step). Here the application user profile can be created, if necessary
 
-**Step 3.3.** This step is optional and intended to get the latest state of email confirmation during the signup process as at this moment the user could have already confirmed his email and process 4.0 is not necessary. Please refer to the [using-teos-authentication-service](./using-teos-authentication-service/index.md) [#specific-endpoints](./using-teos-authentication-service/index.md#specific-endpoints) to know the details about GET /api/User/emailvalidated call.
+**Step 3.3.** This step is optional and intended to get the latest state of email confirmation during the signup process as at this moment the user could have already confirmed his email and process 4.0 is not necessary. Please refer to the [Using TEOS Authentication service](./using-teos-authentication-service/index.md) [Specific endpoints](./using-teos-authentication-service/index.md#specific-endpoints) to know the details about GET /api/User/emailvalidated call.
 
 **Step 1.3.** Based on the application logic, the application may process the user data, retrieved in steps 1.2 or 3.2.1 (exact implementation of user-data processing is application-specific):
 
@@ -127,7 +127,7 @@ User can have one of the following states:
 
 **Step 4.2.** User clicks the button to retry the state check.
 
-**Step 4.3.** The application should normally cache the user access token introspection results and not call Auth Server introspection for each own request. It degrades the performance of the application and will lead to throttling bounces from Auth Server. Instead, for special cases, like this, there is a special endpoint, returning actual E-Mail address confirmation status. Please refer to the [using-teos-authentication-service](./using-teos-authentication-service/index.md) [#specific-endpoints](./using-teos-authentication-service/index.md#specific-endpoints) to know the details about GET /api/User/emailvalidated call.
+**Step 4.3.** The application should normally cache the user access token introspection results and not call Auth Server introspection for each own request. It degrades the performance of the application and will lead to throttling bounces from Auth Server. Instead, for special cases, like this, there is a special endpoint, returning actual E-Mail address confirmation status. Please refer to the [Using TEOS Authentication service](./using-teos-authentication-service/index.md) [Specific endpoints](./using-teos-authentication-service/index.md#specific-endpoints) to know the details about GET /api/User/emailvalidated call.
 
 **Step 4.3.1.** The previous call will return the response including `"EmailValidated"` flag value.
 
@@ -135,4 +135,4 @@ User can have one of the following states:
 
 **Step 1.4.** Application sends the request to TEOS API.
 
-:arrow\_heading\_up: **Step 1.0.1.** The application shows the user a screen with the requested data.
+↩️ **Step 1.0.1.** The application shows the user a screen with the requested data.

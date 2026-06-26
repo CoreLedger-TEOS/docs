@@ -62,4 +62,4 @@ Some business cases need to link several assets. For this purpose we have links.
 
 If you click on “Download PDF” (bottom of the right menu bar) you get all the information about the asset in one document. You can decide which type of the document you need - Asset description or Asset prospectus. Also you can select the language on which this document should be generated.
 
-Both documents are generated automatically based on the templates defined by admins [#asset-description-pdf-generation](../../admin-user-guide/wlm-configuration/templates-management.md#asset-description-pdf-generation)
+Both documents are generated automatically based on the templates defined by admins [Asset Description PDF Generation](../../admin-user-guide/wlm-configuration/templates-management.md#asset-description-pdf-generation)

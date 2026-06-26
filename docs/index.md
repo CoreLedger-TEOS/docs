@@ -7,7 +7,7 @@ description: 'Latest version: v1.1'
 <p className="doc-description">Latest version: v1.1</p>
 
 :::info
-We've delivered some [non-versioned updates ](./changelog/non-versioned-changes.md)to currently available versions, check what's new and try it out
+We've delivered some [non-versioned updates](./changelog/non-versioned-changes.md) to currently available versions, check what's new and try it out
 :::
 
 The TEOS API is our core platform component, giving users simple and quick access to all of the TEOS platform’s rich functionality and enabling customers to build custom applications on top of CoreLedger's blockchain infrastructure. Real-time events, intuitive functions, and optional TEOS authentication services make getting started with blockchain technology faster and easier than ever.

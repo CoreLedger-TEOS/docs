@@ -37,7 +37,7 @@ The new form opens where you should define
 
 Note, if you come to this from from Exchange screen after your search didn't succeed, then assets and amounts will be prefilled with the selected search criteria. You can change these parameters.
 
-You can provide the amounts in natural units or in sparks. See more about the difference [#units-of-measure](./create-asset.md#units-of-measure)
+You can provide the amounts in natural units or in sparks. See more about the difference [Units of measure](./create-asset.md#units-of-measure)
 
 By clicking on “Activate” the transaction is being pushed to the TX.Mobile app. Sign the transaction [Sign and check executed transactions](./sign-and-check-executed-transactions.md)
 

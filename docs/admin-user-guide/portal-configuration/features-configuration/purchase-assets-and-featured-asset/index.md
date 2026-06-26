@@ -16,11 +16,11 @@ Full configuration of Shop and Featured asset functionality includes following s
 3. Configure collection methods [Collection methods configuration](./collection-methods-configuration.md)
 4. Configure payment methods [Payment methods configuration](./payment-methods-configuration.md)
 5. Prepare templates for sending invoice details and purchase details to users via the email [Templates for purchase details and invoice details](./templates-for-purchase-details-and-invoice-details.md)
-6. Also, don't forget to configure[ reference code template ](../index.md#reference-code-template)which is used both for purchase reference codes and redemption reference codes
+6. Also, don't forget to configure [reference code template](../index.md#reference-code-template) which is used both for purchase reference codes and redemption reference codes
 
 ## Asset configuration for purchasing
 
-The WLP can be used for selling a range of assets, just like a web shop for tokens. Additionally, the WLP can be configured for a custom purchase, where one token is highlighted and shown in a custom html page. Also, don't forget to configure[ reference code template ](../index.md#reference-code-template)which is used both for purchase reference codes and redemption reference codes.
+The WLP can be used for selling a range of assets, just like a web shop for tokens. Additionally, the WLP can be configured for a custom purchase, where one token is highlighted and shown in a custom html page. Also, don't forget to configure [reference code template](../index.md#reference-code-template) which is used both for purchase reference codes and redemption reference codes.
 
 ### Assets available in the shop
 

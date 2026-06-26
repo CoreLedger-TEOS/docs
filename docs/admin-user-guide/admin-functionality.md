@@ -12,9 +12,9 @@ All users automatically get tier 0 when they register
 Users can't have several KYC cases opened
 :::
 
-**Step 1.** User goes through KYC checks if he wants to upgrade his tier. Process is described here [#kyc-checks](../how-your-users-interact-with-the-portal.md#kyc-checks).\
+**Step 1.** User goes through KYC checks if he wants to upgrade his tier. Process is described here [KYC Checks](../how-your-users-interact-with-the-portal.md#kyc-checks).\
 In case you've configured the integration of the portal with KYC provider (ShuftiPro), user  provides all necessary data to KYC provider as configured for the requested tier.\
-:bangbang: In case you've decided to manage the KYC process fully by yourself (provider "manual" is set for all tiers), you're taking the responsibility of collecting all necessary data from users. Here in the portal you can only approve or decline the requested KYC tier within the KYC case.
+‼️ In case you've decided to manage the KYC process fully by yourself (provider "manual" is set for all tiers), you're taking the responsibility of collecting all necessary data from users. Here in the portal you can only approve or decline the requested KYC tier within the KYC case.
 
 **Step 2.** Admin makes a decision whether to approve requested tier.
 

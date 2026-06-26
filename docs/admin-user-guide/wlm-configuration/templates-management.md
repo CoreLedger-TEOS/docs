@@ -9,7 +9,7 @@ If you're going to let WLM users create assets [Create asset](../../user-guide/c
 
 In the asset template management view you can do the following:
 
-* add/delete additional properties from previously created collections of definition items [#definition-items-management](../../user-guide/additional-settings-management.md#definition-items-management)
+* add/delete additional properties from previously created collections of definition items [Definition Items Management](../../user-guide/additional-settings-management.md#definition-items-management)
 * make properties mandatory (they will be required to be filled, asset won't be written to blockchain without them)
 
 ![](/img/gitbook-assets/image-1.png)
@@ -54,7 +54,7 @@ User confirmation (email is not confirmed)
 
 #### PDF Disclaimer
 
-Content of "PDF Disclaimer” is shown right before the asset description when user downloads the PDF document “Asset description” or "Prospectus" of a specific asset [#asset-description-in-pdf](../../user-guide/manage-asset-asset-details-asset-operations/index.md#asset-description-in-pdf). To adjust its text, click on “PDF Disclaimer”. After choosing the corresponding language you can edit the text shown. You can add desired translations at any time.
+Content of "PDF Disclaimer” is shown right before the asset description when user downloads the PDF document “Asset description” or "Prospectus" of a specific asset [Asset Description In PDF](../../user-guide/manage-asset-asset-details-asset-operations/index.md#asset-description-in-pdf). To adjust its text, click on “PDF Disclaimer”. After choosing the corresponding language you can edit the text shown. You can add desired translations at any time.
 
 ![](/img/gitbook-assets/image-82.png)
 

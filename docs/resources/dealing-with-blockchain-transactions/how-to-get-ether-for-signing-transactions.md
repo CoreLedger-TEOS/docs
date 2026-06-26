@@ -10,7 +10,7 @@ There is a gas cost for every transaction which must be paid for in Ether. TEOS 
 
 * If Ethereum Mainnet or Polygon are used, then TEOS API consumer takes care about making sure its end users have enough Ether to sign transactions (normally wallet owners should buy Ether to be able to operate).
 * If ICP is used, then TEOS API consumer takes care about making sure its end users have enough cycles to sign transactions (normally wallet owners need to convert ICP into cycles to be able to operate).
-* If private blockchains ([SparkNet ](https://sparknet.online/)or DevilNet) are used, then TEOS API consumer shouldn't care about Ether necessary for gas costs paying because TEOS Platform provides the mechanism for Ether distribution described below.
+* If private blockchains ([SparkNet](https://sparknet.online/) or DevilNet) are used, then TEOS API consumer shouldn't care about Ether necessary for gas costs paying because TEOS Platform provides the mechanism for Ether distribution described below.
 
 ### Ether distribution mechanism in TEOS Platform for private blockchains
 

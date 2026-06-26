@@ -4,7 +4,7 @@
 
 We understand that it can be very important for your project to have specific and perfectly aligned with your brand advertising page for the featured asset or company details description for the imprint which shouldn't be limited to any white label layouts. That's why we provide the possibility to upload your own HTML page (we call it "custom HTML") for 2 cases:
 
-* [For featured asset ](./features-configuration/index.md)(your page will be displayed when your users click custom sidebar menu item if you activated "Featured asset" functionality). If you switched on "Featured asset" uploading custom HTLM for featured asset description is mandatory.
+* [For featured asset](./features-configuration/index.md)(your page will be displayed when your users click custom sidebar menu item if you activated "Featured asset" functionality). If you switched on "Featured asset" uploading custom HTLM for featured asset description is mandatory.
 * [For imprint](./branding-management.md#imprint-configuration) (your page will be displayed when your users click Imprint). Uploading custom HTML for imprint is optional, you can just provide your company details
 
 The custom HTML pages can be delivered in various languages, allowing for a seamless multilingual user experience based on your audience's preferences. Each language version should be uploaded separately to ensure users see content in their chosen language, providing a better user experience.
