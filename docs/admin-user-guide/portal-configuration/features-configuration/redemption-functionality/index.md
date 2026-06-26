@@ -166,6 +166,6 @@ _Redemption details definition if step value is 0 (incrementNetAmount = 0)_
 
 _Step values controls are shown  in case step value is defined by the admin  (incrementNetAmount is not 0)_
 
-#### Step 3. Prepare template for sending redemption details to users via the email   [template-for-redemption-details.md](./template-for-redemption-details.md)
+#### Step 3. Prepare template for sending redemption details to users via the email   [Template for redemption details](./template-for-redemption-details.md)
 
 #### Step 4. Also, don't forget to configure[ reference code template ](../index.md#reference-code-template)which is used both for purchase reference codes and redemption reference codes

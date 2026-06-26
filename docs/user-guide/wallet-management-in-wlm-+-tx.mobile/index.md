@@ -2,7 +2,7 @@
 
 All wallets in TEOS are divided into My wallets and Other wallets.
 
-**My wallet** is the one with which you can sign transactions. You must be the older of the private key of this wallet and it must be stored in TX.Mobile. The private key is automatically saved in TX.Mobile when you create the wallet directly in the app [step-4-setup-a-wallet-wlm-+-tx.mobile.md](../../where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile.md)
+**My wallet** is the one with which you can sign transactions. You must be the older of the private key of this wallet and it must be stored in TX.Mobile. The private key is automatically saved in TX.Mobile when you create the wallet directly in the app [Step 4 setup a wallet WLM + tx.mobile](../../where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile.md)
 
 **Other wallet** is just some wallet to the private key of which you don't have access. Treat it like a contact saved in your address book. You have only public address of this wallet.
 
@@ -32,7 +32,7 @@ Every time you create asset, create supply or do any other transaction signing r
 
 Click "Add wallet", select "Existing wallet" and fill in the proposed form. You need to know only public address of the wallet you're adding. Names and description are used for your convenience, define the name in the way to make this wallet easily recognizable by yourself.
 
-After you add the wallet to Other wallets list you can add it to controllers [controller-management.md](../controller-management.md) or as a target address for units transfer in WLM or even as a collection method in WLP [White Label Portal](../../wlp-versions-and-changelog/index.md)
+After you add the wallet to Other wallets list you can add it to controllers [Controller management](../controller-management.md) or as a target address for units transfer in WLM or even as a collection method in WLP [White Label Portal](../../wlp-versions-and-changelog/index.md)
 
 ![](/img/gitbook-assets/image-71.png)
 

@@ -34,6 +34,6 @@ After user is removed, he won't be able to user TEOS services, he will get corre
 
 ### Assign role
 
-Newly registered users after they are confirmed by administrator will get the default role assigned automatically. You can edit the role, check how to do it here [role-management.md](./role-management.md).
+Newly registered users after they are confirmed by administrator will get the default role assigned automatically. You can edit the role, check how to do it here [Role management](./role-management.md).
 
-:point\_right:Roles can be assigned to active users only. Pick any user from the list of Active users and assign any role from the list of available roles (some of them are default ones and others can be created by WLM admins, check how to do it here [role-management.md](./role-management.md))
+:point\_right:Roles can be assigned to active users only. Pick any user from the list of Active users and assign any role from the list of available roles (some of them are default ones and others can be created by WLM admins, check how to do it here [Role management](./role-management.md))

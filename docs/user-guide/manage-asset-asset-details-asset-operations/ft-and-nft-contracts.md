@@ -18,7 +18,7 @@ To add FT contract, go to Asset details view and click "Create". Form will be op
 
 ![](/img/gitbook-assets/image-79.png)
 
-After triggering token contract creation, the transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [sign-and-check-executed-transactions.md](../sign-and-check-executed-transactions.md)
+After triggering token contract creation, the transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [Sign and check executed transactions](../sign-and-check-executed-transactions.md)
 
 After the transaction is successfully completed, the asset management using ERC20 interface will be possible and all token operations will be reflected in TEOS (including WLM).
 
@@ -36,7 +36,7 @@ Form will be opened where you will have to define following data:
 
 ![](/img/gitbook-assets/image-65.png)
 
-After triggering token contract creation, the transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [sign-and-check-executed-transactions.md](../sign-and-check-executed-transactions.md)
+After triggering token contract creation, the transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [Sign and check executed transactions](../sign-and-check-executed-transactions.md)
 
 After the transaction is successfully completed, new NFT contract can be found in the list of available contracts.
 
@@ -50,6 +50,6 @@ When tenant is correctly configured for supporting ERC721 interfaces, 1 asset un
 
 ![](/img/gitbook-assets/image-63.png)
 
-After selecting contract or asset for the contract, the transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [sign-and-check-executed-transactions.md](../sign-and-check-executed-transactions.md)
+After selecting contract or asset for the contract, the transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [Sign and check executed transactions](../sign-and-check-executed-transactions.md)
 
 After the transaction is successfully completed, the asset management using ERC721 interface will be possible and all token operations will be reflected in TEOS (including WLM).

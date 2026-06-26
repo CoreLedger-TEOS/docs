@@ -346,4 +346,4 @@ Refer to the [Auth Server Swagger](https://auth.coreledger.net/swagger)
 
 ## Rate limits
 
-When developing integration with TEOS Authentication service you should take into account the limits described in [rate-limits.md](../../../overview/rate-limits.md) of TEOS API. Those limits are defined per tenant and shared by all TEOS Platform components.
+When developing integration with TEOS Authentication service you should take into account the limits described in [Rate limits](../../../overview/rate-limits.md) of TEOS API. Those limits are defined per tenant and shared by all TEOS Platform components.

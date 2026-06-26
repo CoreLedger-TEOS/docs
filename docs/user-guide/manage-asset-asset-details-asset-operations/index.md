@@ -48,15 +48,15 @@ All wallets are divided into 2 groups: my wallets and other wallets as described
 
 ### Supplies
 
-All supplies which contain this asset as the on "To receive" or "To pay" are listed here. Check more about supplies in [supply-management.md](../supply-management.md)
+All supplies which contain this asset as the on "To receive" or "To pay" are listed here. Check more about supplies in [Supply management](../supply-management.md)
 
 ### Updates
 
-Any change of the descriptive property will trigger amendment creation which are all collected under the tab "Updates". Check more about amendments in [amend-asset-edit-translations.md](./amend-asset-edit-translations.md)
+Any change of the descriptive property will trigger amendment creation which are all collected under the tab "Updates". Check more about amendments in [Amend asset edit translations](./amend-asset-edit-translations.md)
 
 ### Links
 
-Some business cases need to link several assets. For this purpose we have links. Under the tab "Links" you can check all assets which are linked to the current one. Check more about links in [link-assets.md](./link-assets.md)
+Some business cases need to link several assets. For this purpose we have links. Under the tab "Links" you can check all assets which are linked to the current one. Check more about links in [Link assets](./link-assets.md)
 
 ### Asset description in PDF
 

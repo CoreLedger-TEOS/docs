@@ -53,7 +53,7 @@ DateTime resetDate = DateTime.ParseExact(resetHeader, "o",
 * Spread out queries evenly to avoid traffic spikes.
 
 ### Versions
-The TMS API has multiple versions. You can read more about versioning in [versioning.md](../../../changelog/versioning.md).
+The TMS API has multiple versions. You can read more about versioning in [Versioning](../../../changelog/versioning.md).
 
 Build your query with the endpoint containing necessary version. For example, here's a call to version 1:
 
@@ -63,7 +63,7 @@ curl -X 'GET' \
   -H 'accept: application/json'
 ```
 
-We don't expect a lot of changes coming, but you can always find the latest versions in the [changelog.md](./changelog.md).
+We don't expect a lot of changes coming, but you can always find the latest versions in the [Changelog](./changelog.md).
 
 Currently there are two available versions:
 

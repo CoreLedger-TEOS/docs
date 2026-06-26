@@ -63,7 +63,7 @@ You can also add details of intermediary bank in case you expect international p
 
 Step 2. Prepare the template for invoice details
 
-Refer to [templates-for-purchase-details-and-invoice-details.md](./templates-for-purchase-details-and-invoice-details.md) to check how the template for invoice details must be configured. Send it to your CoreLedger manager to apply it in your portal
+Refer to [Templates for purchase details and invoice details](./templates-for-purchase-details-and-invoice-details.md) to check how the template for invoice details must be configured. Send it to your CoreLedger manager to apply it in your portal
 
 #### Credit card payment method
 
@@ -88,7 +88,7 @@ For pilot project within Active Sandbox you can start without your own account, 
 Step 2. Prepare the template for credit card purchase details
 
 Purchase details based on this template are sent to the user when credit card is selected as a payment method. \
-Refer to [templates-for-purchase-details-and-invoice-details.md](./templates-for-purchase-details-and-invoice-details.md) to check how the template must be configured. Send it to your CoreLedger manager to apply it in your portal.
+Refer to [Templates for purchase details and invoice details](./templates-for-purchase-details-and-invoice-details.md) to check how the template must be configured. Send it to your CoreLedger manager to apply it in your portal.
 
 #### Cryptocurrency payment method
 
@@ -112,4 +112,4 @@ For pilot project within Active Sandbox you can start without your own account, 
 Step 2. Prepare the template for cryptopayment purchase details
 
 Purchase details based on this template are sent to the user when cryptopayment is selected as a payment method. \
-Refer to [templates-for-purchase-details-and-invoice-details.md](./templates-for-purchase-details-and-invoice-details.md) to check how the template must be configured. Send it to your CoreLedger manager to apply it in your portal.
+Refer to [Templates for purchase details and invoice details](./templates-for-purchase-details-and-invoice-details.md) to check how the template must be configured. Send it to your CoreLedger manager to apply it in your portal.

@@ -15,7 +15,7 @@ If you set a master filter, the users of the tenant will only be able to find th
 This constraint allows you to turn on and off email sending. In case this setting is on, emails are sent with the content according to templates defined in Templates section.
 
 :::info
-We strongly recommend to go through the text of email templates and adjust them in [templates-management.md](./templates-management.md) before switch on this feature
+We strongly recommend to go through the text of email templates and adjust them in [Templates management](./templates-management.md) before switch on this feature
 :::
 
 ### Spark Factor Modifier

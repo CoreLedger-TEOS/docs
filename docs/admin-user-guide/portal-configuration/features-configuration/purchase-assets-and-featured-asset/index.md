@@ -11,11 +11,11 @@ description: &gt;-
 
 Full configuration of Shop and Featured asset functionality includes following steps:
 
-1. Configure assets to sell in WLM [asset-configuration.md](../../asset-configuration.md) and enrich with specific purchasing properties [#asset-configuration-for-purchasing](./index.md#asset-configuration-for-purchasing)
+1. Configure assets to sell in WLM [Asset configuration](../../asset-configuration.md) and enrich with specific purchasing properties [#asset-configuration-for-purchasing](./index.md#asset-configuration-for-purchasing)
 2. Set one of them as features if needed [#featured-asset](./index.md#featured-asset)
-3. Configure collection methods [collection-methods-configuration.md](./collection-methods-configuration.md)
-4. Configure payment methods [payment-methods-configuration.md](./payment-methods-configuration.md)
-5. Prepare templates for sending invoice details and purchase details to users via the email [templates-for-purchase-details-and-invoice-details.md](./templates-for-purchase-details-and-invoice-details.md)
+3. Configure collection methods [Collection methods configuration](./collection-methods-configuration.md)
+4. Configure payment methods [Payment methods configuration](./payment-methods-configuration.md)
+5. Prepare templates for sending invoice details and purchase details to users via the email [Templates for purchase details and invoice details](./templates-for-purchase-details-and-invoice-details.md)
 6. Also, don't forget to configure[ reference code template ](../index.md#reference-code-template)which is used both for purchase reference codes and redemption reference codes
 
 ## Asset configuration for purchasing

@@ -7,7 +7,7 @@ description: These changes are relevant for all versions with corresponding func
 <p className="doc-description">These changes are relevant for all versions with corresponding functionality</p>
 
 :::info
-Check [versioning.md](./versioning.md) to learn more about this type of changes
+Check [Versioning](./versioning.md) to learn more about this type of changes
 :::
 
 ## January, 2024
@@ -21,7 +21,7 @@ Check [versioning.md](./versioning.md) to learn more about this type of changes
 
 #### Fixes:
 
-* TMS API: The issue of incorrect http error code returned when calling "/Templates" with no Registration form active has been fixed (check [user-authentication-flow-with-teos-authentication-service-and-tms.md](../resources/using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms.md)). Now TEOS API consumer gets 404 error code if registration template is turned off in WLM.
+* TMS API: The issue of incorrect http error code returned when calling "/Templates" with no Registration form active has been fixed (check [User authentication flow with TEOS authentication service and TMS](../resources/using-additional-apis-of-teos-platform/user-authentication-flow-with-teos-authentication-service-and-tms.md)). Now TEOS API consumer gets 404 error code if registration template is turned off in WLM.
 
 ## September, 2023
 

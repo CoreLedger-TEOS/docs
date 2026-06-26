@@ -4,7 +4,7 @@
 
 Admins can decide now at the very beginning of the project how many words should be used as a seed for wallet creation. This parameter can't be configured when app is already created.
 
-Now users can find all operations which formed the balance of the asset by tapping the asset right on the Assets screen. Check out the details here [assets-and-transactions.md](../how-your-users-interact-with-wla/assets-and-transactions.md)
+Now users can find all operations which formed the balance of the asset by tapping the asset right on the Assets screen. Check out the details here [Assets and transactions](../how-your-users-interact-with-wla/assets-and-transactions.md)
 
 We brought back animation when search is in progress on Market screen. Now you can clearly see that app is still searching for the best deal to offer you.
 
@@ -12,9 +12,9 @@ Also we added ETH balance to the wallet information. This is ETH which is necess
 
 ## Version 0.19 introduced in October, 2022
 
-We added new functionality for creating invoices instead of payment requests, paying them and tracking their statuses. Check how it works in [payment-request-and-invoices.md](../how-your-users-interact-with-wla/payment-request-and-invoices.md)
+We added new functionality for creating invoices instead of payment requests, paying them and tracking their statuses. Check how it works in [Payment request and invoices](../how-your-users-interact-with-wla/payment-request-and-invoices.md)
 
-Now our customers can decide which functionality is necessary in the app and which not - we introduced modular based approach for WLA creation. When creating WLA based app, you can define which of those modules should be included into your app. Check [wla-modules.md](../admin-user-guide/wla-modules.md)
+Now our customers can decide which functionality is necessary in the app and which not - we introduced modular based approach for WLA creation. When creating WLA based app, you can define which of those modules should be included into your app. Check [WLA modules](../admin-user-guide/wla-modules.md)
 
 Also we changed the flow for initiating the search for trades in decentralized market. We hope that it will help your end users reach their goals easier!
 

@@ -2,11 +2,11 @@
 
 Follow the steps below to adjust portal to your needs:
 
-Step 1. Go to Configuration management page and allow other users collaborate on WLP as admins [admin-users-management.md](./admin-users-management.md)
+Step 1. Go to Configuration management page and allow other users collaborate on WLP as admins [Admin users management](./admin-users-management.md)
 
-Step 2. Adjust general settings of tenant configuration such as app name, languages and currency [tenant-configuration.md](./tenant-configuration.md)
+Step 2. Adjust general settings of tenant configuration such as app name, languages and currency [Tenant configuration](./tenant-configuration.md)
 
-Step 3. Adjust the look and feel of the portal to make it recognizable by your end-users [branding-management.md](./branding-management.md)
+Step 3. Adjust the look and feel of the portal to make it recognizable by your end-users [Branding management](./branding-management.md)
 
 Step 4. Configure features which you want your portal to have (don't forget to provide accounts for third-party services!) [features-configuration](./features-configuration/index.md)
 

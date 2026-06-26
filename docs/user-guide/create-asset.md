@@ -86,7 +86,7 @@ If you have finished these steps, you can click “Activate”.
 
 ### Step 5 - Signing transaction (mandatory)
 
-The transaction is being pushed to the TX.Mobile app. You get a notification on your mobile phone. You have to sign it to finish asset creation in blockchain  [sign-and-check-executed-transactions.md](./sign-and-check-executed-transactions.md)
+The transaction is being pushed to the TX.Mobile app. You get a notification on your mobile phone. You have to sign it to finish asset creation in blockchain  [Sign and check executed transactions](./sign-and-check-executed-transactions.md)
 
 Check the list of Issued assets after you go through these steps to find your new asset.
 
@@ -100,11 +100,11 @@ Go to "Settings" -> "NFT contracts", pick the one you need from the list of exis
 
 ![](/img/gitbook-assets/image-80.png)
 
-Check how to create NFT contracts here [ft-and-nft-contracts.md](./manage-asset-asset-details-asset-operations/ft-and-nft-contracts.md)
+Check how to create NFT contracts here [FT and NFT contracts](./manage-asset-asset-details-asset-operations/ft-and-nft-contracts.md)
 
 #### FT
 
-Go to Asset details, you will find in the menu on the right the possibility to create FT contract for this asset. You will have to provide contract data, after it is created you will see it in the Asset details view. Learn more about [ft-and-nft-contracts.md](./manage-asset-asset-details-asset-operations/ft-and-nft-contracts.md)
+Go to Asset details, you will find in the menu on the right the possibility to create FT contract for this asset. You will have to provide contract data, after it is created you will see it in the Asset details view. Learn more about [FT and NFT contracts](./manage-asset-asset-details-asset-operations/ft-and-nft-contracts.md)
 
 ![](/img/gitbook-assets/image-25.png)
 

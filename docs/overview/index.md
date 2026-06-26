@@ -15,7 +15,7 @@ curl -X 'GET' \
 ```
 
 ### Versions
-The TEOS API has multiple versions. You can read more about versioning in [versioning.md](../changelog/versioning.md), but here we'll explain how you make a call to a specific version.
+The TEOS API has multiple versions. You can read more about versioning in [Versioning](../changelog/versioning.md), but here we'll explain how you make a call to a specific version.
 
 It's really simple — just build your query with the endpoint containing necessary version. For example, here's a call to version 0.9:
 

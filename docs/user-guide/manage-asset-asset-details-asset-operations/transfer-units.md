@@ -14,4 +14,4 @@ You can click on the “To” field and the system opens your wallet list. If yo
 
 You can provide the amount in natural units or in sparks. See more about the difference [#units-of-measure](../create-asset.md#units-of-measure)
 
-The transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [sign-and-check-executed-transactions.md](../sign-and-check-executed-transactions.md)
+The transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [Sign and check executed transactions](../sign-and-check-executed-transactions.md)

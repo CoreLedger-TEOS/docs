@@ -4,7 +4,7 @@
 
 ### June, 2023
 
-We introduced the possibility to handle KYC processes without the integration with 3rd party service Shufti Pro and without the necessity to collect any info in the portal. Now admins can set "manual" KYC provider and handle KYC checks by any mean they prefer out of the portal. Read more how to set and handle manual KYC checks in [kyc-checks.md](../admin-user-guide/portal-configuration/features-configuration/kyc-checks.md) and [#kyc-management](../admin-user-guide/admin-functionality.md#kyc-management)
+We introduced the possibility to handle KYC processes without the integration with 3rd party service Shufti Pro and without the necessity to collect any info in the portal. Now admins can set "manual" KYC provider and handle KYC checks by any mean they prefer out of the portal. Read more how to set and handle manual KYC checks in [KYC checks](../admin-user-guide/portal-configuration/features-configuration/kyc-checks.md) and [#kyc-management](../admin-user-guide/admin-functionality.md#kyc-management)
 
 ### April, 2023
 
@@ -36,7 +36,7 @@ We've calculated all the values based on conversion rate, but we recommend to ch
 Starting from this version most of the general asset configuration necessary for WLP can be defined with the help of WLM UI when asset is being setup by the admin. Admins should add these properties as additional ones from the collection "WLA\&WLP configuration". We've already prepared everything, just add this folder, fill the values of WLP properties and remove unnecessary ones. Check how to do it in [White Label Management Tool](../user-guide/create-asset.md#step-2---additional-properties-optional).
 
 Though, please, keep in mind that some of the asset properties for purchase and redemption features must be still configured in the json config file under Advanced management.\
-Also, we are not asking you to replace the existing configuration of the existing assets used in WLP. We've moved all the properties from the config file to the WLP and saved it. But if you decide to change some of these properties, you should amend existing asset in the WLM and define all the WLP properties. For all new assets added to WLP, please, use new approach for asset definition described in [asset-configuration.md](../admin-user-guide/portal-configuration/asset-configuration.md)
+Also, we are not asking you to replace the existing configuration of the existing assets used in WLP. We've moved all the properties from the config file to the WLP and saved it. But if you decide to change some of these properties, you should amend existing asset in the WLM and define all the WLP properties. For all new assets added to WLP, please, use new approach for asset definition described in [Asset configuration](../admin-user-guide/portal-configuration/asset-configuration.md)
 
 :point\_right: We have new recommendation for asset and redemption pictures
 
@@ -59,8 +59,8 @@ You shouldn't care about differences between assetId and ledgerId anymore. Just 
 
 With this version WLP admins can try following improvements:
 
-* now portal available languages and its currency can be adjusted with the help of UI instead of json config file. Check the updates under [tenant-configuration.md](../admin-user-guide/portal-configuration/tenant-configuration.md)
-* colors management became much more easier - now admin should define only 10 colors for different groups of UI elements described in the colors.json file which can be found in the Azure blob storage. Check the updates under [branding-management.md](../admin-user-guide/portal-configuration/branding-management.md)
+* now portal available languages and its currency can be adjusted with the help of UI instead of json config file. Check the updates under [Tenant configuration](../admin-user-guide/portal-configuration/tenant-configuration.md)
+* colors management became much more easier - now admin should define only 10 colors for different groups of UI elements described in the colors.json file which can be found in the Azure blob storage. Check the updates under [Branding management](../admin-user-guide/portal-configuration/branding-management.md)
 * exported data from orders and redemptions lists now contain all available data in the portal
 
 This version brings significant changes for the end users too. We improved UX of the redemption request creation process including the flow for using saved bank accounts and crypto wallets. Check the updates under [#redemption](../how-your-users-interact-with-the-portal.md#redemption)
@@ -97,7 +97,7 @@ And as usual we fixed some bugs and introduced some design and architecture chan
 
 ## Version 0.10 introduced on May, 31 2022
 
-In this version we introduced possibility to switch languages which means that admins can set the list of available languages for portal (find how to configure them in [tenant-configuration.md](../admin-user-guide/portal-configuration/tenant-configuration.md)) and users can easily select desired language among English, German, Spanish.
+In this version we introduced possibility to switch languages which means that admins can set the list of available languages for portal (find how to configure them in [Tenant configuration](../admin-user-guide/portal-configuration/tenant-configuration.md)) and users can easily select desired language among English, German, Spanish.
 
 Starting from this version admins can define the list of bank identifiers they need for their bank transfers including adding specific local ids and intermediary bank details (find how to configure them in [features-configuration](../admin-user-guide/portal-configuration/features-configuration/index.md)). Also now admins can check the invoice details and order details which were sent to the end user when order was placed in purchase details (purchase management view).
 

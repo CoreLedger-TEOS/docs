@@ -8,9 +8,9 @@ description: Asset balance, balance operations, transactions overview, signing t
 
 ## Assets overview and asset balance
 
-User can check the list of assets available in this app (defined by admin [asset-configuration.md](../admin-user-guide/app-configuration/asset-configuration.md)) and the balance of these assets for the wallet owned by user and connected to the app.
+User can check the list of assets available in this app (defined by admin [Asset configuration](../admin-user-guide/app-configuration/asset-configuration.md)) and the balance of these assets for the wallet owned by user and connected to the app.
 
-User can also click "Info" icon to check the content provided by admin as asset description [asset-configuration.md](../admin-user-guide/app-configuration/asset-configuration.md).
+User can also click "Info" icon to check the content provided by admin as asset description [Asset configuration](../admin-user-guide/app-configuration/asset-configuration.md).
 
 ![](/img/gitbook-assets/microsoftteams-image-17.png)
 

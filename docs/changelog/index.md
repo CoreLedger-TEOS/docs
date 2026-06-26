@@ -11,7 +11,7 @@ Please, note that support of TEOS API v0.8 is over. Plan the upgrade to v1.1 to 
 :::
 
 :::info
-Check [versioning.md](./versioning.md) concept to make sure you organize your work in sync with TEOS API updates and you understand which influence different types of changes can have on your solution
+Check [Versioning](./versioning.md) concept to make sure you organize your work in sync with TEOS API updates and you understand which influence different types of changes can have on your solution
 :::
 
 ### TEOS API changelog and available versions

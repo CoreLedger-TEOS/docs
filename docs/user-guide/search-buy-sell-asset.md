@@ -46,7 +46,7 @@ The WLM will start looking for some matching trade chains for you. Each potentia
 
 ![](/img/gitbook-assets/image-81.png)
 
-Each tile representing different warps can have different gas costs, exchange rates, probabilities to be processed with such characteristics. You can select the one, which fulfills your needs the best. By clicking on “Trade” the warp will be executed, and your buying process/transaction will start. You will get a notification on the TX.Mobile app to sign the transaction [sign-and-check-executed-transactions.md](./sign-and-check-executed-transactions.md)
+Each tile representing different warps can have different gas costs, exchange rates, probabilities to be processed with such characteristics. You can select the one, which fulfills your needs the best. By clicking on “Trade” the warp will be executed, and your buying process/transaction will start. You will get a notification on the TX.Mobile app to sign the transaction [Sign and check executed transactions](./sign-and-check-executed-transactions.md)
 
 :::info
 Please, note that WLM always uses your Current wallet for creating transaction. Signature will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.

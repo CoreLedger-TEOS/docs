@@ -12,4 +12,4 @@ Under the tab "Links" you can check all assets which are linked to the current o
 Please, note that WLM always uses your Current wallet for creating transaction. Signature for creating links and removing links will be expected from this wallet. Current wallet is displayed right under your account name in the sidebar menu.
 :::
 
-After triggering linking/removing links, the transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [sign-and-check-executed-transactions.md](../sign-and-check-executed-transactions.md)
+After triggering linking/removing links, the transaction will be pushed to the TX.Mobile app for signature. Sign the transaction [Sign and check executed transactions](../sign-and-check-executed-transactions.md)

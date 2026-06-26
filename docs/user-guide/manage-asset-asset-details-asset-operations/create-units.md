@@ -24,4 +24,4 @@ A new form opens. You can now define how many units you want to create. You can 
 
 ![](/img/gitbook-assets/image-14.png)
 
-Insert the amount you want to create in the field “Create” and confirm with “Create”. This action needs your signature. Sign the transaction with the TX.Mobile app [sign-and-check-executed-transactions.md](../sign-and-check-executed-transactions.md)
+Insert the amount you want to create in the field “Create” and confirm with “Create”. This action needs your signature. Sign the transaction with the TX.Mobile app [Sign and check executed transactions](../sign-and-check-executed-transactions.md)

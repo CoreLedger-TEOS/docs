@@ -34,7 +34,7 @@ If the access token is not valid, the application should authenticate a user and
 
 **Step 2.0.1.** Auth server authenticates the user and in case of success, redirects the browser back to the app (to the redirect URL, provided in Step 2.0) with the requested user access token and the ID token (if configured)
 
-Please refer to [authentication-types.md](../../get-started/authentication-types.md)the for more details about the authentication types.
+Please refer to [Authentication types](../../get-started/authentication-types.md)the for more details about the authentication types.
 
 **Step 1.2.** Application sends a request to the `/users` endpoint in TMS to retrieve information about the authenticated user:
 

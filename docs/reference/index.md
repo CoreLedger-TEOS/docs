@@ -1,7 +1,7 @@
 # TEOS API references
 
 :::info
-Check [versioning.md](../changelog/versioning.md) concept and [start trying](../get-started/index.md) out TEOS API
+Check [Versioning](../changelog/versioning.md) concept and [start trying](../get-started/index.md) out TEOS API
 :::
 
 ## Common request parameters
