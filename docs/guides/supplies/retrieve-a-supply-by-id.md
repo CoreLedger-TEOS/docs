@@ -2,7 +2,9 @@
 
 Retrieve a specific supply offer by its unique identifier. A Supply represents an offer created by a user to exchange a specific amount of sparks of one asset for a desired amount of another asset.
 
-**Note:** Supplies cannot be ordered by the ExchangeRate field.
+:::note
+Supplies cannot be ordered by the ExchangeRate field.
+:::
 
 📘 [Learn more](../../resources/using-the-teos-api/concepts/supply.md) about supplies.
 

@@ -2,7 +2,9 @@
 
 This endpoint retrieves all wallets associated with the current authenticated user. It returns a paginated list of wallets, with each page containing up to 50 items by default.
 
-⚠️ **Note:** API key authentication is not supported for this endpoint.
+:::note
+API key authentication is not supported for this endpoint.
+:::
 
 📘 [Learn more](../../resources/using-the-teos-api/concepts/wallet.md) about wallets.
 

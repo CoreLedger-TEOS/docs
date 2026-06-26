@@ -3,7 +3,9 @@
 This method permanently deletes the specified user and all data associated with that user account. Only the user themselves can delete their own account.\
 No OData query options are supported.
 
-⚠️ **Note:** API key authentication is not supported for this endpoint.
+:::note
+API key authentication is not supported for this endpoint.
+:::
 
 #### Request Endpoint:
 

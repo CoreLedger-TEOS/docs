@@ -6,7 +6,9 @@ slug: /guides/spark-operations/spark-operations-page
 
 TEOS API consumers can search for spark operations associated with one or more blockchain addresses. This endpoint allows retrieving operations based on direction, asset, and pagination options.
 
-&gt; Note: The multiple method signatures seen in the API documentation represent different combinations of optional parameters. In reality, this is **a single GET method** that supports flexible combinations of query parameters. The various signatures are simply different ways to call the same endpoint with different optional parameters.
+:::note
+The multiple method signatures seen in the API documentation represent different combinations of optional parameters. In reality, this is **a single GET method** that supports flexible combinations of query parameters. The various signatures are simply different ways to call the same endpoint with different optional parameters.
+:::
 
 A spark operation represents a transfer of a tokenized asset (a spark) between addresses, including information about the sender, receiver, transaction, and asset details.
 
