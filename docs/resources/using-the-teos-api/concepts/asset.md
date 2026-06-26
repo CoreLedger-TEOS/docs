@@ -18,7 +18,7 @@ For EVM-compatible networks (e.g. Sparknet, Ethereum, and Polygon), the "Author"
 
 ```json
 {
-  "Author": "itk7v-ihlxk-ktdrh-fcnst-vkoou-orj77-52ogl-jqwj5-zpfdv-az3lr-xqe",
+  "Author": "vvzlj-ltorg-pmogv-f6cwd-z5kky-7dgal-l4ahx-3x5bx-fmf45-c4lyo-lae",
   "Name": "Gold",
   "Description": "1oz Gold bars",
   "LanguageCode": "en",
@@ -113,9 +113,10 @@ the custom field value should be `"KGm"`.
 
 After asset is created in the TEOS Platform and finally in the blockchain, it gets the list of additional technical properties which help to deal with this asset.
 
-| Id                    | string<br />example: 0x5db616f7e9aaa6fce9b0001<br />The UniqueAssetId of the asset                                                                                                                                                                                                         |
+| Property              | Details                                                                                                                                                                                                                                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Author\*              | string<br />example (Hex Address of the asset issuer): <br />-EVM-compatible networks (e.g. Sparknet, Ethereum, and Polygon): 0xabe9e6c2b231ae427cd089b2b68be0a1dab565a1<br />-Internet Computer network: itk7v-ihlxk-ktdrh-fcnst-vkoou-orj77-52ogl-jqwj5-zpfdv-az3lr-xqe                 |
+| Id                    | string<br />example: 0x5db616f7e9aaa6fce9b0001<br />The UniqueAssetId of the asset                                                                                                                                                                                                         |
+| Author\*              | string<br />example (Hex Address of the asset issuer): <br />-EVM-compatible networks (e.g. Sparknet, Ethereum, and Polygon): 0xabe9e6c2b231ae427cd089b2b68be0a1dab565a1<br />-Internet Computer network: vvzlj-ltorg-pmogv-f6cwd-z5kky-7dgal-l4ahx-3x5bx-fmf45-c4lyo-lae                 |
 | Name\*                | string<br />minLength: 1<br />example: Gold<br />Name of the asset.                                                                                                                                                                                                                          |
 | Description\*         | string<br />minLength: 1<br />example: 1oz Gold bars<br />Description of the asset.                                                                                                                                                                                                          |
 | LanguageCode\*        | string<br />maxLength: 2<br />minLength: 1<br />example: en<br />The default language code of the asset (ISO 2).                                                                                                                                                                               |
@@ -137,12 +138,6 @@ After asset is created in the TEOS Platform and finally in the blockchain, it ge
 | Name                  | string<br />nullable: true<br />example: Gold<br />Name of the asset.                                                                                                                                                                                                                        |
 | Description           | string<br />nullable: true<br />example: 1oz Gold bars<br />Translated asset description                                                                                                                                                                                                     |
 | CustomDefinitionItems | list of definition items in the specific language                                                                                                                                                                                                                                                |
-
-| LanguageCode\*        | string<br />maxLength: 2<br />minLength: 1<br />example: en<br />language code of the asset translation (ISO 2). |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Name                  | string<br />nullable: true<br />example: Gold<br />Name of the asset.                                          |
-| Description           | string<br />nullable: true<br />example: 1oz Gold bars<br />Translated asset description                       |
-| CustomDefinitionItems | list of definition items in the specific language                                                                  |
 
 ## Asset ids
 

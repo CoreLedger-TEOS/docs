@@ -8,8 +8,6 @@ Additional APIs are required to be used along with TEOS API in case TEOS API Con
 
 [OAuth 2.0](https://oauth.net/2/) standard endpoint implementation details are described below. Custom endpoint references can be found [here](./index.md#specific-endpoints).
 
-**Discovery Endpoint**
-
 ## Discovery Endpoint
 
 `GET` `/.well-known/openid-configuration`
@@ -31,8 +29,6 @@ The discovery endpoint is available via _/.well-known/openid-configuration_ rela
 :::info
 You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically access the discovery endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/discovery.html).
 :::
-
-**Authorize Endpoint**
 
 ## Authorize Endpoint
 
@@ -92,8 +88,6 @@ GET /connect/authorize?
 :::info
 You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically create authorize requests .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/authorize.html).
 :::
-
-**Token Endpoint**
 
 ## Token Endpoint
 
@@ -163,8 +157,6 @@ In the case of wrong request it returns the problem
 You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel) client library to programmatically access the token endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/token.html).
 :::
 
-**UserInfo Endpoint**
-
 ## UserInfo Endpoint
 
 `GET` `/connect/userinfo`
@@ -207,8 +199,6 @@ Content-Type: application/json
 :::info
 You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically access the userinfo endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/userinfo.html).
 :::
-
-**Introspection Endpoint**
 
 ## Introspection Endpoint
 
@@ -270,8 +260,6 @@ An invalid request will return a 400, an unauthorized request 401.
 You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically access the introspection endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/introspection.html).
 :::
 
-**Revocation Endpoint**
-
 ## Revocation Endpoint
 
 `POST` `/connect/revocation`
@@ -299,8 +287,6 @@ token=45ghiukldjahdnhzdauz&token_type_hint=refresh_token
 :::info
 You can use the [IdentityModel](https://github.com/IdentityModel/IdentityModel2) client library to programmatically access the revocation endpoint from .NET code. For more information check the IdentityModel [docs](https://identitymodel.readthedocs.io/en/latest/client/revocation.html).
 :::
-
-**End Session Endpoint**
 
 :::info
 The URL for the end session endpoint is available via the [discovery endpoint](./index.md#discovery-endpoint).

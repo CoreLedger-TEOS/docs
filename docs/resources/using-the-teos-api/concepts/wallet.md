@@ -56,7 +56,7 @@ For non-EVM networks, the wallet will have the same structure as for EVM-compati
             "Id": "b92e295a-03d9-47de-493a-08d9a2a559e6",
             "Name": "John's wallet",
             "Description": "",
-            "InternetComputerAddress": "0dff47055d84fd0d89cc55ff477c24026b5c2c9175f8fd36bcb66bb68cac81be",
+            "InternetComputerAddress": "vvzlj-ltorg-pmogv-f6cwd-z5kky-7dgal-l4ahx-3x5bx-fmf45-c4lyo-lae",
             "UserId": "37514be7-d096-4bb8-95da-edb03b723bb2"
 }
 ```
@@ -75,7 +75,7 @@ For non-EVM networks, the balance has the same structure as for EVM-compatible o
 ```
 {
             "Amount": "100",
-            "Address": "0dff47055d84fd0d89cc55ff477c24026b5c2c9175f8fd36bcb66bb68cac81be",
+            "Address": "vvzlj-ltorg-pmogv-f6cwd-z5kky-7dgal-l4ahx-3x5bx-fmf45-c4lyo-lae",
             "UniqueAssetId": "5481bcdf50dccec144f00001"
 }
 ```
