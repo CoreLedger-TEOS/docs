@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Rate limits
 
 A rate limit is the number of API calls a consumer can make within a given time period. If this limit is exceeded or if CPU or total time limits are exceeded, the consumer may be throttled. API requests made by a throttled consumer will fail.
@@ -9,9 +12,8 @@ Real-time rate limit usage statistics are described in headers that are included
 ### Platform Rate Limits
 TEOS API requests made with an API key or user access token ([check here](../get-started/authentication-types.md))  are counted against that tenant’s rate limit. A tenant’s call count is the number of calls it can make during a rolling twenty-four-hour window and is defined as follows:
 
-
-
-#### Actual
+<Tabs>
+<TabItem value="actual" label="Actual" default>
 
 `Calls within twenty-four hours = 30000`
 
@@ -19,9 +21,9 @@ To prevent the spikes in a short time, the default limit of 100 calls per minute
 
 `Calls within a minute = 300`
 
+</TabItem>
+<TabItem value="before-2026-03-01" label="Before 01.03.2026">
 
-
-#### Before 01.03.2026
 
 `Calls within twenty-four hours = 10000`
 
@@ -29,7 +31,8 @@ To prevent the spikes in a short time, the default limit of 100 calls per minute
 
 `Calls within a minute = 100`
 
-
+</TabItem>
+</Tabs>
 
 #### Headers
 Endpoints that receive enough requests from your app will include a `X-Rate-Limit-Limit`, `X-Rate-Limit-Remaining` and `X-Rate-Limit-Reset` HTTP headers in their responses. The headers will contain strings, describing current application rate limit usage.
