@@ -14,7 +14,7 @@ description: Available from July, 2023
 
 _User settings -> Check ID to sign transaction_
 
-👉Now **invoice or payment request can be paid with other assets** which user has, not the one which is requested in the invoice or payment request. If you setup the app in the way that this feature is enabled, when user scans invoice or payment request QR code and doesn't have desired asset, he or she will be offered to search for other payment options using our warp transfer technology (yes, warp and transfer as one transaction!). [Read more](../admin-user-guide/app-configuration/index.md)
+👉 Now **invoice or payment request can be paid with other assets** which user has, not the one which is requested in the invoice or payment request. If you setup the app in the way that this feature is enabled, when user scans invoice or payment request QR code and doesn't have desired asset, he or she will be offered to search for other payment options using our warp transfer technology (yes, warp and transfer as one transaction!). [Read more](../admin-user-guide/app-configuration/index.md)
 
 
 
@@ -26,15 +26,15 @@ _User settings -> Check ID to sign transaction_
 
 
 
-👉Now invoice owner can **check invoice details** again and show its QR code if he or she opens the invoice list
+👉 Now invoice owner can **check invoice details** again and show its QR code if he or she opens the invoice list
 
 ![](/img/gitbook-assets/screenshot-2023-07-14-at-15.40.29.png)
 
-👉**French language** is now available for app users! Expand your app presence with this update.
+👉 **French language** is now available for app users! Expand your app presence with this update.
 
-👉We've enriched the list of **transaction types** which are supported by WLA, now all TEOS Platform transactions are nicely handled by WLA.
+👉 We've enriched the list of **transaction types** which are supported by WLA, now all TEOS Platform transactions are nicely handled by WLA.
 
-👉**Voting module** was introduced, though it can't be used in productive apps as is, only for your investors demonstrations
+👉 **Voting module** was introduced, though it can't be used in productive apps as is, only for your investors demonstrations
 
 Also, as usual, we fixed some bugs to make user experience better.
 

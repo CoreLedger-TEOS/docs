@@ -25,7 +25,7 @@ Each tier must have following parameters:
 * description - optional, but we highly recommend to provide it, you can briefly explain your end-users the purpose of this tier and documents which they will need to submit to get it
 * KYC providers configuration (starting from tier 1)\
   You can set one of the following options for name: "Manual" or "ShuftiPro" (note that register is important here). "config" value depends on the way you're going to handle the KYC checks.\
-  ‼️Note that all tiers must have the same provider name.
+  ‼️ Note that all tiers must have the same provider name.
 
 ### Manual KYC checks (no integration with 3rd party services)
 
