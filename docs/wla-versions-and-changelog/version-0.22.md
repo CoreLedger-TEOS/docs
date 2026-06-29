@@ -60,7 +60,7 @@ All custom texts still can be localized:
 
 #### Intro
 
-We removed links to intro images from "img" section and moved full intro description to new "intro" section. Read more in [#intro](../admin-user-guide/app-configuration/additional-configuration.md#intro)
+We removed links to intro images from "img" section and moved full intro description to new "intro" section. Read more in [Intro](../admin-user-guide/app-configuration/additional-configuration.md#intro)
 
 ```json
 	"intro": {
@@ -84,4 +84,4 @@ We removed links to intro images from "img" section and moved full intro descrip
 
 #### New module "Voting" and its configuration
 
-Read more in [#voting](../admin-user-guide/app-configuration/non-productive-functionality.md#voting)
+Read more in [Voting](../admin-user-guide/app-configuration/non-productive-functionality.md#voting)

@@ -11,8 +11,8 @@ description: &gt;-
 
 Full configuration of Shop and Featured asset functionality includes following steps:
 
-1. Configure assets to sell in WLM [Asset configuration](../../asset-configuration.md) and enrich with specific purchasing properties [#asset-configuration-for-purchasing](./index.md#asset-configuration-for-purchasing)
-2. Set one of them as features if needed [#featured-asset](./index.md#featured-asset)
+1. Configure assets to sell in WLM [Asset configuration](../../asset-configuration.md) and enrich with specific purchasing properties [Asset configuration for purchasing](./index.md#asset-configuration-for-purchasing)
+2. Set one of them as features if needed [Featured asset](./index.md#featured-asset)
 3. Configure collection methods [Collection methods configuration](./collection-methods-configuration.md)
 4. Configure payment methods [Payment methods configuration](./payment-methods-configuration.md)
 5. Prepare templates for sending invoice details and purchase details to users via the email [Templates for purchase details and invoice details](./templates-for-purchase-details-and-invoice-details.md)

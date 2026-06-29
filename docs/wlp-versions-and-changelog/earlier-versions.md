@@ -63,7 +63,7 @@ With this version WLP admins can try following improvements:
 * colors management became much more easier - now admin should define only 10 colors for different groups of UI elements described in the colors.json file which can be found in the Azure blob storage. Check the updates under [Branding management](../admin-user-guide/portal-configuration/branding-management.md)
 * exported data from orders and redemptions lists now contain all available data in the portal
 
-This version brings significant changes for the end users too. We improved UX of the redemption request creation process including the flow for using saved bank accounts and crypto wallets. Check the updates under [#redemption](../how-your-users-interact-with-the-portal.md#redemption)
+This version brings significant changes for the end users too. We improved UX of the redemption request creation process including the flow for using saved bank accounts and crypto wallets. Check the updates under [Redemption](../how-your-users-interact-with-the-portal.md#redemption)
 
 ## Version 0.13 in September, 2022
 
