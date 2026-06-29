@@ -14,7 +14,7 @@ You can always check available controllers in "Settings" -> "Controllers". Pleas
 
 ![](/img/gitbook-assets/image-4-1.png)
 
-First make sure that all the public addresses of the wallets you want to give access to your assets or restrict access are either in My wallets or in Other wallets [wallet-management-in-wlm-+-tx.mobile](./wallet-management-in-wlm-+-tx.mobile/index.md)
+First make sure that all the public addresses of the wallets you want to give access to your assets or restrict access are either in My wallets or in Other wallets [Wallet management in WLM + TX.Mobile](./wallet-management-in-wlm-+-tx.mobile/index.md)
 
 ## Create new controller
 

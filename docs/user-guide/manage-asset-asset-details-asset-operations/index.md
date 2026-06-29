@@ -27,7 +27,7 @@ Asset details view contains all provided info about the asset and main asset ope
 * Unit of measure - how asset is measured in the real world (depends on asset type)
 * Token unit fraction - how many indivisible parts are in one unit
 * Jurisdiction - to which jurisdiction this asset belongs
-* Modificator, timeframe, start date - parameters which define how price of the 1 unit changes over time, graphical representation is in Spark value section (not supported at the moment, always set to default parameters)
+* Modificator, timeframe, start date - parameters which define how price of the 1 unit changes over time, graphical representation is in Spark value section <mark style={{color: 'red'}}>(not supported at the moment, always set to default parameters)</mark>
 * Issuer - wallet which has signed the transaction for asset creation (blockchain record is created by this public address)
 * QR code - asset QR code contains unique asset id
 
@@ -42,7 +42,7 @@ Asset details view contains all provided info about the asset and main asset ope
 
 Under "Units" tab of asset details user can find the list of all wallets holding the units of this asset. The wallets which are in the address book are resolved in the defined name, others are displayed as public addresses only.
 
-All wallets are divided into 2 groups: my wallets and other wallets as described in [wallet-management-in-wlm-+-tx.mobile](../wallet-management-in-wlm-+-tx.mobile/index.md)
+All wallets are divided into 2 groups: my wallets and other wallets as described in [Wallet management in WLM + TX.Mobile](../wallet-management-in-wlm-+-tx.mobile/index.md)
 
 ![](/img/gitbook-assets/image-13.png)
 
