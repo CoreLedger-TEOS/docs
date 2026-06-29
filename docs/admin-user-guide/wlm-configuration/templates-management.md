@@ -12,7 +12,7 @@ In the asset template management view you can do the following:
 * add/delete additional properties from previously created collections of definition items [Definition Items Management](../../user-guide/additional-settings-management.md#definition-items-management)
 * make properties mandatory (they will be required to be filled, asset won't be written to blockchain without them)
 
-![](/img/gitbook-assets/image-1.png)
+![](/img/gitbook-assets/screenshot-2023-03-28-at-12.08.55.png)
 
 ### Registration form
 
