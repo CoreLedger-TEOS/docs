@@ -25,7 +25,7 @@ No query parameters.
 | signerAddress | string         | Public address of the wallet initiating the warp. Must have enough units of the offered asset.   | ✅             |
 | targetAddress | string         | Public address of the wallet receiving the resulting assets.                                     | ✅             |
 | inputAmount   | string         | Amount of sparks of the offered asset to spend.                                                  | ✅             |
-| supplyIds     | array&lt;string&gt; | List of supply identifiers representing the warp chain. Each supply acts as a link in the chain. | ✅             |
+| supplyIds     | array\<string\> | List of supply identifiers representing the warp chain. Each supply acts as a link in the chain. | ✅             |
 
 #### Example Request Body
 
