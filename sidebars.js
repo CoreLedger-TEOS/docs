@@ -973,7 +973,7 @@ const sidebars = {
           "items": [
             {
               "type": "doc",
-              "id": "wlm-versions-and-changelog/fox"
+              "id": "wlm-versions-and-changelog/gecko"
             },
             {
               "type": "doc",
@@ -981,7 +981,7 @@ const sidebars = {
             },
             {
               "type": "doc",
-              "id": "wlm-versions-and-changelog/gecko"
+              "id": "wlm-versions-and-changelog/fox"
             },
             {
               "type": "doc",
