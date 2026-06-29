@@ -38,7 +38,7 @@ Using these variables, you will operate with the order specific data.
 
 ### Purchased items table
 
-*   You can use the table for listing the purchased items. The template document may have multiple tables. To find the appropriate one to list the purchased items, please set the description of the table to “Purchased Items”:\
+*   You can use the table for listing the purchased items. The template document may have multiple tables. To find the appropriate one to list the purchased items, please set the description of the table to “Purchased Items”:
 
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-templates-for-purchase-details-and-invoice-details-01.png)

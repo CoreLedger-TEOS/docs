@@ -34,7 +34,7 @@ Please note that
 
 For each collection method you can define following characteristics:
 
-*   Description of the method in all available languages for the portal which will be shown to user in the checkout flow under "More details" button of the collection method\
+*   Description of the method in all available languages for the portal which will be shown to user in the checkout flow under "More details" button of the collection method
 
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-02.png)
@@ -42,22 +42,22 @@ For each collection method you can define following characteristics:
 _Description definition in the Configuration management_ ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-03.png)
 
 _Description is shown under "More details" in user checkout flow_
-* Collection method fee which will be added on top to the order amount which end users will have to pay. Collection method fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency). \
+* Collection method fee which will be added on top to the order amount which end users will have to pay. Collection method fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency).
   Fee is a decimal number, with max 2 decimal places. Total collection method fee will be calculated as a sum of variable fee part and fixed fee part.
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-04.png)
 
-* Country fee which will be applied based on the selected country by the user and which will be added on top to the order amount which end users will have to pay. \
-  Country fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency).\
-  You are supposed to specify the Fallback country fee for the cases when user selects the country out of the list for which you've defined the fees\
-  Fee is a decimal number, with max 2 decimal places. Total country fee will be calculated as a sum of variable fee part and fixed fee part. \
+* Country fee which will be applied based on the selected country by the user and which will be added on top to the order amount which end users will have to pay.
+  Country fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency).
+  You are supposed to specify the Fallback country fee for the cases when user selects the country out of the list for which you've defined the fees
+  Fee is a decimal number, with max 2 decimal places. Total country fee will be calculated as a sum of variable fee part and fixed fee part.
 
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-05.png)
 
 ### Additional characteristics of specific collection methods
 
-*   For "One time wallet" you can define the text of the disclaimer in all available languages for the portal to make sure your users understand their responsibility of using correct address\
+*   For "One time wallet" you can define the text of the disclaimer in all available languages for the portal to make sure your users understand their responsibility of using correct address
 
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-06.png)

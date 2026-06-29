@@ -23,7 +23,7 @@ Please note that
 
 ### General characteristics for all payment methods
 
-*   Description of the method in all available languages for the portal which will be shown to user in the checkout flow in Payment method's tile details\
+*   Description of the method in all available languages for the portal which will be shown to user in the checkout flow in Payment method's tile details
 
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-payment-methods-configuration-02.png)
@@ -31,7 +31,7 @@ Please note that
 _Description definition in the Configuration management_ ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-payment-methods-configuration-03.png)
 
 _Description is shown in the payment method's tile in user checkout flow_
-* You can define KYC tier which users must have for each payment method to be able to use it during checkout process. By default Tier 0 is applied [Read more about KYC configurations](../kyc-checks.md)\
+* You can define KYC tier which users must have for each payment method to be able to use it during checkout process. By default Tier 0 is applied [Read more about KYC configurations](../kyc-checks.md)
   ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-payment-methods-configuration-04.png)
 * You can define purchase amount limit, which the user must not exceed to use the corresponding payment method, when creating order. The limit is set in the portal currency, and has a number value. If the user exceeds the payment method limit, the payment method will not be available.
 
@@ -47,7 +47,7 @@ _Purchase amount limits, displayed to the user_
 
 Step 1. Configure bank transfer details
 
-For the payment method “Bank Transfer” the bank details of the receiving account must be configured, they will be used in the invoice generated for the order. \
+For the payment method “Bank Transfer” the bank details of the receiving account must be configured, they will be used in the invoice generated for the order.
 Descriptions for each field of the bank details are optional, in case you provide them, users will see them in info tooltip. Descriptions can be added in all languages available for the portal.
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-payment-methods-configuration-07.png)
@@ -56,7 +56,7 @@ You can also add up to 3 additional bank ids (apart from SWIFT or BIC) in case y
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-payment-methods-configuration-08.png)
 
-You can also add details of intermediary bank in case you expect international payments and your bank has intermediary bank details for them. We recommend to add description for this section to explain to your users what it is. Optionally you can provide translations in all available languages.\
+You can also add details of intermediary bank in case you expect international payments and your bank has intermediary bank details for them. We recommend to add description for this section to explain to your users what it is. Optionally you can provide translations in all available languages.
 
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-payment-methods-configuration-09.png)
@@ -82,12 +82,12 @@ Check [Bank card payment provider - Payrexx](../../how-to-get-api-keys-of-third-
 
 ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-payment-methods-configuration-10.png)
 
-For pilot project within Active Sandbox you can start without your own account, you are allowed to use CoreLedger test account. Discuss it with your CoreLedger manager.\
+For pilot project within Active Sandbox you can start without your own account, you are allowed to use CoreLedger test account. Discuss it with your CoreLedger manager.
 
 
 Step 2. Prepare the template for credit card purchase details
 
-Purchase details based on this template are sent to the user when credit card is selected as a payment method. \
+Purchase details based on this template are sent to the user when credit card is selected as a payment method.
 Refer to [Templates for purchase details and invoice details](./templates-for-purchase-details-and-invoice-details.md) to check how the template must be configured. Send it to your CoreLedger manager to apply it in your portal.
 
 #### Cryptocurrency payment method
@@ -111,5 +111,5 @@ For pilot project within Active Sandbox you can start without your own account, 
 
 Step 2. Prepare the template for cryptopayment purchase details
 
-Purchase details based on this template are sent to the user when cryptopayment is selected as a payment method. \
+Purchase details based on this template are sent to the user when cryptopayment is selected as a payment method.
 Refer to [Templates for purchase details and invoice details](./templates-for-purchase-details-and-invoice-details.md) to check how the template must be configured. Send it to your CoreLedger manager to apply it in your portal.
