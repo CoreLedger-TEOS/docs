@@ -9,13 +9,13 @@ Starting from v0.15 most of the asset configuration can be done with WLM (descri
 Asset configuration starts in WLM. Some of the general asset properties are used in WLA. You can [read more](../../user-guide/create-asset.md) about asset creation in WLM.
 
 * **Asset name** is used in WLA if WLA specific name is not defined (check Step 2)
-* **Description** of the asset is going to be checked by WLP. This description will be shown in the "More details" window in the shop. You can also add some online resources which will be shown as links if you add them according to this notation "\[clickable text] (https://onlineresource.com)"
+* **Description** of the asset is going to be checked by WLP. This description will be shown in the "More details" window in the shop. You can also add some online resources which will be shown as links if you add them according to this notation "[clickable text](https://onlineresource.com)"
 
-&gt; This is an example of a nice description of the asset which can be easily read. You can also add some links \[clickable text] (https://onlineresource.com)
+> This is an example of a nice description of the asset which can be easily read. You can also add some links [clickable text](https://onlineresource.com)
 
 In case description contains only the url (string starting from "http..."), it will be used as the resource to which user should be redirected when he clicks "Read more" button. So, no additional window will be opened. We recommend such an approach it if you have website or any other publicly available resource for detailed description of your asset. In such a case description should look like this 👇
 
-&gt; https://onlineresource.com
+> [https://onlineresource.com](https://onlineresource.com)
 
 * **Unit of measure or Currency** (Currency must be filled in case asset type is Cash or Cash equivalent) of the asset are used as asset units in WLP
 
