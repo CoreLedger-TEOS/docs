@@ -21,9 +21,9 @@ If you don't need the voting functionality for your app, just remove "voting" ob
 2. Define descriptive text in the "localization" section for each question and option:\
    \- use "en-\*\***",** "de-\*\*", "es-\*\*", "fr-\*\*" blocks depending on which languages you want to set\
    \- "title" - use this parameter to define title for the whole voting section in the app\
-   \- "\&lt;question\_id&gt;.title" - use the parameters starting with question id defined in "questions" sections and having "title" after the dot to define the question label\
-   \- "\&lt;question\_id&gt;.desc" - use the parameters starting with question id defined in "questions" sections and having "desc" after the dot to define the question description\
-   \- "\&lt;option\_id&gt;" - use the parameters equal to option ids defined in "questions" sections to define the option label
+   \- "&lt;question\_id&gt;.title" - use the parameters starting with question id defined in "questions" sections and having "title" after the dot to define the question label\
+   \- "&lt;question\_id&gt;.desc" - use the parameters starting with question id defined in "questions" sections and having "desc" after the dot to define the question description\
+   \- "&lt;option\_id&gt;" - use the parameters equal to option ids defined in "questions" sections to define the option label
 
 ```json
 	"voting": {

@@ -18,7 +18,7 @@ _Choose a payment method._
 
 _Loading purchase templates in the languages you need._
 
-👉 The Redemption Template was updated to include additional values such as \&lt;currentdate&gt;, \&lt;totalamountfees&gt;, and \&lt;priceperunit&gt;.  This made the template even more informative and allowed admins to add all the necessary information. Read more about [Redemption functionality](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/index.md).
+👉 The Redemption Template was updated to include additional values such as &lt;currentdate&gt;, &lt;totalamountfees&gt;, and &lt;priceperunit&gt;.  This made the template even more informative and allowed admins to add all the necessary information. Read more about [Redemption functionality](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/index.md).
 
 👉 Adapting the Purchase Template, adding VAT values on the Purchase Document. This enabled us to address requests from our customers who needed VAT displayed during purchases. Users will see it on the invoice.
 

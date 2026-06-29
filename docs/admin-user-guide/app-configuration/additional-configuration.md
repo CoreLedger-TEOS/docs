@@ -61,8 +61,8 @@ If you don't need the intro for your app, just remove "intro" object from your c
 
 Each slide can have image, title and description. Title and description can be provided in different languages according to the following rules:
 
-* en.title.1 - use language code before first dot to define title in the specific language and use number after second dot to set title for the specific picture (\&lt;language\_code&gt;.title.\&lt;intro\_slide\_number&gt;)
-* de.desc.2 - use language code before first dot to define description in the specific language and use number after second dot to set description for the specific picture (\&lt;language\_code&gt;.desc.\&lt;intro\_slide\_number&gt;)
+* en.title.1 - use language code before first dot to define title in the specific language and use number after second dot to set title for the specific picture (&lt;language\_code&gt;.title.&lt;intro\_slide\_number&gt;)
+* de.desc.2 - use language code before first dot to define description in the specific language and use number after second dot to set description for the specific picture (&lt;language\_code&gt;.desc.&lt;intro\_slide\_number&gt;)
 
 ```json
 	"intro": {

@@ -22,7 +22,7 @@ A spark operation represents a transfer of a tokenized asset (a spark) between a
 
 | Name          | Type           | Description                                                               | Mandatory | Default |
 | ------------- | -------------- | ------------------------------------------------------------------------- | --------- | ------- |
-| addresses     | array\&lt;string&gt; | List of blockchain addresses to search operations for. Must not be empty. | ✅         | —       |
+| addresses     | array&lt;string&gt; | List of blockchain addresses to search operations for. Must not be empty. | ✅         | —       |
 | direction     | string         | Filter operations by direction. Possible values: All, Received, Sent.     | ✅         | All     |
 | uniqueAssetId | string         | Optional filter to limit operations by a specific asset ID.               | ❌         | —       |
 | pageNumber    | integer        | Optional page number for pagination.                                      | ❌         | 1       |
