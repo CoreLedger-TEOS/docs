@@ -26,7 +26,7 @@ Please note that
 *   Description of the method in all available languages for the portal which will be shown to user in the checkout flow in Payment method's tile details\
 
 
-    ![](/img/gitbook-assets/image-28.png)
+![](/img/gitbook-assets/image-28.png)
 
 _Description definition in the Configuration management_ ![](/img/gitbook-assets/image-31.png)
 

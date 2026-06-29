@@ -170,19 +170,19 @@ In order to define all configuration settings correctly and check how the user f
 
 1.  Go to your Shufti Pro backoffice, login to your account and [go to Integration tab](https://backoffice.shuftipro.com/integration), select "KYC journey builder" to start configuration process
 
-    ![](/img/gitbook-assets/screenshot-2023-08-01-at-14.51.02.png)
+![](/img/gitbook-assets/screenshot-2023-08-01-at-14.51.02.png)
 
 _Select "KYC Journey Builder" in Integration tab_
 2.  Click "Create new" and enter the name for this KYC journey. For example, "KYC tier 1 journey", "KYC tier 2 journey", etc.\
     Select the necessary KYC services from the list of available services by dragging them and dropping to the right area. Click "Start" and follow the configuration wizard. \
     Make a screenshot of each step after you've filled the desired parameters (before clicking "Next" or "Save").
 
-    ![](/img/gitbook-assets/screenshot-2023-08-01-at-15.06.14.png) ![](/img/gitbook-assets/screenshot-2023-07-25-at-12.58.53.png) ![](/img/gitbook-assets/screenshot-2023-07-25-at-13.01.29.png)
+![](/img/gitbook-assets/screenshot-2023-08-01-at-15.06.14.png) ![](/img/gitbook-assets/screenshot-2023-07-25-at-12.58.53.png) ![](/img/gitbook-assets/screenshot-2023-07-25-at-13.01.29.png)
 3.  After you configure the flow you will see the button "Save". After you click it there are three available options what to do next. We recommend you to check the flow which you've built from user's perspective by clicking "Start Demo". If you realize that there should be some changes, you can always edit the KYC journey by selecting it in the list of journeys and clicking "Edit" icon.\
     After you make sure that the flow totally fits your needs, gather all the screenshots characterizing the flows built for each KYC tier and at the last step click "Code". Copy the code which will be displayed right after your click for each flow and forward it together with the screenshots to your CoreLedger manager or use it to configure KYC integration for each tier in the Advanced configuration tab of WLP.\
 
 
-    ![](/img/gitbook-assets/screenshot-2023-08-01-at-14.55.18.png)
+![](/img/gitbook-assets/screenshot-2023-08-01-at-14.55.18.png)
 
 _End of the KYC journey configuration flow_ ![](/img/gitbook-assets/screenshot-2023-08-01-at-15.32.08.png)
 

@@ -19,7 +19,7 @@ Some modules have optional functionality which is listed below. If our default s
     By default this feature is enabled\
 
 
-    ![](/img/gitbook-assets/screenshot-2023-07-13-at-18.14.13.png)
+![](/img/gitbook-assets/screenshot-2023-07-13-at-18.14.13.png)
 
 #### Wallets module
 

@@ -6,19 +6,16 @@
 
 *   You can search for the asset in the list of assets (My Assets page) and under menu item Search Assets using uniqueAssetId\
 
-
-
-
-    ![](/img/gitbook-assets/image-83.png)
-
-_My Assets_
-
-
-
-    ![](/img/gitbook-assets/image-84.png)
-
-_Search Assets_
-
+<div className="image-pair">
+  <figure>
+    <img src="/img/gitbook-assets/image-83.png" alt="" />
+    <figcaption>My Assets</figcaption>
+  </figure>
+  <figure>
+    <img src="/img/gitbook-assets/image-84.png" alt="" />
+    <figcaption>Search Assets</figcaption>
+  </figure>
+</div>
 
 * Tenant owners can decide which external authentication providers must be used in their tenants (available options include Microsoft, Apple, Google and Google). If some of the external providers are going to be used, company's account credentials must be provided to CoreLedger manager to set it up. Contact your manager for further information
 * French and Spanish translations of the registration and login flow are available now. Talk to your users in their language!
@@ -31,7 +28,7 @@ _Search Assets_
     WLM still has its own representation of T\&C and Data Policy when signing user to WLM, but soon it will be removed.\
 
 
-    ![](/img/gitbook-assets/screenshot-2023-05-23-at-14.27.55.png)
+![](/img/gitbook-assets/screenshot-2023-05-23-at-14.27.55.png)
 * We've made some changes in our monitoring system. Now we'll get the info in case of some problems in the system components faster.
 
 ### Fixes:

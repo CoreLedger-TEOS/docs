@@ -37,7 +37,7 @@ For each collection method you can define following characteristics:
 *   Description of the method in all available languages for the portal which will be shown to user in the checkout flow under "More details" button of the collection method\
 
 
-    ![](/img/gitbook-assets/image-24.png)
+![](/img/gitbook-assets/image-24.png)
 
 _Description definition in the Configuration management_ ![](/img/gitbook-assets/image-30.png)
 
@@ -60,5 +60,5 @@ _Description is shown under "More details" in user checkout flow_
 *   For "One time wallet" you can define the text of the disclaimer in all available languages for the portal to make sure your users understand their responsibility of using correct address\
 
 
-    ![](/img/gitbook-assets/image-26.png)
+![](/img/gitbook-assets/image-26.png)
 * For "Wallets saved to portal directly or via other TEOS platform components" you can define whether WLM wallets should be shown. In case your case uses WLM you may want to let your users use wallets from the list of the WLM addressbook in WLP. By default this possibility is switched off (normally end users of WLP don't use WLM)

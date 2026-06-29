@@ -10,7 +10,7 @@ Login to your Payrexx account at [payrexx.com](https://www.payrexx.com/en/home/)
 2.  You can find **API key** in API\&Plugins section. It's better to create new integration and use it for portal integration to make sure you don't make any mistakes with other integrations' data.\
 
 
-    ![](/img/gitbook-assets/image-8.png)
+![](/img/gitbook-assets/image-8.png)
 
 Put an integration name (only used by you) and click on the Add button. Now you can get your **API Key** here.\
 Please, note that if you deactivate API key which you've provided, it has to be changed in the portal settings to keep the integration working.
