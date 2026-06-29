@@ -32,7 +32,7 @@ When asset is created by the admin, additional properties necessary for WLP, can
 Don't forget to remove optional properties if you don't want to define their values (Round to and Name)
 :::
 
-![](/img/gitbook-assets/image-16.png)![](/img/gitbook-assets/image-6.png)
+![](/img/wlp/admin-user-guide-portal-configuration-asset-configuration-01.png)![](/img/wlp/admin-user-guide-portal-configuration-asset-configuration-02.png)
 
 
 

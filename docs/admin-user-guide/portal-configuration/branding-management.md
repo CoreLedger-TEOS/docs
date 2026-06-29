@@ -59,7 +59,7 @@ Here you can define and modify the texts which are shown at the welcome page as 
 
 \},
 
-![Welcome page](/img/gitbook-assets/5.png)
+![Welcome page](/img/wlp/admin-user-guide-portal-configuration-branding-management-01.png)
 
 
 

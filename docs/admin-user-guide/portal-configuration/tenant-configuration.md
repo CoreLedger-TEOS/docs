@@ -12,11 +12,11 @@ description: &gt;-
 
 Go to **Configuration management** page to setup WLA name. Scroll down to **Mobile application config** section and provide the name to display
 
-![](/img/gitbook-assets/image-1-1-1.png)
+![](/img/wlp/admin-user-guide-portal-configuration-tenant-configuration-01.png)
 
 The App name is part of the instructions shown during the redeem process when the QR code is presented as shown in the picture below.
 
-![QR code scanning for redemption](/img/gitbook-assets/image-15.png)
+![QR code scanning for redemption](/img/wlp/admin-user-guide-portal-configuration-tenant-configuration-02.png)
 
 ### Currency
 
@@ -26,7 +26,7 @@ Pick desired currency from the list. This currency will be used for displaying t
 
 All changes are saved automatically.
 
-![](/img/gitbook-assets/image-2-1.png)
+![](/img/wlp/admin-user-guide-portal-configuration-tenant-configuration-03.png)
 
 _USD is defined as portal currency_
 
@@ -44,6 +44,6 @@ Default language is used for the situations when custom texts don't have transla
 
 All changes are saved automatically.
 
-![](/img/gitbook-assets/image.png)
+![](/img/wlp/admin-user-guide-portal-configuration-tenant-configuration-04.png)
 
 _English is defined as the only available language for the portal_

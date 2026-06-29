@@ -41,7 +41,7 @@ Using these variables, you will operate with the order specific data.
 *   You can use the table for listing the purchased items. The template document may have multiple tables. To find the appropriate one to list the purchased items, please set the description of the table to “Purchased Items”:\
 
 
-![](/img/gitbook-assets/image-7.png)
+![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-templates-for-purchase-details-and-invoice-details-01.png)
 
 _How to create the table for listing the purchased items_
 
@@ -60,7 +60,7 @@ _How to create the table for listing the purchased items_
 | \&lt;unit.price&gt;         | The price for a single unit of the asset               |
 | \&lt;units.total.price&gt;  | The total price for all units of the asset <br /> |
 
-![](/img/gitbook-assets/image-2-1-1.png)
+![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-templates-for-purchase-details-and-invoice-details-02.png)
 
 _Example of the table_
 

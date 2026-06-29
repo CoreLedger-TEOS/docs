@@ -19,7 +19,7 @@ Currently four collection methods “Token Card”, “Wallets created in mobile
 
 All methods can be enabled only if they are properly configured and can be disabled at any moment.
 
-![](/img/gitbook-assets/image-23.png)
+![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-01.png)
 
 _"Configuration management" -> "Purchase configuration" -> "Collection methods"_
 
@@ -37,15 +37,15 @@ For each collection method you can define following characteristics:
 *   Description of the method in all available languages for the portal which will be shown to user in the checkout flow under "More details" button of the collection method\
 
 
-![](/img/gitbook-assets/image-24.png)
+![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-02.png)
 
-_Description definition in the Configuration management_ ![](/img/gitbook-assets/image-30.png)
+_Description definition in the Configuration management_ ![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-03.png)
 
 _Description is shown under "More details" in user checkout flow_
 * Collection method fee which will be added on top to the order amount which end users will have to pay. Collection method fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency). \
   Fee is a decimal number, with max 2 decimal places. Total collection method fee will be calculated as a sum of variable fee part and fixed fee part.
 
-![](/img/gitbook-assets/image-53.png)
+![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-04.png)
 
 * Country fee which will be applied based on the selected country by the user and which will be added on top to the order amount which end users will have to pay. \
   Country fee consists of two parts: variable method fee (which is defined in percentage of order total amount) and fixed method fee (which is defined in portal currency).\
@@ -53,12 +53,12 @@ _Description is shown under "More details" in user checkout flow_
   Fee is a decimal number, with max 2 decimal places. Total country fee will be calculated as a sum of variable fee part and fixed fee part. \
 
 
-![](/img/gitbook-assets/image-54.png)
+![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-05.png)
 
 ### Additional characteristics of specific collection methods
 
 *   For "One time wallet" you can define the text of the disclaimer in all available languages for the portal to make sure your users understand their responsibility of using correct address\
 
 
-![](/img/gitbook-assets/image-26.png)
+![](/img/wlp/admin-user-guide-portal-configuration-features-configuration-purchase-assets-and-featured-asset-collection-methods-configuration-06.png)
 * For "Wallets saved to portal directly or via other TEOS platform components" you can define whether WLM wallets should be shown. In case your case uses WLM you may want to let your users use wallets from the list of the WLM addressbook in WLP. By default this possibility is switched off (normally end users of WLP don't use WLM)
