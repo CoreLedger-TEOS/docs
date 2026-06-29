@@ -1173,6 +1173,10 @@ const sidebars = {
           "type": "category",
           "label": "Admin user guide",
           "collapsed": true,
+          "link": {
+            "type": "doc",
+            "id": "wlp-admin-user-guide"
+          },
           "items": [
             {
               "type": "doc",
@@ -1269,10 +1273,6 @@ const sidebars = {
                   "id": "admin-user-guide/portal-configuration/reference-code-logic"
                 }
               ]
-            },
-            {
-              "type": "doc",
-              "id": "admin-user-guide/referral-management"
             }
           ]
         },
