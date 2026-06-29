@@ -11,7 +11,7 @@ function decodeCaption(value) {
 
 export default function ZoomableImage({alt = '', className = '', src, ...props}) {
   const [isOpen, setIsOpen] = useState(false);
-  const caption = /^Figure\s+\d+:/i.test(alt) ? decodeCaption(alt) : '';
+  const caption = alt.trim() ? decodeCaption(alt.trim()) : '';
 
   useEffect(() => {
     if (!isOpen) {
