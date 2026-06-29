@@ -45,6 +45,12 @@ html[data-theme='dark'] .navbar {
   border-bottom-color: #263747;
 }
 
+@media (min-width: 997px) {
+  .navbar__items .navbar-doc-sidebar-link {
+    display: none;
+  }
+}
+
 .announcementBar_mb4j {
   border-bottom: 1px solid #d4e6f6;
   font-weight: 600;

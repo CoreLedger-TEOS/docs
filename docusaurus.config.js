@@ -78,7 +78,15 @@ const config = {
           alt: 'CoreLedger',
           src: 'img/coreledger-logo.png',
         },
-        items: [],
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'docsSidebar',
+            position: 'left',
+            label: 'Documentation',
+            className: 'navbar-doc-sidebar-link',
+          },
+        ],
       },
       footer: {
         style: 'light',
