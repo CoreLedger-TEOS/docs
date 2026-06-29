@@ -18,7 +18,7 @@ Users can't have several KYC cases opened
 
 ![Example of unavailable functionality for current tier (same restrictions can be applied to redemption methods, payment methods and specific assets for purchasing)](/img/gitbook-assets/image-3.png)
 
-![Notification to pass KYC checks](/img/gitbook-assets/image-22.png)
+![Notification to pass KYC checks](/img/gitbook-assets/image-9-1.png)
 
 ![Page with description of KYC process](/img/gitbook-assets/image-6-1.png)
 
@@ -52,7 +52,7 @@ As next step user can select how he wants to receive the purchased items. The li
 
 When selecting method of types "Wallets created in mobile app" and "Wallets saved to portal directly or via other TEOS platform components", a QR code dialog opens. User can scan the QR code with his WLA to check if the correct wallet is used. This step is optional and can be skipped.
 
-![](/img/gitbook-assets/image-13.png)
+![](/img/gitbook-assets/image-14-1.png)
 
 _Collection method selection_
 
@@ -89,11 +89,11 @@ _Select redemption method_
 Enter the requested redemption method details and submit the payout request. \
 Amount can be defined both as amount to pay and amount to receive. All fees can comprise variable and fixed parts, are calculated automatically and included in the amounts. The pricing details are presented below. If user needs to see the details of the fee calculation, he can hover over the tooltip.
 
-![](/img/gitbook-assets/image-56.png)
+![](/img/gitbook-assets/screenshot-2023-04-21-at-18.35.39.png)
 
 _Define the redeemed amount if step value is 0_
 
-![](/img/gitbook-assets/image-57.png)
+![](/img/gitbook-assets/image-1-2.png)
 
 _Define the redeemed amount if step value is not 0_
 

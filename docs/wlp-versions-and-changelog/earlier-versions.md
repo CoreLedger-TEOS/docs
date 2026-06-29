@@ -1,3 +1,7 @@
+---
+pagination_next: white-label-portal/glossary
+---
+
 # Earlier versions
 
 ## Version 0.15
@@ -18,7 +22,7 @@ With this version **WLP admins** can try following improvements:
 
 👉 New mode for secondary markets is introduced in the Tenant WLP configuration under Configuration management
 
-When new setting "Use WLP direct links for redemption and purchase" is switched on, direct links to specific featured asset or specific redemption method can be used by end users. When they open portal by clicking this direct link, user will be able to see and start the flow only for that featured asset or redemption method which was specified in the link. Read more about this functionality [here](../admin-user-guide/portal-configuration/features-configuration/index.md#use-wlp-direct-links-for-redemption-and-purchase)\
+When new setting "Use WLP direct links for redemption and purchase" is switched on, direct links to specific featured asset or specific redemption method can be used by end users. When they open portal by clicking this direct link, user will be able to see and start the flow only for that featured asset or redemption method which was specified in the link. Read more about this functionality [here](../admin-user-guide/portal-configuration/features-configuration/index.md#use-wlp-direct-links-for-redemption-and-purchase)
 
 
 ![](/img/gitbook-assets/screenshot-2023-04-24-at-17.05.53.png)
@@ -35,7 +39,7 @@ We've calculated all the values based on conversion rate, but we recommend to ch
 
 Starting from this version most of the general asset configuration necessary for WLP can be defined with the help of WLM UI when asset is being setup by the admin. Admins should add these properties as additional ones from the collection "WLA\&WLP configuration". We've already prepared everything, just add this folder, fill the values of WLP properties and remove unnecessary ones. Check how to do it in [White Label Management Tool](../user-guide/create-asset.md#step-2---additional-properties-optional).
 
-Though, please, keep in mind that some of the asset properties for purchase and redemption features must be still configured in the json config file under Advanced management.\
+Though, please, keep in mind that some of the asset properties for purchase and redemption features must be still configured in the json config file under Advanced management.
 Also, we are not asking you to replace the existing configuration of the existing assets used in WLP. We've moved all the properties from the config file to the WLP and saved it. But if you decide to change some of these properties, you should amend existing asset in the WLM and define all the WLP properties. For all new assets added to WLP, please, use new approach for asset definition described in [Asset configuration](../admin-user-guide/portal-configuration/asset-configuration.md)
 
 👉 We have new recommendation for asset and redemption pictures
@@ -50,7 +54,7 @@ For the future, please, don't modify the structure of the config file. Only reus
 
 👉 Now WLP uses unique asset id in the configuration under Advanced config management
 
-You shouldn't care about differences between assetId and ledgerId anymore. Just use uniqueAssetId which is available in the Asset details page in WLM\
+You shouldn't care about differences between assetId and ledgerId anymore. Just use uniqueAssetId which is available in the Asset details page in WLM
 
 
 ![](/img/gitbook-assets/image-19.png)

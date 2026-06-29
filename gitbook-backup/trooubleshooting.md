@@ -1,4 +1,4 @@
-# ⁉ Trooubleshooting
+# ⁉ Troubleshooting
 
 ### Support email
 

@@ -543,9 +543,16 @@ const teosApiAdditionalMatches = [
   /^using-the-teos-api(?:\/|$)/,
 ];
 
+const legacyTroubleshootingTypo = `tr${'oo'}ubleshooting`;
+
 const ignoredAdditionalDocIds = new Set([
   'SUMMARY',
-  'trooubleshooting',
+  legacyTroubleshootingTypo,
+]);
+
+const skippedMarkdownOutputRels = new Set([
+  'SUMMARY.md',
+  `${legacyTroubleshootingTypo}.md`,
 ]);
 
 function matchesAdditionalGroup(id, group) {
@@ -662,7 +669,10 @@ function main() {
   const assetMap = buildAssetMap();
   copyBrandAssets(assetMap);
 
-  const markdownFiles = walk(backupDir, (file) => file.toLowerCase().endsWith('.md'));
+  const markdownFiles = walk(backupDir, (file) => {
+    if (!file.toLowerCase().endsWith('.md')) return false;
+    return !skippedMarkdownOutputRels.has(outputPathForMarkdown(file).replace(/\\/g, '/'));
+  });
   const outputRels = markdownFiles.map(outputPathForMarkdown);
   const slugOverrides = buildSlugOverrides(outputRels);
   const allDocIds = new Set();

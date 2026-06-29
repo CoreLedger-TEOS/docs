@@ -1150,11 +1150,6 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "trooubleshooting",
-          "label": "⁉️ Trooubleshooting"
-        },
-        {
-          "type": "doc",
           "id": "white-label-management-tool/glossary",
           "label": "Glossary"
         }
@@ -1223,11 +1218,11 @@ const sidebars = {
                       "items": [
                         {
                           "type": "doc",
-                          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration"
+                          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration"
                         },
                         {
                           "type": "doc",
-                          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration"
+                          "id": "admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration"
                         },
                         {
                           "type": "doc",
@@ -1348,11 +1343,6 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "trooubleshooting",
-          "label": "⁉️ Trooubleshooting"
-        },
-        {
-          "type": "doc",
           "id": "white-label-portal/glossary",
           "label": "Glossary"
         },
@@ -1375,6 +1365,10 @@ const sidebars = {
           "type": "category",
           "label": "Admin user guide",
           "collapsed": true,
+          "link": {
+            "type": "doc",
+            "id": "wla-admin-user-guide"
+          },
           "items": [
             {
               "type": "doc",
@@ -1432,15 +1426,15 @@ const sidebars = {
           "items": [
             {
               "type": "doc",
+              "id": "how-your-users-interact-with-wla/my-wallet"
+            },
+            {
+              "type": "doc",
               "id": "how-your-users-interact-with-wla/assets-and-transactions"
             },
             {
               "type": "doc",
               "id": "how-your-users-interact-with-wla/market-functionality"
-            },
-            {
-              "type": "doc",
-              "id": "how-your-users-interact-with-wla/my-wallet"
             },
             {
               "type": "doc",
@@ -1477,8 +1471,8 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "trooubleshooting",
-          "label": "⁉️ Trooubleshooting"
+          "id": "troubleshooting",
+          "label": "Troubleshooting"
         },
         {
           "type": "doc",

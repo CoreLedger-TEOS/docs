@@ -27,8 +27,9 @@ Some modules have optional functionality which is listed below. If our default s
   Enable the possibility to copy the seed words when the wallet is created. It's very sensitive information and we don't recommend to copy seed words, we recommend to write them down instead. But we've decided to let customers define how user friendly their app must be. \
   By default this feature is enabled
 
-* Define the number of seed words\
-  This app parameter means how many words the seed of the wallet should have. By default we use 12 seed words which is secure enough, but you can set any amount which can be divided by 3 (3, 6, 12, etc)
+##### Number of seed words
+
+This app parameter means how many words the seed of the wallet should have. By default we use 12 seed words which is secure enough, but you can set any amount which can be divided by 3 (3, 6, 12, etc)
 
 #### Payment requests and invoices module
 

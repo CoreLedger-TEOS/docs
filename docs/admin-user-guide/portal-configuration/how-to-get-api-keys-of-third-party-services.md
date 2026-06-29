@@ -15,7 +15,7 @@ Login to your Payrexx account at [payrexx.com](https://www.payrexx.com/en/home/)
 Put an integration name (only used by you) and click on the Add button. Now you can get your **API Key** here.
 Please, note that if you deactivate API key which you've provided, it has to be changed in the portal settings to keep the integration working.
 
-Copy parameters above and configure integration to start using it in your WLP [Payment methods configuration](./features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md#credit-card-payment-method)
+Copy parameters above and configure integration to start using it in your WLP [Payment methods configuration](./features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md)
 
 ## Crypto payment provider - Coinify
 

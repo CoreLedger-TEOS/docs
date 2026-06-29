@@ -25,8 +25,9 @@ Using these variables, you will operate with the order specific data.
 
 
 
+| Keyword               | Description                                                   |
+| --------------------- | ------------------------------------------------------------- |
 | \<name\>              | First + Last names of the Invoice Address of a Purchase       |
-| -------------------- | ------------------------------------------------------------- |
 | \<addressline\>       | Address Line of the Invoice Address of a Purchase             |
 | \<ZIP\>               | ZipCode of the Invoice Address of a Purchase                  |
 | \<town\>              | City of the Invoice Address of a Purchase                     |
@@ -53,8 +54,9 @@ _How to create the table for listing the purchased items_
 * Cell should contain only one keyword, nothing else
 * Keywords to the properties of purchased item mappings:
 
+| Keyword                | Description                                            |
+| ---------------------- | ------------------------------------------------------ |
 | \<pos\>                | Index (ex. 1 2 3 etc..                                 |
-| --------------------- | ------------------------------------------------------ |
 | \<asset.name\>         | The name of the purchased asset                        |
 | \<units\>              | The number of purchased units of the asset             |
 | \<unit.price\>         | The price for a single unit of the asset               |
@@ -68,8 +70,9 @@ _Example of the table_
 
 * All fields related to Bank transfer details are filled in from [Portal configuration file](./payment-methods-configuration.md#bank-transfer-payment-method). You can use them in template or just provide static data.
 
-| \<beneficiary.name\>         | Company name, mandatory field                       |
+| Keyword                     | Description                                         |
 | --------------------------- | --------------------------------------------------- |
+| \<beneficiary.name\>        | Company name, mandatory field                       |
 | \<beneficiary.bankname\>     | Beneficiary's bank name, mandatory field            |
 | \<beneficiary.account\>      | IBAN or another local alternative, mandatory field  |
 | \<beneficiary.bankaddress\>  | Beneficiary’s bank address, mandatory field         |
