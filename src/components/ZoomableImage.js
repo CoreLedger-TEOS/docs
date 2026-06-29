@@ -1,7 +1,17 @@
 import React, {useEffect, useState} from 'react';
 
+function decodeCaption(value) {
+  return value
+    .replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+}
+
 export default function ZoomableImage({alt = '', className = '', src, ...props}) {
   const [isOpen, setIsOpen] = useState(false);
+  const caption = /^Figure\s+\d+:/i.test(alt) ? decodeCaption(alt) : '';
 
   useEffect(() => {
     if (!isOpen) {
@@ -37,6 +47,7 @@ export default function ZoomableImage({alt = '', className = '', src, ...props})
         src={src}
         tabIndex={0}
       />
+      {caption ? <span className="image-caption">{caption}</span> : null}
       {isOpen ? (
         <div
           aria-label={alt || 'Image preview'}
