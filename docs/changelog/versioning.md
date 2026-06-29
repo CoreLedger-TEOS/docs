@@ -28,10 +28,25 @@ We notify our customers 1 month in advance about the version running out of the 
 Once a version is no longer available on production, any calls made to it will not work.\
 Here is a timeline example:
 
-| 01.01.2030<br />Version 2.3 is released | 01.07.2030<br />half a year after v2.3 release date: v2.3 is not supported |                                                                                                                         |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-|                                                               | 15.08.2030<br />Version 2.4 is released                                    | 15.02.2031<br />half a year after v2.4 release date: v2.4 is not supported, v2.3 is not available |
-|                                                               |                                                                                                  | 15.02.2031<br />Version 2.5 is released                                                           |
+<table>
+  <tbody>
+    <tr>
+      <td>01.01.2030<br />Version 2.3 is released</td>
+      <td>01.07.2030<br />half a year after v2.3 release date: v2.3 is not supported</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>15.08.2030<br />Version 2.4 is released</td>
+      <td>15.02.2031<br />half a year after v2.4 release date: v2.4 is not supported, v2.3 is not available</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>15.02.2031<br />Version 2.5 is released</td>
+    </tr>
+  </tbody>
+</table>
 
 For SDKs or code base templates using the TEOS API which can be mentioned in the documentation, a version will always remain available as it is a downloadable package. However, the SDK or code base template may rely upon API versions that no longer work, so you should assume an end-of-life SDK is no longer functional.
 
