@@ -1179,10 +1179,6 @@ const sidebars = {
           },
           "items": [
             {
-              "type": "doc",
-              "id": "admin-user-guide/admin-functionality"
-            },
-            {
               "type": "category",
               "label": "Portal configuration",
               "collapsed": true,
@@ -1193,15 +1189,15 @@ const sidebars = {
               "items": [
                 {
                   "type": "doc",
+                  "id": "admin-user-guide/portal-configuration/admin-users-management"
+                },
+                {
+                  "type": "doc",
                   "id": "admin-user-guide/portal-configuration/tenant-configuration"
                 },
                 {
                   "type": "doc",
                   "id": "admin-user-guide/portal-configuration/branding-management"
-                },
-                {
-                  "type": "doc",
-                  "id": "admin-user-guide/portal-configuration/admin-users-management"
                 },
                 {
                   "type": "doc",
@@ -1216,10 +1212,6 @@ const sidebars = {
                     "id": "admin-user-guide/portal-configuration/features-configuration/index"
                   },
                   "items": [
-                    {
-                      "type": "doc",
-                      "id": "admin-user-guide/portal-configuration/features-configuration/kyc-checks"
-                    },
                     {
                       "type": "category",
                       "label": "Purchase assets and featured asset",
@@ -1257,8 +1249,16 @@ const sidebars = {
                           "id": "admin-user-guide/portal-configuration/features-configuration/redemption-functionality/template-for-redemption-details"
                         }
                       ]
+                    },
+                    {
+                      "type": "doc",
+                      "id": "admin-user-guide/portal-configuration/features-configuration/kyc-checks"
                     }
                   ]
+                },
+                {
+                  "type": "doc",
+                  "id": "admin-user-guide/portal-configuration/reference-code-logic"
                 },
                 {
                   "type": "doc",
@@ -1267,12 +1267,12 @@ const sidebars = {
                 {
                   "type": "doc",
                   "id": "admin-user-guide/portal-configuration/how-to-prepare-custom-html"
-                },
-                {
-                  "type": "doc",
-                  "id": "admin-user-guide/portal-configuration/reference-code-logic"
                 }
               ]
+            },
+            {
+              "type": "doc",
+              "id": "admin-user-guide/admin-functionality"
             }
           ]
         },
