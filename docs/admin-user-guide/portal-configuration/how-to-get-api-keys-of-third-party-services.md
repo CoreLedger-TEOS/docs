@@ -4,18 +4,18 @@
 
 Login to your Payrexx account at [payrexx.com](https://www.payrexx.com/en/home/) and find following parameters:
 
-1. Copy **Instance Name** from the URL bar after you login to your account \
-   ![](/img/gitbook-assets/screenshot-2023-05-17-at-18.27.33.png)\
+1. Copy **Instance Name** from the URL bar after you login to your account
+   ![](/img/gitbook-assets/screenshot-2023-05-17-at-18.27.33.png)
    Remember, if your payment page URL is [https://example.payrexx.com](https://example.payrexx.com/) then **example** is your Instance Name.
-2.  You can find **API key** in API\&Plugins section. It's better to create new integration and use it for portal integration to make sure you don't make any mistakes with other integrations' data.\
+2.  You can find **API key** in API\&Plugins section. It's better to create new integration and use it for portal integration to make sure you don't make any mistakes with other integrations' data.
 
 
 ![](/img/gitbook-assets/image-8.png)
 
-Put an integration name (only used by you) and click on the Add button. Now you can get your **API Key** here.\
+Put an integration name (only used by you) and click on the Add button. Now you can get your **API Key** here.
 Please, note that if you deactivate API key which you've provided, it has to be changed in the portal settings to keep the integration working.
 
-Copy parameters above and configure integration to start using it in your WLP [Credit card payment method](./features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md#credit-card-payment-method)
+Copy parameters above and configure integration to start using it in your WLP [Payment methods configuration](./features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md#credit-card-payment-method)
 
 ## Crypto payment provider - Coinify
 

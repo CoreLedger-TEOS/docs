@@ -23,8 +23,8 @@ Each tier must have following parameters:
 * number - will be used for processing and also will be displayed to user and admin
 * name - will be displayed to user under KYC description page
 * description - optional, but we highly recommend to provide it, you can briefly explain your end-users the purpose of this tier and documents which they will need to submit to get it
-* KYC providers configuration (starting from tier 1)\
-  You can set one of the following options for name: "Manual" or "ShuftiPro" (note that register is important here). "config" value depends on the way you're going to handle the KYC checks.\
+* KYC providers configuration (starting from tier 1)
+  You can set one of the following options for name: "Manual" or "ShuftiPro" (note that register is important here). "config" value depends on the way you're going to handle the KYC checks.
   ‼️ Note that all tiers must have the same provider name.
 
 ### Manual KYC checks (no integration with 3rd party services)
@@ -39,7 +39,7 @@ You can use portal for receiving the tier requests in the form of KYC cases and 
 
 ### ShuftiPro KYC provider integration
 
-If you are interested in setting up the [Shufti Pro integration](https://shuftipro.com/identity-verification/), you are supposed to use "ShuftiPro" as a provider's "name" and define the "config" parameter for each tier.\
+If you are interested in setting up the [Shufti Pro integration](https://shuftipro.com/identity-verification/), you are supposed to use "ShuftiPro" as a provider's "name" and define the "config" parameter for each tier.
 ShuftiPro config settings are described in the next step.
 
 ```
@@ -155,7 +155,7 @@ Please, don't set "reference" and "callback\_url" parameters and don't specify t
 After user submits all necessary data for KYC checks or after he cancels this procedure, user should be redirected back to the portal.
 
 1. Go to your Shufti Pro backoffice, login to your account and [go to "Settings" -> "Callback\&Redirects URLs".](https://backoffice.shuftipro.com/settings/callback-urls)
-2. Click "Add Domain", select type "Redirect" and enter the URL of the portal page into the field domain. It can be any page of the WLP but we recommend to use home page.\
+2. Click "Add Domain", select type "Redirect" and enter the URL of the portal page into the field domain. It can be any page of the WLP but we recommend to use home page.
    [https://wlp-sandbox-pilot.onteos.net/](https://wlp-sandbox-pilot.onteos.net/) - this is an example for CoreLedger's Sandbox portal home page
 
 ![](/img/gitbook-assets/screenshot-2023-07-10-at-16.52.41.png)
@@ -173,13 +173,13 @@ In order to define all configuration settings correctly and check how the user f
 ![](/img/gitbook-assets/screenshot-2023-08-01-at-14.51.02.png)
 
 _Select "KYC Journey Builder" in Integration tab_
-2.  Click "Create new" and enter the name for this KYC journey. For example, "KYC tier 1 journey", "KYC tier 2 journey", etc.\
-    Select the necessary KYC services from the list of available services by dragging them and dropping to the right area. Click "Start" and follow the configuration wizard. \
+2.  Click "Create new" and enter the name for this KYC journey. For example, "KYC tier 1 journey", "KYC tier 2 journey", etc.
+    Select the necessary KYC services from the list of available services by dragging them and dropping to the right area. Click "Start" and follow the configuration wizard.
     Make a screenshot of each step after you've filled the desired parameters (before clicking "Next" or "Save").
 
 ![](/img/gitbook-assets/screenshot-2023-08-01-at-15.06.14.png) ![](/img/gitbook-assets/screenshot-2023-07-25-at-12.58.53.png) ![](/img/gitbook-assets/screenshot-2023-07-25-at-13.01.29.png)
-3.  After you configure the flow you will see the button "Save". After you click it there are three available options what to do next. We recommend you to check the flow which you've built from user's perspective by clicking "Start Demo". If you realize that there should be some changes, you can always edit the KYC journey by selecting it in the list of journeys and clicking "Edit" icon.\
-    After you make sure that the flow totally fits your needs, gather all the screenshots characterizing the flows built for each KYC tier and at the last step click "Code". Copy the code which will be displayed right after your click for each flow and forward it together with the screenshots to your CoreLedger manager or use it to configure KYC integration for each tier in the Advanced configuration tab of WLP.\
+3.  After you configure the flow you will see the button "Save". After you click it there are three available options what to do next. We recommend you to check the flow which you've built from user's perspective by clicking "Start Demo". If you realize that there should be some changes, you can always edit the KYC journey by selecting it in the list of journeys and clicking "Edit" icon.
+    After you make sure that the flow totally fits your needs, gather all the screenshots characterizing the flows built for each KYC tier and at the last step click "Code". Copy the code which will be displayed right after your click for each flow and forward it together with the screenshots to your CoreLedger manager or use it to configure KYC integration for each tier in the Advanced configuration tab of WLP.
 
 
 ![](/img/gitbook-assets/screenshot-2023-08-01-at-14.55.18.png)
