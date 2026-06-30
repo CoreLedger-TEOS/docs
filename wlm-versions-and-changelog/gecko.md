@@ -1,5 +1,5 @@
 ---
-description: Gecko version coming soon at 30th June.
+description: Gecko version available starting at 30th June.
 ---
 
 # Gecko
