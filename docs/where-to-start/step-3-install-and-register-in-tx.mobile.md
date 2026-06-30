@@ -10,13 +10,17 @@ Open the TX.Mobile app on your smartphone. Select the environment your tenant is
 
 
 
-![Figure 6: Select environment to which you want to connect](/img/gitbook-assets/image-73.png)
+<figure>
+  <img src="/img/gitbook-assets/image-73.png" alt="Figure 6: Select environment to which you want to connect" width="375" />
+  <figcaption>Figure 6: Select environment to which you want to connect</figcaption>
+</figure>
 
 Allow TX.Mobile to use CoreLedger.net to sign up. Now you can login with your already created account or if you did not sign up yet, you can follow the instructions described in [Step 1 - Create TEOS account](./step-1-create-teos-account.md). Insert your credentials and confirm with “Next” (see Figure 7).
 
-![](/img/gitbook-assets/asset-262.jpeg)
-
-_Figure 7: Sign up for TX.Mobile_
+<figure>
+  <img src="/img/gitbook-assets/asset-262.jpeg" alt="" width="375" />
+  <figcaption>Figure 7: Sign up for TX.Mobile</figcaption>
+</figure>
 
 You will be asked to create a new wallet or restore an existing one. Create a new one if you're going through the registration steps. Then you will be asked to write down the seed words which provide the access to the device data. Keep them always in a secure place and never share online.
 
@@ -26,6 +30,9 @@ You will be asked to create a new wallet or restore an existing one. Create a ne
 You can only restore a device data in TEOS if you have your login details as well as the seed words.
 :::
 
-![Figure 8 - Registering new user and the device, seed words](/img/gitbook-assets/photo_2022-08-10_15-00-02.jpg)
+<figure>
+  <img src="/img/gitbook-assets/photo_2022-08-10_15-00-02.jpg" alt="Figure 8 - Registering new user and the device, seed words" width="375" />
+  <figcaption>Figure 8 - Registering new user and the device, seed words</figcaption>
+</figure>
 
 While using Tx.Mobile the first time, the app will ask you to create a four-digit pin and to select preferable authentication method (pin/biometrics).

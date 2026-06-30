@@ -6,11 +6,17 @@ In order to carry out transactions in the blockchain, you need an Ethereum addre
 
 To create a new wallet, open the TX.Mobile app and select “Wallets”. Click on the symbol “+”. Next you can either add an existing wallet or create a new single sign wallet (Figure 9).
 
-![Figure 9 - select to create a new wallet or add an existing one](/img/gitbook-assets/photo_2022-06-16_18-44-43.jpg)
+<figure>
+  <img src="/img/gitbook-assets/photo_2022-06-16_18-44-43.jpg" alt="Figure 9 - select to create a new wallet or add an existing one" width="375" />
+  <figcaption>Figure 9 - select to create a new wallet or add an existing one</figcaption>
+</figure>
 
 Let's assume you don't have any wallets yet, select “Create single sign wallet”. Name it, provide some text for the description and click “Save”. Now you should add WLM as a transaction provider to sign them with newly created wallet in TxMobile.
 
-![Figure 10 - Connect wallet to WLM](/img/gitbook-assets/photo_2022-06-16_18-44-48.jpg)
+<figure>
+  <img src="/img/gitbook-assets/photo_2022-06-16_18-44-48.jpg" alt="Figure 10 - Connect wallet to WLM" width="375" />
+  <figcaption>Figure 10 - Connect wallet to WLM</figcaption>
+</figure>
 
 ### Add WLM as the provider of transactions to the wallet
 
@@ -18,11 +24,17 @@ As this QR code is generated in the WLM, you need to open the WLM now. Please, o
 
 On the top right side of this page, you will find the button “Add Wallet”. By clicking the button, a new window opens. To link your mobile wallet with the WLM, choose “Add Provider”. There, a QR code will appear.
 
-![Figure 11 - QR code generated for scanning by TxMobile](/img/gitbook-assets/image-64.png)
+<figure>
+  <img src="/img/gitbook-assets/image-64.png" alt="Figure 11 - QR code generated for scanning by TxMobile" width="375" />
+  <figcaption>Figure 11 - QR code generated for scanning by TxMobile</figcaption>
+</figure>
 
 After you scan QR code with TX.Mobile, WLM will be connected to your wallet as transaction provider. Now you can find your new wallet in the list of wallets and check its details. In the web app you will also have the same entry in “My Wallets”.
 
-![Figure 12: List of wallets](/img/gitbook-assets/photo_2022-06-16_18-44-51.jpg)
+<figure>
+  <img src="/img/gitbook-assets/photo_2022-06-16_18-44-51.jpg" alt="Figure 12: List of wallets" width="375" />
+  <figcaption>Figure 12: List of wallets</figcaption>
+</figure>
 
 
 

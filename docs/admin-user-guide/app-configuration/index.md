@@ -19,7 +19,9 @@ Some modules have optional functionality which is listed below. If our default s
     By default this feature is enabled\
 
 
-![](/img/gitbook-assets/screenshot-2023-07-13-at-18.14.13.png)
+<figure>
+  <img src="/img/gitbook-assets/screenshot-2023-07-13-at-18.14.13.png" alt="" width="156" />
+</figure>
 
 #### Wallets module
 
@@ -39,11 +41,15 @@ This app parameter means how many words the seed of the wallet should have. By d
 
 
 
-![](/img/gitbook-assets/screenshot-2023-07-13-at-18.36.08.png)
+<figure>
+  <img src="/img/gitbook-assets/screenshot-2023-07-13-at-18.36.08.png" alt="" width="156" />
+</figure>
 
 
 
-![](/img/gitbook-assets/screenshot-2023-07-13-at-18.36.28.png)
+<figure>
+  <img src="/img/gitbook-assets/screenshot-2023-07-13-at-18.36.28.png" alt="" width="156" />
+</figure>
 
 
 

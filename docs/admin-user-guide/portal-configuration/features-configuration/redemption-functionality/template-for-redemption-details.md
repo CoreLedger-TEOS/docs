@@ -26,8 +26,9 @@ Using these variables, you will operate with the order specific data.
 
 #### Available for all redemption methods
 
-| \<referencecode\>                   | Redemption reference code                                               |
+| Keyword                            | Description                                                             |
 | ---------------------------------- | ----------------------------------------------------------------------- |
+| \<referencecode\>                   | Redemption reference code                                               |
 | \<netamountpayoutunits\>            | How much the user really receives, taking into account all commissions  |
 | \<grossamountpayoutunits\>          | Gross amount = net amount + fees                                        |
 | \<currency\>                        | transfer currency                                                       |
@@ -41,8 +42,9 @@ Using these variables, you will operate with the order specific data.
 
 Available only for redemption by bank transfer. If some of the optional properties values will be empty, nothing will be added to PDF
 
-| \<bank.name\>                                                                                                                                                                                                               | Beneficiary's bank name                                       |
+| Keyword                                                                                                                                                                                                                    | Description                                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| \<bank.name\>                                                                                                                                                                                                               | Beneficiary's bank name                                       |
 | \<bank.country\>                                                                                                                                                                                                            | Beneficiary’s bank country                                    |
 | \<bank.stateOrRegion\>                                                                                                                                                                                                      | Beneficiary’s bank state or region                            |
 | \<bank.city\>                                                                                                                                                                                                               | Beneficiary’s bank city                                       |
@@ -57,8 +59,9 @@ Available only for redemption by bank transfer. If some of the optional properti
 
 Available for all redemption types.
 
-| \<beneficiary.firstname\>    | Beneficiary's first name  |
+| Keyword                     | Description               |
 | --------------------------- | ------------------------- |
+| \<beneficiary.firstname\>    | Beneficiary's first name  |
 | \<beneficiary.lastname\>     | Beneficiary's last name   |
 | \<beneficiary.country\>      | Beneficiary's country     |
 | \<beneficiary.city\>         | Beneficiary's city        |
@@ -69,5 +72,6 @@ Available for all redemption types.
 
 Available for Bitcoin, Ethereum and ERC-20 redemptions
 
-| \<walletaddress\>  | Beneficiary’s wallet address  |
+| Keyword           | Description                   |
 | ----------------- | ----------------------------- |
+| \<walletaddress\>  | Beneficiary’s wallet address  |

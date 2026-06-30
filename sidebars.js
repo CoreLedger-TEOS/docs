@@ -1150,6 +1150,11 @@ const sidebars = {
         },
         {
           "type": "doc",
+          "id": "white-label-management-tool/troubleshooting",
+          "label": "Troubleshooting"
+        },
+        {
+          "type": "doc",
           "id": "white-label-management-tool/glossary",
           "label": "Glossary"
         }
@@ -1343,6 +1348,11 @@ const sidebars = {
         },
         {
           "type": "doc",
+          "id": "white-label-portal/troubleshooting",
+          "label": "Troubleshooting"
+        },
+        {
+          "type": "doc",
           "id": "white-label-portal/glossary",
           "label": "Glossary"
         },
@@ -1471,7 +1481,7 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "id": "troubleshooting",
+          "id": "white-label-mobile-app/troubleshooting",
           "label": "Troubleshooting"
         },
         {

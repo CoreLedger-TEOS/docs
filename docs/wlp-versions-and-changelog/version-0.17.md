@@ -26,7 +26,7 @@ _Display of fees calculation for user (purchase flow)_
 If configured, the total fee for each fee type will be calculated in the following way: variable part (in percent of the redeemed amount) is added to fixed part on top. Both parts can be left empty if no fee needs to be applied.  \
 If fees are configured, the user will clearly see the calculations for total fee: how and why the final amount was applied in the following way. Read more in [Redemption functionality](../admin-user-guide/portal-configuration/features-configuration/redemption-functionality/index.md).
 
-![](/img/gitbook-assets/screenshot-2023-04-21-at-18.35.39.png)
+![](/img/gitbook-assets/image-52.png)
 
 _Display of fees calculation for user (redemption flow)_
 
