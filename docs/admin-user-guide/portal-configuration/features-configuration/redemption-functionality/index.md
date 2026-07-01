@@ -153,13 +153,13 @@ Example redemption type “bank” and all properties are described below:
       All three values must be equal to integer value of sparks of the redeemed asset (depends on the asset spark factor). Don't think about fees here, they will be added on top to get the final amount which user will have to pay.
       If you keep "incrementNetAmount" = 0, portal will let user to define any value between minimum and maximum amount.
 
-![](/img/gitbook-assets/screenshot-2023-12-03-110737.png)
+![](/img/gitbook-assets/wlp-redemption-step-value-is-0.png)
 
 _Redemption details definition if step value is 0 (incrementNetAmount = 0)_
 
     If you define some value for "incrementNetAmount", user pays and user receives amount inputs in redemption flow will be enriched with the "+" and "-" signs to limit the values which can be entered as desired amount.
 
-![](/img/gitbook-assets/wlp-redemption-step-values-controls.png)
+![](/img/gitbook-assets/wlp-redemption-step-value-is-not-0.png)
 
 _Step values controls are shown  in case step value is defined by the admin  (incrementNetAmount is not 0)_
 

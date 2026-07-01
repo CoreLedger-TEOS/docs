@@ -89,11 +89,11 @@ _Select redemption method_
 Enter the requested redemption method details and submit the payout request. \
 Amount can be defined both as amount to pay and amount to receive. All fees can comprise variable and fixed parts, are calculated automatically and included in the amounts. The pricing details are presented below. If user needs to see the details of the fee calculation, he can hover over the tooltip.
 
-![](/img/gitbook-assets/image-1-2.png)
+![](/img/gitbook-assets/wlp-redemption-step-value-is-0.png)
 
 _Define the redeemed amount if step value is 0_
 
-![](/img/gitbook-assets/wlp-redemption-step-values-controls.png)
+![](/img/gitbook-assets/wlp-redemption-step-value-is-not-0.png)
 
 _Define the redeemed amount if step value is not 0_
 
