@@ -27,7 +27,7 @@ The API key has the following format: `<environment>_<uuid>`, where the environm
 
 Please, provide the received API key and the environment, for which the API key is used in Payment method - Cryptocurrency payment provider (for more details see [Cryptocurrency payment method configuration](./features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md#cryptocurrency-payment-method)).
 
-![](/img/gitbook-assets/screenshot-2023-05-17-at-18.31.33.png)
+![](/img/gitbook-assets/wlp-api-keys-coinify.png)
 
 ![](/img/gitbook-assets/wlp-api-keys-coinify-api-keys-documentation.png)
 
