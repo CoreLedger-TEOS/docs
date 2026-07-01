@@ -19,7 +19,7 @@ Use **"redeemSettings"** section of the config file available under the Advanced
 *   Define the description of the redemption method selection step for your end users with the help of "methodSelectionDescription" parameter. Text is shown at "Select method" step
 
 
-![](/img/gitbook-assets/screenshot-2023-04-24-at-17.42.46.png)
+![](/img/gitbook-assets/wlp-redemption-method-selection.png)
 
 _Redemption method selection screen_
 * 🆕 You can request additional information from users when they create a redemption request. You should define the label of the input which will be shown to user and its description. This field allows to provide the text up to 350 symbols.
@@ -40,8 +40,7 @@ _Redemption method selection screen_
 
 If "additionalInfoRedemptionRequest" is configured and enabled, additional field will be available for used in redemption flow
 
-
-![](/img/gitbook-assets/screenshot-2023-04-24-at-17.05.53.png)
+![](/img/gitbook-assets/wlp-redemption-additional-info-enabled.png)
 
 _"additionalInfoRedemptionRequest" is configured and enabled_
 
@@ -159,6 +158,10 @@ Example redemption type “bank” and all properties are described below:
 _Redemption details definition if step value is 0 (incrementNetAmount = 0)_
 
     If you define some value for "incrementNetAmount", user pays and user receives amount inputs in redemption flow will be enriched with the "+" and "-" signs to limit the values which can be entered as desired amount.
+
+![](/img/gitbook-assets/wlp-redemption-step-values-controls.png)
+
+_Step values controls are shown  in case step value is defined by the admin  (incrementNetAmount is not 0)_
 
 #### Step 3. Prepare template for sending redemption details to users via the email   [Template for redemption details](./template-for-redemption-details.md)
 
