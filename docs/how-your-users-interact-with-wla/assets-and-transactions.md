@@ -13,7 +13,7 @@ User can check the list of assets available in this app (defined by admin [Asset
 User can also click "Info" icon to check the content provided by admin as asset description [Asset configuration](../admin-user-guide/app-configuration/asset-configuration.md).
 
 <figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-17.png" alt="" width="148" />
+  <img src="/img/gitbook-assets/microsoftteams-image-17.png" alt="" width="260" />
 </figure>
 
 User can tap any asset to see balance changes with basic details of the operation like transaction id, sparks flow direction (incoming/outgoing) and wallet addresses from/to which transfer was done.
@@ -23,13 +23,13 @@ Balance operations are shown for the current wallet address of the user. If user
 
 
 <figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-18.png" alt="" width="118" />
+  <img src="/img/gitbook-assets/microsoftteams-image-18.png" alt="" width="260" />
 </figure>
 
 
 
 <figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-19.png" alt="" width="148" />
+  <img src="/img/gitbook-assets/microsoftteams-image-19.png" alt="" width="260" />
 </figure>
 
 
@@ -47,18 +47,17 @@ User can filter transactions and search for the specific one using any words fro
 
 
 <figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-4.png" alt="" width="148" />
+  <img src="/img/gitbook-assets/microsoftteams-image-4.png" alt="" width="260" />
 </figure>
 
 
 
 <figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-3.png" alt="" width="148" />
+  <img src="/img/gitbook-assets/microsoftteams-image-3.png" alt="" width="260" />
 </figure>
 
 
 
 <figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-2.png" alt="" width="148" />
+  <img src="/img/gitbook-assets/microsoftteams-image-2.png" alt="" width="260" />
 </figure>
-
