@@ -5,7 +5,7 @@ You can check the changelog of each version on a corresponding page. We announce
 ### Released versions
 | Version                  | Release date            |
 | ------------------------ | ----------------------- |
-| Gecko                    | Coming soon: 30.06.2026 |
+| Gecko                    | 30.06.2026 |
 | Fox: Service Pack 2      | 26.02.2026              |
 | Fox: Service Pack 1      | 17.02.2026              |
 | Fox                      | 16.06.2025              |
