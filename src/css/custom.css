@@ -124,6 +124,10 @@ html[data-theme='dark'] .theme-doc-markdown h2 {
   margin-right: auto;
 }
 
+.theme-doc-markdown .zoomable-image[src$="wla-login-create-wallet.avif"] {
+  width: 180px;
+}
+
 .theme-doc-markdown .image-caption,
 .theme-doc-markdown p:has(> .zoomable-image) + p > em:only-child {
   color: var(--ifm-color-emphasis-700);
