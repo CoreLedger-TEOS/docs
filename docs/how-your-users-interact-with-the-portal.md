@@ -16,6 +16,8 @@ All users automatically get tier 0 when they register
 Users can't have several KYC cases opened
 :::
 
+![Example of unavailable functionality for current tier](/img/gitbook-assets/wlp-users-portal-kyc-unavailable-functionality.png)
+
 ![Notification to pass KYC checks](/img/gitbook-assets/image-9-1.png)
 
 ![Page with description of KYC process](/img/gitbook-assets/image-6-1.png)
@@ -40,21 +42,37 @@ Clicking on “More details” opens the URL defined in the Asset description pr
 
 By clicking on the shopping cart on top, the cart opens and shows all items. User can change the quantity of the selected items or remove them.
 
+![](/img/gitbook-assets/wlp-users-portal-shopping-cart.png)
+
+_Shopping cart_
+
 Click on “Checkout” brings user to the collection method selection screen.
 
 As next step user can select how he wants to receive the purchased items. The list of collection methods [can be configured](./admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/collection-methods-configuration.md) in the “Configuration Management” editor by admin.
 
 When selecting method of types "Wallets created in mobile app" and "Wallets saved to portal directly or via other TEOS platform components", a QR code dialog opens. User can scan the QR code with his WLA to check if the correct wallet is used. This step is optional and can be skipped.
 
-![](/img/gitbook-assets/image-14-1.png)
+![](/img/gitbook-assets/wlp-users-portal-collection-method-selection.png)
 
 _Collection method selection_
 
 After selecting the collection method, further requested details must be provided.
 
+![](/img/gitbook-assets/wlp-users-portal-define-invoice-details.png)
+
+_Define invoice details_
+
 The details of the order are shown for confirmation after clicking the “Continue” button in "Your Order" tab with all applied fees. For calculation details, user can hover over the corresponding tooltip and see the calculations for different fee types with variable and fixed fee parts.
 
+![](/img/gitbook-assets/wlp-users-portal-order-details.png)
+
+_Order details_
+
 If everything is fine, user goes to selecting the payment method he wants to use. Currently the methods “Bank Transfer”, “Credit Card” and “Bitcoin” are available as shown in the picture. Admin manages them [in cofig file](./admin-user-guide/portal-configuration/features-configuration/purchase-assets-and-featured-asset/payment-methods-configuration.md).
+
+![](/img/gitbook-assets/wlp-users-portal-payment-method-selection.png)
+
+_Payment method selections_
 
 After providing payment method order details will be displayed again and sent to users email.
 
@@ -64,7 +82,7 @@ After providing payment method order details will be displayed again and sent to
 
 First user needs to select the redeem method as shown below. For each method, a method fee [can be configured](./admin-user-guide/portal-configuration/features-configuration/redemption-functionality/index.md). Additionally, each method can be enabled or disabled by admin.
 
-![](/img/gitbook-assets/screenshot-2023-04-24-at-17.42.46.png)
+![](/img/gitbook-assets/wlp-redemption-method-selection.png)
 
 _Select redemption method_
 
@@ -75,7 +93,7 @@ Amount can be defined both as amount to pay and amount to receive. All fees can 
 
 _Define the redeemed amount if step value is 0_
 
-![](/img/gitbook-assets/screenshot-2023-12-03-110737.png)
+![](/img/gitbook-assets/wlp-redemption-step-values-controls.png)
 
 _Define the redeemed amount if step value is not 0_
 
@@ -83,7 +101,7 @@ _Define the redeemed amount if step value is not 0_
 
 _Define the payout details (depends on the redemption method)_
 
-![](/img/gitbook-assets/screenshot-2023-12-03-105654.png)
+![](/img/gitbook-assets/wlp-redemption-additional-info-enabled.png)
 
 _Define additional details requested within redemption flow_
 
@@ -94,6 +112,8 @@ A summary of the payout details is presented and can be confirmed after acceptin
 _Redemption details confirmation_
 
 QR code should be scanned with WLA and the transaction must be confirmed. The sparks will be transferred from the account to the configured address and the respective amount.
+
+![QR code for scanning by WLA and triggering transaction for transferring asset user wants to redeem](/img/gitbook-assets/wlp-users-portal-redemption-qr-code.png)
 
 ## Account
 
