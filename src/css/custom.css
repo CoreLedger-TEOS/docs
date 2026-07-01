@@ -124,7 +124,7 @@ html[data-theme='dark'] .theme-doc-markdown h2 {
   margin-right: auto;
 }
 
-.theme-doc-markdown .zoomable-image[src$="wla-login-create-wallet.avif"] {
+.theme-doc-markdown .zoomable-image.phone-screenshot {
   width: 180px;
 }
 

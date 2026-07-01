@@ -12,6 +12,17 @@ function decodeCaption(value) {
 export default function ZoomableImage({alt = '', className = '', src, ...props}) {
   const [isOpen, setIsOpen] = useState(false);
   const caption = alt.trim() ? decodeCaption(alt.trim()) : '';
+  const imageWidth = Number(props.width);
+  const imageHeight = Number(props.height);
+  const isPhoneScreenshot =
+    imageWidth > 0 && imageHeight > 0 && imageWidth <= 700 && imageHeight / imageWidth > 1.45;
+  const imageClassName = [
+    'zoomable-image',
+    isPhoneScreenshot ? 'phone-screenshot' : '',
+    className,
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   useEffect(() => {
     if (!isOpen) {
@@ -35,7 +46,7 @@ export default function ZoomableImage({alt = '', className = '', src, ...props})
       <img
         {...props}
         alt={alt}
-        className={['zoomable-image', className].filter(Boolean).join(' ')}
+        className={imageClassName}
         onClick={openPreview}
         onKeyDown={(event) => {
           if (event.key === 'Enter' || event.key === ' ') {
