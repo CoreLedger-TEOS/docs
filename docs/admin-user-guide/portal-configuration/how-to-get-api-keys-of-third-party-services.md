@@ -10,7 +10,7 @@ Login to your Payrexx account at [payrexx.com](https://www.payrexx.com/en/home/)
 2.  You can find **API key** in API\&Plugins section. It's better to create new integration and use it for portal integration to make sure you don't make any mistakes with other integrations' data.
 
 
-![](/img/gitbook-assets/image-8.png)
+![](/img/gitbook-assets/wlp-api-keys-payrexx-add-api-integration.png)
 
 Put an integration name (only used by you) and click on the Add button. Now you can get your **API Key** here.
 Please, note that if you deactivate API key which you've provided, it has to be changed in the portal settings to keep the integration working.
@@ -29,7 +29,7 @@ Please, provide the received API key and the environment, for which the API key 
 
 ![](/img/gitbook-assets/screenshot-2023-05-17-at-18.31.33.png)
 
-![](/img/gitbook-assets/screenshot-2023-12-05-084219.png)
+![](/img/gitbook-assets/wlp-api-keys-coinify-api-keys-documentation.png)
 
 ## KYC provider - Shufti Pro
 
