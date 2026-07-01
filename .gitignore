@@ -10,6 +10,7 @@ node_modules/
 docusaurus/
 .docusaurus/
 .cache/
+.tmp/
 .pnpm-store/
 
 ################################################################################
