@@ -1,0 +1,85 @@
+import React, {useEffect, useState} from 'react';
+
+function decodeCaption(value) {
+  return value
+    .replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+}
+
+export default function ZoomableImage({alt = '', className = '', src, ...props}) {
+  const [isOpen, setIsOpen] = useState(false);
+  const caption = alt.trim() ? decodeCaption(alt.trim()) : '';
+  const imageWidth = Number(props.width);
+  const imageHeight = Number(props.height);
+  const isPhoneScreenshot =
+    imageWidth > 0 && imageHeight > 0 && imageWidth <= 700 && imageHeight / imageWidth > 1.45;
+  const imageClassName = [
+    'zoomable-image',
+    isPhoneScreenshot ? 'phone-screenshot' : '',
+    className,
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+  useEffect(() => {
+    if (!isOpen) {
+      return undefined;
+    }
+
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen]);
+
+  const openPreview = () => setIsOpen(true);
+
+  return (
+    <>
+      <img
+        {...props}
+        alt={alt}
+        className={imageClassName}
+        onClick={openPreview}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openPreview();
+          }
+        }}
+        role="button"
+        src={src}
+        tabIndex={0}
+      />
+      {caption ? <span className="image-caption">{caption}</span> : null}
+      {isOpen ? (
+        <div
+          aria-label={alt || 'Image preview'}
+          aria-modal="true"
+          className="image-lightbox"
+          onClick={(event) => {
+            if (event.currentTarget === event.target) {
+              setIsOpen(false);
+            }
+          }}
+          role="dialog">
+          <button
+            aria-label="Close image preview"
+            className="image-lightbox__close"
+            onClick={() => setIsOpen(false)}
+            type="button">
+            Close
+          </button>
+          <img alt={alt} className="image-lightbox__image" src={src} />
+        </div>
+      ) : null}
+    </>
+  );
+}

@@ -1,0 +1,63 @@
+---
+description: Asset balance, balance operations, transactions overview, signing transactions
+---
+
+# Assets and transactions
+
+<p className="doc-description">Asset balance, balance operations, transactions overview, signing transactions</p>
+
+## Assets overview and asset balance
+
+User can check the list of assets available in this app (defined by admin [Asset configuration](../admin-user-guide/app-configuration/asset-configuration.md)) and the balance of these assets for the wallet owned by user and connected to the app.
+
+User can also click "Info" icon to check the content provided by admin as asset description [Asset configuration](../admin-user-guide/app-configuration/asset-configuration.md).
+
+<figure>
+  <img src="/img/gitbook-assets/microsoftteams-image-17.png" alt="" width="260" />
+</figure>
+
+User can tap any asset to see balance changes with basic details of the operation like transaction id, sparks flow direction (incoming/outgoing) and wallet addresses from/to which transfer was done.
+
+Balance operations are shown for the current wallet address of the user. If user changed the wallet address of the application, he won't see the balance operations for the previous wallet address.
+
+
+
+<figure>
+  <img src="/img/gitbook-assets/microsoftteams-image-18.png" alt="" width="260" />
+</figure>
+
+
+
+<figure>
+  <img src="/img/gitbook-assets/microsoftteams-image-19.png" alt="" width="260" />
+</figure>
+
+
+
+## Transactions overview and signing transaction
+
+User can sign transactions in the app to complete blockchain operations like asset transfer, supply creation, trade under Unsigned tab in Transactions. By pressing "Confirm" user signs selected transaction with digital signature and initiates writing it to the blockchain.
+
+If you as a customer enabled the [feature](../admin-user-guide/app-configuration/index.md#core-module) for the app to check user's authentication every time when the app needs signature, user's pin code or biometrics id (based on device settings) can be checked before confirming the transaction.
+
+User can check transactions which he initiated in the app and their current status under My activity tab in Transactions.
+
+User can filter transactions and search for the specific one using any words from transaction description.
+
+
+
+<figure>
+  <img src="/img/gitbook-assets/microsoftteams-image-4.png" alt="" width="260" />
+</figure>
+
+
+
+<figure>
+  <img src="/img/gitbook-assets/microsoftteams-image-3.png" alt="" width="260" />
+</figure>
+
+
+
+<figure>
+  <img src="/img/gitbook-assets/microsoftteams-image-2.png" alt="" width="260" />
+</figure>
