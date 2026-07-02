@@ -16,11 +16,11 @@ const config = {
   organizationName: 'CoreLedger',
   projectName: 'docs',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onDuplicateRoutes: 'warn',
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownLinks: 'throw',
     },
   },
 
