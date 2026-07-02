@@ -1,5 +1,4 @@
-// Migrated from GitBook and manually normalized for Docusaurus.
-// Do not regenerate with convert:gitbook without reapplying the product sidebar hierarchy.
+// Manually normalized product sidebar hierarchy for Docusaurus.
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {

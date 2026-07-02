@@ -1,14 +1,11 @@
-# CoreLedger Docs Docusaurus Migration
+# CoreLedger Docs
 
-This branch contains the Docusaurus migration of the GitBook documentation snapshot.
-
-The original GitBook-shaped repository content is kept in `gitbook-backup/`.
+This repository contains the CoreLedger documentation site built with Docusaurus.
 
 ## Commands
 
 ```bash
 pnpm install
-pnpm run convert:gitbook
 pnpm run build
 pnpm run start
 ```
