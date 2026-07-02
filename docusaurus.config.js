@@ -40,7 +40,7 @@ const config = {
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
           editUrl:
-            'https://github.com/CoreLedger-TEOS/docs/edit/docusaurus-migration/',
+            'https://github.com/CoreLedger-TEOS/docs/edit/main/',
         },
         blog: false,
         theme: {

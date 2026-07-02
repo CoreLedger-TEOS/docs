@@ -3,7 +3,7 @@ name: Deploy Docusaurus docs to Azure Storage
 on:
   push:
     branches:
-      - docusaurus-migration
+      - main
   workflow_dispatch:
 
 permissions:
