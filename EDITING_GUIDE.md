@@ -171,6 +171,40 @@ docs/add-teos-api-examples
 
 This keeps unfinished work away from `main`, makes review easier, and gives testers one clear package to validate.
 
+How to create a branch in GitHub UI:
+
+1. Open the repository in GitHub.
+2. Click the branch selector near the top left of the file list.
+3. Type a new branch name, for example `docs/update-wlp-pages`.
+4. Click **Create branch**.
+5. Make sure GitHub shows your new branch before editing files.
+
+How to upload an image in GitHub UI:
+
+1. Open the correct image folder, usually `static/img/`.
+2. Open a product folder if needed, for example `static/img/wlp/`.
+3. Click **Add file**.
+4. Click **Upload files**.
+5. Drag the image into GitHub or choose it from your computer.
+6. Use a clear file name, for example `wlp-payment-methods-overview.png`.
+7. Commit the uploaded image to your working branch.
+8. Add the image to the page:
+
+```md
+![Payment methods overview](/img/wlp/wlp-payment-methods-overview.png)
+```
+
+How to create a pull request in GitHub UI:
+
+1. Push or commit your changes to your branch.
+2. Open the repository in GitHub.
+3. GitHub usually shows a **Compare & pull request** button for your branch. Click it.
+4. If the button is not visible, open the **Pull requests** tab and click **New pull request**.
+5. Set the base branch to `main`.
+6. Set the compare branch to your working branch.
+7. Add a short title and description.
+8. Click **Create pull request**.
+
 How to check a pull request:
 
 1. Open the pull request in GitHub.
