@@ -141,6 +141,46 @@ Page content.
 
 If you are not comfortable editing `sidebars.js`, ask a developer to add the page to the menu. The page can exist without it, but users will not easily find it from the left navigation.
 
+## Larger Updates and Pull Requests
+
+If you need to change many pages, do not edit `main` directly.
+
+Use this rule:
+
+```text
+One task or package of related changes = one branch = one pull request
+```
+
+Recommended workflow:
+
+1. Create a new branch from `main`.
+2. Make all related page, image, and navigation changes in that branch.
+3. Commit changes in small logical steps.
+4. Open one pull request from your branch to `main`.
+5. Check the pull request.
+6. Add review fixes to the same branch.
+7. Merge the pull request only when the whole package is approved.
+
+Good branch names are short and describe the work:
+
+```text
+docs/update-wlp-pages
+docs/fix-wla-screenshots
+docs/add-teos-api-examples
+```
+
+This keeps unfinished work away from `main`, makes review easier, and gives testers one clear package to validate.
+
+How to check a pull request:
+
+1. Open the pull request in GitHub.
+2. Check the **Files changed** tab and make sure only expected files were changed.
+3. Open changed `.md` files and use GitHub's **Preview** tab to check basic formatting.
+4. Check that the GitHub build status is green. The build confirms that Docusaurus can generate the site.
+5. For visual testing on the real site, use the test/deploy URL provided by the technical team.
+
+GitHub Markdown preview is useful, but it is not identical to the final Docusaurus site. Images, side navigation, search, captions, and some note blocks should be checked on the deployed test site before merging a large documentation update.
+
 ## Page Description
 
 Some pages show a short description under the title. It is written near the top of the page:
