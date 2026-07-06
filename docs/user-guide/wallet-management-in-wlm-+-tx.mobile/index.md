@@ -6,13 +6,9 @@ All wallets in TEOS are divided into My wallets and Other wallets.
 
 **Other wallet** is just some wallet to the private key of which you don't have access. Treat it like a contact saved in your address book. You have only public address of this wallet.
 
-![](/img/gitbook-assets/image-5.png)
-
 ## Add my wallet
 
 Click "Add wallet", select "Add Provider" tab and scan this QR code by TX.Mobile in the step "Add provider" [Add WLM As The Provider Of Transactions To The Wallet](../../where-to-start/step-4-setup-a-wallet-wlm-+-tx.mobile.md#add-wlm-as-the-provider-of-transactions-to-the-wallet)
-
-![](/img/gitbook-assets/image-46.png)
 
 After you scan QR code with TX.Mobile, WLM will be connected to your selected wallet as transaction provider and WLM will get all the info about this wallet. Now you use it as your wallet for all transaction signing related actions.
 
@@ -22,19 +18,15 @@ Note that every transaction signing related action needs the specified wallet. W
 
 You can change it by selecting a new one from the dropdown which contains My wallets list.
 
-:::info
-Every time you create asset, create supply or do any other transaction signing related action, check which wallet is selected as your current wallet in WLM. It can be selected and always displayed right under your account name
+:::info Every time you create asset, create supply or do any other transaction signing related action, check which wallet is selected as your current wallet in WLM. It can be selected and always displayed right under your account name
 
-![](/img/gitbook-assets/image-43.png)
-:::
+&#x20;:::
 
 ## Add other wallet
 
 Click "Add wallet", select "Existing wallet" and fill in the proposed form. You need to know only public address of the wallet you're adding. Names and description are used for your convenience, define the name in the way to make this wallet easily recognizable by yourself.
 
 After you add the wallet to Other wallets list you can add it to controllers [Controller management](../controller-management.md) or as a target address for units transfer in WLM or even as a collection method in WLP [White Label Portal](../../wlp-versions-and-changelog/index.md)
-
-![](/img/gitbook-assets/image-71.png)
 
 ## Manage Ether
 
@@ -46,12 +38,8 @@ Based on tenant configuration, some of the tenants have access to the Ethereum g
 
 To request Ether, click "Get Ether" and select token type, ask your tenant admin or CL manager if it's not clear which token type to use. In most cases you will have only one option.
 
-![](/img/gitbook-assets/image-8.png)
-
 ### Convert Ether
 
 Some tenants may use Ether as a digital asset to perform functions available for all other digital assets. In this case you may need to convert service Ether to digital asset and withdraw it in opposite.
 
 To do it, use "Manage Ether" button and select desired wallet.
-
-![](/img/gitbook-assets/image-68.png)

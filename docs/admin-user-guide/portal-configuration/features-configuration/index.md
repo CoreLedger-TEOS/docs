@@ -2,13 +2,9 @@
 
 If you're going to use specific functionality, you should configure corresponding settings to adjust it to your needs.
 
-:::warning
-Please, note that as soon as you switch on the feature, it will become available to your end-users, so we recommend to configure all necessary settings for the features before enabling them.
-:::
+:::warning Please, note that as soon as you switch on the feature, it will become available to your end-users, so we recommend to configure all necessary settings for the features before enabling them. :::
 
 You can enable / disable the access to the functionalities “Purchase”, “Redeem”, "Featured asset" and "Know your customer checks" by setting necessary value for feature switchers in "Configuration management".
-
-![](/img/gitbook-assets/screenshot-2023-04-24-at-16.54.47.png)
 
 ## Use WLP direct links for redemption and purchase
 
@@ -18,8 +14,6 @@ With the feature "Use WLP direct link for redemption and purchase" enabled, end 
 
 It's important to note that more than one asset can be defined as featured one in such configuration.
 
-![](/img/gitbook-assets/screenshot-2023-04-24-at-17.05.53-1.png)
-
 _User view when user uses direct link to the redemption method when "Use WLP direct links for redemption and purchase" is enabled_
 
 #### How to build direct links
@@ -28,13 +22,13 @@ Links to the specific **redemption methods** are built in the following way:\
 `{portal url}/redemption/details/{redemptionId},`\
 where redemptionId is the redemption ID from the Advanced config management\
 Example:\
-_https://wlp-sandbox-pilot.onteos.net/redemption/details/1111-222-34242-123132_
+&#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/redemption/details/1111-222-34242-123132_
 
 Links to the specific **featured assets** are built in the following way:\
 `{portal url}/featured/{uniqueAssetId},`\
 where uniqueAssetId is the unique Asset ID assigned to the asset automatically when asset is created, it can be found in Advanced config management\
 Example:\
-_https://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_
+&#xNAN;_&#x68;ttps://wlp-sandbox-pilot.onteos.net/featured/0x08f4b285793df16ce1f760001_
 
 Please, don't forget to provide all necessary configuration for all featured assets in advance. If some required configuration is missing, direct link won't work as expected.
 
@@ -63,8 +57,6 @@ The code can be configured using the following attributes and recommendations wh
 To make sure that every tenant has its own pool of codes, we add at the end of the refCode first letter of your tenant name automatically.\
 The above refCodeTemplate will automatically generate codes like “57Rad\_2021\_tn” or “22doh\_2021\_tn”, where "\_tn" stand for "Tenant Name".
 
-:::caution[Attention]
-Value of reference code template mustn't be static, use at least 2 or 3 special symbols to make sure that you at least some pool of reference codes.
-:::
+:::caution\[Attention] Value of reference code template mustn't be static, use at least 2 or 3 special symbols to make sure that you at least some pool of reference codes. :::
 
 The reference code will be used/shown for each purchase order and redemption made in the portal, as well as on the invoice details PDF or redemption details PDF sent via e-mail.

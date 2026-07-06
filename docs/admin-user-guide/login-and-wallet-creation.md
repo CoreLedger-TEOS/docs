@@ -6,12 +6,8 @@ It’s recommended, to use the login from the already created WLM account, which
 
 If you login with your already existing account, the WLA will ask you if you want to do a restore of your wallet. If you do not have a restorable wallet, just click “Create new”.
 
-![](/img/gitbook-assets/wla-login-create-wallet.avif)
-
-A new wallet will now automatically be created, and the app ensures you write down your seed words. Seed words are keys to your blockchain wallets. Please, make sure you write them and keep them in safe and secret place. You will need them to restore the access to the wallet. Number of words used in the seed can be defined when WLA is only setup, read more in [Number of seed words](./app-configuration/index.md#number-of-seed-words)
+A new wallet will now automatically be created, and the app ensures you write down your seed words. Seed words are keys to your blockchain wallets. Please, make sure you write them and keep them in safe and secret place. You will need them to restore the access to the wallet. Number of words used in the seed can be defined when WLA is only setup, read more in [Number of seed words](app-configuration/index.md#number-of-seed-words)
 
 If you used the same login as you used for your WLM account, the new created WLA wallet is now shown in you WLM wallets automatically.
-
-![](/img/gitbook-assets/wla-login-wlm-wallets.avif)
 
 Having the wallet automatically connected to your WLM account, will help you to easily send sparks directly to your WLA wallet.

@@ -1,6 +1,6 @@
 # User management
 
-As an administrator you can manage the users of you tenant and WLM specifically. Go to  “Administrate” and select “Users” in the menu bar. The page shows you an overview of all user requests with available details.
+As an administrator you can manage the users of you tenant and WLM specifically. Go to “Administrate” and select “Users” in the menu bar. The page shows you an overview of all user requests with available details.
 
 ## Manage user requests
 
@@ -8,11 +8,7 @@ As an administrator you can manage the users of you tenant and WLM specifically.
 
 On the top left of the “Requests” view, you can set the auto confirmation, if you want new users of your tenant (also valid for WLP, WLA and TEOS API) to be automatically confirmed. We recommend to turn on this feature if you don't have specific business process for accepting new users.
 
-![Overview of user requests](/img/gitbook-assets/image-9.png)
-
 If you want to confirm new users manually, just click on the user you want to confirm. A new page opens. There you have the possibility to confirm or reject the user. If you want to confirm the user, click on “Confirm” and “Save”. The user then can access your tenant.
-
-![User request details](/img/gitbook-assets/image-61.png)
 
 ## Manage tenant users
 
@@ -34,6 +30,6 @@ After user is removed, he won't be able to user TEOS services, he will get corre
 
 ### Assign role
 
-Newly registered users after they are confirmed by administrator will get the default role assigned automatically. You can edit the role, check how to do it here [Role management](./role-management.md).
+Newly registered users after they are confirmed by administrator will get the default role assigned automatically. You can edit the role, check how to do it here [Role management](role-management.md).
 
-👉 Roles can be assigned to active users only. Pick any user from the list of Active users and assign any role from the list of available roles (some of them are default ones and others can be created by WLM admins, check how to do it here [Role management](./role-management.md))
+👉 Roles can be assigned to active users only. Pick any user from the list of Active users and assign any role from the list of available roles (some of them are default ones and others can be created by WLM admins, check how to do it here [Role management](role-management.md))

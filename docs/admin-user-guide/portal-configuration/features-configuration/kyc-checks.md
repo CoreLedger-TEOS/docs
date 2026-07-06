@@ -1,12 +1,12 @@
 ---
-description: &gt;-
+description: >-
   Settings in this section are relevant for KYC functionality only. You can skip
   this part if you're not going to switch on feature "KYC checks"
 ---
 
 # KYC checks
 
-<p className="doc-description">Settings in this section are relevant for KYC functionality only. You can skip this part if you're not going to switch on feature "KYC checks"</p>
+Settings in this section are relevant for KYC functionality only. You can skip this part if you're not going to switch on feature "KYC checks"
 
 Go to **"Advanced config management"** in order to configure settings for KYC checks using json editor.
 
@@ -14,18 +14,14 @@ Go to **"Advanced config management"** in order to configure settings for KYC ch
 
 You are welcome to set as many tiers as you need.
 
-:::info
-All users automatically get tier 0 when they register
-:::
+:::info All users automatically get tier 0 when they register :::
 
 Each tier must have following parameters:
 
 * number - will be used for processing and also will be displayed to user and admin
 * name - will be displayed to user under KYC description page
 * description - optional, but we highly recommend to provide it, you can briefly explain your end-users the purpose of this tier and documents which they will need to submit to get it
-* KYC providers configuration (starting from tier 1)
-  You can set one of the following options for name: "Manual" or "ShuftiPro" (note that register is important here). "config" value depends on the way you're going to handle the KYC checks.
-  ‼️ Note that all tiers must have the same provider name.
+* KYC providers configuration (starting from tier 1) You can set one of the following options for name: "Manual" or "ShuftiPro" (note that register is important here). "config" value depends on the way you're going to handle the KYC checks. ‼️ Note that all tiers must have the same provider name.
 
 ### Manual KYC checks (no integration with 3rd party services)
 
@@ -39,8 +35,7 @@ You can use portal for receiving the tier requests in the form of KYC cases and 
 
 ### ShuftiPro KYC provider integration
 
-If you are interested in setting up the [Shufti Pro integration](https://shuftipro.com/identity-verification/), you are supposed to use "ShuftiPro" as a provider's "name" and define the "config" parameter for each tier.
-ShuftiPro config settings are described in the next step.
+If you are interested in setting up the [Shufti Pro integration](https://shuftipro.com/identity-verification/), you are supposed to use "ShuftiPro" as a provider's "name" and define the "config" parameter for each tier. ShuftiPro config settings are described in the next step.
 
 ```
  "kycTiersDescription": [
@@ -74,7 +69,7 @@ ShuftiPro config settings are described in the next step.
   ],
 ```
 
-## Step 2. Define KYC provider settings for each tier &gt; 0
+## Step 2. Define KYC provider settings for each tier > 0
 
 ### Manual KYC checks (no integration with 3rd party services)
 
@@ -86,21 +81,15 @@ If you use Active Sandbox product and run pilot project you are welcome to use C
 
 In order to use KYC functionality with Shufti Pro integration productively you will need to create **your own productive account** with [Shufti Pro](https://shuftipro.com/) and follow the steps described below.
 
-:::caution[Attention]
-Make sure that all integration parameters (API keys and redirect URL) are configured for productive account if you expect productive account to be used in WLP or test account if you expect test account to be used in WLP. **Productive and test account have different integration settings**
-:::
+:::caution\[Attention] Make sure that all integration parameters (API keys and redirect URL) are configured for productive account if you expect productive account to be used in WLP or test account if you expect test account to be used in WLP. **Productive and test account have different integration settings** :::
 
 1. Generate **API keys** for integration and send them to your CoreLedger project manager. Check how to [get them here](../how-to-get-api-keys-of-third-party-services.md).
-2. Configure **redirect URL** which will be used in integration parameters. This is the page to which user should be redirected after he or she completes the KYC checks in Shufti. Make a screenshot of the configured URL in Shufti Pro's account and send it to your CoreLedger project manager. [How to configure redirect URL after user completes the KYC checks](./kyc-checks.md#how-to-configure-redirect-url-after-user-completes-the-kyc-checks)
-3. Configure **integration parameters.** We use Onsite verification with OCR for integration with Shufti Pro. All parameters which can be set are described in [Shufti Pro's documentation in Verification Request section](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification). You will need to configure it by yourself or send screenshots described in [How to define KYC configuration and test the KYC flow in Shufti Pro](./kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) and send them to your CoreLedger project manager together with all previous parameters.
+2. Configure **redirect URL** which will be used in integration parameters. This is the page to which user should be redirected after he or she completes the KYC checks in Shufti. Make a screenshot of the configured URL in Shufti Pro's account and send it to your CoreLedger project manager. [How to configure redirect URL after user completes the KYC checks](kyc-checks.md#how-to-configure-redirect-url-after-user-completes-the-kyc-checks)
+3. Configure **integration parameters.** We use Onsite verification with OCR for integration with Shufti Pro. All parameters which can be set are described in [Shufti Pro's documentation in Verification Request section](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification). You will need to configure it by yourself or send screenshots described in [How to define KYC configuration and test the KYC flow in Shufti Pro](kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) and send them to your CoreLedger project manager together with all previous parameters.
 
-:::info
-You can configure and define settings by yourself if you're familiar enough with json structure and integration parameters. If you have some problems, we can help you to configure Shufti Pro integration. You will have to provide screenshots with the selected parameters for your desired KYC flows for each tier &gt; 0 (please note that we will need screenshots of each step: enabled services, each service parameters and common parameters) to your CoreLedger manager. Check info in [How to define KYC configuration and test the KYC flow in Shufti Pro](./kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) to get necessary screenshots
-:::
+:::info You can configure and define settings by yourself if you're familiar enough with json structure and integration parameters. If you have some problems, we can help you to configure Shufti Pro integration. You will have to provide screenshots with the selected parameters for your desired KYC flows for each tier > 0 (please note that we will need screenshots of each step: enabled services, each service parameters and common parameters) to your CoreLedger manager. Check info in [How to define KYC configuration and test the KYC flow in Shufti Pro](kyc-checks.md#how-to-define-kyc-configuration-and-test-the-kyc-flow-in-shufti-pro) to get necessary screenshots :::
 
-:::caution[Attention]
-Please, note that you have to decide based on your business case which checks are necessary and define configuration settings of these checks.
-:::
+:::caution\[Attention] Please, note that you have to decide based on your business case which checks are necessary and define configuration settings of these checks. :::
 
 Example which we use in our CoreLedger Active Sandbox (you can find it in KYC tier 1 settings in the example above) looks like this:
 
@@ -125,9 +114,7 @@ Example which we use in our CoreLedger Active Sandbox (you can find it in KYC ti
 }"
 ```
 
-:::info
-"Config" parameter is a string made of json for technical reasons. Please, don't forget to use **\\** sign inside "config" parameter before each quotation sign **"**
-:::
+:::info "Config" parameter is a string made of json for technical reasons. Please, don't forget to use **\\** sign inside "config" parameter before each quotation sign **"** :::
 
 In our example following parameters are set:
 
@@ -146,21 +133,16 @@ You can use our example parameters for tests or even pilot projects with Active 
 * [Phone Service](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification#phone-service)
 * [Background Checks Service](https://developers.shuftipro.com/docs/kyc/kyc_onsite_verification/with_ocr_verification#background-checks-service)
 
-:::caution[Attention]
-Please, don't set "reference" and "callback\_url" parameters and don't specify the values of "email" or any other end user's data described in Shufti Pro's documentation. They will be set automatically
-:::
+:::caution\[Attention] Please, don't set "reference" and "callback\_url" parameters and don't specify the values of "email" or any other end user's data described in Shufti Pro's documentation. They will be set automatically :::
 
 #### How to configure redirect URL after user completes the KYC checks
 
 After user submits all necessary data for KYC checks or after he cancels this procedure, user should be redirected back to the portal.
 
 1. Go to your Shufti Pro backoffice, login to your account and [go to "Settings" -> "Callback\&Redirects URLs".](https://backoffice.shuftipro.com/settings/callback-urls)
-2. Click "Add Domain", select type "Redirect" and enter the URL of the portal page into the field domain. It can be any page of the WLP but we recommend to use home page.
-   [https://wlp-sandbox-pilot.onteos.net/](https://wlp-sandbox-pilot.onteos.net/) - this is an example for CoreLedger's Sandbox portal home page
+2. Click "Add Domain", select type "Redirect" and enter the URL of the portal page into the field domain. It can be any page of the WLP but we recommend to use home page. [https://wlp-sandbox-pilot.onteos.net/](https://wlp-sandbox-pilot.onteos.net/) - this is an example for CoreLedger's Sandbox portal home page
 
-![](/img/gitbook-assets/screenshot-2023-07-10-at-16.52.41.png)
-
-_Add redirect URL_ ![](/img/gitbook-assets/screenshot-2023-07-10-at-17.01.12.png)
+_Add redirect URL_&#x20;
 
 _Add redirect URL_
 
@@ -168,23 +150,13 @@ _Add redirect URL_
 
 In order to define all configuration settings correctly and check how the user flow for KYC will look like, you can use "Product demo" functionality with a very user friendly UI in Shufti Pro's backoffice.
 
-1.  Go to your Shufti Pro backoffice, login to your account and [go to Integration tab](https://backoffice.shuftipro.com/integration), select "KYC journey builder" to start configuration process
+1. Go to your Shufti Pro backoffice, login to your account and [go to Integration tab](https://backoffice.shuftipro.com/integration), select "KYC journey builder" to start configuration process
 
-![](/img/gitbook-assets/screenshot-2023-08-01-at-14.51.02.png)
+_Select "KYC Journey Builder" in Integration tab_ 2. Click "Create new" and enter the name for this KYC journey. For example, "KYC tier 1 journey", "KYC tier 2 journey", etc. Select the necessary KYC services from the list of available services by dragging them and dropping to the right area. Click "Start" and follow the configuration wizard. Make a screenshot of each step after you've filled the desired parameters (before clicking "Next" or "Save").
 
-_Select "KYC Journey Builder" in Integration tab_
-2.  Click "Create new" and enter the name for this KYC journey. For example, "KYC tier 1 journey", "KYC tier 2 journey", etc.
-    Select the necessary KYC services from the list of available services by dragging them and dropping to the right area. Click "Start" and follow the configuration wizard.
-    Make a screenshot of each step after you've filled the desired parameters (before clicking "Next" or "Save").
+&#x20;  3\. After you configure the flow you will see the button "Save". After you click it there are three available options what to do next. We recommend you to check the flow which you've built from user's perspective by clicking "Start Demo". If you realize that there should be some changes, you can always edit the KYC journey by selecting it in the list of journeys and clicking "Edit" icon. After you make sure that the flow totally fits your needs, gather all the screenshots characterizing the flows built for each KYC tier and at the last step click "Code". Copy the code which will be displayed right after your click for each flow and forward it together with the screenshots to your CoreLedger manager or use it to configure KYC integration for each tier in the Advanced configuration tab of WLP.
 
-![](/img/gitbook-assets/screenshot-2023-08-01-at-15.06.14.png) ![](/img/gitbook-assets/screenshot-2023-07-25-at-12.58.53.png) ![](/img/gitbook-assets/screenshot-2023-07-25-at-13.01.29.png)
-3.  After you configure the flow you will see the button "Save". After you click it there are three available options what to do next. We recommend you to check the flow which you've built from user's perspective by clicking "Start Demo". If you realize that there should be some changes, you can always edit the KYC journey by selecting it in the list of journeys and clicking "Edit" icon.
-    After you make sure that the flow totally fits your needs, gather all the screenshots characterizing the flows built for each KYC tier and at the last step click "Code". Copy the code which will be displayed right after your click for each flow and forward it together with the screenshots to your CoreLedger manager or use it to configure KYC integration for each tier in the Advanced configuration tab of WLP.
-
-
-![](/img/gitbook-assets/screenshot-2023-08-01-at-14.55.18.png)
-
-_End of the KYC journey configuration flow_ ![](/img/gitbook-assets/screenshot-2023-08-01-at-15.32.08.png)
+_End of the KYC journey configuration flow_&#x20;
 
 _Code characterizing some of the selected configuration parameters_
 
@@ -212,15 +184,13 @@ Following functionality can be made unavailable for specific tiers:
 
 In our example Shop and Redemption menu items are always displayed, but all assets and redemption methods will be closed by "Get tier 1" button for users with current tier = 0.
 
-* specific assets for purchasing - set minimum KYC tier from which this asset can be purchased, you can find parameter "kycTier" in config file in "asset" object (check [how assets are configured for purchasing](./purchase-assets-and-featured-asset/index.md#assets-available-in-the-shop))
-* specific payment methods - set minimum KYC tier from which this payment method can be used, you can find parameter "kycTier" in config file in "payment method" object (check [how payment methods are configured for purchasing](./purchase-assets-and-featured-asset/payment-methods-configuration.md))
-* specific redemption methods - set minimum KYC tier from which this payment method can be used, you can find parameter "kycTier" in config file in "redemption method" object (check [how redemption methods are configured](./redemption-functionality/index.md))
+* specific assets for purchasing - set minimum KYC tier from which this asset can be purchased, you can find parameter "kycTier" in config file in "asset" object (check [how assets are configured for purchasing](purchase-assets-and-featured-asset/index.md#assets-available-in-the-shop))
+* specific payment methods - set minimum KYC tier from which this payment method can be used, you can find parameter "kycTier" in config file in "payment method" object (check [how payment methods are configured for purchasing](purchase-assets-and-featured-asset/payment-methods-configuration.md))
+* specific redemption methods - set minimum KYC tier from which this payment method can be used, you can find parameter "kycTier" in config file in "redemption method" object (check [how redemption methods are configured](redemption-functionality/index.md))
 
 All configurations are reflected in the page representing description of KYC process for your end-users
 
-![Page with description of KYC process](/img/gitbook-assets/image-6-1.png)
-
-## Step 4. Don't forget to [switch on KYC checks](./index.md) for your portal after configuration is finished
+## Step 4. Don't forget to [switch on KYC checks](index.md) for your portal after configuration is finished
 
 ## Step 5. Let portal close KYC cases automatically if verification is made by third party KYC service
 

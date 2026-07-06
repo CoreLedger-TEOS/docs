@@ -2,7 +2,7 @@
 
 TEOS users (including WLM users) can create supplies in order to trade their assets. **Supply is an offer** created by a user **to get specific amount of units of desired asset in exchange to specific amount of units of offered asset**.
 
-Supplies are consumed by other TEOS users when they execute trades, or execute warps, where supplies existing on blockchain take part. Check more about asset trading in [Search buy sell asset](./search-buy-sell-asset.md)
+Supplies are consumed by other TEOS users when they execute trades, or execute warps, where supplies existing on blockchain take part. Check more about asset trading in [Search buy sell asset](search-buy-sell-asset.md)
 
 All supplies can be in one of the following status:
 
@@ -33,15 +33,13 @@ The new form opens where you should define
 * (optional) **wallet to** which desired asset will be delivered. If it's not filled, same wallet as the wallet from
 * (optional) set the flag whether to let consume this supply partly or let trade it only with the full amount
 
-![](/img/gitbook-assets/image-12.png)
-
 Note, if you come to this from from Exchange screen after your search didn't succeed, then assets and amounts will be prefilled with the selected search criteria. You can change these parameters.
 
-You can provide the amounts in natural units or in sparks. See more about the difference [Units of measure](./create-asset.md#units-of-measure)
+You can provide the amounts in natural units or in sparks. See more about the difference [Units of measure](create-asset.md#units-of-measure)
 
-By clicking on “Activate” the transaction is being pushed to the TX.Mobile app. Sign the transaction [Sign and check executed transactions](./sign-and-check-executed-transactions.md)
+By clicking on “Activate” the transaction is being pushed to the TX.Mobile app. Sign the transaction [Sign and check executed transactions](sign-and-check-executed-transactions.md)
 
-After you singed the transaction and it was processed successfully, supply will be posted, like postings on a bulletin board. Supply will be part of the warps which can be found under Market [Search buy sell asset](./search-buy-sell-asset.md). As soon as someone in the WLM wants to buy your proposed asset and clicks on “Trade” on his WARP results – a WARP will be executed, and your supply will be automatically processed.
+After you singed the transaction and it was processed successfully, supply will be posted, like postings on a bulletin board. Supply will be part of the warps which can be found under Market [Search buy sell asset](search-buy-sell-asset.md). As soon as someone in the WLM wants to buy your proposed asset and clicks on “Trade” on his WARP results – a WARP will be executed, and your supply will be automatically processed.
 
 You will get a notification that the amount of the proposed asset has changed.
 
@@ -51,22 +49,22 @@ You will get a notification that the amount of the proposed asset has changed.
 
 It might happen that you find initial exchange rate set for supply as not optimum one. You can either create new supply with another exchange rate (in case you want existing supply still to be available on the market) or you can change its exchange rate.
 
-Go to supply menu and select "Change rate". You will have to update exchange rate and sign the transaction [Sign and check executed transactions](./sign-and-check-executed-transactions.md)
+Go to supply menu and select "Change rate". You will have to update exchange rate and sign the transaction [Sign and check executed transactions](sign-and-check-executed-transactions.md)
 
 ### Renew supply
 
 It might also happen, that your supply will expire without being consumed at all or consumed partly. In such case you can extend the supply without creating new one.
 
-Go to supply menu and select "Extend". You will have to update end date and sign the transaction [Sign and check executed transactions](./sign-and-check-executed-transactions.md)
+Go to supply menu and select "Extend". You will have to update end date and sign the transaction [Sign and check executed transactions](sign-and-check-executed-transactions.md)
 
 ### Restock supply
 
 If you supply is consumed partly or fully, you can refill it in case you still have some items of your proposed asset to trade. Alternatively, you can always create a new supply.
 
-To refill existing supply, go to supply menu and select "Restock". You will have to update the amount of asset to propose, exchange rate won't be changed, the system calculates the other part for you. After pressing "Activate" sign the transaction as usual to finish the process [Sign and check executed transactions](./sign-and-check-executed-transactions.md)
+To refill existing supply, go to supply menu and select "Restock". You will have to update the amount of asset to propose, exchange rate won't be changed, the system calculates the other part for you. After pressing "Activate" sign the transaction as usual to finish the process [Sign and check executed transactions](sign-and-check-executed-transactions.md)
 
 ### Terminate supply
 
 In case you want to remove your active supply from the market, you can do it by changing the status to "Inactive".
 
-Go to supply menu and select "Terminate". You will have to sign the transaction to finish the process [Sign and check executed transactions](./sign-and-check-executed-transactions.md)
+Go to supply menu and select "Terminate". You will have to sign the transaction to finish the process [Sign and check executed transactions](sign-and-check-executed-transactions.md)

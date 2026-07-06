@@ -4,7 +4,7 @@ description: Asset balance, balance operations, transactions overview, signing t
 
 # Assets and transactions
 
-<p className="doc-description">Asset balance, balance operations, transactions overview, signing transactions</p>
+Asset balance, balance operations, transactions overview, signing transactions
 
 ## Assets overview and asset balance
 
@@ -12,27 +12,9 @@ User can check the list of assets available in this app (defined by admin [Asset
 
 User can also click "Info" icon to check the content provided by admin as asset description [Asset configuration](../admin-user-guide/app-configuration/asset-configuration.md).
 
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-17.png" alt="" width="260" />
-</figure>
-
 User can tap any asset to see balance changes with basic details of the operation like transaction id, sparks flow direction (incoming/outgoing) and wallet addresses from/to which transfer was done.
 
 Balance operations are shown for the current wallet address of the user. If user changed the wallet address of the application, he won't see the balance operations for the previous wallet address.
-
-
-
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-18.png" alt="" width="260" />
-</figure>
-
-
-
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-19.png" alt="" width="260" />
-</figure>
-
-
 
 ## Transactions overview and signing transaction
 
@@ -43,21 +25,3 @@ If you as a customer enabled the [feature](../admin-user-guide/app-configuration
 User can check transactions which he initiated in the app and their current status under My activity tab in Transactions.
 
 User can filter transactions and search for the specific one using any words from transaction description.
-
-
-
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-4.png" alt="" width="260" />
-</figure>
-
-
-
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-3.png" alt="" width="260" />
-</figure>
-
-
-
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-2.png" alt="" width="260" />
-</figure>

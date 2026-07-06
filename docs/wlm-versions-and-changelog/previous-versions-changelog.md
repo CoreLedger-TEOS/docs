@@ -4,19 +4,7 @@
 
 ### Changes:
 
-*   You can search for the asset in the list of assets (My Assets page) and under menu item Search Assets using uniqueAssetId\
-
-<div className="image-pair">
-  <figure>
-    <img src="/img/gitbook-assets/image-83.png" alt="" />
-    <figcaption>My Assets</figcaption>
-  </figure>
-  <figure>
-    <img src="/img/gitbook-assets/image-84.png" alt="" />
-    <figcaption>Search Assets</figcaption>
-  </figure>
-</div>
-
+* You can search for the asset in the list of assets (My Assets page) and under menu item Search Assets using uniqueAssetId\\
 * Tenant owners can decide which external authentication providers must be used in their tenants (available options include Microsoft, Apple, Google and Google). If some of the external providers are going to be used, company's account credentials must be provided to CoreLedger manager to set it up. Contact your manager for further information
 * French and Spanish translations of the registration and login flow are available now. Talk to your users in their language!
 
@@ -24,22 +12,19 @@
 
 ### Changes:
 
-*   Now customized tenant-specific Terms and Conditions and Data Policy can be accepted by the user already when registering to the system. To use them, tenant admin must provide either link to the page with project's T\&C and Data Policy published somewhere else or provide HTML files with T\&C and Data Policy to your CoreLedger manager. \
-    WLM still has its own representation of T\&C and Data Policy when signing user to WLM, but soon it will be removed.\
-
-
-![](/img/gitbook-assets/screenshot-2023-05-23-at-14.27.55.png)
+* Now customized tenant-specific Terms and Conditions and Data Policy can be accepted by the user already when registering to the system. To use them, tenant admin must provide either link to the page with project's T\&C and Data Policy published somewhere else or provide HTML files with T\&C and Data Policy to your CoreLedger manager.\
+  WLM still has its own representation of T\&C and Data Policy when signing user to WLM, but soon it will be removed.\\
 * We've made some changes in our monitoring system. Now we'll get the info in case of some problems in the system components faster.
 
 ### Fixes:
 
 * The problem with real-time data delivery component is eliminated, you are not supposed to see errors about this problem so often anymore.
 
-## Django service pack 1  (delivered on April, 13)
+## Django service pack 1 (delivered on April, 13)
 
 ### Changes:
 
-* Ether distribution mechanism in TEOS Platform for private blockchains now works for the addresses added to TEOS API with API key and also used up Ether is refilled automatically. [Read more](#)
+* Ether distribution mechanism in TEOS Platform for private blockchains now works for the addresses added to TEOS API with API key and also used up Ether is refilled automatically. [Read more](previous-versions-changelog.md)
 * Following emails are not sent from WLM anymore:
   * when user creates a new account and confirms email, he is not notified about this registration
   * when admin approves or declines user request, user is not notified about his account approval

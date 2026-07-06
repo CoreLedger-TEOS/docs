@@ -15,8 +15,6 @@ Characteristics:
 * One or several administrators are registered to configure and maintain TEOS API processes.
 * API Key is generated for the administrator.
 
-![](/img/gitbook-assets/data-layers-page-2.drawio.svg)
-
 #### Option 2: User Access Token
 
 Use this option if your application does not have its own backend or authentication system.
@@ -28,8 +26,6 @@ Characteristics:
 * TEOS Authentication service is used to authenticate end users.
 * User account data is stored in TEOS Authentication service.
 * Integration with TEOS Authentication service is required to use TEOS API flows.
-
-![](/img/gitbook-assets/data-layers-option-with-api-key.drawio.svg)
 
 #### Quick Comparison
 

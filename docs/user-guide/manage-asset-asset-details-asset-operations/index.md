@@ -1,4 +1,4 @@
-# Manage asset  (asset details, asset operations)
+# Manage asset (asset details, asset operations)
 
 ## Assets list
 
@@ -10,13 +10,9 @@ Go to “Assets” in the left menu bar. When you click on it, you will see the 
 
 In the picture below you can see how the asset overview can look like when you create several assets and start receiving units of other assets from other wallets.
 
-![](/img/gitbook-assets/image-42.png)
-
 ## Asset details view
 
 Asset details view contains all provided info about the asset and main asset operations.
-
-![](/img/gitbook-assets/image-40.png)
 
 ### Main properties
 
@@ -27,7 +23,7 @@ Asset details view contains all provided info about the asset and main asset ope
 * Unit of measure - how asset is measured in the real world (depends on asset type)
 * Token unit fraction - how many indivisible parts are in one unit
 * Jurisdiction - to which jurisdiction this asset belongs
-* Modificator, timeframe, start date - parameters which define how price of the 1 unit changes over time, graphical representation is in Spark value section <mark style={{color: 'red'}}>(not supported at the moment, always set to default parameters)</mark>
+* Modificator, timeframe, start date - parameters which define how price of the 1 unit changes over time, graphical representation is in Spark value section \<mark style=\{{color: 'red'\}}>(not supported at the moment, always set to default parameters)
 * Issuer - wallet which has signed the transaction for asset creation (blockchain record is created by this public address)
 * QR code - asset QR code contains unique asset id
 
@@ -44,19 +40,17 @@ Under "Units" tab of asset details user can find the list of all wallets holding
 
 All wallets are divided into 2 groups: my wallets and other wallets as described in [Wallet management in WLM + TX.Mobile](../wallet-management-in-wlm-+-tx.mobile/index.md)
 
-![](/img/gitbook-assets/image-13.png)
-
 ### Supplies
 
 All supplies which contain this asset as the on "To receive" or "To pay" are listed here. Check more about supplies in [Supply management](../supply-management.md)
 
 ### Updates
 
-Any change of the descriptive property will trigger amendment creation which are all collected under the tab "Updates". Check more about amendments in [Amend asset edit translations](./amend-asset-edit-translations.md)
+Any change of the descriptive property will trigger amendment creation which are all collected under the tab "Updates". Check more about amendments in [Amend asset edit translations](amend-asset-edit-translations.md)
 
 ### Links
 
-Some business cases need to link several assets. For this purpose we have links. Under the tab "Links" you can check all assets which are linked to the current one. Check more about links in [Link assets](./link-assets.md)
+Some business cases need to link several assets. For this purpose we have links. Under the tab "Links" you can check all assets which are linked to the current one. Check more about links in [Link assets](link-assets.md)
 
 ### Asset description in PDF
 

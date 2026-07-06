@@ -4,15 +4,13 @@ description: The All-in-One payment solution for global SMEs.
 
 # Payrexx
 
-<p className="doc-description">The All-in-One payment solution for global SMEs.</p>
+The All-in-One payment solution for global SMEs.
 
 [Payrexx](https://payrexx.com/en) offers you all common payment methods from a single source. These include Visa, Mastercard, Klarna, Apple Pay, Diners, Google Pay and many more - without any additional contracts.
 
 Payrexx is already integrated into WLP. This allows you to start using it quickly.
 
 ### How does it work?
-
-![](/img/gitbook-assets/payrexx-diagram.png)
 
 ### FAQ
 
@@ -31,7 +29,7 @@ Payrexx is already integrated into WLP. This allows you to start using it quickl
     To optimize the [export of your payments](https://payrexx.com/en/zahlungsabgleich), you can set various filters, save them and then download the file as a CSV or XLSX file.
 4.  **How quickly will my earnings be paid out?**
 
-    All transactions that you process with Payrexx are paid out to the bank account you have provided, depending on the defined billing period. \
+    All transactions that you process with Payrexx are paid out to the bank account you have provided, depending on the defined billing period.\
     You can choose between:
 
     * Monthly payouts

@@ -8,8 +8,4 @@ Click on “Administrate” and select “Roles” in the menu bar. Now you see 
 
 👉 In the picture below you see the list of default roles available for every tenant. We recommend to assign to your tenant admins default "Tenant administrators" role at the beginning. After that you will be able to adjust this role to your needs or create new roles.
 
-![Overview of WLM roles](/img/gitbook-assets/image-56.png)
-
 After clicking on “Edit” a new page opens. On the new page, all privileges and functions of the WLM are listed. You can give or take away permissions to the different roles, change their names and descriptions.
-
-![Details of the role](/img/gitbook-assets/image-2.png)

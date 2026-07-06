@@ -2,20 +2,6 @@
 
 The last step of the user registration process is creating the wallet. User can find his wallet's details by clicking Menu.
 
-
-
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-5.png" alt="" width="260" />
-</figure>
-
-
-
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-6.png" alt="" width="260" />
-</figure>
-
-
-
 Following details are available:
 
 * public address\
@@ -24,7 +10,3 @@ Following details are available:
   WLA is based on Ethereum blockchain, so each signing of a transaction costs some ETH. Most of WLAs are running against private blockchain, so ETH is distributed automatically. A very low balance of ETH plus the high costs of a specific transaction can block transaction signing
 
 User can click the wallet and open wallet details where Sign data is available. User can sign any text and send this signature in hex or base64 format to prove the ownership of his wallet. This functionality is added as a separate [optional module for WLA-based apps](../admin-user-guide/wla-modules.md).
-
-<figure>
-  <img src="/img/gitbook-assets/microsoftteams-image-1.png" alt="" width="260" />
-</figure>

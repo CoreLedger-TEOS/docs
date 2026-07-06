@@ -12,5 +12,3 @@ Via config file _trading-app-configs/ui\_config.v1.json_, there is the possibili
 ```
 
 The role ID can be copied from the URL, when the corresponding role is selected in WLM (see Figure 3).
-
-![Figure 3: Role ID](/img/gitbook-assets/wla-user-management-default-role-in-wlm.avif)

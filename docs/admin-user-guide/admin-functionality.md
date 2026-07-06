@@ -6,14 +6,12 @@ As administrator you have access to the KYC Management section of WLP. Here you 
 
 #### Process of KYC checks
 
-:::info
-All users automatically get tier 0 when they register
+:::info All users automatically get tier 0 when they register
 
-Users can't have several KYC cases opened
-:::
+Users can't have several KYC cases opened :::
 
 **Step 1.** User goes through KYC checks if he wants to upgrade his tier. Process is described here [KYC Checks](../how-your-users-interact-with-the-portal.md#kyc-checks).\
-In case you've configured the integration of the portal with KYC provider (ShuftiPro), user  provides all necessary data to KYC provider as configured for the requested tier.\
+In case you've configured the integration of the portal with KYC provider (ShuftiPro), user provides all necessary data to KYC provider as configured for the requested tier.\
 ‼️ In case you've decided to manage the KYC process fully by yourself (provider "manual" is set for all tiers), you're taking the responsibility of collecting all necessary data from users. Here in the portal you can only approve or decline the requested KYC tier within the KYC case.
 
 **Step 2.** Admin makes a decision whether to approve requested tier.
@@ -25,18 +23,11 @@ Admin can adjust KYC settings and define whether you want KYC cases to be automa
 * approved if verification result is "Accepted"
 * declined if verification result is "Declined"
 
-This setting can be changed even when KYC checks functionality is already switched on. This setting is valid only for integration with KYC provider, if "Manual" provider is used, all KYC cases must be closed manually.\
-
-
-![](/img/wlp/admin-user-guide-admin-functionality-01.png)
+This setting can be changed even when KYC checks functionality is already switched on. This setting is valid only for integration with KYC provider, if "Manual" provider is used, all KYC cases must be closed manually.\\
 
 _KYC cases status settings: when WLP must close cases automatically based on verification results received from the KYC provider_
 
 **Step 3.** If tier upgrade was approved for user, user can start using functionality available for this tier. User will get a corresponding notification via email.
-
-![All cases are filtered by status = "Open" by default, remove filter to check all cases](/img/wlp/admin-user-guide-admin-functionality-02.png)
-
-![Example of positive verification results (KYC request status is Accepted), admin can either Approve or Decline KYC case](/img/wlp/admin-user-guide-admin-functionality-03.png)
 
 ## Order management
 

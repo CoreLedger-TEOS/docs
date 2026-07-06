@@ -4,7 +4,7 @@ description: Portal colors, logo and favicon, texts for landing page, imprint da
 
 # Branding management
 
-<p className="doc-description">Portal colors, logo and favicon, texts for landing page, imprint data</p>
+Portal colors, logo and favicon, texts for landing page, imprint data
 
 ### Portal colors
 
@@ -12,9 +12,7 @@ With the “Colors.json” file the colors (HEX) of the WLP can be modified. The
 
 You can define 10 colors for different groups of elements described in the file. Please, pay attention to the provided recommendations to keep your portal looking nice. You can find them below and in the file itself. Please, note that some elements have default colors which are not customizable (such elements as error texts, error icons, etc).
 
-:::info
-As soon as you change the file in the blob storage and save it, you should refresh the portal page to see the applied changes.
-:::
+:::info As soon as you change the file in the blob storage and save it, you should refresh the portal page to see the applied changes. :::
 
 List of customizable colors:
 
@@ -39,9 +37,7 @@ Go to **Advanced** **Configuration Management** page to provide file name of you
 
 The Favicon, shown in the browser tab, needs to be uploaded as .png into the “WLP-config” folder in the blob storage.
 
-:::info
-The name of the favicon file needs to be “favicon.png”, then it is automatically shown in the UI.
-:::
+:::info The name of the favicon file needs to be “favicon.png”, then it is automatically shown in the UI. :::
 
 ### Configure text of landing page
 
@@ -49,7 +45,7 @@ Go to **Advanced** **Configuration Management** page to setup currency
 
 Here you can define and modify the texts which are shown at the welcome page as shown in Figure 4.
 
-“landingPage”: \{
+“landingPage”: {
 
 “primaryHeaderText”: “Welcome to Coreledger”,
 
@@ -57,17 +53,13 @@ Here you can define and modify the texts which are shown at the welcome page as 
 
 “subHeaderText”: “Token distribution management. Fully customizable. Simple.”
 
-\},
-
-![Welcome page](/img/wlp/admin-user-guide-portal-configuration-branding-management-01.png)
-
-
+},
 
 ### Imprint configuration
 
 The imprint section can be accessed via the button on the bottom of the sidebar. When clicking on “Imprint” the imprint page opens, showing the available information. Administrators can edit the information via the configuration management. Company name, company address, phone number and email address can be provided.
 
-Additionally, the imprint section can be fully customized with an individual html. The custom html needs to be uploaded in the blob storage and the path needs to be provided in the configuration management “customHtmlSourcePath”. Check [here how to prepare custom HTML](./how-to-prepare-custom-html.md)
+Additionally, the imprint section can be fully customized with an individual html. The custom html needs to be uploaded in the blob storage and the path needs to be provided in the configuration management “customHtmlSourcePath”. Check [here how to prepare custom HTML](how-to-prepare-custom-html.md)
 
 `"imprint": {`
 
@@ -81,7 +73,4 @@ Additionally, the imprint section can be fully customized with an individual htm
 
 `"customHtmlSourcePath": "drafts/anything/anything.html"}`
 
-:::warning
-We highly recommend to provide email by which your end-users can contact you. If you don't provide it, all texts, where it should be shown, will be empty
-:::
-
+:::warning We highly recommend to provide email by which your end-users can contact you. If you don't provide it, all texts, where it should be shown, will be empty :::

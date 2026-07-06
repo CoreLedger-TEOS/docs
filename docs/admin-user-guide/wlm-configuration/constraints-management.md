@@ -1,7 +1,5 @@
 # Constraints management
 
-![](/img/gitbook-assets/image-54.png)
-
 ### Master filter
 
 If you want your users to have limited access to the assets within your tenant, you can set Master filter. For example, you may want your users to have access to assets created by your company/project and not to provide access to other assets available in connected blockchain.
@@ -14,14 +12,10 @@ If you set a master filter, the users of the tenant will only be able to find th
 
 This constraint allows you to turn on and off email sending. In case this setting is on, emails are sent with the content according to templates defined in Templates section.
 
-:::info
-We strongly recommend to go through the text of email templates and adjust them in [Templates management](./templates-management.md) before switch on this feature
-:::
+:::info We strongly recommend to go through the text of email templates and adjust them in [Templates management](templates-management.md) before switch on this feature :::
 
 ### Spark Factor Modifier
 
-:::caution[Attention]
-Not available at the moment
-:::
+:::caution\[Attention] Not available at the moment :::
 
 This constraint allows your users manage Spark Factor Modifier when creating their assets. The modifier defines how the Spark Factor (correlation between Spark and natural unit of measure of the asset) changes over the time.
