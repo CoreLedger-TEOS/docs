@@ -7,7 +7,8 @@ description: Versioned changes and non-versioned changes, list of TEOS API versi
 <p className="doc-description">Versioned changes and non-versioned changes, list of TEOS API versions</p>
 
 :::caution[Attention]
-Please, note that support of TEOS API v0.8 is over. Plan the upgrade to v1.1 to keep your solution working and up to date
+Please note, TEOS API v0.9 will be retired from production at the end of 2026. Starting 1 January 2027, v0.9 endpoints will be unavailable in production.
+Check your integrations for use of v0.9. If any still use it, migrate to TEOS API v1.1 before the end of 2026.
 :::
 
 :::info
