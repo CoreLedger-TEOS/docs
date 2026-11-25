@@ -1,2 +1,0 @@
-# using-the-teos-api
-

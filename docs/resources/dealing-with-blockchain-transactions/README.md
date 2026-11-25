@@ -1,2 +1,0 @@
-# dealing-with-blockchain-transactions
-

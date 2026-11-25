@@ -1,2 +1,0 @@
-# white-label-management-tool
-

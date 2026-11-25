@@ -1,2 +1,0 @@
-# wlp-versions-and-changelog
-

@@ -4,13 +4,15 @@ description: Accept crypto payments everywhere.
 
 # Coinify
 
-Accept crypto payments everywhere.
+<p className="doc-description">Accept crypto payments everywhere.</p>
 
 [Coinify](https://www.coinify.com/payment-solutions) offers a payment solution for accepting crypto payments online and settling in your local currency or cryptocurrency.
 
 Coinify is already integrated into WLP. This makes development much faster.
 
 ### How does it work?
+
+![](/img/gitbook-assets/coinify-diagram.png)
 
 ### **FAQ**
 
@@ -26,3 +28,4 @@ Coinify is already integrated into WLP. This makes development much faster.
 4.  **In which traditional currencies does Coinify make payouts?**
 
     Coinify makes payouts in 11 traditional currencies. You can find the full list [here](https://help.coinify.com/hc/en-us/articles/360014078660-Traditional-currencies-Coinify-makes-payouts-in).
+
